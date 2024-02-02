@@ -1,0 +1,4022 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Odoo S.A.
+# This file is distributed under the same license as the Odoo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Jérôme Tanché <jerome.tanche@ouest-dsi.fr>, 2022
+# Rihab LOUKIL <loukil.rihab@gmail.com>, 2022
+# Vallen Delobel <edv@odoo.com>, 2022
+# Jolien De Paepe, 2022
+# Olivier Lenoir <olivier.lenoir@free.fr>, 2022
+# Eloïse Stilmant <est@odoo.com>, 2022
+# Cécile Collart <cco@odoo.com>, 2022
+# Martin Trigaux, 2022
+# André Madeira Cortes <amadeiracortes@gmail.com>, 2022
+# 2bb6a6c9c26c6796aa3f72da499aab31_c4bf95e <50ab448b17d7dd714d37f715e9558f9f_400401>, 2022
+# Fernanda Marques <fem@odoo.com>, 2022
+# Shark McGnark <peculiarcheese@gmail.com>, 2022
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-17 09:28+0000\n"
+"PO-Revision-Date: 2022-10-04 12:54+0000\n"
+"Last-Translator: Shark McGnark <peculiarcheese@gmail.com>, 2022\n"
+"Language-Team: French (https://www.transifex.com/odoo/teams/41243/fr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../content/applications/websites.rst:5
+msgid "Websites"
+msgstr "Sites web"
+
+#: ../../content/applications/websites/ecommerce.rst:8
+msgid "eCommerce"
+msgstr "eCommerce"
+
+#: ../../content/applications/websites/ecommerce.rst:10
+msgid ""
+"Run a modern open-source online store with Odoo eCommerce. Learn how to sell"
+" online, promote products and increase your average cart sizes."
+msgstr ""
+"Gérez une boutique en ligne open source moderne avec Odoo eCommerce. "
+"Apprenez à vendre en ligne, à promouvoir des produits et à augmenter la "
+"taille moyenne de votre panier."
+
+#: ../../content/applications/websites/ecommerce.rst:14
+#: ../../content/applications/websites/website.rst:14
+msgid ""
+"Odoo offers a :ref:`free custom domain name <domain-name/odoo-register>` to "
+"all Odoo Online databases for one year. Visitors can then access your "
+"website with an address such as ``www.example.com`` rather than the default "
+"``example.odoo.com``."
+msgstr ""
+"Odoo offre un :ref:`nom de domaine personnalisé gratuit <domain-name/odoo-"
+"register>` à toutes les bases de données Odoo Online pendant 1 an. Les "
+"visiteurs peuvent donc accéder à votre site web via une adresse "
+"``www.example.com`` plutôt qu'avec celle par défaut ``example.odoo.com``."
+
+#: ../../content/applications/websites/ecommerce.rst:19
+msgid ":doc:`Website Documentation <website>`"
+msgstr ":doc:`Documentation du Site Web <website>`"
+
+#: ../../content/applications/websites/ecommerce.rst:20
+#: ../../content/applications/websites/website.rst:20
+msgid "`Odoo Tutorials: Website <https://www.odoo.com/slides/website-25>`_"
+msgstr "`Tutoriels Odoo : Site Web <https://www.odoo.com/slides/website-25>`_"
+
+#: ../../content/applications/websites/ecommerce.rst:21
+#: ../../content/applications/websites/website.rst:21
+msgid ""
+"`Odoo Tutorials: eCommerce <https://www.odoo.com/slides/ecommerce-26>`_"
+msgstr ""
+"`Tutoriels Odoo : eCommerce <https://www.odoo.com/slides/ecommerce-26>`_"
+
+#: ../../content/applications/websites/ecommerce/getting_started.rst:5
+msgid "Get started"
+msgstr "Démarrer"
+
+#: ../../content/applications/websites/ecommerce/getting_started/catalog.rst:3
+msgid "How to customize my catalog page"
+msgstr "Comment personnaliser ma page de catalogue"
+
+#: ../../content/applications/websites/ecommerce/getting_started/catalog.rst:6
+msgid "Product Catalog"
+msgstr "Catalogue d'articles"
+
+#: ../../content/applications/websites/ecommerce/getting_started/catalog.rst:8
+msgid ""
+"All your published items show up in your catalog page (or *Shop* page)."
+msgstr ""
+"Tous les articles publiés s'affichent sur la page de votre catalogue (ou "
+"page *Shop*)."
+
+#: ../../content/applications/websites/ecommerce/getting_started/catalog.rst:13
+msgid ""
+"Most options are available in the *Customize* menu: display attributes, "
+"website categories, etc."
+msgstr ""
+"La plupart des options sont disponibles dans le menu *Personnaliser* : "
+"attributs d'affichage, catégories de sites, etc."
+
+#: ../../content/applications/websites/ecommerce/getting_started/catalog.rst:20
+msgid "Highlight a product"
+msgstr "Mettre un produit en surbrillance"
+
+#: ../../content/applications/websites/ecommerce/getting_started/catalog.rst:22
+msgid ""
+"Boost the visibility of your star/promoted products: push them to top, make "
+"them bigger, add a ribbon that you can edit (Sale, New, etc.). Open the Shop"
+" page, switch to Edit mode and click any item to start customizing the grid."
+msgstr ""
+"Augmentez la visibilité de vos produits vedettes/promotionnels : poussez-les"
+" vers le haut, agrandissez-les, ajoutez un ruban que vous pouvez éditer "
+"(Vente, Nouveau, etc.). Ouvrez la page Boutique, passez en mode Édition et "
+"cliquez sur n'importe quel article pour commencer à personnaliser la grille."
+
+#: ../../content/applications/websites/ecommerce/getting_started/catalog.rst:26
+msgid ""
+"See how to do it: "
+"https://www.odoo.com/openerp_website/static/src/video/e-commerce/editing.mp4"
+msgstr ""
+"Voir comment faire : "
+"https://www.odoo.com/openerp_website/static/src/video/e-commerce/editing.mp4"
+
+#: ../../content/applications/websites/ecommerce/getting_started/catalog.rst:29
+msgid "Quick add to cart"
+msgstr "Ajouter rapidement au panier"
+
+#: ../../content/applications/websites/ecommerce/getting_started/catalog.rst:31
+msgid ""
+"If your customers buy a lot of items at once, make their process shorter by "
+"enabling purchases from the catalog page. To do so, add product description "
+"and add to cart button. Turn on the following options in *Customize* menu:  "
+"Product Description, Add to Cart, List View (to display product description "
+"better)."
+msgstr ""
+"Si vos clients achètent beaucoup d'articles à la fois, raccourcissez leur "
+"processus en activant les achats à partir de la page du catalogue. Pour ce "
+"faire, ajoutez la description du produit et le bouton Ajouter au panier. "
+"Activez les options suivantes dans le menu *Personnaliser* : Description du "
+"produit, Ajouter au panier, Affichage de la liste (pour mieux afficher la "
+"description du produit)."
+
+#: ../../content/applications/websites/ecommerce/getting_started/product_page.rst:3
+msgid "How to build a product page"
+msgstr "Comment construire une page produit"
+
+#: ../../content/applications/websites/ecommerce/getting_started/product_page.rst:5
+msgid "On the website click *New Page* in the top-right corner."
+msgstr ""
+"Sur le site Web, cliquez sur *Nouvelle page* dans le coin supérieur droit."
+
+#: ../../content/applications/websites/ecommerce/getting_started/product_page.rst:7
+msgid "Then click *New Product* and follow the blinking tips."
+msgstr ""
+"Cliquez ensuite sur *Nouveau produit* et suivez les conseils qui clignotent."
+
+#: ../../content/applications/websites/ecommerce/getting_started/product_page.rst:12
+msgid "Here are the main elements of the Product page:"
+msgstr "Voici les principaux éléments de la page Produit :"
+
+#: ../../content/applications/websites/ecommerce/getting_started/product_page.rst:17
+msgid "Many elements can be made visible from the *Customize* menu."
+msgstr ""
+"De nombreux éléments peuvent être rendus visibles à partir du menu "
+"*Personnaliser*."
+
+#: ../../content/applications/websites/ecommerce/getting_started/product_page.rst:22
+msgid "See how to configure your products from links here below."
+msgstr "Voyez comment configurer vos produits à partir des liens ci-dessous."
+
+#: ../../content/applications/websites/ecommerce/getting_started/product_page.rst:26
+msgid ":doc:`../managing_products/variants`"
+msgstr ":doc:`../managing_products/variants`"
+
+#: ../../content/applications/websites/ecommerce/getting_started/product_page.rst:27
+msgid ":doc:`/applications/sales/sales/products_prices/taxes`"
+msgstr ":doc:`/applications/sales/sales/products_prices/taxes`"
+
+#: ../../content/applications/websites/ecommerce/getting_started/product_page.rst:28
+msgid ":doc:`../maximizing_revenue/cross_selling`"
+msgstr ":doc:`../maximizing_revenue/cross_selling`"
+
+#: ../../content/applications/websites/ecommerce/getting_started/product_page.rst:29
+msgid ":doc:`../maximizing_revenue/reviews`"
+msgstr ":doc:`../maximizing_revenue/reviews`"
+
+#: ../../content/applications/websites/ecommerce/getting_started/product_page.rst:30
+msgid ":doc:`../maximizing_revenue/pricing`"
+msgstr ":doc:`../maximizing_revenue/pricing`"
+
+#: ../../content/applications/websites/ecommerce/getting_started/product_page.rst:31
+msgid ":doc:`../../website/optimize/seo`"
+msgstr ":doc:`../../website/optimize/seo`"
+
+#: ../../content/applications/websites/ecommerce/managing_products.rst:5
+msgid "Manage my products"
+msgstr "Gérer mes produits"
+
+#: ../../content/applications/websites/ecommerce/managing_products/multi_images.rst:3
+msgid "How to display several images per product"
+msgstr "Comment afficher plusieurs images par produit"
+
+#: ../../content/applications/websites/ecommerce/managing_products/multi_images.rst:5
+msgid ""
+"By default your product web page displays the main image of your product "
+"only. If you like to show your products under several angles, you can turn "
+"the image into a carrousel."
+msgstr ""
+"Par défaut, la page internet de votre produit n'affiche que l'image "
+"principal de celui-ci. Si vous souhaitez afficher vos produits sous "
+"différents angles, vous pouvez activer le mode carrousel."
+
+#: ../../content/applications/websites/ecommerce/managing_products/multi_images.rst:11
+msgid ""
+"Check *Several images per product* in :menuselection:`Website Admin --> "
+"Configuration --> Settings`."
+msgstr ""
+"Consultez *Plusieurs images par produit* dans :menuselection:`Admin site Web"
+" --> Configuration --> Paramètres`."
+
+#: ../../content/applications/websites/ecommerce/managing_products/multi_images.rst:13
+msgid ""
+"Open a product detail form and upload images from *Images* tab. Hit *Create*"
+" in Edit mode to get the upload wizard."
+msgstr ""
+"Ouvrez la page détails du produit et téléchargez des images à partir de "
+"l'onglet *Images*. Dans le mode édition, sélectionnez *Créer*  pour obtenir "
+"l'assistant de téléchargement."
+
+#: ../../content/applications/websites/ecommerce/managing_products/multi_images.rst:19
+msgid "Such extra image are common to all the product variants (if any)."
+msgstr ""
+"Cette image supplémentaire est commune à toutes les variantes du produit (le"
+" cas échéant)."
+
+#: ../../content/applications/websites/ecommerce/managing_products/variants.rst:3
+msgid "Manage product variants"
+msgstr "Gérer les variantes de produits"
+
+#: ../../content/applications/websites/ecommerce/managing_products/variants.rst:5
+msgid ""
+"Product variants are used to offer variations of the same product to your "
+"customers on the product's page."
+msgstr ""
+"Les variantes de produit sont utilisées pour proposer des variantes du même "
+"produit à vos clients sur une même page."
+
+#: ../../content/applications/websites/ecommerce/managing_products/variants.rst:8
+msgid ""
+"Let's say one of your customers selects a T-shirt from your product catalog."
+msgstr ""
+"Imaginons qu'un de vos clients sélectionne un t-shirt dans votre catalogue "
+"de produits."
+
+#: ../../content/applications/websites/ecommerce/managing_products/variants.rst:10
+msgid ""
+"Then, they choose the size and color they want. The various size and color "
+"combinations are known as product variants."
+msgstr ""
+"Ensuite, il choisit la taille et la couleur dont il a besoin. Les "
+"différentes combinaisons de tailles et de couleurs sont appelées des "
+"variantes de produit."
+
+#: ../../content/applications/websites/ecommerce/managing_products/variants.rst:14
+msgid "Create attributes & variants"
+msgstr "Créer des attributs et variants."
+
+#: ../../content/applications/websites/ecommerce/managing_products/variants.rst:16
+msgid ""
+"In order to create various attributes and variants for your products, you "
+"first need to turn on *Variants* in :menuselection:`Sales --> Configuration "
+"--> Settings`."
+msgstr ""
+"Afin de créer divers attributs et variantes pour vos produits, vous devez "
+"d'abord activer les *Variantes* dans :menuselection:`Ventes --> "
+"Configuration --> Paramètres`."
+
+#: ../../content/applications/websites/ecommerce/managing_products/variants.rst:19
+msgid ""
+"Then, select a product from the Products list (:menuselection:`Sales / "
+"Website --> Products --> Products`). When the product detail form opens, "
+"click on *Edit*, and go to the *Variants* tab."
+msgstr ""
+"Ensuite, sélectionnez un produit dans la liste de Produits "
+"(:menuselection:`Ventes / Site Web --> Produits --> Produits`). Lorsque le "
+"formulaire de détails du produit s'ouvre, cliquez sur *Modifier* et accédez "
+"à l'onglet *Variantes*."
+
+#: ../../content/applications/websites/ecommerce/managing_products/variants.rst:22
+msgid ""
+"Here, you can add as many different attributes as you'd like by clicking on "
+"*Add a line*."
+msgstr ""
+"Ici, vous pouvez ajouter autant d'attributs différents que vous le souhaitez"
+" en cliquant sur *Ajouter une ligne*."
+
+#: ../../content/applications/websites/ecommerce/managing_products/variants.rst:24
+msgid "These attributes appear as three different types:"
+msgstr "Ces attributs apparaissent sous trois types différents :"
+
+#: ../../content/applications/websites/ecommerce/managing_products/variants.rst:26
+msgid "Radio buttons"
+msgstr "Boutons radio"
+
+#: ../../content/applications/websites/ecommerce/managing_products/variants.rst:27
+msgid "Color buttons"
+msgstr "Boutons de couleur"
+
+#: ../../content/applications/websites/ecommerce/managing_products/variants.rst:28
+msgid "Drop-down menu"
+msgstr "Menu déroulant"
+
+#: ../../content/applications/websites/ecommerce/managing_products/variants.rst:30
+msgid ""
+"Several variants appear as soon as there are two values for one attribute."
+msgstr ""
+"Plusieurs variantes apparaissent dès qu'il y a deux valeurs pour un "
+"attribut."
+
+#: ../../content/applications/websites/ecommerce/managing_products/variants.rst:32
+msgid "Don't forget to hit *Save* once all variants have been entered."
+msgstr ""
+"N'oubliez pas de *Sauver* une fois que toutes les variantes ont été saisies."
+
+#: ../../content/applications/websites/ecommerce/managing_products/variants.rstNone
+msgid "ecommerce product variants values"
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/managing_products/variants.rst:39
+msgid "Edit variants"
+msgstr "Editer les variants"
+
+#: ../../content/applications/websites/ecommerce/managing_products/variants.rst:41
+msgid ""
+"After you hit *Save*, you are able to see all the variants from the product "
+"template detail form via the *Variants* smart button."
+msgstr ""
+"Après avoir cliqué sur *Sauver*, vous pouvez voir toutes les variantes sur "
+"le formulaire détaillé du produit via le bouton *Variantes*."
+
+#: ../../content/applications/websites/ecommerce/managing_products/variants.rstNone
+msgid "ecommerce product variants smart button"
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/managing_products/variants.rst:48
+msgid ""
+"Clicking the *Variants* smart button takes you to the Product Variants page,"
+" where you can edit the following data for each specific variant:"
+msgstr ""
+"En cliquant sur le bouton *Variantes*, vous accédez à la page Variantes du "
+"produit, où vous pouvez modifier les données suivantes pour chaque variante "
+"spécifique :"
+
+#: ../../content/applications/websites/ecommerce/managing_products/variants.rst:51
+msgid "Picture(s)"
+msgstr "Photo(s)"
+
+#: ../../content/applications/websites/ecommerce/managing_products/variants.rst:52
+msgid "Internal Reference (SKU #)"
+msgstr "Référence interne (SKU #)"
+
+#: ../../content/applications/websites/ecommerce/managing_products/variants.rst:53
+msgid "Barcode"
+msgstr "Code-barres"
+
+#: ../../content/applications/websites/ecommerce/managing_products/variants.rst:54
+msgid "Volume"
+msgstr "Volume"
+
+#: ../../content/applications/websites/ecommerce/managing_products/variants.rst:55
+msgid "Weight"
+msgstr "Poids"
+
+#: ../../content/applications/websites/ecommerce/managing_products/variants.rst:56
+msgid "Cost"
+msgstr "Coût"
+
+#: ../../content/applications/websites/ecommerce/managing_products/variants.rst:59
+msgid ""
+"Both the Barcode and the Internal Reference are variant-specific. You need "
+"to populate them once the variants are generated."
+msgstr ""
+"Le code-barres et la référence interne sont spécifiques à la variante. Vous "
+"devez les remplir une fois les variantes générées."
+
+#: ../../content/applications/websites/ecommerce/managing_products/variants.rst:63
+msgid "Set specific prices per variant"
+msgstr "Fixer des prix spécifiques par variant"
+
+#: ../../content/applications/websites/ecommerce/managing_products/variants.rst:65
+msgid ""
+"You can set a specific public price per variant by clicking on *Configure "
+"Variants* in the product detail form (top-left corner). That takes you to "
+"the *Product Variant Values* page for that product."
+msgstr ""
+"Vous pouvez définir un prix public spécifique par variante en cliquant sur "
+"*Configurer les variantes* dans le formulaire de détails du produit (coin "
+"supérieur gauche). Cela vous amène à la page *Valeurs des variantes de "
+"produit* pour ce produit."
+
+#: ../../content/applications/websites/ecommerce/managing_products/variants.rstNone
+msgid "ecommerce product variants configure variants"
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/managing_products/variants.rst:72
+msgid ""
+"To set a specific public price for a particular variant, simply click on the"
+" variant you want to modify, then click on *Edit*."
+msgstr ""
+"Pour définir un prix public spécifique pour une variante particulière, "
+"cliquez simplement sur la variante que vous souhaitez modifier, puis cliquez"
+" sur *Modifier*."
+
+#: ../../content/applications/websites/ecommerce/managing_products/variants.rst:75
+msgid ""
+"The *Value Price Extra* field represents the monetary value that is added to"
+" the original product price whenever the corresponding attribute value is "
+"selected."
+msgstr ""
+"Le champ *Valeur du prix supplémentaire* représente la valeur monétaire qui "
+"est ajoutée au prix d'origine du produit chaque fois que la valeur "
+"d'attribut correspondante est sélectionnée."
+
+#: ../../content/applications/websites/ecommerce/managing_products/variants.rstNone
+msgid "ecommerce value price extra"
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/managing_products/variants.rst:82
+msgid "This is how the *Value Price Extra* looks on your website:"
+msgstr ""
+"Voici à quoi ressemble le *Valeur Prix Supplémentaire* sur votre site Web :"
+
+#: ../../content/applications/websites/ecommerce/managing_products/variants.rstNone
+msgid "ecommerce value price extra on the frontend"
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/managing_products/variants.rst:89
+msgid ""
+"Pricelist formulas let you set advanced price computation methods for "
+"product variants. See :doc:`../maximizing_revenue/pricing`."
+msgstr ""
+"Les formules des listes de prix vous permettent de définir des méthodes "
+"avancées de calcul des prix pour les variantes des produits. Consultez "
+":doc:`../maximizing_revenue/pricing`."
+
+#: ../../content/applications/websites/ecommerce/managing_products/variants.rst:93
+msgid "Disable/archive variants"
+msgstr "Désactiver/archiver les variantes"
+
+#: ../../content/applications/websites/ecommerce/managing_products/variants.rst:95
+msgid ""
+"You can disable/archive specific variants so they are no longer available in"
+" quotes or on your website (not existing in your stock, deprecated, etc.). "
+"Simply select *Archive* in their detail form. You can reactivate them the "
+"same way."
+msgstr ""
+"Vous pouvez désactiver/archiver des variantes spécifiques afin qu'elles ne "
+"soient plus disponibles dans les devis ou sur votre site web (non existantes"
+" dans votre stock, dépréciées, etc.). Il suffit de sélectionner *Archiver* "
+"dans leur fiche détaillée. Vous pouvez les réactiver de la même manière."
+
+#: ../../content/applications/websites/ecommerce/managing_products/variants.rstNone
+msgid "ecommerce product variants archive"
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/managing_products/variants.rst:103
+msgid ""
+"To retrieve such items, hit *Archived* in the *Filters* category while "
+"searching the variants list."
+msgstr ""
+"Pour récupérer ces éléments, cliquez sur *Archivé* dans la catégorie "
+"*Filtres* lors d'une recherche dans la liste des variantes."
+
+#: ../../content/applications/websites/ecommerce/managing_products/variants.rstNone
+msgid "ecommerce product variants archive search"
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/managing_products/variants.rst:110
+msgid ":doc:`../../../sales/sales/products_prices/products/variants`"
+msgstr ":doc:`../../../sales/sales/products_prices/products/variants`"
+
+#: ../../content/applications/websites/ecommerce/maximizing_revenue.rst:5
+msgid "Maximize my revenue"
+msgstr "Augmenter mon chiffre d'affaires"
+
+#: ../../content/applications/websites/ecommerce/maximizing_revenue/cross_selling.rst:3
+msgid "Cross-selling: Accessory and Optional Products"
+msgstr "Vente croisée : articles accessoires et optionnels"
+
+#: ../../content/applications/websites/ecommerce/maximizing_revenue/cross_selling.rst:5
+msgid ""
+"Any sales process is an opportunity to maximize revenues. For example, with "
+"an extended warranty or some accessories."
+msgstr ""
+"Tout processus de vente est une occasion de maximiser les revenus. Par "
+"exemple, avec une extension de garantie ou certains accessoires."
+
+#: ../../content/applications/websites/ecommerce/maximizing_revenue/cross_selling.rst:8
+msgid ""
+"To do so, you can use **Cross-selling**, a sales technique consisting in "
+"selling a customer something in addition to the product or service they were"
+" originally shopping for. It is a great way to maximize the value of each "
+"one of your customers."
+msgstr ""
+"Pour ce faire, vous pouvez utiliser la **Vente croisée**, une technique de "
+"vente consistant à vendre à un client quelque chose en plus du produit ou du"
+" service qu'il recherchait à l'origine. C'est un excellent moyen de "
+"maximiser la valeur de chacun de vos clients."
+
+#: ../../content/applications/websites/ecommerce/maximizing_revenue/cross_selling.rst:12
+msgid "It can be done via two different features:"
+msgstr "Cela peut se faire via deux fonctionnalités différentes :"
+
+#: ../../content/applications/websites/ecommerce/maximizing_revenue/cross_selling.rst:14
+msgid ""
+":ref:`Accessory products <cross_selling/accessory>` on the checkout page."
+msgstr ""
+":ref:`Les articles accessoires <cross_selling/accessory>` sur la page de "
+"check-out."
+
+#: ../../content/applications/websites/ecommerce/maximizing_revenue/cross_selling.rst:15
+msgid ""
+":ref:`Optional products <cross_selling/optional>` on a new :guilabel:`Add to"
+" Cart` screen."
+msgstr ""
+":ref:`Les articles optionnels <cross_selling/optional>` dans un nouvel écran"
+" :guilabel:`Ajouter au panier` ."
+
+#: ../../content/applications/websites/ecommerce/maximizing_revenue/cross_selling.rst:20
+msgid "Accessory Products"
+msgstr "Articles Accessoires "
+
+#: ../../content/applications/websites/ecommerce/maximizing_revenue/cross_selling.rst:22
+msgid ""
+"**Accessory Products** are products that are displayed when customers review"
+" their cart before paying. As an example, you could suggest a mouse or a "
+"keyboard when someone buys a computer."
+msgstr ""
+"**Les articles accessoires** sont des produits qui sont affichés lorsque les"
+" clients passent en revue leur panier avant de payer. Par exemple, vous "
+"pouvez suggérer une souris ou un clavier lorsque quelqu'un achète un "
+"ordinateur."
+
+#: ../../content/applications/websites/ecommerce/maximizing_revenue/cross_selling.rst:25
+msgid ""
+"To add *Accessory Products*, go to :menuselection:`Website --> Products --> "
+"Products` and, under the :guilabel:`Sales Tab`, add your products to the "
+":guilabel:`Accessory Products` field."
+msgstr ""
+"Pour ajouter des *Articles accessoires*, allez sur :menuselection:`Site Web "
+"--> Produits --> Produits` et, sous l'onglet :guilabel:`Ventes`, ajoutez vos"
+" produits dans le champ :guilabel:`Articles accessoires`."
+
+#: ../../content/applications/websites/ecommerce/maximizing_revenue/cross_selling.rstNone
+msgid "Add an accessory product to product form."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/maximizing_revenue/cross_selling.rst:32
+msgid ""
+"Now, go to your website and add the product to your cart. On the payment "
+"step, you can see your accessory products suggested to the customer."
+msgstr ""
+"Maintenant, allez sur votre site web et ajoutez le produit à votre panier. À"
+" l'étape du paiement, vous pouvez voir les produits accessoires proposés au "
+"client."
+
+#: ../../content/applications/websites/ecommerce/maximizing_revenue/cross_selling.rstNone
+msgid "See of payment view and accessory product suggestion."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/maximizing_revenue/cross_selling.rst:40
+msgid ""
+"`Odoo Tutorials: Alternative, Accessory, and Optional Products "
+"<https://www.odoo.com/slides/slide/alternative-accessory-and-optional-"
+"products-637>`_."
+msgstr ""
+"`Tutoriels Odoo : Articles alternatifs, accessoires et optionnels "
+"<https://www.odoo.com/slides/slide/alternative-accessory-and-optional-"
+"products-637>`_."
+
+#: ../../content/applications/websites/ecommerce/maximizing_revenue/cross_selling.rst:46
+msgid "Optional Products"
+msgstr "Articles optionnels"
+
+#: ../../content/applications/websites/ecommerce/maximizing_revenue/cross_selling.rst:48
+msgid ""
+"**Optional products** are products directly related to an item. Each time "
+"the product is added to a cart, a pop-up appears, suggesting other products "
+"to buy."
+msgstr ""
+"**Les articles optionnels** sont des produits directement liés à un article."
+" Chaque fois que le produit est ajouté au panier, une fenêtre pop-up "
+"apparaît, suggérant d'autres produits à acheter."
+
+#: ../../content/applications/websites/ecommerce/maximizing_revenue/cross_selling.rst:51
+msgid ""
+"To enable optional products, go to :menuselection:`Website --> Configuration"
+" --> Settings` and tick :guilabel:`Optional Products`. Then, go to "
+":menuselection:`Website --> Products --> Products` and open the item you "
+"want to add an optional product to. In the :guilabel:`Sales tab` of that "
+"product, add as many optional products as you want."
+msgstr ""
+"Pour activer les articles optionnels, allez dans :menuselection:`Site Web "
+"--> Configuration --> Paramètres` et cochez :guilabel:`Articles optionnels`."
+" Ensuite, allez dans :menuselection:`Site Web --> Produits --> Produits` et "
+"ouvrez le produit auquel vous voulez ajouter un article optionnel. Dans "
+"l'onglet :guilabel:`Ventes` de ce produit, ajoutez autant d'articles "
+"optionnels que vous le souhaitez."
+
+#: ../../content/applications/websites/ecommerce/maximizing_revenue/cross_selling.rstNone
+msgid "Add an optional product to product form."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/maximizing_revenue/cross_selling.rst:60
+msgid ""
+"From now, when a customer adds this product to their cart, a pop-up appears "
+"and suggests also adding the optional product(s)."
+msgstr ""
+"Désormais, lorsqu'un client ajoute ce produit à son panier, une fenêtre pop-"
+"up apparaît et propose d'ajouter également le ou les articles optionnels."
+
+#: ../../content/applications/websites/ecommerce/maximizing_revenue/cross_selling.rstNone
+msgid "Pop-up with optional products appears."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/maximizing_revenue/cross_selling.rst:68
+msgid ":doc:`upselling`"
+msgstr ":doc:`Vente additionnelle`"
+
+#: ../../content/applications/websites/ecommerce/maximizing_revenue/pricing.rst:3
+msgid "Adapt prices to website visitors"
+msgstr "Adapter les prix aux visiteurs du site web"
+
+#: ../../content/applications/websites/ecommerce/maximizing_revenue/pricing.rst:5
+msgid ""
+"This section sheds light on pricing features found in the eCommerce app:"
+msgstr ""
+"Cette section met en lumière les fonctions de tarification de l'application "
+"eCommerce :"
+
+#: ../../content/applications/websites/ecommerce/maximizing_revenue/pricing.rst:7
+msgid "force a price by geo-localization,"
+msgstr "imposer un prix par la géolocalisation,"
+
+#: ../../content/applications/websites/ecommerce/maximizing_revenue/pricing.rst:9
+msgid "let the customer choose the currency."
+msgstr "laisser le client choisir la devise."
+
+#: ../../content/applications/websites/ecommerce/maximizing_revenue/pricing.rst:11
+msgid ""
+"As a pre-requisite, check out how to managing product pricing: "
+":doc:`/applications/sales/sales/products_prices/prices/pricing`)."
+msgstr ""
+"Vérifiez au préalable comment gérer la tarification des produits :  "
+":doc:`/applications/sales/sales/products_prices/prices/pricing`)."
+
+#: ../../content/applications/websites/ecommerce/maximizing_revenue/pricing.rst:15
+msgid "Geo-IP automatically applies the right price"
+msgstr "La Geo-IP applique automatiquement le bon prix"
+
+#: ../../content/applications/websites/ecommerce/maximizing_revenue/pricing.rst:17
+msgid ""
+"Assign country groups to your pricelists. That way, visitors who aren't "
+"logged in yet will get their own currency when landing on your website."
+msgstr ""
+"Assignez des groupes de pays à vos listes de prix. Ainsi, les visiteurs qui "
+"ne sont pas encore connectés obtiendront leur propre devise dès qu'ils "
+"atterrissent sur votre site web."
+
+#: ../../content/applications/websites/ecommerce/maximizing_revenue/pricing.rst:20
+msgid "Once logged in, they get the pricelist matching their country."
+msgstr ""
+"Une fois connectés ils auront une liste de prix correspondant à leur pays."
+
+#: ../../content/applications/websites/ecommerce/maximizing_revenue/pricing.rst:23
+msgid "Currency selector"
+msgstr "Sélecteur de devises"
+
+#: ../../content/applications/websites/ecommerce/maximizing_revenue/pricing.rst:25
+msgid ""
+"In the case that you sell in several currencies, you can let your customers "
+"choose their own. Check the *Selectable* box to add the pricelist to the "
+"website drop-down menu, which can be found in *Pricelists* under the "
+"*Products* menu, located in the Website application."
+msgstr ""
+"Dans le cas où vous vendez dans plusieurs devises, vous pouvez laisser vos "
+"clients choisir la leur. Cochez la case *Sélectionnable* pour ajouter la "
+"liste de prix au menu déroulant du site web, qui se trouve dans *Listes de "
+"prix* sous le menu *Produits*, situé dans l'application Site Web."
+
+#: ../../content/applications/websites/ecommerce/maximizing_revenue/pricing.rst:35
+msgid ":doc:`/applications/sales/sales/products_prices/prices/pricing`"
+msgstr ":doc:`/applications/sales/sales/products_prices/prices/pricing`"
+
+#: ../../content/applications/websites/ecommerce/maximizing_revenue/pricing.rst:36
+msgid ":doc:`/applications/sales/sales/products_prices/prices/currencies`"
+msgstr ":doc:`/applications/sales/sales/products_prices/prices/currencies`"
+
+#: ../../content/applications/websites/ecommerce/maximizing_revenue/pricing.rst:37
+msgid ":doc:`promo_code`"
+msgstr ":doc:`promo_code`"
+
+#: ../../content/applications/websites/ecommerce/maximizing_revenue/promo_code.rst:3
+msgid "How to create & share promotional codes"
+msgstr "Comment créer et partager des codes promotionnels"
+
+#: ../../content/applications/websites/ecommerce/maximizing_revenue/promo_code.rst:5
+msgid ""
+"Want to boost your sales for Xmas? Share promocodes through your marketing "
+"campaigns and apply any kind of discounts."
+msgstr ""
+"Vous voulez booster vos ventes à Noël? Partagez des codes promotionnels via "
+"vos campagnes de marketing et appliquez toute sorte de réductions."
+
+#: ../../content/applications/websites/ecommerce/maximizing_revenue/promo_code.rst:9
+#: ../../content/applications/websites/ecommerce/maximizing_revenue/reviews.rst:13
+#: ../../content/applications/websites/website/publish/multi_website.rst:18
+msgid "Setup"
+msgstr "Configuration"
+
+#: ../../content/applications/websites/ecommerce/maximizing_revenue/promo_code.rst:11
+msgid ""
+"Go to :menuselection:`Sales --> Settings` and choose *Advanced pricing based"
+" on formula* for *Sale Price*."
+msgstr ""
+"Allez sur :menuselection:`Ventes --> Paramètres` et choisissez *Tarification"
+" avancée basée sur la formule* pour *Prix de vente*."
+
+#: ../../content/applications/websites/ecommerce/maximizing_revenue/promo_code.rst:14
+msgid ""
+"Go to :menuselection:`Website Admin --> Catalog --> Pricelists` and create a"
+" new pricelist with the discount rule (see :doc:`pricing`). Then enter a "
+"code."
+msgstr ""
+"Allez sur :menuselection:`Admin site Web --> Catalogue --> Liste de prix` et"
+" créez une nouvelle liste de prix avec la règle de réduction (voir "
+":doc:`pricing`). Puis, entrez un code."
+
+#: ../../content/applications/websites/ecommerce/maximizing_revenue/promo_code.rst:21
+msgid ""
+"Make the promocode field available on your *Shopping Cart* page (option in "
+"*Customize* menu). Add a product to cart to reach it."
+msgstr ""
+"Rendez disponible le code promotionnel sur la page *Panier d'achats* (une "
+"option du menu *Personnaliser*). Pour y accéder, ajoutez un produit au "
+"panier."
+
+#: ../../content/applications/websites/ecommerce/maximizing_revenue/promo_code.rst:27
+msgid ""
+"Once turned on you see a new section on the right side. On clicking *Apply* "
+"prices get automatically updated in the cart."
+msgstr ""
+"Une fois cette fonction activée, une nouvelle rubrique est visible du côté "
+"droit de la page. En cliquant sur *Appliquer*, les prix du panier sont "
+"automatiquement mis à jour."
+
+#: ../../content/applications/websites/ecommerce/maximizing_revenue/promo_code.rst:33
+msgid ""
+"The promocode used by the customer is stored in the system so you can "
+"analyze the performance of your marketing campaigns."
+msgstr ""
+"Le système enregistre le code promotionnel utilisé par le client. Vous "
+"pouvez ainsi analyser l'impact de vos campagnes de marketing."
+
+#: ../../content/applications/websites/ecommerce/maximizing_revenue/promo_code.rst:39
+msgid "Show sales per pricelists..."
+msgstr "Afficher les ventes par listes de prix..."
+
+#: ../../content/applications/websites/ecommerce/maximizing_revenue/promo_code.rst:43
+msgid ":doc:`pricing`"
+msgstr ":doc:`pricing`"
+
+#: ../../content/applications/websites/ecommerce/maximizing_revenue/reviews.rst:3
+msgid "How to enable comments & rating"
+msgstr "Comment autoriser les commentaires et les évaluations"
+
+#: ../../content/applications/websites/ecommerce/maximizing_revenue/reviews.rst:5
+msgid ""
+"Publishing and monitoring customer experience will help you gain the trust "
+"of new customers and better engage with your community. In 2 clicks, allow "
+"your customer to share their feedback!"
+msgstr ""
+"La publication et le monitorage de l'expérience de vos clients vous aidera à"
+" gagner la confiance des nouveaux client et à mieux collaborer avec votre "
+"communauté. Autorisez vos clients à partager leurs commentaires en 2 clics."
+
+#: ../../content/applications/websites/ecommerce/maximizing_revenue/reviews.rst:15
+msgid ""
+"Activate comments & rating from the *Customize* menu of the product web "
+"page."
+msgstr ""
+"Activez l'option commentaires et évaluations à partir du menu "
+"*Personnaliser* de la page internet du produit."
+
+#: ../../content/applications/websites/ecommerce/maximizing_revenue/reviews.rst:21
+msgid ""
+"Visitors must log in to share their comments. Make sure they are able to do "
+"so (see Portal documentation)."
+msgstr ""
+"Pour pouvoir partager leurs commentaire les visiteurs doivent se connecter. "
+"Assurez-vous qu'ils peuvent le faire (voir la documentation du portail). "
+
+#: ../../content/applications/websites/ecommerce/maximizing_revenue/reviews.rst:25
+msgid "Review the posts in real time"
+msgstr "Révisez les commentaires en temps réel"
+
+#: ../../content/applications/websites/ecommerce/maximizing_revenue/reviews.rst:27
+msgid ""
+"Whenever a post is published, the product manager and all the product "
+"followers get notified in their Inbox (*Discuss* menu)."
+msgstr ""
+"À chaque fois qu'un commentaire est publié, le gestionnaire du produit ainsi"
+" que tous les followers reçoivent une notification dans leur messagerie "
+"(menu *Discussion*)."
+
+#: ../../content/applications/websites/ecommerce/maximizing_revenue/reviews.rst:34
+msgid ""
+"By default the user who created the product is automatically set as "
+"follower."
+msgstr ""
+"Par défaut, l'utilisateur qui a créé le produit est défini comme follower."
+
+#: ../../content/applications/websites/ecommerce/maximizing_revenue/reviews.rst:36
+msgid ""
+"Click the product name to open the detail form and review the comment (in "
+"the product discussion thread)."
+msgstr ""
+"Cliquez sur le nom du produit pour ouvrir la page détails et revoir le "
+"commentaire (sur le fil de discussion du produit)."
+
+#: ../../content/applications/websites/ecommerce/maximizing_revenue/reviews.rst:43
+msgid "Moderate & unpublish"
+msgstr "Moderez et dépubliez"
+
+#: ../../content/applications/websites/ecommerce/maximizing_revenue/reviews.rst:45
+msgid ""
+"You can easily moderate by using the chatter, either in the product detail "
+"form or on the web page."
+msgstr ""
+"Vous pouvez facilement modérer les commentaires en utilisant le chatter, "
+"soit sur la page détails du produit soit sur la page internet."
+
+#: ../../content/applications/websites/ecommerce/maximizing_revenue/reviews.rst:48
+msgid ""
+"To unpublish the post, open the product web page and click the *Published* "
+"button to turn it red (*Unpublished*)."
+msgstr ""
+"Pour dépublier le commentaire, ouvrez la page internet du produit et cliquez"
+" sur le bouton *Publié* pour qu'il devienne rouge (*Dépublié*)."
+
+#: ../../content/applications/websites/ecommerce/maximizing_revenue/reviews.rst:56
+msgid "..tip::"
+msgstr "..tip::"
+
+#: ../../content/applications/websites/ecommerce/maximizing_revenue/reviews.rst:55
+msgid ""
+"You can access the web page from the detail form by clicking the *Published*"
+" smart button (and vice versa)."
+msgstr ""
+"Vous pouvez accéder à la page internet à partir de la page détails en "
+"cliquant sur le bouton *Publié* (et vice-versa)."
+
+#: ../../content/applications/websites/ecommerce/maximizing_revenue/upselling.rst:3
+msgid "How to sell pricier alternative products (upselling)"
+msgstr "Comment vendre des produits alternatifs plus chers (vente incitative)"
+
+#: ../../content/applications/websites/ecommerce/maximizing_revenue/upselling.rst:5
+msgid ""
+"In order to maximize your revenue, suggesting pricier alternative products "
+"is strongly advised for basic items. That way, your customer will spend more"
+" time browsing your catalog."
+msgstr ""
+"Pour augmenter votre chiffre d'affaires, nous vous recommandons vivement de "
+"proposer, pour des articles de base, un produit alternatif plus cher. "
+
+#: ../../content/applications/websites/ecommerce/maximizing_revenue/upselling.rst:12
+msgid "To do so:"
+msgstr "Pour cela:"
+
+#: ../../content/applications/websites/ecommerce/maximizing_revenue/upselling.rst:14
+msgid ""
+"Select such *Alternative Products* in the *Sales* tab of the product detail "
+"form. 3 alternatives are fine! Don't publish too many otherwise your "
+"customers will be confused."
+msgstr ""
+"Sélectionnez de tels *Produits alternatifs* sur l'onglet *Ventes* de la page"
+" détails du produit. Ne publiez pas plus de 3 options, sinon vos clients "
+"seront perturbés."
+
+#: ../../content/applications/websites/ecommerce/maximizing_revenue/upselling.rst:20
+msgid ""
+"Turn on *Alternative Products* from the *Customize* menu of the product web "
+"page."
+msgstr ""
+"Activez l'option *Produits alternatifs* dans le menu *Personnaliser* de la "
+"page internet du produit."
+
+#: ../../content/applications/websites/ecommerce/shopper_experience.rst:5
+msgid "Get paid"
+msgstr "Se faire payer"
+
+#: ../../content/applications/websites/ecommerce/shopper_experience/payment_providers.rst:3
+msgid "Manage orders paid with Payment Providers"
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/shopper_experience/payment_providers.rst:5
+msgid ""
+"The moment a payment is officially authorized by a Payment Provider, Odoo "
+"*automatically* confirms the order, which triggers the delivery. And, if you"
+" invoice based on ordered quantities, you are requested to invoice the "
+"order, as well."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/shopper_experience/payment_providers.rst:9
+msgid ""
+"Let’s take a closer look at how to manage orders paid with Payment "
+"Providers."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/shopper_experience/payment_providers.rst:12
+msgid "Checking the status of a payment"
+msgstr "Vérification du statut d'un paiement"
+
+#: ../../content/applications/websites/ecommerce/shopper_experience/payment_providers.rst:14
+msgid ""
+"To check the status of a payment, go to :menuselection:`Website --> Orders "
+"--> Orders`. Then, simply click on the order you wish to check on."
+msgstr ""
+"Pour vérifier l'état d'un paiement, allez sur :menuselection:`Site Web --> "
+"Commandes --> Commandes`. Ensuite, cliquez simplement sur la commande que "
+"vous souhaitez vérifier."
+
+#: ../../content/applications/websites/ecommerce/shopper_experience/payment_providers.rst:17
+msgid ""
+"Once you are on the Sales Order page, you will find the payment is confirmed"
+" with an automatic note in the *Chatter*."
+msgstr ""
+"Une fois sur la page de la commande, vous constaterez que le paiement est "
+"confirmé par une note automatique dans le *Chatter*."
+
+#: ../../content/applications/websites/ecommerce/shopper_experience/payment_providers.rstNone
+msgid "payment is confirmed in the chatter of sales order"
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/shopper_experience/payment_providers.rst:24
+msgid ""
+"If the user decides to create an invoice, the payment is directly "
+"reconciled. This note in the *Chatter* includes a link to the Payment entry,"
+" which contains various details about the transaction, along with a link to "
+"the related Journal Entry."
+msgstr ""
+"Si l'utilisateur décide de créer une facture, le paiement est directement "
+"rapproché. Cette note dans le *Chatter* comprend un lien vers l'entrée de "
+"paiement, qui contient divers détails sur la transaction, ainsi qu'un lien "
+"vers l'opération diverse correspondante."
+
+#: ../../content/applications/websites/ecommerce/shopper_experience/payment_providers.rstNone
+msgid "page with details surrounding the specific transaction"
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/shopper_experience/payment_providers.rst:32
+msgid ""
+"Specific messages are provided to your customers for every payment status "
+"whenever they are redirected to Odoo after the transaction. To edit these "
+"messages, go to the *Messages* tab of the payment method."
+msgstr ""
+"Des messages spécifiques sont fournis à vos clients pour chaque statut de "
+"paiement lorsqu'ils sont redirigés vers Odoo après la transaction. Pour "
+"modifier ces messages, allez dans l'onglet *Messages* du mode de paiement."
+
+#: ../../content/applications/websites/ecommerce/shopper_experience/payment_providers.rst:38
+msgid "Automatically generate invoices at order"
+msgstr "Générer automatiquement des factures à la commande"
+
+#: ../../content/applications/websites/ecommerce/shopper_experience/payment_providers.rst:40
+msgid ""
+"When the order is confirmed, you can also choose to have an invoice "
+"automatically issued and paid. This fully-automated feature is designed for "
+"businesses that invoice orders right away."
+msgstr ""
+"Lorsque la commande est confirmée, vous pouvez également choisir qu'une "
+"facture soit automatiquement émise et payée. Cette fonction entièrement "
+"automatisée est conçue pour les entreprises qui facturent les commandes "
+"immédiatement."
+
+#: ../../content/applications/websites/ecommerce/shopper_experience/payment_providers.rst:47
+msgid "To do automatically generate invoices at order:"
+msgstr "Pour générer automatiquement des factures à la commande :"
+
+#: ../../content/applications/websites/ecommerce/shopper_experience/payment_providers.rst:45
+msgid ""
+"Go to :menuselection:`Website --> Configuration --> Settings --> Invoicing`."
+msgstr ""
+"Allez à :menuselection:`Site web --> Configuration --> Paramètres --> "
+"Facturation`."
+
+#: ../../content/applications/websites/ecommerce/shopper_experience/payment_providers.rst:46
+msgid ""
+"Then, under the **Invoicing Policy** option, select *Invoice what is "
+"ordered*."
+msgstr ""
+"Ensuite, sous l'option **Politique de facturation**, sélectionnez *Facturer "
+"les articles commandés*."
+
+#: ../../content/applications/websites/ecommerce/shopper_experience/payment_providers.rst:47
+msgid "Then activate *Automatic Invoices* and *Save*."
+msgstr "Activez ensuite *Factures automatiques* et *Sauvegarder*."
+
+#: ../../content/applications/websites/ecommerce/shopper_experience/payment_providers.rstNone
+msgid "example of automatic invoice"
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/shopper_experience/payment_providers.rst:54
+msgid "Capture payment after the delivery"
+msgstr "Récupérer le paiement après la livraison"
+
+#: ../../content/applications/websites/ecommerce/shopper_experience/payment_providers.rst:56
+msgid ""
+"If the provider handling the payment is configured to capture amounts "
+"manually, the order is confirmed, but the amount is kept on hold. Once the "
+"delivery is processed, you can capture the payment from the related Sales "
+"Order."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/shopper_experience/payment_providers.rst:61
+msgid ":doc:`../../../finance/payment_providers`"
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/shopper_experience/payment_providers.rst:62
+msgid ""
+":ref:`Payment Providers: Place a hold on a card "
+"<payment_providers/features/manual_capture>`"
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/shopper_experience/portal.rst:3
+msgid "How customers can access their customer account"
+msgstr "Comment les clients peuvent-ils accéder à leur compte client"
+
+#: ../../content/applications/websites/ecommerce/shopper_experience/portal.rst:5
+msgid ""
+"It has never been so easy for your customers to access their customer "
+"account. Forget endless signup forms, Odoo makes it as easy as ABC. They are"
+" suggested to sign up (name, email, password) when the order is placed, and "
+"not before. Indeed, nothing is more annoying than going through a signup "
+"process before buying something."
+msgstr ""
+"Ça n'a jamais été aussi facile d'obtenir un compte client. Oubliez les "
+"formulaires qui n'en finissent pas, avec Odoo c'est simple comme 1-2-3. Odoo"
+" suggère aux clients de s'enregistrer (nom, email, mot de passe) après leur "
+"paiement, au lieu d'avant. Quoi de plus ennuyant que les étapes de création "
+"d'un compte avant même d'acheter quelque chose ?"
+
+#: ../../content/applications/websites/ecommerce/shopper_experience/portal.rst:14
+msgid "Sign up"
+msgstr "S'enregistrer"
+
+#: ../../content/applications/websites/ecommerce/shopper_experience/portal.rst:16
+msgid ""
+"The invitation to sign up shows up when the customer wants to visualize the "
+"order from order confirmation email."
+msgstr ""
+"Lorsque le client souhaite visualiser sa commande à partir de l'email de "
+"confirmation de la commande, un message lui demandant de s'inscrire "
+"s'affiche."
+
+#: ../../content/applications/websites/ecommerce/shopper_experience/portal.rst:23
+msgid "Customer account"
+msgstr "Compte client"
+
+#: ../../content/applications/websites/ecommerce/shopper_experience/portal.rst:25
+msgid ""
+"Once logged in the customer will access the account by clicking *My Account*"
+" in the login dropdown menu."
+msgstr ""
+"Une fois connecté, le client accède à son compte en cliquant sur *Mon "
+"compte* dans le menu de connexion déroulant. "
+
+#: ../../content/applications/websites/ecommerce/shopper_experience/portal.rst:31
+msgid ""
+"THere they find all their history. The main address (billing) can also be "
+"modified."
+msgstr ""
+"C'est là qu'ils peuvent retracer tout leur historique. L'adresse principale "
+"(de facturation) peut également être modifiée."
+
+#: ../../content/applications/websites/ecommerce/shopper_experience/portal.rst:37
+msgid ""
+"If the customer is set as a contact of a company in your address book, they "
+"will see all the documents whose the customer belongs to this company."
+msgstr ""
+"Si le client est défini comme contact d'une entreprise dans votre carnet "
+"d'adresses, tous les documents de cette entreprise dont le client fait "
+"partie s'afficheront."
+
+#: ../../content/applications/websites/ecommerce/taxes.rst:5
+msgid "Collect taxes"
+msgstr "Percevoir les taxes"
+
+#: ../../content/applications/websites/livechat.rst:8
+msgid "Live Chat"
+msgstr "Live Chat"
+
+#: ../../content/applications/websites/livechat.rst:11
+msgid "`Live Chat: product page <https://www.odoo.com/app/live-chat>`_"
+msgstr "`Live Chat: page produit <https://www.odoo.com/app/live-chat>`_"
+
+#: ../../content/applications/websites/livechat/overview.rst:5
+#: ../../content/applications/websites/website/publish/translate.rst:6
+msgid "Overview"
+msgstr "Vue d'ensemble"
+
+#: ../../content/applications/websites/livechat/overview/get_started.rst:3
+msgid "Get Started with Live Chat"
+msgstr "Démarrer avec le Live Chat"
+
+#: ../../content/applications/websites/livechat/overview/get_started.rst:5
+msgid ""
+"Live Chat has the highest satisfaction rating of any communication tool. It "
+"allows fast responses and it is accessible and convenient, as your customers"
+" can keep doing what they are doing while interacting with you. Remember: "
+"your customers want to talk to you, so let's make it easy."
+msgstr ""
+"Le Live Chat a le taux de satisfaction le plus élevé de tous les outils de "
+"communication. Il permet de fournir des réponses rapidement et il est "
+"accessible et pratique, car vos clients peuvent continuer à faire ce qu'ils "
+"font tout en interagissant avec vous. N'oubliez pas : vos clients veulent "
+"vous parler, alors simplifions-leurs la vie."
+
+#: ../../content/applications/websites/livechat/overview/get_started.rst:10
+msgid "Set up"
+msgstr "Mise en place"
+
+#: ../../content/applications/websites/livechat/overview/get_started.rst:12
+msgid ""
+"Once *Live Chat* is installed on your database, if your website was created "
+"with Odoo, the application is automatically added to it. All that is left to"
+" do is to go to :menuselection:`Website --> Configuration --> Settings --> "
+"Live Chat`."
+msgstr ""
+"Une fois que le *Live Chat* est installé sur votre base de données, si votre"
+" site web a été créé avec Odoo, l'application y est automatiquement ajoutée."
+" Tout ce qu'il reste à faire est d'aller dans :menuselection:`Site web --> "
+"Configuration --> Paramètres --> Live Chat`."
+
+#: ../../content/applications/websites/livechat/overview/get_started.rstNone
+msgid "View of the settings page and the live chat feature for Odoo Live Chat"
+msgstr ""
+
+#: ../../content/applications/websites/livechat/overview/get_started.rst:21
+msgid ""
+"Select the channel to be linked to your website or create one on the fly."
+msgstr ""
+"Sélectionnez la chaîne à relier à votre site web ou créez-en une à la volée."
+
+#: ../../content/applications/websites/livechat/overview/get_started.rstNone
+msgid "View of a live chat channel form for Odoo Live Chat"
+msgstr ""
+
+#: ../../content/applications/websites/livechat/overview/get_started.rst:27
+msgid "For both scenarios, under:"
+msgstr "Pour les deux scénarios, sous :"
+
+#: ../../content/applications/websites/livechat/overview/get_started.rst:30
+msgid ""
+"- **Operators**: add agents to respond to the chat requests. Add as many as "
+"you like, and keep in mind that operators that do not show any activity in "
+"Odoo for more than 30min are considered disconnected."
+msgstr ""
+"- **Opérateurs** : ajoutez des agents pour répondre aux demandes de chat. "
+"Ajoutez-en autant que vous le souhaitez, et gardez à l'esprit que les "
+"opérateurs qui ne montrent aucune activité dans Odoo pendant plus de 30 "
+"minutes sont considérés comme déconnectés."
+
+#: ../../content/applications/websites/livechat/overview/get_started.rst:33
+msgid ""
+"- **Options**: set the default text to be shown on the live chat button; an "
+"automated welcome message to be seen by visitors when a conversation is "
+"initiated, and the text that prompts the user to initiate a chat."
+msgstr ""
+"- **Options** : définissez le texte par défaut à afficher sur le bouton du "
+"Live Chat ; un message de bienvenue automatisé qui sera vu par les visiteurs"
+" lorsqu'une conversation est lancée, et le texte qui invite l'utilisateur à "
+"lancer un chat."
+
+#: ../../content/applications/websites/livechat/overview/get_started.rst:36
+msgid ""
+"- **Channel Rules**: choose an action for a given URL, and/or per country. "
+"In the example below, the chat window automatically pops-up 3 seconds after "
+"users (from any country) land on the contact us page."
+msgstr ""
+"- **Règles du canal** : choisissez une action pour une URL donnée, et/ou par"
+" pays. Dans l'exemple ci-dessous, la fenêtre de chat s'ouvre automatiquement"
+" 3 secondes après que les utilisateurs (de n'importe quel pays) aient "
+"atterri sur la page \"Contactez-nous\"."
+
+#: ../../content/applications/websites/livechat/overview/get_started.rstNone
+msgid "View of a channel’s rules form for Odoo Live Chat"
+msgstr ""
+
+#: ../../content/applications/websites/livechat/overview/get_started.rst:43
+msgid ""
+"GeoIP, which refers to the process of finding a computer terminal’s "
+"geographical location by its IP address, must be installed on your server. "
+"Otherwise, under *Channel Rules*, countries are not taken into account."
+msgstr ""
+"GeoIP, désigne le processus permettant de trouver l'emplacement géographique"
+" d'un terminal informatique via son adresse IP, elle doit être installée sur"
+" votre serveur. Sinon, dans le cadre des *Règles des canaux*, les pays ne "
+"sont pas pris en compte."
+
+#: ../../content/applications/websites/livechat/overview/get_started.rst:48
+msgid "External options"
+msgstr "Options externes"
+
+#: ../../content/applications/websites/livechat/overview/get_started.rst:51
+msgid ""
+"If your website was not created with Odoo, you can find the code to be added"
+" to your own, under the *Widget* tab."
+msgstr ""
+"Si votre site n'a pas été créé avec Odoo, vous trouverez le code à ajouter "
+"au vôtre, sous l'onglet *Widget*."
+
+#: ../../content/applications/websites/livechat/overview/get_started.rst:52
+msgid ""
+"Odoo also offers an URL you can send to users so they can have access to a "
+"single live chat page."
+msgstr ""
+"Odoo propose également une URL que vous pouvez envoyer aux utilisateurs afin"
+" qu'ils aient accès à une page unique de Live Chat."
+
+#: ../../content/applications/websites/livechat/overview/get_started.rstNone
+msgid "View of the widget tab for Odoo Live Chat"
+msgstr ""
+
+#: ../../content/applications/websites/livechat/overview/get_started.rst:59
+msgid "Managing chat requests"
+msgstr "Gestion des demandes de chat"
+
+#: ../../content/applications/websites/livechat/overview/get_started.rst:61
+msgid ""
+"Conversations initiated by visitors pop up as a direct message, and are "
+"shown in *Discuss*. Therefore, inquiries can be answered wherever you are in"
+" Odoo."
+msgstr ""
+"Les conversations initiées par les visiteurs apparaissent sous forme de "
+"message direct et sont affichées dans *Discuss*. Par conséquent, il est "
+"possible de répondre aux demandes de renseignements où que vous soyez dans "
+"Odoo."
+
+#: ../../content/applications/websites/livechat/overview/get_started.rstNone
+msgid ""
+"View of the discuss application with a message sent through live chat in "
+"Odoo"
+msgstr ""
+
+#: ../../content/applications/websites/livechat/overview/get_started.rst:69
+msgid ""
+"Conversations are dispatched based on the current workload of the online "
+"operators."
+msgstr ""
+"Les conversations sont réparties en fonction de la charge de travail "
+"actuelle des opérateurs en ligne."
+
+#: ../../content/applications/websites/livechat/overview/get_started.rst:72
+msgid "Leave or join a channel"
+msgstr "Quitter ou rejoindre un canal"
+
+#: ../../content/applications/websites/livechat/overview/get_started.rst:74
+msgid ""
+"Go to :menuselection:`Website --> Configuration --> Settings`, access your "
+"channel under *Live Chat*, and *Join Channel* or *Leave Channel*."
+msgstr ""
+"Allez sur :menuselection:`Site web --> Configuration --> Paramètres`, "
+"accédez à votre canal sous *Live Chat*, et *Rejoindre le canal* ou *Quitter "
+"le canal*."
+
+#: ../../content/applications/websites/livechat/overview/get_started.rstNone
+msgid ""
+"View of a channel form and the option to join a channel for Odoo Live Chat"
+msgstr ""
+
+#: ../../content/applications/websites/livechat/overview/get_started.rst:82
+#: ../../content/applications/websites/livechat/overview/responses.rst:48
+msgid ":doc:`ratings`"
+msgstr ":doc:`Notations`"
+
+#: ../../content/applications/websites/livechat/overview/get_started.rst:83
+#: ../../content/applications/websites/livechat/overview/ratings.rst:45
+msgid ":doc:`responses`"
+msgstr ":doc:`réponses`"
+
+#: ../../content/applications/websites/livechat/overview/ratings.rst:3
+msgid "Ratings"
+msgstr "Évaluations"
+
+#: ../../content/applications/websites/livechat/overview/ratings.rst:5
+msgid ""
+"Giving users the opportunity to rate their interactions can help you "
+"improving the experience you offer. That means staying on top of your "
+"customers' needs, besides keeping track of your operators’ performances."
+msgstr ""
+"Donner aux utilisateurs la possibilité de noter leurs interactions peut vous"
+" aider à améliorer l'expérience que vous offrez. Cela signifie qu'il faut "
+"rester à l'écoute des besoins de vos clients, en plus de suivre les "
+"performances de vos opérateurs."
+
+#: ../../content/applications/websites/livechat/overview/ratings.rst:10
+msgid "Customer Rating"
+msgstr "Évaluation de la Clientèle"
+
+#: ../../content/applications/websites/livechat/overview/ratings.rst:12
+msgid ""
+"Once the user chooses to close the chat window, he can rate his interaction."
+msgstr ""
+"Une fois que l'utilisateur a choisi de fermer la fenêtre de chat, il peut "
+"évaluer son interaction."
+
+#: ../../content/applications/websites/livechat/overview/ratings.rst:14
+msgid ""
+"If the user is *Not satisfied* or *Highly dissatisfied*, a field allowing "
+"for an explanation is shown."
+msgstr ""
+"Si l'utilisateur n'est *Pas satisfait* ou *Hautement insatisfait*, un champ "
+"permettant de fournir une explication est affiché."
+
+#: ../../content/applications/websites/livechat/overview/ratings.rst:15
+msgid "A copy of the conversation can also be sent by email."
+msgstr "Une copie de la conversation peut également être envoyée par email."
+
+#: ../../content/applications/websites/livechat/overview/ratings.rstNone
+msgid "View of the chat window from a user’s side for Odoo Live Chat"
+msgstr ""
+
+#: ../../content/applications/websites/livechat/overview/ratings.rst:22
+msgid "The rating is shown on the chat window itself for the operator."
+msgstr ""
+"L'évaluation est affichée sur la fenêtre de chat elle-même pour l'opérateur."
+
+#: ../../content/applications/websites/livechat/overview/ratings.rstNone
+msgid ""
+"View of a chat window from an operator’s side highlighting a rating for Odoo"
+" Live Chat"
+msgstr ""
+
+#: ../../content/applications/websites/livechat/overview/ratings.rst:28
+msgid "And under :menuselection:`Report --> Customer Ratings`."
+msgstr "Et sous :menuselection:`Report --> Evaluations client`."
+
+#: ../../content/applications/websites/livechat/overview/ratings.rstNone
+msgid "View of the customer ratings page in Odoo Live Chat"
+msgstr ""
+
+#: ../../content/applications/websites/livechat/overview/ratings.rst:35
+msgid "Make the rating public"
+msgstr "Rendre l'évaluation publique"
+
+#: ../../content/applications/websites/livechat/overview/ratings.rst:37
+msgid ""
+"Go to :menuselection:`Website --> Configuration --> Settings`, access your "
+"channel form, click on *Go to Website* and on *Unpublished*, to publish the "
+"rating of that channel on your website."
+msgstr ""
+"Allez sur :menuselection:`Site web --> Configuration --> Paramètres`, "
+"accédez au formulaire de votre canal, cliquez sur *Aller au site web* et sur"
+" *non-publié*, pour publier le classement de ce canal sur votre site web."
+
+#: ../../content/applications/websites/livechat/overview/ratings.rstNone
+msgid "View of the public ratings in the website for Odoo Live Chat"
+msgstr ""
+
+#: ../../content/applications/websites/livechat/overview/responses.rst:3
+msgid "Commands and Canned Responses"
+msgstr "Commandes et réponses prédéfinies"
+
+#: ../../content/applications/websites/livechat/overview/responses.rst:5
+msgid ""
+"Using canned responses can help you save time and have a previous, well-"
+"thought response, to some of your most common questions and comments."
+msgstr ""
+"L'utilisation de réponses standardisées peut vous aider à gagner du temps et"
+" à obtenir une réponse préalable et réfléchie à certaines de vos questions "
+"et commentaires les plus courants."
+
+#: ../../content/applications/websites/livechat/overview/responses.rst:9
+msgid "Use commands"
+msgstr "Utilisez des commandes"
+
+#: ../../content/applications/websites/livechat/overview/responses.rst:11
+msgid ""
+"Commands are shortcuts that do specific actions within the chat window:"
+msgstr ""
+"Les commandes sont des raccourcis qui effectuent des actions spécifiques "
+"dans la fenêtre de discussion :"
+
+#: ../../content/applications/websites/livechat/overview/responses.rst:13
+msgid "**/help**: shows a help message."
+msgstr "**/help** : affiche un message d'aide."
+
+#: ../../content/applications/websites/livechat/overview/responses.rst:14
+msgid "**/helpdesk**: creates a helpdesk ticket."
+msgstr "**/helpdesk** : crée un ticket d'assistance."
+
+#: ../../content/applications/websites/livechat/overview/responses.rst:15
+msgid "**/helpdesk_search**: searches for a helpdesk ticket."
+msgstr "**/helpdesk_search** : recherche un ticket d'assistance."
+
+#: ../../content/applications/websites/livechat/overview/responses.rst:16
+msgid "**/history**: shows the last 15 visited pages."
+msgstr "**/history** : affiche les 15 dernières pages visitées."
+
+#: ../../content/applications/websites/livechat/overview/responses.rst:17
+msgid "**/lead**: creates a new lead."
+msgstr "**/lead** : crée une nouvelle piste."
+
+#: ../../content/applications/websites/livechat/overview/responses.rst:18
+msgid "**/leave**: leaves the channel."
+msgstr "**/leave** : quitte le canal."
+
+#: ../../content/applications/websites/livechat/overview/responses.rst:0
+msgid ""
+"- For *helpdesk tickets*: make sure the application is installed on your "
+"database and the option *Live Chat* under :menuselection:`Helpdesk --> "
+"Configuration --> Helpdesk Teams` is enabled."
+msgstr ""
+"- Pour les *tickets d'assistance* : assurez-vous que l'application est "
+"installée sur votre base de données et que l'option *Live Chat* sous "
+":menuselection:`Assistance --> Configuration --> Equipe d'assistance` est "
+"activée."
+
+#: ../../content/applications/websites/livechat/overview/responses.rst:0
+msgid ""
+"- For *leads*: the *CRM* application must be installed on your database."
+msgstr ""
+"- Pour les *pistes* : l'application *CRM* doit être installée sur votre base"
+" de données."
+
+#: ../../content/applications/websites/livechat/overview/responses.rst:26
+msgid ""
+"To access the ticket or lead created from the chat, click on the shortcut "
+"link."
+msgstr ""
+"Pour accéder au ticket ou à la piste créé à partir du chat, cliquez sur le "
+"lien de raccourci."
+
+#: ../../content/applications/websites/livechat/overview/responses.rstNone
+msgid ""
+"View of the chat window with a helpdesk ticket created in Odoo Live Chat"
+msgstr ""
+
+#: ../../content/applications/websites/livechat/overview/responses.rst:33
+msgid ""
+"Helpdesk tickets created from the chat automatically add the conversation as"
+" a description of the ticket. The same goes for the creation of a lead."
+msgstr ""
+"Les tickets d'assistance créés à partir du chat ajoutent automatiquement la "
+"conversation en tant que description du ticket. Il en va de même pour la "
+"création d'une piste."
+
+#: ../../content/applications/websites/livechat/overview/responses.rst:37
+msgid "Send canned responses"
+msgstr "Envoyez des réponses toutes prêtes"
+
+#: ../../content/applications/websites/livechat/overview/responses.rst:40
+msgid ""
+"Canned responses allow you to have a full piece of text being placed when "
+"you type a shortcut word. To create them, go to :menuselection:`Live Chat "
+"--> Configuration --> Canned Responses`."
+msgstr ""
+"Les réponses prédéfinies vous permettent de placer un texte complet lorsque "
+"vous tapez un raccourci. Pour les créer, allez dans :menuselection:`Live "
+"Chat --> Configuration --> Réponses standardisées`."
+
+#: ../../content/applications/websites/livechat/overview/responses.rst:41
+msgid ""
+"To use them during a conversation, simply type **:** followed by the "
+"shortcut word you created."
+msgstr ""
+"Pour les utiliser lors d'une conversation, tapez simplement **:** suivi du "
+"raccourci que vous avez créé."
+
+#: ../../content/applications/websites/livechat/overview/responses.rstNone
+msgid ""
+"View of a chat window and the use of a canned response in Odoo Live Chat"
+msgstr ""
+
+#: ../../content/applications/websites/website.rst:8
+msgid "Website"
+msgstr "Site web"
+
+#: ../../content/applications/websites/website.rst:10
+msgid ""
+"Discover the best **Open-Source Website Builder** and learn how to build "
+"beautiful websites that convert visitors into leads or revenues."
+msgstr ""
+"Découvrez le meilleur **créateur de sites web Open Source** et apprenez à "
+"créer de superbes sites qui convertiront vos visiteurs en pistes et "
+"généreront des revenus."
+
+#: ../../content/applications/websites/website/optimize.rst:5
+msgid "Optimize"
+msgstr "Optimiser"
+
+#: ../../content/applications/websites/website/optimize/google_analytics.rst:3
+msgid "How to track your website's traffic in Google Analytics"
+msgstr "Comment contrôler le trafic de votre site Web sur Google Analytics"
+
+#: ../../content/applications/websites/website/optimize/google_analytics.rst:5
+msgid "To follow your website's traffic with Google Analytics:"
+msgstr "Pour suivre le trafic de votre site Web sur Google Analytics :"
+
+#: ../../content/applications/websites/website/optimize/google_analytics.rst:7
+msgid ""
+"`Create a Google Analytics account <https://www.google.com/analytics/>`__ if"
+" you don't have any."
+msgstr ""
+"`Créez un compte Google Analytics <https://www.google.com/analytics/>`__ si "
+"vous n'en avez pas encore un."
+
+#: ../../content/applications/websites/website/optimize/google_analytics.rst:10
+msgid ""
+"Go through the creation form and accept the conditions to get the tracking "
+"ID."
+msgstr ""
+"Parcourez le formulaire de création et acceptez les conditions pour obtenir "
+"un ID de suivi."
+
+#: ../../content/applications/websites/website/optimize/google_analytics.rst:15
+msgid "Copy the tracking ID to insert it in Odoo."
+msgstr "Copiez l'ID de suivi pour l'insérer dans Odoo."
+
+#: ../../content/applications/websites/website/optimize/google_analytics.rst:20
+msgid ""
+"Go to the *Configuration* menu of your Odoo's Website app. In the settings, "
+"turn on Google Analytics and paste the tracking ID. Then save the page."
+msgstr ""
+"Allez sur le menu *Configuration* de votre application Odoo site Web.  Dans "
+"paramètres, ouvrez Google Analytics et copiez l'ID de suivi. Puis, "
+"enregistrez."
+
+#: ../../content/applications/websites/website/optimize/google_analytics.rst:27
+msgid ""
+"To make your first steps in Google Analytics, refer to `Google Documentation"
+" <https://support.google.com/analytics/answer/1008015?hl=en/>`_."
+msgstr ""
+"Pour démarrer dans Google Analytics, référez-vous à la `Documentation Google"
+" <https://support.google.com/analytics/answer/1008015?hl=en/>`_."
+
+#: ../../content/applications/websites/website/optimize/link_tracker.rst:3
+msgid "Track clicks and visitors using Link Trackers"
+msgstr "Suivi des clics et des visiteurs à l'aide des traqueurs de liens"
+
+#: ../../content/applications/websites/website/optimize/link_tracker.rst:5
+msgid ""
+"Link Trackers allow you to track your marketing campaigns (emails, banner "
+"ads, blog posts, social media posts, affiliate links, etc.). This way, you "
+"are able to identify your best traffic sources and make informed decisions "
+"about the distribution of your marketing budget."
+msgstr ""
+"Les traqueurs de liens vous permettent de suivre vos campagnes de marketing "
+"(emails, bannières publicitaires, articles de blog, messages sur les médias "
+"sociaux, liens d'affiliation, etc.) De cette façon, vous êtes en mesure "
+"d'identifier vos meilleures sources de trafic et de prendre des décisions "
+"éclairées sur la répartition de votre budget marketing."
+
+#: ../../content/applications/websites/website/optimize/link_tracker.rst:10
+msgid "Configuration"
+msgstr "Configuration"
+
+#: ../../content/applications/websites/website/optimize/link_tracker.rst:12
+msgid ""
+"Go to :menuselection:`Website --> Configuration --> Settings` and activate "
+"*Link Trackers*."
+msgstr ""
+"Allez dans :menuselection:`Website --> Configuration --> Paramètres` et "
+"acitvez les *Traqueurs de liens*."
+
+#: ../../content/applications/websites/website/optimize/link_tracker.rstNone
+msgid ""
+"View of Website settings page emphasizing the link trackers field in Odoo "
+"Website"
+msgstr ""
+
+#: ../../content/applications/websites/website/optimize/link_tracker.rst:19
+msgid "Set up traceable URLs"
+msgstr "Mise en place d'URLs traçables"
+
+#: ../../content/applications/websites/website/optimize/link_tracker.rst:21
+msgid ""
+"Go to :menuselection:`Website --> Go to website --> Promote --> Track this "
+"page`. Here, you are able to get a specific tracked URL based on the "
+"campaign, medium, and source being used."
+msgstr ""
+"Allez sur :menuselection:`Site Web --> Aller sur le site Web --> Promouvoir "
+"--> Suivre cette page`. Ici, vous pouvez obtenir une URL de suivi spécifique"
+" en fonction de la campagne, du support et de la source utilisés."
+
+#: ../../content/applications/websites/website/optimize/link_tracker.rstNone
+msgid "View of the link tracker fields for Odoo Website"
+msgstr ""
+
+#: ../../content/applications/websites/website/optimize/link_tracker.rst:28
+msgid ""
+"**URL**: url of the page you want to track (e.g. the home page or a "
+"product's page)."
+msgstr ""
+"**URL** : url de la page que vous souhaitez suivre (par exemple, la page "
+"d'accueil ou la page d'un produit)."
+
+#: ../../content/applications/websites/website/optimize/link_tracker.rst:29
+msgid "**Campaign**: context of your link (e.g. a special promotion)."
+msgstr ""
+"**Campagne** : contexte de votre lien (par exemple, une promotion spéciale)."
+
+#: ../../content/applications/websites/website/optimize/link_tracker.rst:30
+msgid ""
+"**Medium**: channel used to share (deliver) your link (e.g. an email or a "
+"Facebook ad)."
+msgstr ""
+"**Medium** : canal utilisé pour partager (délivrer) votre lien (par exemple,"
+" un email ou une publicité Facebook)."
+
+#: ../../content/applications/websites/website/optimize/link_tracker.rst:31
+msgid ""
+"**Source**: platform where the traffic originates (e.g. Google or Twitter)."
+msgstr ""
+"**Source** : plateforme d'où provient le trafic (par exemple, Google ou "
+"Twitter)."
+
+#: ../../content/applications/websites/website/optimize/link_tracker.rst:33
+msgid ""
+"Now, click on *Get tracked link* to generate a URL that you can post or send"
+" by the source you have decided on."
+msgstr ""
+"Maintenant, cliquez sur *Obtenir un lien tracké* pour générer une URL que "
+"vous pouvez afficher ou envoyer par la source que vous avez choisie."
+
+#: ../../content/applications/websites/website/optimize/link_tracker.rst:37
+msgid "Follow-up on tracked links"
+msgstr "Suivi des liens traqués"
+
+#: ../../content/applications/websites/website/optimize/link_tracker.rst:39
+msgid ""
+"To look at statistics of your links, go to :menuselection:`Website --> Go to"
+" website --> Promote --> Track this page`. Besides being able to see the "
+"*Most Clicked* and *Recently Used* links, you can also see complete "
+"statistics by clicking on *Stats*, including the number of clicks, and the "
+"country of origin for those clicks."
+msgstr ""
+"Pour consulter les statistiques de vos liens, allez sur :menuselection:`Site"
+" Web --> Aller sur le site Web --> Promouvoir --> Suivre cette page`. Outre "
+"la possibilité de voir les liens *les plus cliqués* et *les plus utilisés "
+"récemment*, vous pouvez également consulter des statistiques complètes en "
+"cliquant sur *Stats*, notamment le nombre de clics et le pays d'origine de "
+"ces clics."
+
+#: ../../content/applications/websites/website/optimize/link_tracker.rstNone
+msgid ""
+"View of the tracked list emphasizing the statistics buttons in Odoo Website"
+msgstr ""
+
+#: ../../content/applications/websites/website/optimize/link_tracker.rst:50
+msgid "You can also access the link tracker on *odoo.com/r* via your browser."
+msgstr ""
+"Vous pouvez également accéder au traqueur de liens sur *odoo.com/r* via "
+"votre navigateur."
+
+#: ../../content/applications/websites/website/optimize/link_tracker.rst:51
+msgid ""
+"Activate the developer mode (:menuselection:`Settings --> Activate the "
+"developer mode`) and get access to the *Link Tracker* module and its back-"
+"end functionalities."
+msgstr ""
+"Activez le mode développeur (:menuselection:`Paramètres --> Activer le mode "
+"développeur`) et accédez au module *Traqueur de liens* et à ses "
+"fonctionnalités back-end."
+
+#: ../../content/applications/websites/website/optimize/link_tracker.rst:53
+msgid ""
+"Integrated with :doc:`Google Analytics <google_analytics>`, those trackers "
+"allow you to see the number of clicks and visitors to keep you on top of "
+"your marketing campaigns."
+msgstr ""
+"Intégrés à :doc:`Google Analytics <google_analytics>`, ces trackers vous "
+"permettent de voir le nombre de clics et de visiteurs pour vous permettre de"
+" garder le contrôle de vos campagnes de marketing."
+
+#: ../../content/applications/websites/website/optimize/link_tracker.rst:55
+msgid ""
+"The integration with the :doc:`CRM "
+"</applications/sales/crm/track_leads/prospect_visits>` application allows "
+"you to understand where your leads and opportunities are coming from."
+msgstr ""
+"L'intégration avec l'application :doc:`CRM "
+"</applications/sales/crm/track_leads/prospect_visits>` vous permet de "
+"comprendre d'où viennent vos pistes et opportunités."
+
+#: ../../content/applications/websites/website/optimize/plausible.rst:3
+msgid "Website analytics with Plausible.io"
+msgstr ""
+
+#: ../../content/applications/websites/website/optimize/plausible.rst:5
+msgid "To follow your website's traffic with Plausible.io:"
+msgstr ""
+
+#: ../../content/applications/websites/website/optimize/plausible.rst:7
+msgid ""
+"`Create a Plausible.io account <https://plausible.io/register>`_ if you "
+"don't have any."
+msgstr ""
+
+#: ../../content/applications/websites/website/optimize/plausible.rst:8
+msgid ""
+"`Create your website <https://plausible.io/sites/new>`_ and `Start "
+"collecting data` if it is not already done."
+msgstr ""
+
+#: ../../content/applications/websites/website/optimize/plausible.rst:10
+msgid ""
+"Go through the `list of your websites <https://plausible.io/sites>`_ and "
+"click on the gear icon."
+msgstr ""
+
+#: ../../content/applications/websites/website/optimize/plausible.rst:0
+msgid "Click on cog icon in the list of websites"
+msgstr ""
+
+#: ../../content/applications/websites/website/optimize/plausible.rst:16
+msgid ""
+"Click on the button :guilabel:`+ New Link` in the tab Visibility to create "
+"your Shared links."
+msgstr ""
+
+#: ../../content/applications/websites/website/optimize/plausible.rst:0
+msgid "Adding a shared link in the Visibility tab"
+msgstr ""
+
+#: ../../content/applications/websites/website/optimize/plausible.rst:22
+msgid ""
+"Choose a name (and NO password - it is not supported to embed it in Odoo) "
+"and click on the button `Create Shared Link`."
+msgstr ""
+
+#: ../../content/applications/websites/website/optimize/plausible.rst:0
+msgid "Credentials creation for the new shared link"
+msgstr ""
+
+#: ../../content/applications/websites/website/optimize/plausible.rst:29
+msgid ""
+"Copy the new Shared Link URL from Plausible.io and paste it into the "
+"Settings of Odoo."
+msgstr ""
+
+#: ../../content/applications/websites/website/optimize/plausible.rst:0
+msgid "Copy the shared link URL from Plausible.io"
+msgstr ""
+
+#: ../../content/applications/websites/website/optimize/plausible.rst:0
+msgid "Paste the shared link URL to Odoo settings"
+msgstr ""
+
+#: ../../content/applications/websites/website/optimize/plausible.rst:0
+msgid "**You are on the Odoo Online Platform**"
+msgstr ""
+
+#: ../../content/applications/websites/website/optimize/plausible.rst:0
+msgid ""
+"When you `create your Odoo Online database <https://www.odoo.com/trial>`_, "
+"we create it for you on our own server. You don't have anything to do."
+msgstr ""
+
+#: ../../content/applications/websites/website/optimize/plausible.rst:0
+msgid "**What about the Goal?**"
+msgstr ""
+
+#: ../../content/applications/websites/website/optimize/plausible.rst:0
+msgid ""
+"Odoo pushes out-of-the-box custom events: `Lead Generation` and `Shop`."
+msgstr ""
+
+#: ../../content/applications/websites/website/optimize/seo.rst:3
+msgid "How to do Search Engine Optimisation (SEO) in Odoo"
+msgstr ""
+"Comment faire de l'optimisation pour les moteurs de recherche (SEO) dans "
+"Odoo ?"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:5
+msgid ""
+"Search Engine Optimization (SEO) is a set of good practices to optimize your"
+" website so that you get a better ranking in search engines like Google. In "
+"short, a good SEO allows you to get more visitors."
+msgstr ""
+"Le Search Engine Optimization (SEO) est un ensemble de méthodes destinées à "
+"optimiser votre site internet afin d'obtenir un meilleur référencement dans "
+"des moteurs de recherche tels que Google. Pour résumer, un bon SEO vous "
+"permet d'avoir plus de visiteurs."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:9
+msgid ""
+"Some examples of SEO rules: your web pages should load fast, your page "
+"should have one and only one title ``<h1>``, meta tags (alt-tag, title-tag) "
+"should be consistent with the content, your website should have a "
+"``/sitemap.xml`` file, etc."
+msgstr ""
+"Voici quelques exemples de règles SEO: les pages de votre site web doivent "
+"se charger rapidement, votre page ne doit avoir qu'un seul et unique titre "
+"``<h1>``, les balises meta (balises alt, balises title) doivent être "
+"cohérents avec le contenu proposé, votre site Web doit contenir un fichier "
+"``/sitemap.xml``, etc."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:15
+msgid ""
+"To guarantee Odoo Website and Odoo eCommerce users have a great SEO, Odoo "
+"abstracts all the technical complexities of SEO and handles everything for "
+"you, in the best possible way. This will be explained here below."
+msgstr ""
+"Afin de garantir un bon référencement aux utilisateurs du site Web et du "
+"eCommerce Odoo, Odoo fait abstraction des détails techniques complexes du "
+"SEO et s'occupe de tout pour vous de la meilleure façon possible. Plus de "
+"détails ci-après. "
+
+#: ../../content/applications/websites/website/optimize/seo.rst:20
+msgid ""
+"But first, let see how you can easily boost your ranking by finetuning the "
+"content and the meta tags of your website."
+msgstr ""
+"Voyons d'abord comment vous pouvez facilement améliorer votre référencement "
+"par un réglage fin du contenu et des balises meta de votre site Web."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:24
+msgid "Meta Tags"
+msgstr "Balises meta"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:27
+msgid "Title, Description"
+msgstr "Titre, Description"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:29
+msgid ""
+"Every web page should define the ``<title>`` and ``<description>`` meta "
+"data. These information elements are used by search engines to promote your "
+"website. They are automatically generated based on page title & content, but"
+" you can finetune them. Make sure they fit the content of the page, "
+"otherwise you will be downgraded by search engines."
+msgstr ""
+"Toute page Web doit définir une donnée meta ``<title>`` et ``<description>``"
+" . Ces éléments d'information sont utilisés par les moteurs de recherche "
+"pour promouvoir votre site. Ils sont automatiquement générés en fonction du "
+"titre et du contenu, mais vous pouvez effectuer un réglage fin de ceux-ci. "
+"Assurez-vous qu'ils correspondent au contenu de la page, autrement vous "
+"serez rétrogradé par les moteurs de recherche."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:39
+msgid "Keywords"
+msgstr "Mots-clés"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:40
+msgid ""
+"In order to write quality content and boost your traffic, Odoo provides a "
+"``<keyword>`` finder. Those keywords are the searches you want to head "
+"towards your website. For each keyword, you see how it is used in the "
+"content (H1, H2, page title, page description, page content) and what are "
+"the related searches in Google. The more keywords are used the better."
+msgstr ""
+"Afin d'écrire un contenu de qualité et d'augmenter votre trafic, Odoo met à "
+"votre disposition un moteur de recherche de ``<keyword>`` . Ces mots-clés "
+"sont les recherches que vous voulez effecteur vers votre site Web. Vous "
+"pouvez voir comment chaque mot est utilisé dans le contenu (H1, H2, titre de"
+" la page, description de la page, contenu de la page) et quelles sont les "
+"recherches associées dans Google. Plus vous utilisez de mots-clés, mieux ce "
+"sera."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:50
+msgid ""
+"If your website is in multiple languages, you can use the Promote tool for "
+"every language of a single page and set specific title, description and "
+"search tags."
+msgstr ""
+"Si votre site Web est disponible en plusieurs langues, vous pouvez utiliser "
+"l'outil Promouvoir pour définir des titres, des descriptions et des mots-"
+"clés spécifiques pour chacune des langues de la page."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:55
+msgid "Content is King"
+msgstr "Le contenu est roi"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:57
+msgid ""
+"When it comes to SEO, content is usually king. Odoo provides several modules"
+" to help you build your website content:"
+msgstr ""
+"En général, le contenu est roi en ce qui concerne le SEO.  Odoo fournit "
+"divers modules pour vous aider à construire le contenu de votre site Web :"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:60
+msgid "**Odoo Blogs**: write great contents."
+msgstr "**Odoo Blogs** : écrivez un contenu de qualité."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:62
+msgid ""
+"**Odoo Slides**: publish all your Powerpoint or PDF presentations. Their "
+"content is automatically indexed on the web page. Example: "
+"`odoo.com/slides/public-channel-1 <https://www.odoo.com/slides/public-"
+"channel-1>`_"
+msgstr ""
+"**Odoo Slides** : publiez toutes vos présentations Powerpoint ou PDF. Leur "
+"contenu sera automatiquement indexé sur la page Web. Par exemple : "
+"`odoo.com/slides/public-channel-1 <https://www.odoo.com/slides/public-"
+"channel-1>`_"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:66
+msgid ""
+"**Odoo Forum**: let your community create contents for you. Example: "
+"`odoo.com/forum/1 <https://odoo.com/forum/1>`_ (accounts for 30% of Odoo.com"
+" landing pages)"
+msgstr ""
+"**Odoo Forum** : laissez votre communauté créer des contenus pour vous. Par "
+"exemple : `odoo.com/forum/1 <https://odoo.com/forum/1>`_ (accounts for 30% "
+"of Odoo.com landing pages)"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:70
+msgid ""
+"**Odoo Mailing List Archive**: publish mailing list archives on your "
+"website. Example: `odoo.com/groups/community-59 "
+"<https://www.odoo.com/groups/community-59>`_ (1000 pages created per month)"
+msgstr ""
+"**Odoo Mailing List Archive**: publiez des listes de diffusion sur votre "
+"site Web. Par exemple : `odoo.com/groups/community-59 "
+"<https://www.odoo.com/groups/community-59>`_ (1000 pages créées par mois)."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:76
+msgid ""
+"The 404 page is a regular page, that you can edit like any other page in "
+"Odoo. That way, you can build a great 404 page to redirect to the top "
+"content of your website when visitors get lost in invalid URLs."
+msgstr ""
+"La page 404 est une page normale que vous pouvez éditer comme toute autre "
+"page dans Odoo. Vous pouvez ainsi créer une superbe page 404 et rediriger "
+"les visiteurs égarés à cause d'une URL non valide vers le meilleur de votre "
+"site Web."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:81
+msgid "Use Social Networks"
+msgstr "Utilisation des réseaux sociaux"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:83
+msgid ""
+"Social media is built for mass sharing. If lots of people share your content"
+" on social media, then it's likely more people will link to it, and links "
+"are a huge factor for SEO ranking."
+msgstr ""
+"Les réseaux sociaux sont conçus pour un partage de masse. Si beaucoup de "
+"personnes partagent vos contenus sur les réseaux sociaux, il est probable "
+"que plus de gens feront des liens vers ces contenus, et les liens sont un "
+"facteur essentiel pour le classement SEO."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:87
+msgid "Odoo embeds several tools to share content through social media:"
+msgstr ""
+"Divers outils pour partager du contenu sur les réseaux sociaux sont intégrés"
+" dans Odoo."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:90
+msgid "Social Network"
+msgstr "Réseaux sociaux"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:92
+msgid ""
+"Odoo allows to link all your social network accounts in your website footer."
+" All you have to do is to refer all your accounts in your company settings."
+msgstr ""
+"Odoo permet de relier tous vos comptes de réseaux sociaux dans la partie "
+"inférieure de la page de votre site. Pour ce faire, vous devez tout "
+"simplement mentionner vos comptes dans le menu paramètres de votre société."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:99
+msgid "Social Share"
+msgstr "Partage social"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:101
+msgid ""
+"Drop the building block *Share* on any page you want your visitors to share."
+" By clicking the icon, they are prompted to share the page in their social "
+"media wall."
+msgstr ""
+"Déplacez le module *Partager* sur toutes les pages que vous voulez voir "
+"partagées par vos visiteurs. En cliquant sur cette icône, ils seront invités"
+" à partager ces pages sur leurs réseaux sociaux."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:108
+msgid ""
+"Most social media use a picture of the picture to decorate the share post. "
+"Odoo uses the website logo by default but you can choose any other image of "
+"your page in the Promote tool."
+msgstr ""
+"La plupart des réseaux sociaux utilisent une image de l'image pour illustrer"
+" le post de partage. Odoo utilise par défaut le logo du site Web, mais vous "
+"pouvez choisir n'importe quelle image de votre page dans l'outil Promouvoir."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:116
+msgid "Facebook Page"
+msgstr "Page Facebook"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:118
+msgid ""
+"Drop the building block *Facebook Page* to display a widget of your Facebook"
+" business page and encourage visitors to follow it. You can display the "
+"timeline, the next events and the messages."
+msgstr ""
+"Déplacez le module *Page Facebook* pour afficher le widget de votre page "
+"Facebook professionnelle et inciter les visiteurs à vous suivre. Vous pouvez"
+" afficher la timeline, les événements à venir et les messages."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:123
+msgid "Twitter Scroller"
+msgstr "Defilé de Tweets"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:125
+msgid ""
+"Display the Twitter feeds with customer satifaction on your website. This "
+"will increase the number of tweets and shares."
+msgstr ""
+"Affichez le fil Twitter avec la satisfaction des clients sur votre site web."
+" Cela augmentera le nombre de tweets et de partages."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:129
+msgid "Test Your Website"
+msgstr "Tester votre site web"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:131
+msgid ""
+"You can compare how your website rank, in terms of SEO, against Odoo using "
+"WooRank free services: `woorank.com <https://www.woorank.com>`_"
+msgstr ""
+"Vous pouvez comparer le classement de votre site Web, en termes de "
+"référencement, par rapport à Odoo, en utilisant les services gratuits de "
+"WooRank : `woorank.com <https://www.woorank.com>`_"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:136
+msgid "URLs Handling"
+msgstr "La gestion des URLs"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:138
+msgid "This section sheds some light on how Odoo makes URLs SEO-friendly."
+msgstr ""
+"Cette rubrique apporte quelques précisions sur la façon dont Odoo rend les "
+"URLs SEO friendly."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:141
+msgid "URLs Structure"
+msgstr "Structure des URLs"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:143
+msgid "A typical Odoo URL will look like this:"
+msgstr "Une URL Odoo classique ressemblera à ceci :"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:145
+msgid "https://www.mysite.com/fr\\_FR/shop/product/my-great-product-31"
+msgstr "https://www.mysite.com/fr\\_FR/shop/product/my-great-product-31 ."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:147
+msgid "With the following components:"
+msgstr "Elle est composée des éléments suivants :"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:149
+msgid "**https://** = Protocol"
+msgstr "**https://** = protocole."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:151
+msgid "**www.mysite.com** = your domain name"
+msgstr "**www.monsite.com** = votre nom de domaine."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:153
+msgid ""
+"**/fr\\_FR** = page language. This part of the URL is removed if the visitor"
+" browses the main language of the website Thus, the main version of this "
+"page is: https://www.mysite.com/shop/product/my-great-product-31"
+msgstr ""
+"**/fr\\_FR** = langue de la page. Cette partie de l'URL est absente si le "
+"visiteur navigue en utilisant la langue principale du site. Dès lors, la "
+"version principale de la page est : https://www.mysite.com/shop/product/my-"
+"great-product-31 ."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:158
+msgid ""
+"**/shop/product** = every module defines its own namespace (/shop is for the"
+" catalog of the eCommerce module, /shop/product is for a product page)."
+msgstr ""
+"**/shop/produit** = chaque module a son espace-nom propre (/shop est réservé"
+" au catalogue du module eCommerce, /shop/produit désigne une page produit). "
+
+#: ../../content/applications/websites/website/optimize/seo.rst:162
+msgid ""
+"**my-great-product** = by default, this is the slugified title of the "
+"product this page refers to. But you can customize it for SEO purposes. A "
+"product named \"Pain carré\" will be slugified to \"pain-carre\". Depending "
+"on the namespace, this could be different objects (blog post, page title, "
+"forum post, forum comment, product category, etc.)."
+msgstr ""
+"**mon-produit-phare** = ceci est par défaut la version slug du titre du "
+"produit auquel cette page renvoie, mais vous pouvez le modifier pour le SEO."
+" Un produit nommé \"Pain carré\" donnera en slug \"pain-carre\". En fonction"
+" de l'espace-nom, il pourrait s'agir d'objets différents (post sur un blog, "
+"titre d'une page, post sur un forum, commentaire sur un forum, catégorie de "
+"produit, etc.)."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:169
+msgid "**-31** = the unique ID of the product"
+msgstr "**-31** = l'ID unique du produit"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:171
+msgid ""
+"Note that any dynamic component of an URL can be reduced to its ID. As an "
+"example, the following URLs all do a 301 redirect to the above URL:"
+msgstr ""
+"Notez que toute composante dynamique d'une URL peut être réduite à son ID. "
+"Par exemple, les URLs suivantes utilisent toutes une redirection 301 vers "
+"l'URL ci-dessus :"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:174
+msgid "https://www.mysite.com/fr\\_FR/shop/product/31 (short version)"
+msgstr "https://www.mysite.com/fr\\_FR/shop/product/31 (version courte)."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:176
+msgid "http://mysite.com/fr\\_FR/shop/product/31 (even shorter version)"
+msgstr "http://mysite.com/fr\\_FR/shop/product/31 (version encore plus courte)."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:178
+msgid ""
+"http://mysite.com/fr\\_FR/shop/product/other-product-name-31 (old product "
+"name)"
+msgstr ""
+"http://mysite.com/fr\\_FR/shop/product/other-product-name-31 (ancien nom du "
+"produit)."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:181
+msgid ""
+"Some URLs have several dynamic parts, like this one (a blog category and a "
+"post):"
+msgstr ""
+"Certaines URLs ont plusieurs parties dynamiques, comme celle-ci (une "
+"catégorie de blog et un post) :"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:184
+msgid "https://www.odoo.com/blog/company-news-5/post/the-odoo-story-56"
+msgstr "https://www.odoo.com/blog/company-news-5/post/the-odoo-story-56"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:186
+msgid "In the above example:"
+msgstr "Dans l'exemple ci-dessus :"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:188
+msgid "*Company News* is the title of the blog"
+msgstr "*Nouvelles de l'entreprise* est le titre du blog"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:190
+msgid "*The Odoo Story* is the title of a specific blog post"
+msgstr "*The Odoo Story* est le titre d'un post spécifique sur le blog"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:192
+msgid ""
+"When an Odoo page has a pager, the page number is set directly in the URL "
+"(does not have a GET argument). This allows every page to be indexed by "
+"search engines. Example:"
+msgstr ""
+"Lorsqu'une page Odoo a une pagination, le numéro de la page apparaît "
+"directement dans l'URL (sans argument GET). Cela permet à chaque page d'être"
+" indexée par les moteurs de recherche. Exemple :"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:196
+msgid "https://www.odoo.com/blog/page/3"
+msgstr "https://www.odoo.com/blog/page/3"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:199
+msgid "Changes in URLs & Titles"
+msgstr "Changements des URLs & titres"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:201
+msgid ""
+"When the URL of a page changes (e.g. a more SEO friendly version of your "
+"product name), you don't have to worry about updating all links:"
+msgstr ""
+"Lorsque l'URL d'une page change (par ex. pour une version plus SEO friendly "
+"du nom de votre produit), vous n'avez pas à vous soucier de la mise à jour "
+"de tous les liens :"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:204
+msgid "Odoo will automatically update all its links to the new URL."
+msgstr "Odoo met automatiquement à jour tous ses liens vers la nouvelle URL."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:206
+msgid ""
+"If external websites still points to the old URL, a 301 redirect will be "
+"done to route visitors to the new address of the page."
+msgstr ""
+"Si des sites web externes pointent toujours vers l'ancienne URL, une "
+"redirection 301 sera effectuée pour diriger les visiteurs vers la nouvelle "
+"adresse de la page."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:209
+msgid "As an example, this URL:"
+msgstr "Par exemple, cette URL :"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:211
+msgid "http://mysite.com/shop/product/old-product-name-31"
+msgstr "http://mysite.com/shop/product/old-product-name-31"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:213
+msgid "Will automatically redirect to:"
+msgstr "Redirigera automatiquement vers :"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:215
+msgid "http://mysite.com/shop/product/new-and-better-product-name-31"
+msgstr "http://mysite.com/shop/product/new-and-better-product-name-31"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:217
+msgid ""
+"In short, just change the title of a blog post or the name of a product, and"
+" the changes will apply automatically everywhere in your website. The old "
+"link still functions when used by external websites, via a 301 redirect, "
+"maintaining the SEO link juice."
+msgstr ""
+"En bref, il suffit de changer le titre d'un article de blog ou le nom d'un "
+"produit, et les changements s'appliqueront automatiquement partout dans "
+"votre site web. L'ancien lien fonctionne toujours lorsqu'il est utilisé par "
+"des sites web externes, via une redirection 301, ce qui maintient le lien "
+"SEO."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:223
+msgid "HTTPS"
+msgstr "HTTPS"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:225
+msgid ""
+"Search engines boost ranking of secure HTTPS/SSL websites. So, by default "
+"all Odoo Online instances are fully based on HTTPS. If the visitor accesses "
+"your website through a non HTTPS url, it gets a 301 redirect to its HTTPS "
+"equivalent."
+msgstr ""
+"Les moteurs de recherche font booster le classement des sites sécurisés "
+"HTTPS/SSL. De ce fait, par défaut, toutes les instances d'Odoo en ligne sont"
+" entièrement fondées sur le HTTPS. Si le visiteur accède à votre site Web "
+"via une URL non HTPPS, une redirection 301 vers son équivalent HTTPS est "
+"générée."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:231
+msgid "Links: Nofollow Strategy"
+msgstr "Liens : la stratégie nofollow"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:233
+msgid ""
+"The more a page is linked from external and quality websites, the better it "
+"is for your SEO."
+msgstr ""
+"Plus une page contient un lien vers des sites Web externes et de qualité, "
+"mieux ce sera pour votre référencement."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:236
+msgid "Here are Odoo strategies to manage links:"
+msgstr "Voici les stratégies proposées par Odoo pour gérer des liens :"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:238
+msgid ""
+"Every link you add to your website is \"dofollow\", which means that this "
+"link will contribute to the SEO Juice for the linked page."
+msgstr ""
+"Chaque lien que vous ajoutez à votre site Web se fait en \"dofollow\", ce "
+"qui signifie que ce lien contribuera au jus de référencement de la page "
+"reliée."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:242
+msgid ""
+"Every link posted by a contributor (forum post, blog comment, etc.) that "
+"links to your own website is \"dofollow\" too."
+msgstr ""
+"Chaque lien créé par un contributeur (post sur un forum, commentaire sur un "
+"blog, etc.) qui renvoie à votre propre site Web est également en "
+"\"dofollow\". "
+
+#: ../../content/applications/websites/website/optimize/seo.rst:245
+msgid ""
+"But every link posted by a contributor that links to an external website is "
+"\"nofollow\". In that way, you do not run the risk of people posting links "
+"on your website to third-party websites which have a bad reputation."
+msgstr ""
+"En revanche, tout lien posté par un contributeur qui renvoie à un site Web "
+"externe se fait en \"nofollow\". Ainsi, vous ne courez pas le risque que des"
+" personnes affichent sur votre site Web des liens vers des sites tiers qui "
+"ont une mauvaise réputation."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:250
+msgid ""
+"Note that, when using the forum, contributors having a lot of Karma can be "
+"trusted. In such case, their links will not have any ``rel=\"nofollow\"`` "
+"attribute."
+msgstr ""
+"Notez que sur un forum, les contributeurs avec beaucoup de karma sont dignes"
+" de confiance. Dans ce cas, leurs liens n'auront pas d'attribut "
+"``rel=\"nofollow\"``."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:255
+msgid "Multi-Language Support"
+msgstr "Support multilingue"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:258
+msgid "Multi-Language URLs"
+msgstr "URLs multilingues"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:260
+msgid ""
+"If you run a website in multiple languages, the same content will be "
+"available in different URLs, depending on the language used:"
+msgstr ""
+"Si vous gérez un site Web en plusieurs langues, le même contenu sera "
+"disponible sur différentes URLs, en fonction de la langue utilisée :"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:263
+msgid ""
+"https://www.mywebsite.com/shop/product/my-product-1 (main language, English "
+"here)"
+msgstr ""
+"https://www.mywebsite.com/shop/product/my-product-1 (langue principale, ici "
+"l'anglais)."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:265
+msgid ""
+"https://www.mywebsite.com\\/fr\\_FR/shop/product/mon-produit-1 (French "
+"version)"
+msgstr ""
+"https://www.mywebsite.com\\/fr\\_FR/shop/product/mon-produit-1 (version "
+"française)."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:267
+msgid ""
+"In this example, fr\\_FR is the language of the page. You can even have "
+"several variations of the same language: pt\\_BR (Portuguese from Brazil) , "
+"pt\\_PT (Portuguese from Portugal)."
+msgstr ""
+"Dans cet exemple, fr\\_FR est la langue de la page. Vous pouvez même avoir "
+"plusieurs variations de la même langue : pt\\_BR (portugais du Brésil), "
+"pt\\_PT (portugais du Portugal)."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:272
+msgid "Language Annotation"
+msgstr "Annotation de langue"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:274
+msgid ""
+"To let search engines know that the second URL is the French translation of "
+"the first URL, Odoo will add an HTML link element in the header. In the HTML"
+" <head> section of the main version, Odoo automatically adds a link element "
+"pointing to the translated versions of that webpage;"
+msgstr ""
+"Pour indiquer aux moteurs de recherche que la seconde URL est la traduction "
+"française de la première URL, Odoo ajoutera un élément HTML link dans l'en-"
+"tête. Dans la section HTML <head> de la version anglaise, Odoo ajoute "
+"automatiquement un élément link renvoyant à d'autres versions de cette page "
+":"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:279
+msgid ""
+"<link rel=\"alternate\" hreflang=\"fr\" "
+"href=\"https://www.mywebsite.com\\/fr\\_FR/shop/product/mon-produit-1\"/>"
+msgstr ""
+"<link rel=\"alternate\" hreflang=\"fr\" "
+"href=\"https://www.mywebsite.com\\/fr\\_FR/shop/product/mon-produit-1\"/>"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:282
+msgid "With this approach:"
+msgstr "Grâce à cette méthode :"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:284
+msgid ""
+"Search engines will redirect to the right language according to the visitor "
+"language."
+msgstr ""
+"Les moteurs de recherche vont rediriger le visiteur vers une langue "
+"correspondant à sa propre langue. "
+
+#: ../../content/applications/websites/website/optimize/seo.rst:287
+msgid ""
+"You do not get penalized by search engines if your page is not translated "
+"yet. Indeed, it's not a duplicated content, but a different version of the "
+"same content."
+msgstr ""
+"Vous n'êtes pas pénalisé par les moteurs de recherche si votre page n'est "
+"pas encore traduite. Car il ne s'agit pas d'un contenu en doublon, mais "
+"d'une version différente du même contenu."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:292
+msgid "Language Detection"
+msgstr "Détection de la langue"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:294
+msgid ""
+"When a visitor lands for the first time on your website (e.g. "
+"yourwebsite.com/shop), they may automatically be redirected to a translated "
+"version according to their browser language preference (e.g. "
+"yourwebsite.com/fr\\_FR/shop)."
+msgstr ""
+"Lorsque des visiteurs arrivent sur votre site web pour la première fois (par"
+" ex. yourwebsite.com/shop), ils peuvent automatiquement être redirigés vers "
+"une version traduite selon la langue prédéfinie par son navigateur : (p. ex."
+" yourwebsite.com/fr\\_FR/shop)."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:299
+msgid ""
+"Next time, it keeps a cookie of the current language to avoid any "
+"redirection."
+msgstr ""
+"Pour éviter toute redirection, un cookie de la langue utilisée sera gardé la"
+" fois suivante."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:302
+msgid ""
+"To force a visitor to stick to the default language, you can use the code of"
+" the default language in your link, example: yourwebsite.com/en\\_US/shop. "
+"This will always land visitors to the English version of the page, without "
+"using the browser language preferences."
+msgstr ""
+"Pour forcer un visiteur à s'en tenir à la langue par défaut, vous pouvez "
+"utiliser le code de la langue par défaut dans votre lien, par exemple : "
+"yourwebsite.com/en\\_US/shop. Cela dirigera toujours les visiteurs vers la "
+"version anglaise de votre page, sans prendre en compte les préférences de "
+"langue du navigateur."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:309
+msgid "Page Speed"
+msgstr "Rapidité de la page"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:312
+msgid "Introduction"
+msgstr "Introduction"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:314
+msgid ""
+"The time to load a page is an important criteria for search engines. A "
+"faster website not only improves your visitor's experience, but gives you a "
+"better page ranking. Some studies have shown that, if you divide the time to"
+" load your pages by two (e.g. 2 seconds instead of 4 seconds), the visitor "
+"abandonment rate is also divided by two. (25% to 12.5%). One extra second to"
+" load a page could `cost $1.6b to Amazon in sales "
+"<http://www.fastcompany.com/1825005/how-one-second-could-cost-"
+"amazon-16-billion-sales>`__."
+msgstr ""
+"Le temps de chargement d'une page est un critère important pour les moteurs "
+"de recherche. Un site plus rapide permet non seulement d'améliorer "
+"l'expérience de vos visiteurs, mais aussi d'obtenir un meilleur "
+"référencement de votre page. Des études ont démontré que si vous divisez le "
+"temps de chargement de vos pages par deux (par ex. 2 secondes au lieu de 4 "
+"secondes), le taux d'abandon des visiteurs est aussi divisé par deux (de 25 "
+"% à 12,5 %). Une seconde supplémentaire de chargement pourrait `coûter à "
+"Amazon 1,6 milliards de dollars en ventes "
+"<http://www.fastcompany.com/1825005/how-one-second-could-cost-"
+"amazon-16-billion-sales>`__."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:325
+msgid ""
+"Fortunately, Odoo does all the magic for you. Below, you will find the "
+"tricks Odoo uses to speed up your page loading time. You can compare how "
+"your website ranks using these two tools:"
+msgstr ""
+"Heureusement, Odoo se charge de tout pour vous. Vous trouverez ci-dessous "
+"les astuces utilisées par Odoo pour accélérer le temps de chargement de "
+"votre page. Vous pouvez comparer le référencement de votre site Web en "
+"utilisant ces deux outils :"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:329
+msgid ""
+"`Google Page Speed "
+"<https://developers.google.com/speed/pagespeed/insights/>`__"
+msgstr ""
+"`Google Page Speed "
+"<https://developers.google.com/speed/pagespeed/insights/>`__."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:331
+msgid "`Pingdom Website Speed Test <http://tools.pingdom.com/fpt/>`__"
+msgstr "`Pingdom Website Speed Test <http://tools.pingdom.com/fpt/>`__."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:334
+msgid "Images"
+msgstr "Images"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:336
+msgid ""
+"When you upload new images, Odoo automatically compresses them to reduce "
+"their sizes (lossless compression for .PNG and .GIF and lossy compression "
+"for .JPG)."
+msgstr ""
+"Lorsque vous téléchargez des nouvelles images, Odoo les compresse "
+"automatiquement pour réduire leur taille (compression sans pertes pour le "
+".PNG et le .GIF et avec pertes pour le .JPG)"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:340
+msgid ""
+"From the upload button, you have the option to keep the original image "
+"unmodified if you prefer to optimize the quality of the image rather than "
+"performance."
+msgstr ""
+"Depuis le bouton de téléchargement, vous avez la possibilité de conserver "
+"l'image originale non modifiée si vous préférez optimiser la qualité de "
+"l'image plutôt que les performances."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:348
+msgid ""
+"Odoo compresses images when they are uploaded to your website, not when "
+"requested by the visitor. Thus, it's possible that, if you use a third-party"
+" theme, it will provide images that are not compressed efficiently. But all "
+"images used in Odoo official themes have been compressed by default."
+msgstr ""
+"Odoo compresse les images lorsqu'elles sont téléchargées sur votre site, et "
+"non pas lorsque le visiteur les demande. Ainsi, il est possible que si vous "
+"utilisez un thème tiers, il vous fournisse des images qui ne sont pas "
+"compressées efficacement. Cependant, toutes les images utilisées dans les "
+"thèmes officiels Odoo ont été compressées par défaut."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:354
+msgid ""
+"When you click on an image, Odoo shows you the Alt and title attributes of "
+"the ``<img>`` tag. You can click on it to set your own title and Alt "
+"attributes for the image."
+msgstr ""
+"Lorsque vous cliquez sur une image, Odoo vous montre les attributs alt et "
+"title de la balise ``<img>``. Vous pouvez cliquer dessus pour définir vos "
+"propres attributs alt et title pour cette image."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:361
+msgid "When you click on this link, the following window will appear:"
+msgstr "Lorsque vous cliquez sur ce lien, la fenêtre suivante apparaît :"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:366
+msgid ""
+"Odoo's pictograms are implemented using a font (`Font Awesome "
+"<https://fortawesome.github.io/Font-Awesome/icons/>`__ in most Odoo themes)."
+" Thus, you can use as many pictograms as you want in your page, they will "
+"not result in extra requests to load the page."
+msgstr ""
+"Les pictogrammes d'Odoo sont implémentés en utilisant une police de "
+"caractères (`police Awesome <https://fortawesome.github.io/Font-"
+"Awesome/icons/>`__ dans la plupart des thèmes Odoo). Ainsi, vous pouvez "
+"utiliser autant de pictogrammes que vous voulez dans votre page, ils "
+"n'entraîneront pas de requêtes supplémentaires lors de son chargement."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:375
+msgid "Static Resources: CSS"
+msgstr "Ressources statiques : CSS"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:377
+msgid ""
+"All CSS files are pre-processed, concatenated, minified, compressed and "
+"cached (server-side and browser-side). The result:"
+msgstr ""
+"Tous les fichiers CSS sont pré-traités, concaténés, minifiés, compressés et "
+"mis en cache (côté serveur et côté client). Voici le résultat :"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:380
+msgid "only one CSS file request is needed to load a page"
+msgstr ""
+"une seule requête de fichier CSS est nécessaire pour charger une page."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:382
+msgid ""
+"this CSS file is shared and cached amongst pages, so that when the visitor "
+"clicks on another page, the browser doesn't have to even load a single CSS "
+"resource."
+msgstr ""
+"ce fichier CSS est partagé et mis en cache entre les pages, ainsi lorsque le"
+" visiteur clique sur une autre page, son navigateur n'a pas à charger une "
+"seule ressource CSS."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:386
+msgid "this CSS file is optimized to be small"
+msgstr "ce fichier CSS est optimisé pour être de petite taille."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:388
+msgid ""
+"**Pre-processed:** The CSS framework used by Odoo is Bootstrap. Although a "
+"theme might use another framework, most of `Odoo themes "
+"<https://www.odoo.com/apps/themes>`__ extend and customize Bootstrap "
+"directly. Since Odoo supports Less and Sass, you can modify CSS rules "
+"instead of overwriting them through extra CSS lines, resulting in a smaller "
+"file."
+msgstr ""
+"**Pré-traité :** Le framework CSS utilisé par Odoo est Bootstrap. Même si un"
+" thème peut utiliser un autre framework, la plupart des `thèmes Odoo "
+"<https://www.odoo.com/apps/themes>`__ sont des extensions et des "
+"modifications directes de Bootstrap. Puisque Odoo supporte Less et Sass, "
+"vous pouvez modifier les règles CSS au lieu de les remplacer par des lignes "
+"de CSS supplémentaires, ce qui donne un fichier plus petit."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:395
+msgid ""
+"**Concatenated:** every module or library you might use in Odoo has its own "
+"set of CSS, Less or Sass files (eCommerce, blogs, themes, etc.). Having "
+"several CSS files is great for the modularity, but not good for the "
+"performance because most browsers can only perform 6 requests in parallel "
+"resulting in lots of files loaded in series. The latency time to transfer a "
+"file is usually much longer than the actual data transfer time, for small "
+"files like .JS and .CSS. Thus, the time to load CSS resources depends more "
+"on the number of requests to be done than the actual file size."
+msgstr ""
+"**Concaténé :** chaque module ou librairie que vous pouvez utiliser dans "
+"Odoo a son propre ensemble de fichiers CSS, Less ou Sass (eCommerce, blog, "
+"thème, etc.). Avoir plusieurs fichiers CSS offre une grande modularité, mais"
+" cela est néfaste à la performance puisque la plupart des navigateurs ne "
+"peuvent effectuer que 6 requêtes en parallèle, ce qui mène à un surplus de "
+"fichiers chargés à la suite. Pour des petits fichiers tels que .JS et .CSS, "
+"le temps de latence pour transférer un fichier est en général bien plus long"
+" que le temps réel de transfert des données. Ainsi, le temps de chargement "
+"des ressources CSS dépend plus du nombre de requêtes à effectuer que de la "
+"taille du fichier."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:405
+msgid ""
+"To address this issue, all CSS / Less / Sass files are concatenated into a "
+"single .CSS file to send to the browser. So a visitor has **only one .CSS "
+"file to load** per page, which is particularly efficient. As the CSS is "
+"shared amongst all pages, when the visitor clicks on another page, the "
+"browser does not even have to load a new CSS file!"
+msgstr ""
+"Pour résoudre ce problème, tous les fichiers CSS/Less/Sass sont concaténés "
+"en un seul fichier .CSS à envoyer au navigateur. Ainsi, un visiteur n'a "
+"**qu'un seul fichier .CSS à charger** par page, ce qui est particulièrement "
+"efficace. Puisque le CSS est partagé par toutes les pages, lorsque le "
+"visiteur clique sur une autre page, son navigateur n'a même pas besoin de "
+"charger un nouveau fichier CSS!"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:412
+msgid "**Both files in the <head>**"
+msgstr "**Les deux fichiers dans <head>**"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:412
+msgid "**What the visitor gets (only one file)**"
+msgstr "**Ce que le visiteur voit (un seul fichier)**"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:414
+msgid "/\\* From bootstrap.css \\*/"
+msgstr "/\\* Depuis bootstrap.css \\*/"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:414
+#: ../../content/applications/websites/website/optimize/seo.rst:415
+#: ../../content/applications/websites/website/optimize/seo.rst:421
+#: ../../content/applications/websites/website/optimize/seo.rst:447
+msgid ".text-muted {"
+msgstr ".text-muted {"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:415
+#: ../../content/applications/websites/website/optimize/seo.rst:422
+#: ../../content/applications/websites/website/optimize/seo.rst:448
+msgid "color: #666;"
+msgstr "color: #666"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:416
+msgid "color: #777;"
+msgstr "color: #777"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:416
+msgid "background: yellow"
+msgstr "background: yellow"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:417
+msgid "background: yellow;"
+msgstr "background: yellow"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:417
+#: ../../content/applications/websites/website/optimize/seo.rst:418
+#: ../../content/applications/websites/website/optimize/seo.rst:423
+#: ../../content/applications/websites/website/optimize/seo.rst:449
+msgid "}"
+msgstr "}"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:420
+msgid "/\\* From my-theme.css \\*/"
+msgstr "/\\* Depuis my-theme.css \\*/"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:426
+msgid ""
+"The CSS sent by Odoo includes all CSS / Less / Sass of all pages / modules. "
+"By doing this, additional page views from the same visitor will not have to "
+"load CSS files at all. But some modules might include huge CSS/Javascript "
+"resources that you do not want to prefetch at the first page because they "
+"are too big. In this case, Odoo splits this resource into a second bundle "
+"that is loaded only when the page using it is requested. An example of this "
+"is the backend that is only loaded when the visitor logs in and accesses the"
+" backend (/web)."
+msgstr ""
+"Le CSS envoyé par Odoo contient tous les CSS/Less/Sass de tous les "
+"pages/modules. De cette manière, les autres pages vues par le même visiteur "
+"n'auront pas à charger de fichiers CSS du tout. Mais certains modules "
+"peuvent inclure de ressources CSS/Javascript trop grandes qui vous ne voulez"
+" pas précharger sur la première page parce qu'elles sont trop volumineuses. "
+"Dans ce cas, Odoo divise cette ressource en un deuxième paquet qui n'est "
+"chargé que lorsque la page qui l'utilise est consultée. Un exemple de ceci "
+"est l'arrière-plan qui n'est chargé que lorsque le visiteur se connecte et "
+"accède à l'arrière-plan (/web)."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:436
+msgid ""
+"If the CSS file is very big, Odoo will split it into two smaller files to "
+"avoid the 4095 selectors limit per sheet of Internet Explorer. But most "
+"themes fit below this limit."
+msgstr ""
+"Si le fichier CSS est très lourd, Odoo le divisera en deux fichiers plus "
+"petits pour éviter la limite de 4095 sélecteurs par page d'Internet "
+"Explorer. Mais, la plupart des thèmes se trouvent en-dessous de cette "
+"limite."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:440
+msgid ""
+"**Minified:** After being pre-processed and concatenated, the resulting CSS "
+"is minified to reduce its size."
+msgstr ""
+"**Minifié :** Après avoir été pré-traité et concaténé, le CSS obtenu est "
+"minifié pour en réduire sa taille."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:444
+msgid "**Before minification**"
+msgstr "**Avant la minification**"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:444
+msgid "**After minification**"
+msgstr "**Après la minification**"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:446
+msgid "/\\* some comments \\*/"
+msgstr "/\\* quelques commentaires \\*/"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:446
+msgid ".text-muted {color: #666}"
+msgstr ".text-muted {color: #666}"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:452
+msgid ""
+"The final result is then compressed, before being delivered to the browser."
+msgstr ""
+"Le résultat final est ensuite compressé avant d'être envoyé au navigateur."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:455
+msgid ""
+"Then, a cached version is stored server-side (so we do not have to pre-"
+"process, concatenate, minify at every request) and browser-side (so the same"
+" visitor will load the CSS only once for all pages they visit)."
+msgstr ""
+"Ensuite, une version mise en cache est sauvegardée côté client (pour éviter "
+"de devoir pré-traiter, concaténer et minifier à chaque requête) et côté "
+"navigateur (pour que le même visiteur n'ait à charger le CSS qu'une seule "
+"fois pour toutes les pages qu'il visite)."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:461
+msgid "Static Resources: Javascript"
+msgstr "Ressources statiques : le Javascript"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:463
+msgid ""
+"As with CSS resources, Javascript resources are also concatenated, minified,"
+" compressed and cached (server-side and browser-side)."
+msgstr ""
+"Comme pour les ressources CSS, les ressources Javascript sont aussi "
+"concaténées, minifiées, compressées et mises en cache (côté serveur et côté "
+"navigateur)."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:466
+msgid "Odoo creates three Javascript bundles:"
+msgstr "Odoo crée trois paquets Javascript :"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:468
+msgid ""
+"One for all pages of the website (including code for parallax effects, form "
+"validation, etc.)"
+msgstr ""
+"Un pour chaque page du site Web (y compris le code pour les effets de "
+"parallaxe, la validation des formulaires, etc.)."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:471
+msgid ""
+"One for common Javascript code shared among frontend and backend (Bootstrap)"
+msgstr ""
+"Un pour le code Javascript commun entre l'interface et l'arrière-plan "
+"(Bootstrap)."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:474
+msgid ""
+"One for backend specific Javascript code (Odoo Web Client interface for your"
+" employees using Odoo)"
+msgstr ""
+"Un pour le code Javascript spécifique à l'arrière-plan (l'interface client "
+"Web Odoo pour vos employés utilisant Odoo)."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:477
+msgid ""
+"Most visitors of your website will only need the first two bundles, "
+"resulting in a maximum of two Javascript files to load to render one page. "
+"As these files are shared across all pages, further clicks by the same "
+"visitor will not load any other Javascript resource."
+msgstr ""
+"La plupart des visiteurs de votre site n'auront besoin que des deux premiers"
+" paquets, ce qui signifie qu'il faut charger au maximum deux fichiers "
+"Javascript pour afficher une page. Puisque ces fichiers sont partagés sur "
+"toutes les pages, les clics ultérieurs du même visiteur ne chargeront aucune"
+" autre ressource Javascript."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:483
+msgid ""
+"If you work on :ref:`developer mode <developer-mode>`, the CSS and "
+"Javascript are neither concatenated, nor minified. Thus, it's much slower. "
+"But it allows you to easily debug with the Chrome debugger as CSS and "
+"Javascript resources are not transformed from their original versions."
+msgstr ""
+"Si vous travaillez en :ref:`mode développeur <developer-mode>`, les CSS et "
+"Javascript ne sont ni concaténés, ni minifiés. Il est donc beaucoup plus "
+"lent. Mais il vous permet de déboguer facilement avec le débogueur de Chrome"
+" car les ressources CSS et Javascript ne sont pas transformées par rapport à"
+" leur version originale."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:488
+msgid "CDN"
+msgstr "CDN"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:490
+msgid ""
+"If you activate the CDN feature in Odoo, static resources (Javascript, CSS, "
+"images) are loaded from a Content Delivery Network. Using a Content Delivery"
+" Network has three advantages:"
+msgstr ""
+"Si vous activez la fonction CDN dans Odoo, les ressources statiques "
+"(Javascript, CSS, images) sont chargées depuis un Content Delivery Network. "
+"Utiliser un Content Delivery Network a trois avantages :"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:494
+msgid ""
+"Load resources from a nearby server (most CDN have servers in main countries"
+" around the globe)"
+msgstr ""
+"On peut charger des ressources depuis un serveur à proximité (la plupart des"
+" CDN ont des serveurs dans les pays du monde entier)."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:497
+msgid ""
+"Cache resources efficiently (no computation resources usage on your own "
+"server)"
+msgstr ""
+"On peut mettre en cache des ressources de manière efficace (pas "
+"d'utilisation de ressources de calcul sur votre propre serveur)."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:500
+msgid ""
+"Split the resource loading on different services allowing to load more "
+"resources in parallel (since the Chrome limit of 6 parallel requests is by "
+"domain)"
+msgstr ""
+"On peut répartir le chargement des ressources entre différents services, ce "
+"qui permet de charger plus de ressources en parallèle (puisque Chrome fixe "
+"la limite de 6 requêtes en parallèle par domaine)."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:504
+msgid ""
+"You can configure your CDN options from the **Website Admin** app, using the"
+" Configuration menu. Here is an example of configuration you can use:"
+msgstr ""
+"Vous pouvez configurez vos options de CDN depuis l'app **Admin sit Web** à "
+"travers le menu de configuration. Voici un exemple de configuration que vous"
+" pouvez utiliser :"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:511
+msgid "HTML Pages"
+msgstr "Pages HTML"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:513
+msgid ""
+"The HTML pages can be compressed, but this is usually handled by your web "
+"server (NGINX or Apache)."
+msgstr ""
+"Les pages HTML peuvent être compressées, mais cela est généralement pris en "
+"charge par votre serveur (NGINX ou Apache)."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:516
+msgid ""
+"The Odoo Website builder has been optimized to guarantee clean and short "
+"HTML code. Building blocks have been developed to produce clean HTML code, "
+"usually using Bootstrap and the HTML editor."
+msgstr ""
+"Le module de construction de site internet a été optimisé pour garantir un "
+"code HTML concis et propre. Des blocs ont été développés afin de produire un"
+" code HTML propre, généralement en utilisant Bootstrap et l'éditeur HTML."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:520
+msgid ""
+"As an example, if you use the color picker to change the color of a "
+"paragraph to the primary color of your website, Odoo will produce the "
+"following code:"
+msgstr ""
+"Par exemple, si vous utilisez le sélecteur de couleur pour qu'un paragraphe "
+"utilise la couleur primaire de votre site Web, Odoo produira le code suivant"
+" :"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:524
+msgid "``<p class=\"text-primary\">My Text</p>``"
+msgstr "\"<p class=\"text-primary\">Mon texte</p>\""
+
+#: ../../content/applications/websites/website/optimize/seo.rst:526
+msgid ""
+"Whereas most HTML editors (such as CKEditor) will produce the following "
+"code:"
+msgstr ""
+"Tandis que la plupart des éditeurs HTML (tels que CKEditor) produiront le "
+"code suivant :"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:529
+msgid "``<p style=\"color: #AB0201\">My Text</p>``"
+msgstr "``<p style=\"color: #AB0201\">Mon texte</p>``"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:532
+msgid "Responsive Design"
+msgstr "Design réactif"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:534
+msgid ""
+"Websites that are not mobile-friendly are negatively impacted in search "
+"engine rankings. All Odoo themes rely on Bootstrap to render efficiently "
+"according to the device: desktop, tablet or mobile."
+msgstr ""
+"Les sites qui ne sont pas adaptés aux mobiles ont un mauvais référencement "
+"sur les moteurs de recherche. Tous les thèmes Odoo se fient à Bootstrap pour"
+" un rendu adéquat selon l'appareil : ordinateur, tablette ou téléphone "
+"portable."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:541
+msgid ""
+"As all Odoo modules share the same technology, absolutely all pages in your "
+"website are mobile friendly."
+msgstr ""
+"Comme tous les modules Odoo partagent la même technologie, toutes les pages "
+"de votre site Web sont adaptées aux mobiles."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:545
+msgid "Browser Caching"
+msgstr "Mise en cache navigateur"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:547
+msgid ""
+"Javascript, images and CSS resources have an URL that changes dynamically "
+"when their content change. As an example, all CSS files are loaded through "
+"this URL: `localhost:8069/web/content/457-0da1d9d/web.assets\\_common.0.css "
+"<http://localhost:8069/web/content/457-0da1d9d/web.assets_common.0.css>`__. "
+"The ``457-0da1d9d`` part of this URL will change if you modify the CSS of "
+"your website."
+msgstr ""
+"Les ressources Javascript, CSS et les images ont une URL qui change "
+"dynamiquement avec leur contenu. Par exemple, tous les fichiers CSS sont "
+"chargés à partir de cette URL : "
+"`localhost:8069/web/content/457-0da1d9d/web.assets\\_common.0.css "
+"<http://localhost:8069/web/content/457-0da1d9d/web.assets_common.0.css>`__. "
+"La partie de l'URL ``457-0da1d9d`` changera si vous modifiez le CSS de votre"
+" site web."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:554
+msgid ""
+"This allows Odoo to set a very long cache delay (XXX) on these resources: "
+"XXX secs, while being updated instantly if you update the resource."
+msgstr ""
+"Cela permet à Odoo de définir un délai de cache très long (XXX) sur ces "
+"ressources : XXX secondes,  tout en étant mis à jour instantanément si vous "
+"mettez à jour la ressource."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:559
+msgid "Scalability"
+msgstr "Modulabilité"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:561
+msgid ""
+"In addition to being fast, Odoo is also more scalable than traditional CMS "
+"and eCommerce (Drupal, Wordpress, Magento, Prestashop)."
+msgstr ""
+"En plus d'être rapide, Odoo est également plus évolutif que les CMS et "
+"eCommerce traditionnels (Drupal, Wordpress, Magento, Prestashop)."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:564
+msgid ""
+"Here is the slide that summarizes the scalability of Odoo Website & "
+"eCommerce."
+msgstr ""
+"Voici la diapositive qui résume la modulabilité du site Web Odoo et d'Odoo "
+"eCommerce."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:570
+msgid "Search Engines Files"
+msgstr "Fichiers des moteurs de recherche"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:573
+msgid "Sitemap"
+msgstr "Plan du site"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:575
+msgid ""
+"The sitemap points out pages to index to search engine robots. Odoo "
+"generates a ``/sitemap.xml`` file automatically for you. For performance "
+"reasons, this file is cached and updated every 12 hours."
+msgstr ""
+"Le plan du site indique les pages à indexer aux robots des moteurs de "
+"recherche. Odoo génère automatiquement pour vous un fichier "
+"``/sitemap.xml``. Pour des raisons de performance, ce fichier est mis en "
+"cache et mis à jour toutes les 12 heures."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:579
+msgid ""
+"By default, all URLs will be in a single ``/sitemap.xml`` file, but if you "
+"have a lot of pages, Odoo will automatically create a Sitemap Index file, "
+"respecting the `sitemaps.org protocol "
+"<http://www.sitemaps.org/protocol.html>`__ grouping sitemap URL's in 45000 "
+"chunks per file."
+msgstr ""
+"Par défaut, toutes les URLs sont dans un seul fichier ``/sitemap.xml``, mais"
+" si vous avez beaucoup de pages, Odoo créera automatiquement un fichier "
+"d'indexation sitemap, en suivant le `protocole sitemaps.org "
+"<http://www.sitemaps.org/protocol.html>`__ et en regroupant toutes les URLs "
+"en 45 000 fragments par fichier."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:585
+msgid "Every sitemap entry has 4 attributes that are computed automatically:"
+msgstr ""
+"Chaque entrée sur le plan du site possède 4 attributs qui sont calculés "
+"automatiquement :"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:587
+msgid "``<loc>`` : the URL of a page"
+msgstr "``<loc>`` : l'URL d'une page."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:589
+msgid ""
+"``<lastmod>`` : last modification date of the resource, computed "
+"automatically based on related object. For a page related to a product, this"
+" could be the last modification date of the product or the page."
+msgstr ""
+"``<lastmod>`` : date de la dernière modification d'une ressource, calculée "
+"automatiquement en fonction de l'objet associé. Pour une page en rapport "
+"avec un produit, il peut s'agir de la date de la dernière modification du "
+"produit ou de la page."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:594
+msgid ""
+"``<priority>`` : modules may implement their own priority algorithm based on"
+" their content (example: a forum might assign a priority based on the number"
+" of votes on a specific post). The priority of a static page is defined by "
+"it's priority field, which is normalized (16 is the default)."
+msgstr ""
+"``<priority>`` : les modules peuvent implémenter leur propre algorithme de "
+"priorité en fonction de leur contenu (exemple : un forum pourrait assigner "
+"une priorité en fonction du nombre de votes sur un post en particulier). La "
+"priorité d'une page statique est définie par son champ priorité, qui est "
+"normalisé (16 par défaut)."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:601
+msgid "Structured Data Markup"
+msgstr "Balisage des données structurées"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:603
+msgid ""
+"Structured Data Markup is used to generate Rich Snippets in search engine "
+"results. It is a way for website owners to send structured data to search "
+"engine robots; helping them understand your content and create well-"
+"presented search results."
+msgstr ""
+"Le balisage de données structurées est utilisé pour générer des rich "
+"snippets dans les résultats des moteurs de recherche. C'est un moyen pour "
+"les administrateurs de site Web d'envoyer des données structurées aux robots"
+" d'indexation pour les aider à comprendre votre contenu afin de créer des "
+"résultats de recherche bien présentés."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:608
+msgid ""
+"Google supports a number of rich snippets for content types, including: "
+"Reviews, People, Products, Businesses, Events and Organizations."
+msgstr ""
+"Google supporte un bon nombre de rich snippets en fonction des types de "
+"contenu, notamment : commentaires, personnes, produits, entreprises, "
+"événements et organisations."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:611
+msgid ""
+"Odoo implements micro data as defined in the `schema.org "
+"<http://schema.org>`__ specification for events, eCommerce products, forum "
+"posts and contact addresses. This allows your product pages to be displayed "
+"in Google using extra information like the price and rating of a product:"
+msgstr ""
+"Pour les événements, les produits eCommerce, les posts de forum et les "
+"adresses de contact, Odoo implémente des microdonnées comme défini dans les "
+"spécifications de `schema.org <http://schema.org>`__. Cela permet à vos "
+"pages produit d'être affichées dans Google avec des informations "
+"supplémentaires telles que le prix et la note d'un produit :"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:621
+msgid "robots.txt"
+msgstr "robots.txt"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:623
+msgid ""
+"When indexing your website, search engines take a first look at the general "
+"indexing rules of the a``/robots.txt`` file (allowed robots, sitemap path, "
+"etc.). Odoo automatically creates it. Its content is:"
+msgstr ""
+"Lors de l'indexation de votre site Web, les moteurs de recherche analysent "
+"d'abord les règles générales d'indexation du fichier ``/robots.txt`` (robots"
+" autorisés, chemin du plan du site, etc.). Odoo le génère automatiquement. "
+"Voici son contenu :"
+
+#: ../../content/applications/websites/website/optimize/seo.rst:627
+msgid "User-agent: \\* Sitemap: https://www.odoo.com/sitemap.xml"
+msgstr "User-agent: \\* Sitemap: https://www.odoo.com/sitemap.xml "
+
+#: ../../content/applications/websites/website/optimize/seo.rst:630
+msgid ""
+"It means that all robots are allowed to index your website and there is no "
+"other indexing rule than specified in the sitemap to be found at following "
+"address."
+msgstr ""
+"Cela signifie que tous les robots sont autorisés à indexer votre site Web et"
+" qu'il n'existent pas d'autres règles d'indexation que celles spécifiées sur"
+" le plan du site qui se trouve à l'adresse suivante."
+
+#: ../../content/applications/websites/website/optimize/seo.rst:634
+msgid ""
+"You can customize the file *robots* in :ref:`developer mode <developer-"
+"mode>` from *Settings --> Technical --> User Interface --> Views* (exclude "
+"robots, exclude some pages, redirect to a custom Sitemap). Make the Model "
+"Data of the view *Non Updatable* to not reset the file after system "
+"upgrades."
+msgstr ""
+"Vous pouvez personnaliser le fichier *robots* en :ref:`mode développeur "
+"<developer-mode>` à partir de *Paramètres --> Technique --> Interface "
+"utilisateur --> Vues* (exclure les robots, exclure certaines pages, "
+"rediriger vers un Sitemap personnalisé). Rendez les données du modèle de la "
+"vue *Non actualisable* pour ne pas réinitialiser le fichier après les mises "
+"à jour du système."
+
+#: ../../content/applications/websites/website/optimize/unsplash.rst:3
+msgid "Unsplash (free images)"
+msgstr "Unsplash (images gratuites)"
+
+#: ../../content/applications/websites/website/optimize/unsplash.rst:6
+msgid "Generate an Unsplash access key"
+msgstr "Générer une clé d'accès Unsplash"
+
+#: ../../content/applications/websites/website/optimize/unsplash.rst:9
+msgid ""
+"**As an Odoo Online user**, you are ready to use Unsplash. You won't need to"
+" follow this guide to set up Unsplash information since you will use our own"
+" Odoo Unsplash key in a transparent way."
+msgstr ""
+
+#: ../../content/applications/websites/website/optimize/unsplash.rst:13
+msgid "Generate an Unsplash access key for non-Odoo Online users"
+msgstr ""
+
+#: ../../content/applications/websites/website/optimize/unsplash.rst:15
+msgid "Create an account on `Unsplash.com <https://unsplash.com/join>`_."
+msgstr "Créez un compte sur `Unsplash.com <https://unsplash.com/join>`_."
+
+#: ../../content/applications/websites/website/optimize/unsplash.rst:17
+msgid ""
+"Go to your `applications dashboard "
+"<https://unsplash.com/oauth/applications>`_ and click on **New "
+"Application**."
+msgstr ""
+"Allez dans votre `tableau de bord des applications `_ et cliquez sur "
+"**Nouvelle application**."
+
+#: ../../content/applications/websites/website/optimize/unsplash.rst:23
+msgid "Accept the conditions and click on **Accept terms**."
+msgstr ""
+"Acceptez les conditions d'utilisation et cliquez sur **Accepter les "
+"conditions**."
+
+#: ../../content/applications/websites/website/optimize/unsplash.rst:28
+msgid ""
+"You will be prompted to insert an **Application name** and a "
+"**Description**. Please prefix your application name by \"**Odoo:** \" so "
+"that Unsplash can recognize it as an Odoo instance. Once done, click on "
+"**Create application**."
+msgstr ""
+"Il vous sera demandé d'insérer un **Nom d'application** et une "
+"**Description**. Veuillez faire précéder le nom de votre application par "
+"\"**Odoo:**\" afin qu'Unsplash puisse la reconnaître comme une instance "
+"Odoo. Ensuite, cliquez sur **Créer une application.**"
+
+#: ../../content/applications/websites/website/optimize/unsplash.rst:35
+msgid ""
+"You should be redirected to your application details page. Scroll down a bit"
+" to find your **access key**."
+msgstr ""
+"Vous devez être redirigé vers la page des détails de votre application. "
+"Faites défiler vers le bas pour trouver votre clé d'accès."
+
+#: ../../content/applications/websites/website/optimize/unsplash.rst:42
+msgid ""
+"**As a non-Odoo Online user**, you won't be able to register for a "
+"production Unsplash key and will be limited to your test key that has a "
+"restriction of 50 Unsplash requests per hour."
+msgstr ""
+
+#: ../../content/applications/websites/website/optimize/unsplash.rst:46
+msgid "Generate an Unsplash application ID"
+msgstr "Générer un ID pour l'application Unsplash"
+
+#: ../../content/applications/websites/website/optimize/unsplash.rst:49
+msgid "You should first create and set up your Unsplash application."
+msgstr "Vous devez d'abord créer et configurer votre application Unsplash."
+
+#: ../../content/applications/websites/website/optimize/unsplash.rst:51
+msgid ""
+"Go to your `applications dashboard "
+"<https://unsplash.com/oauth/applications>`_ and click on your newly created "
+"Unsplash application under **Your applications**."
+msgstr ""
+"Allez sur le `tableau de bord de vos applications "
+"<https://unsplash.com/oauth/applications>`_ et cliquez sur l'application "
+"Unsplash nouvellement créée dans **Vos applications**."
+
+#: ../../content/applications/websites/website/optimize/unsplash.rst:57
+msgid ""
+"You will be redirected to your application details page. The **application "
+"ID** will be visible in your browser's URL. The URL should be something like"
+" ``https://unsplash.com/oauth/applications/<application_id>``"
+msgstr ""
+"Vous serez redirigé vers la page des détails de votre application. L'**ID de"
+" l'application** sera visible dans l'URL de votre navigateur. L'URL devrait "
+"se présenter sous la forme suivante "
+"``https://unsplash.com/oauth/applications/<application_id>``"
+
+#: ../../content/applications/websites/website/optimize/unsplash.rst:65
+msgid ""
+"**As a non-Odoo Online user**, you won't be able to register for a "
+"production Unsplash key and will be limited to your test key that has a 50 "
+"Unsplash requests per hour restriction."
+msgstr ""
+
+#: ../../content/applications/websites/website/publish.rst:5
+msgid "Publish"
+msgstr "Publier"
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:3
+msgid "Manage Multi Websites"
+msgstr "Gérer des sites Web multiples"
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:8
+msgid ""
+"Odoo’s Multi-Websites opens up broad possibilities of diversification and "
+"customer segmentation for your business. A multiplied audience and boosted "
+"revenue are now just a few clicks away!"
+msgstr ""
+"Les sites Web multiples d'Odoo offrent à votre entreprise des multiples "
+"possibilités de diversification et de segmentation de la clientèle. Pour une"
+" multiplication de l'audience et une augmentation du chiffre d'affaires en "
+"quelques clics! "
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:12
+msgid ""
+"Each website can work in a fully independent way, with its theme, branding, "
+"domain name, header & footer, pages, languages, products, blog posts, forum,"
+" slides, events, live chat channels, etc. Let’s go for a tour!"
+msgstr ""
+"Chaque site Web peut fonctionner de façon complètement indépendante, avec "
+"son propre thème, logo, nom de domaine, en tête et bas de page, pages, "
+"langues, produits, blogs, forums, diapos, événements, canaux de live chat, "
+"etc. Voyons ça de plus près!"
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:20
+msgid ""
+"To create a new website, go to :menuselection:`Website --> Configuration -->"
+" Settings`. The button, *Create a new website*, lays in the first section."
+msgstr ""
+"Pour créer un nouveau site Web, allez sur :menuselection:`Site web --> "
+"Configuration --> Paramètres`. Le bouton *Créer un nouveau site Web*, se "
+"trouve dans la première partie."
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:28
+msgid ""
+"In the upcoming prompt, set a name for your new website and a specific "
+"domain name. Leave empty to publish the new website under the default domain"
+" of your Odoo database. You can later set some country groups to redirect "
+"visitors to it using Geo IP."
+msgstr ""
+"Sur l'écran suivant, définissez un nom ainsi qu'un nom de domaine pour votre"
+" site Web. Si vous désirez publier le nouveau site sous le domaine par "
+"défaut de votre base de données Odoo, laissez ce champ vide."
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:36
+msgid ""
+"Then, select a theme. This new website might have an entirely different "
+"purpose or audience than the first one. So feel free to go for a different "
+"theme!"
+msgstr ""
+"Ensuite, sélectionnez un thème. Ce nouveau site Web aura sans doute un "
+"objectif et une audience complètement différents de l'ancien. Alors, "
+"n'hésitez pas à choisir un nouveau thème!"
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:40
+msgid ""
+"Once the theme is selected, you can start to build the homepage of your "
+"website. Follow the purple drops; they will help you in the first steps."
+msgstr ""
+"Une fois que le thème est sélectionné, vous pouvez commencer à construire la"
+" page d'accueil de votre site Web. Suivez les onglets mauves, ils vous "
+"aideront à démarrer."
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:48
+msgid ""
+"If you run Odoo Online, don’t forget to redirect any new domain name to your"
+" Odoo database (``CNAME``) and to authorize it Odoo-side. See :ref:`domain-"
+"name/existing`."
+msgstr ""
+"Si vous utilisez Odoo Online, n'oubliez pas de rediriger tout nouveau nom de"
+" domaine vers votre base de données Odoo (``CNAME``) et de l'autoriser côté "
+"Odoo. Voir :ref:`domain-name/existing`."
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:52
+msgid "Create the menu"
+msgstr "Création du menu"
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:54
+msgid ""
+"The new website has a default menu with all the installed applications. To "
+"edit it, click :menuselection:`Pages --> Edit Menu`. Moving forward you only"
+" edit the menu of the current website."
+msgstr ""
+"Le nouveau site Web possède un menu par défaut qui contient toutes les "
+"applications installées. Pour l'éditer, cliquez sur :menuselection:`Pages "
+"--> Éditer menu`. Si vous continuez, vous n'éditerez que le menu du site Web"
+" en cours."
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:59
+msgid "Switch from one website to another"
+msgstr "Passer d'un site Web à un autre"
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:62
+msgid ""
+"As easy as ABC! There is a website switcher in the right corner of the edit "
+"bar. Switching to another website will connect to the domain of this "
+"website. If you use another domain for the website, the user is requested to"
+" sign in."
+msgstr ""
+"Aussi simple que de compter jusqu'à trois! Dans le coin droit de la barre "
+"d'édition, il y a un onglet de changement de site Web. Si vous choisissez un"
+" autre site, vous serez connecté au domaine de ce site. Si vous utilisez un "
+"domaine différent, l'utilisateur devra s'identifier."
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:71
+msgid ""
+"When switching, you are redirected to the same domain path on the other "
+"website (e.g., ``/shop/myproduct``). If this URL is not used, you will be "
+"redirected to a 404 page but prompted to create a new page from there."
+msgstr ""
+"Lors du changement, vous êtes redirigé vers le chemin de domaine "
+"correspondant de l'autre site Web (par ex. ``/shop/myproduct``). Si cette "
+"URL n'existe pas, vous serez redirigé vers une page 404 mais invité à créer "
+"une nouvelle page à partir de là."
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:76
+msgid "Add features"
+msgstr "Ajouter des fonctionnalités"
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:78
+msgid ""
+"The website apps you install (e.g., Slides, Blogs) are made available on all"
+" your websites. You can, of course, keep them hidden in one website by "
+"removing the menu item."
+msgstr ""
+"Les applications de site Web que vous avez installées (par ex. diapos, "
+"blogs) sont disponibles sur tous vos sites. Vous pouvez bien sûr les cacher "
+"sur l'un de vos sites en supprimant cette rubrique."
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:82
+msgid ""
+"Each website comes with a high range of specific options in the settings. "
+"First, select the website to configure."
+msgstr ""
+"Chaque site Web contient une large gamme d'options spécifiques dans ses "
+"paramètres. Pour les configurer, sélectionnez tout d'abord le site."
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:88
+msgid ""
+"Then, take a look at the options flagged with the earth icon. It means they "
+"only impact the very website you are working on."
+msgstr ""
+"Jetez ensuite un coup d’œil aux options identifiées par une icône terre. "
+"Cela signifie qu'elles impactent uniquement le site Web sur lequel vous "
+"travaillez."
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:94
+msgid "You can, for instance, set specific :"
+msgstr "Vous pouvez, par exemple, définir :"
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:96
+msgid "languages,"
+msgstr "les langues"
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:98
+msgid "domain names,"
+msgstr "les noms de domaine"
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:100
+msgid "social media links,"
+msgstr "les liens vers les réseaux sociaux"
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:102
+msgid "customer portal mode (B2C vs. B2B),"
+msgstr "le mode portail client (B2C vs. B2B)"
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:104
+msgid "dedicated live chat channels,"
+msgstr "les canaux dédiés de live chat"
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:106
+msgid "etc."
+msgstr "etc"
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:108
+msgid "The other options are global and apply to all your websites."
+msgstr ""
+"Les autres options sont générales et s'appliquent à tous vos sites Web."
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:111
+msgid "Manage domain names"
+msgstr "Gérer les noms de domaine"
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:113
+msgid ""
+"As said earlier, your websites can either share the same domain name or use "
+"a specific one. If you share it and want to adapt the content per region, "
+"set country groups in the setting of each website. Visitors will be "
+"redirected to the right website using GeoIP."
+msgstr ""
+"Comme expliqué plus haut, vos sites Web peuvent soit partager le même nom de"
+" domaine soit utiliser un nom de domaine spécifique. Si vous le partagez et "
+"souhaitez adapter le contenu par région, définissez des groupes de pays dans"
+" le cadre de chaque site Web. Les visiteurs seront redirigés vers le bon "
+"site Web grâce à la géolocalisation IP."
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:122
+msgid ""
+"Geo IP is installed by default in Odoo Online. If you run Odoo on-premise, "
+"don’t forget to install *GeoIP* library. See :doc:`on-premise_geo-ip-"
+"installation`"
+msgstr ""
+"Geo IP est installé par défaut dans Odoo Online. Si vous utilisez Odoo sur "
+"vos propres serveurs (on-premise), n'oubliez pas d'installer la bibliothèque"
+" *GeoIP*. Voir :doc:`on-premise_geo-ip-installation`."
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:127
+msgid ":doc:`/administration/maintain/domain_names`"
+msgstr ":doc:`/administration/maintain/domain_names`"
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:129
+msgid ""
+"If you setup an extra website and specify the domain name you will have to "
+"do three things to get this feature to work:"
+msgstr ""
+"Si vous configurez un site web supplémentaire et que vous spécifiez le nom "
+"de domaine, vous devrez faire trois choses pour que cette fonctionnalité "
+"fonctionne :"
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:132
+msgid ""
+"Setup an A-record in the DNS configuration of your hosting provider so that "
+"\"www.mywebsite2.ext\" is redirected to the IP of your Odoo instance."
+msgstr ""
+"Configurez un enregistrement A dans la configuration DNS de votre "
+"fournisseur d'hébergement afin que \"www.mywebsite2.ext\" soit redirigé vers"
+" l'IP de votre instance Odoo."
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:134
+msgid ""
+"Create an extra Nginx ``server`` block in which you set the ``server_name`` "
+"that you've set in the :guilabel:`Website domain` field."
+msgstr ""
+"Créez un bloc ``server`` Nginx supplémentaire dans lequel vous définissez le"
+" ``server_name`` que vous avez défini dans le champ :guilabel:``Domaine du "
+"site web``."
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:136
+msgid ""
+"Reload and restart your Nginx instance to use the new ``server`` block."
+msgstr ""
+"Rechargez et redémarrez votre instance Nginx pour utiliser le nouveau bloc "
+"``server``."
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:139
+msgid "Customize the visitor experience"
+msgstr "Personnaliser l'expérience des visiteurs"
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:142
+msgid ""
+"The customer experience can be customized very profoundly thanks to the menu"
+" \\*Customize\\*. All the visual options available there are specific to "
+"each website. Go through the different pages to adapt them to this new "
+"audience. Focus on workflows, and automatic pages (eCommerce checkout, "
+"blogs, events, etc.) as the number of available options is higher there."
+msgstr ""
+"L'expérience des visiteurs peut être personnalisée de manière très "
+"approfondie grâce au menu \\*Personnaliser\\*. Toutes les options visuelles "
+"disponibles dans ce menu sont spécifiques pour chaque site Web. Parcourez "
+"les différentes pages pour les adapter à ce nouveau public. Privilégiez les "
+"flux de travail et les pages automatiques (caisse eCommerce, blogs, "
+"événements, etc.) car le nombre d'options disponibles y est plus élevé."
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:152
+msgid "Publish specific content per website"
+msgstr "Publier un contenu spécifique par site Web"
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:155
+msgid ""
+"Like static pages, any content created from the front-end (product, blog "
+"post, etc.) is always only published in the current website. You can change "
+"that from the edit form view in the backend and leave the *Website* field "
+"blank. This will publish it in all the websites."
+msgstr ""
+"Comme pour les pages statiques, tout contenu créé à partir de l'interface "
+"(produit, article de blog, etc.) est toujours publié uniquement sur le *site"
+" Web* en cours. Vous pouvez modifier cela à partir de la vue du formulaire "
+"d'édition à l'arrière-plan et laisser le champ *Site Web* vide. Le contenu "
+"sera alors publié sur tous les sites Web."
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:163
+msgid ""
+"Here are all the objects that you can link to *either one or all the "
+"websites*:"
+msgstr ""
+"Voici tous les éléments que vous pouvez lier à *un site en particulier ou à "
+"tous les sites Web* :"
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:166
+msgid "Products"
+msgstr "Produits"
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:168
+msgid "Product Categories for eCommerce"
+msgstr "Catégorie de produits pour le eCommerce"
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:170
+msgid "Blogs"
+msgstr "Blogs"
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:172
+msgid "Slide Channels"
+msgstr "Canaux de diapositives"
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:174
+msgid "Forums"
+msgstr "Forums"
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:176
+msgid "Events"
+msgstr "Événements"
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:178
+msgid "Job Positions"
+msgstr "Postes"
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:181
+msgid ""
+"When you create the record from the backend and publish it, typically a "
+"product or an event, it is made available in all websites."
+msgstr ""
+"Lorsque vous publiez un enregistrement créé en arrière-plan, en général un "
+"produit ou un événement, il devient disponible sur tous les sites Web."
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:185
+msgid "Publish a page in all websites"
+msgstr "Publier une page sur tous les sites Web"
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:187
+msgid ""
+"A new static page is created and only made available in the current website."
+" You can duplicate it to other websites from :menuselection:`Website --> "
+"Configuration --> Pages`. To do so, leave the *Website* field empty."
+msgstr ""
+"Une nouvelle page statique est créée et rendue accessible uniquement sur le "
+"site Web en cours. Vous pouvez la dupliquer sur d'autres sites à partir de "
+":menuselection:`Site Web --> Configuration --> Pages`. Pour cela, laissez le"
+" champ *site Web* vide."
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:191
+msgid ""
+"If you want to duplicate it in just one other website, duplicate the page "
+"and set the new website."
+msgstr ""
+"Si vous voulez la dupliquer sur un autre site Web uniquement, copiez la page"
+" et configurez le nouveau site."
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:197
+msgid ""
+"When you edit the page again, the change only affects the current website. A"
+" new page is duplicated and tied up to the website. The original page still "
+"being linked to all websites."
+msgstr ""
+"Lorsque vous modifiez à nouveau la page, la modification n'affecte que le "
+"site Web en cours. Une nouvelle page est dupliquée et liée au site. La page "
+"d'origine reste liée à tous les sites Web."
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:202
+msgid ""
+"By grouping pages by URL in the page manager, you quickly find the original "
+"page behind each edited page."
+msgstr ""
+"En regroupant les pages par URL dans le gestionnaire de pages, vous "
+"retrouvez facilement la page originale derrière chaque page éditée."
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:209
+msgid "Multi-companies"
+msgstr "Multi-sociétés"
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:211
+msgid ""
+"Each website can be linked to a specific company of your system, in a multi-"
+"companies environment."
+msgstr ""
+"Dans un environnement multi-sociétés, chaque site Web peut être relié à une "
+"société spécifique de votre système."
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:217
+msgid ""
+"With such a configuration, only company-related data appear on the website "
+"(products, jobs, events, etc.)."
+msgstr ""
+"Avec une telle configuration, seules les données relatives à la société "
+"s'affichent sur le site Web (produits, emplois, événements, etc.)."
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:220
+msgid ""
+"Website editors can only view and edit the pages of the records they have "
+"access to, typically the ones belonging to their current company (and to "
+"their subsidiaries, or child companies in Odoo language). And so is it for "
+"visitors."
+msgstr ""
+"Les éditeurs du site Web ne peuvent consulter et éditer que les pages des "
+"données auxquelles ils ont accès, généralement celles appartenant à leur "
+"société actuelle (ainsi qu'à leurs sociétés affiliées ou filiales dans le "
+"language Odoo). De même pour les visiteurs.  "
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:226
+msgid ""
+"If websites are multi-companies, you don’t change company when switching "
+"websites. To change the company and see the related content, use the company"
+" selector in the menu."
+msgstr ""
+"Si les sites Web sont multi-sociétés, vous ne changez pas de société lorsque"
+" vous changez de site Web. Pour modifier la société et voir son contenu, "
+"utilisez l'onglet de sélection de société dans le menu."
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:232
+msgid "Configure your eCommerce website"
+msgstr "Configurer votre site Web eCommerce"
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:234
+msgid ""
+"eCommerce is a crucial feature in the multi-websites environment. We made it"
+" so that the entire flow can be customized to fit the very audience of each "
+"website."
+msgstr ""
+"Le eCommerce est un élément crucial de l'environnement multi-sites Web. Nous"
+" avons fait en sorte que l'ensemble du flux puisse être personnalisable pour"
+" s'adapter à tous les visiteurs de chacun des sites Web."
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:239
+msgid "Products only available on one website"
+msgstr "Des produits disponibles sur un seul site Web"
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:241
+msgid ""
+"We already saw earlier how to publish a specific record in only one website."
+" You will find the \\*Website\\* field in the eCommerce tab of the product "
+"edit form. Empty means available in all websites."
+msgstr ""
+"Nous avons déjà vu comment publier une donnée spécifique sur un seul site "
+"Web. Vous trouverez le champ \\*Site Web\\* dans l'onglet eCommerce du "
+"formulaire d'édition du produit. Un champ vide veut dire qu'il est "
+"disponible sur tous les sites Web."
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:249
+msgid "Products available on *some* websites"
+msgstr "Des produits disponibles sur *certains* sites Web"
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:251
+msgid ""
+"To make a product available on some websites, but not all of them, you "
+"should duplicate the product for each website."
+msgstr ""
+"Pour rendre un produit disponible sur certains site Web uniquement, vous "
+"devez dupliquer le produit pour chaque site."
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:254
+msgid ""
+"If you need a unique reference to manage in your inventory, you should "
+"install *Manufacturing\\ and create *Kits* BoMs (bills of materials). Each "
+"kit will link each published “virtual” product to the main reference managed"
+" in your inventory. That way, any item sold from your website will be "
+"converted into the storable item in the delivery order."
+msgstr ""
+"Si vous devez gérer une référence particulière dans votre stock, vous devez "
+"installer *Fabrication\\ et création *Kits* BoMs (nomenclatures). Chaque kit"
+" reliera chaque produit “virtuel” publié à la référence principale gérée "
+"dans votre stock. Ainsi, tout article vendu à partir de votre site Web sera "
+"converti en un article stockable sur le bon de livraison."
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:261
+msgid "Pricelists"
+msgstr "Listes de prix"
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:263
+msgid ""
+"To manage specific prices by websites, you can activate *Multiple Sales "
+"Prices per Product* in Website settings."
+msgstr ""
+"Pour gérer des prix spécifiques par site Web, activez *Divers prix de vente "
+"par produit* dans les paramètres du site."
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:266
+msgid ""
+"Then, go to :menuselection:`Website --> Products --> Pricelists` to create "
+"additional pricelists. See "
+":doc:`../../ecommerce/maximizing_revenue/pricing`."
+msgstr ""
+"Allez ensuite à :menuselection:`Site Web --> Produits --> Listes de prix` "
+"pour créer des listes de prix additionnelles. Consultez "
+":doc:`../../ecommerce/maximizing_revenue/pricing`."
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:269
+msgid ""
+"If you need help. Select a website to make a pricelist only available on "
+"this website."
+msgstr ""
+"Si vous avez besoin d'aide. Sélectionnez l'un des sites Web pour rendre une "
+"liste de prix disponible uniquement sur ce site."
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:275
+msgid ""
+"Leaving the field empty means that you make it work in all websites if "
+"*Selectable* is selected. Otherwise, it makes it only available for backend "
+"operations of Sales and Point of Sale applications."
+msgstr ""
+"Si vous laissez ce champ vide, cela signifie que vous la rendez disponible "
+"sur tous les sites Web lorsque la case *Sélectionnable* est cochée. "
+"Autrement, elle ne sera disponible que pour des opérations de vente en "
+"arrière-plan ou pour des applications point de vente."
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:280
+msgid "Payment Providers and Delivery Methods"
+msgstr ""
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:282
+msgid ""
+"By default, published payment providers and delivery methods are deployed in"
+" all websites. You could already use specific payment providers per country "
+"using Geo IP by defining countries in their configuration. Now you can also "
+"do it per website by filling in the *Website* field."
+msgstr ""
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:288
+msgid "Customer accounts"
+msgstr "Comptes client"
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:290
+msgid ""
+"There is a setting to choose how to manage customer accounts in Website "
+"settings. You can either allow customers to use one account through all the "
+"websites or compel them to create one account for each website. This last "
+"option is convenient if your websites shouldn’t be related to each other in "
+"the visitor mind."
+msgstr ""
+"Dans les paramètres du site Web vous pouvez choisir comment gérer les "
+"comptes clients. Vous pouvez soit autoriser les clients à utiliser un seul "
+"compte pour tous les sites soit les obliger à créer un compte pour chaque "
+"site. Cette dernière option est idéale si vous ne voulez pas que les "
+"visiteurs fassent un lien entre vos différents sites Web."
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:300
+msgid "Technical hints for customization"
+msgstr "Des conseils techniques pour la personnalisation"
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:302
+msgid ""
+"If you want to publish custom objects on the website, here are a few tips to"
+" make it work with multi websites:"
+msgstr ""
+"Si vous désirez publier des éléments personnalisés sur le site Web, voici "
+"quelques conseils pour les faire fonctionner avec des sites Web multiples :"
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:306
+msgid "Sitemap: don’t forget the domain in the route to only publish"
+msgstr ""
+"Plan du site : n'oubliez pas le domaine dans le routage pour ne publier "
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:306
+msgid "available records in each website’s sitemap."
+msgstr "que les données disponibles dans le plan de chaque site Web."
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:310
+msgid "Access: you should call the method"
+msgstr "Accès : vous devez le nommer"
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:309
+msgid ""
+"*can_access_from_current_website* in the controller to make sure the visitor"
+" can see a record in the current website."
+msgstr ""
+"*peut_accèder_depuis_actuel_site Web* sur l'unité de commande pour que le "
+"visiteur puisse voir un enregistrement sur le site Web en cours."
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:314
+msgid "Search: when a list of records is displayed, don’t forget to specify"
+msgstr ""
+"Recherche : lorsqu'une liste d'enregistrements est affichée, n'oubliez pas "
+"de spécifier"
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:313
+msgid "the domain to only display records available for the current website."
+msgstr ""
+"le domaine pour n'afficher que les enregistrements disponibles sur le site "
+"Web en cours."
+
+#: ../../content/applications/websites/website/publish/on-premise_geo-ip-installation.rst:3
+msgid "Geo IP Installation (On-Premises Database)"
+msgstr ""
+"Installation de la Geo IP (base de données sur vos propres serveurs, On-"
+"Premises)"
+
+#: ../../content/applications/websites/website/publish/on-premise_geo-ip-installation.rst:6
+msgid "Installation"
+msgstr "Installation"
+
+#: ../../content/applications/websites/website/publish/on-premise_geo-ip-installation.rst:9
+msgid ""
+"Please note that the installation depends on your computer's operating "
+"system and distribution. We will assume that a Linux operating system is "
+"being used."
+msgstr ""
+"Veuillez noter que l'installation dépend du système d'exploitation et de la "
+"distribution de votre ordinateur. Nous supposerons que vous utilisez un "
+"système d'exploitation Linux."
+
+#: ../../content/applications/websites/website/publish/on-premise_geo-ip-installation.rst:15
+msgid "Install `geoip2 <https://pypi.org/project/geoip2/>`__ Python library"
+msgstr ""
+"Installer la bibliothèque Python de `geoip2 "
+"<https://pypi.org/project/geoip2/>`__ "
+
+#: ../../content/applications/websites/website/publish/on-premise_geo-ip-installation.rst:17
+msgid ""
+"Download the `GeoLite2 City database "
+"<https://dev.maxmind.com/geoip/geoip2/geolite2/>`_. You should end up with a"
+" file called ``GeoLite2-City.mmdb``"
+msgstr ""
+"Télécharger la `base de données GeoLite2 City  "
+"<https://dev.maxmind.com/geoip/geoip2/geolite2/>`_. Vous devriez obtenir un "
+"fichier appelé \"GeoLite2-City.mmdb\"."
+
+#: ../../content/applications/websites/website/publish/on-premise_geo-ip-installation.rst:22
+msgid "Move the file to the folder ``/usr/share/GeoIP/``"
+msgstr "Déplacez le fichier dans le dossier ``/usr/share/GeoIP/``"
+
+#: ../../content/applications/websites/website/publish/on-premise_geo-ip-installation.rst:24
+msgid "Restart the server"
+msgstr "Redémarrer le serveur"
+
+#: ../../content/applications/websites/website/publish/on-premise_geo-ip-installation.rst:27
+msgid ""
+"If you can't/don't want to locate the geoip database in "
+"``/usr/share/GeoIP/``, you can use the ``--geoip-db`` option of the Odoo "
+"command line interface. This option takes the absolute path to the GeoIP "
+"database file and uses it as the GeoIP database. For example:"
+msgstr ""
+"Si vous ne pouvez pas/ne voulez pas localiser la base de données GeoIP dans "
+"``/usr/share/GeoIP/``, vous pouvez utiliser l'option ``--geoip-db`` de "
+"l'interface de ligne de commande de Odoo. Cette option prend le chemin "
+"absolu vers le fichier de la base de données GeoIP et l'utilise comme base "
+"de données GeoIP. Par exemple :"
+
+#: ../../content/applications/websites/website/publish/on-premise_geo-ip-installation.rst:36
+msgid ":doc:`CLI documentation </developer/cli>`."
+msgstr ":doc:`documentation CLI </developer/cli>`."
+
+#: ../../content/applications/websites/website/publish/on-premise_geo-ip-installation.rst:39
+msgid ""
+"``GeoIP`` Python library can also be used. However this version is "
+"discontinued since January 1.    See `GeoLite Legacy databases are now "
+"discontinued <https://support.maxmind.com/geolite-legacy-discontinuation-"
+"notice/>`_"
+msgstr ""
+"La bibliothèque Python ``GeoIP`` peut également être utilisée. Cependant "
+"cette version est abandonnée depuis le 1er janvier. Voir `Les bases de "
+"données GeoLite Legacy sont désormais abandonnées. "
+"<https://support.maxmind.com/geolite-legacy-discontinuation-notice/>`_"
+
+#: ../../content/applications/websites/website/publish/on-premise_geo-ip-installation.rst:44
+msgid "How To Test GeoIP Geolocation In Your Odoo Website"
+msgstr "Comment tester la géolocalisation GeoIP dans votre site web Odoo"
+
+#: ../../content/applications/websites/website/publish/on-premise_geo-ip-installation.rst:45
+msgid "Go to your website. Open the web page that you want to test ``GeoIP``."
+msgstr ""
+"Allez sur votre site web. Ouvrez la page web que vous voulez tester pour la "
+"``GeoIP``."
+
+#: ../../content/applications/websites/website/publish/on-premise_geo-ip-installation.rst:46
+msgid "Choose :menuselection:`Customize --> HTML/CSS/JS Editor`."
+msgstr "Choisissez :menuselection:`Personnaliser --> HTML/CSS/JS Editor`."
+
+#: ../../content/applications/websites/website/publish/on-premise_geo-ip-installation.rst:47
+msgid "Add the following piece of XML in the page :"
+msgstr "Ajoutez le morceau de XML suivant dans la page :"
+
+#: ../../content/applications/websites/website/publish/on-premise_geo-ip-installation.rst:53
+msgid ""
+"You should end up with a dictionary indicating the location of the IP "
+"address."
+msgstr ""
+"Vous devriez vous retrouver avec un dictionnaire indiquant l'emplacement de "
+"l'adresse IP."
+
+#: ../../content/applications/websites/website/publish/on-premise_geo-ip-installation.rst:59
+msgid ""
+"If the curly braces are empty ``{}``, it can be for any of the following "
+"reasons :"
+msgstr ""
+"Si les accolades sont vides ``{}``, cela peut être pour l'une des raisons "
+"suivantes :"
+
+#: ../../content/applications/websites/website/publish/on-premise_geo-ip-installation.rst:61
+msgid ""
+"The browsing IP address is the localhost (``127.0.0.1``) or a local area "
+"network one (``192.168.*.*``)"
+msgstr ""
+"L'adresse IP de navigation est le localhost (127.0.0.1) ou un réseau local "
+"(192.168.*.*)."
+
+#: ../../content/applications/websites/website/publish/on-premise_geo-ip-installation.rst:62
+msgid ""
+"If a reversed proxy is used, make sure to configure it correctly. See "
+":option:`proxy mode <odoo-bin --proxy-mode>`"
+msgstr ""
+"Si un proxy inversé est utilisé, assurez-vous de le configurer correctement."
+" Voir :option:`mode proxy <odoo-bin --proxy-mode>`."
+
+#: ../../content/applications/websites/website/publish/on-premise_geo-ip-installation.rst:63
+msgid "``geoip2`` is not installed or the GeoIP database file wasn't found"
+msgstr ""
+"``geoip2`` n'est pas installé ou le fichier de la base de données GeoIP n'a "
+"pas été trouvé"
+
+#: ../../content/applications/websites/website/publish/on-premise_geo-ip-installation.rst:64
+msgid "The GeoIP database was unable to resolve the given IP address"
+msgstr "La base de données GeoIP n'a pas pu résoudre l'adresse IP donnée."
+
+#: ../../content/applications/websites/website/publish/translate.rst:3
+msgid "How to translate my website"
+msgstr "Comment traduire mon site Web"
+
+#: ../../content/applications/websites/website/publish/translate.rst:8
+msgid ""
+"In addition to creating great modern websites, Odoo gives you the "
+"possibility to translate it in different languages."
+msgstr ""
+"En plus de pouvoir créer des sites modernes, Odoo vous donne la possibilité "
+"de les traduire en différentes langues."
+
+#: ../../content/applications/websites/website/publish/translate.rst:12
+msgid "Process"
+msgstr "Processus"
+
+#: ../../content/applications/websites/website/publish/translate.rst:14
+msgid ""
+"Once your website is created, you have the opportunity to translate it in as"
+" many different languages as you want."
+msgstr ""
+"Une fois votre site Web créé, vous avez l'opportunité de le traduire en "
+"autant de langues que vous le souhaitez."
+
+#: ../../content/applications/websites/website/publish/translate.rst:17
+msgid "You can only translate your website manually, follow the next step."
+msgstr ""
+"Vous ne pouvez traduire votre site web que manuellement, suivez l'étape "
+"suivante."
+
+#: ../../content/applications/websites/website/publish/translate.rst:19
+msgid ""
+"Now go to your website. On the bottom right corner of the page, click on "
+"**Add a language**."
+msgstr ""
+"Ensuite, allez sur votre site Web. Dans le coin inférieur droit de la page, "
+"cliquez sur **Ajouter une langue**."
+
+#: ../../content/applications/websites/website/publish/translate.rst:25
+msgid ""
+"Choose the language in which you want to translate your website and then "
+"click on **Load.**"
+msgstr ""
+"Choisissez la langue vers laquelle vous voulez traduire votre site Web puis "
+"cliquez sur **Télecharger.**"
+
+#: ../../content/applications/websites/website/publish/translate.rst:31
+msgid ""
+"You will see that Now, next to English there is also French, which means "
+"that the page for the translation has been created. You can also see that "
+"some of the text has been translated automatically."
+msgstr ""
+"Vous verrez que maintenant Français apparaît à côté de English, ce qui "
+"signifie que la page pour la traduction a été créée. Vous pouvez aussi voir "
+"qu'une partie du texte a été traduite automatiquement."
+
+#: ../../content/applications/websites/website/publish/translate.rst:38
+msgid ""
+"To translate the content of the website, click on **Translate** (here "
+"**Traduire** since we want to translate the website in French)."
+msgstr ""
+"Pour traduire le contenu de votre site Web, cliquez sur **Traduire**, "
+"cliquez sur **Traduire** (**Traduire** car nous voulons traduire notre site "
+"vers le français)."
