@@ -1,0 +1,9 @@
+*.pyc
+.*
+*.mo
+
+# Sphinx build files
+_build/
+
+# Dependencies
+odoo
