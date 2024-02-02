@@ -1,0 +1,10 @@
+*.pyc
+.*
+*.mo
+
+# sphinx build directories
+_build/
+# venv
+bin/
+include/
+lib/
