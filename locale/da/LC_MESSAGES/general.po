@@ -1,0 +1,4284 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Odoo S.A.
+# This file is distributed under the same license as the Odoo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# jonas jensen <j.jensen@tcomp.dk>, 2020
+# Pernille Kristensen <pernillekristensen1994@gmail.com>, 2020
+# lhmflexerp <lhm@flexerp.dk>, 2020
+# JonathanStein <jstein@image.dk>, 2021
+# Mads Søndergaard, 2021
+# Mads Søndergaard, 2021
+# Martin Trigaux, 2021
+# Sanne Kristensen <sanne@vkdata.dk>, 2021
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-08-10 09:10+0000\n"
+"PO-Revision-Date: 2020-09-22 14:40+0000\n"
+"Last-Translator: Sanne Kristensen <sanne@vkdata.dk>, 2021\n"
+"Language-Team: Danish (https://www.transifex.com/odoo/teams/41243/da/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: da\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../content/applications/general.rst:3
+msgid "Miscellaneous"
+msgstr "Diverse"
+
+#: ../../content/applications/general/apps_modules.rst:3
+msgid "Apps and modules"
+msgstr ""
+
+#: ../../content/applications/general/apps_modules.rst:5
+msgid ""
+"You can :ref:`install <general/install>`, :ref:`upgrade <general/upgrade>` "
+"and :ref:`uninstall <general/uninstall>` all apps and modules from the "
+":menuselection:`Apps` dashboard."
+msgstr ""
+
+#: ../../content/applications/general/apps_modules.rst:8
+msgid ""
+"By default, an *Apps* filter is applied. If you want to search for modules, "
+"click on *Filters* and select *Extra*."
+msgstr ""
+
+#: ../../content/applications/general/apps_modules.rst:16
+msgid ""
+"Odoo is *not a smartphone*, and its apps shouldn't be installed or "
+"uninstalled carelessly. Apply caution when adding or removing apps and "
+"modules on your database since this may impact your subscription costs."
+msgstr ""
+
+#: ../../content/applications/general/apps_modules.rst:0
+msgid "**Installing or uninstalling apps and managing users is up to you.**"
+msgstr ""
+
+#: ../../content/applications/general/apps_modules.rst:0
+msgid ""
+"As the administrator of your database, you are responsible for its usage, as"
+" you know best how your organization works."
+msgstr ""
+
+#: ../../content/applications/general/apps_modules.rst:0
+msgid "**Odoo apps have dependencies.**"
+msgstr ""
+
+#: ../../content/applications/general/apps_modules.rst:0
+msgid ""
+"Installing some apps and features with dependencies may also install "
+"additional apps and modules that are technically required, even if you won't"
+" actively use them."
+msgstr ""
+
+#: ../../content/applications/general/apps_modules.rst:0
+msgid "**Test app installation/removal on a duplicate of your database.**"
+msgstr ""
+
+#: ../../content/applications/general/apps_modules.rst:0
+msgid ""
+"This way, you can know what app dependencies may be required or what data "
+"may be erased."
+msgstr ""
+
+#: ../../content/applications/general/apps_modules.rst:32
+msgid "Install apps and modules"
+msgstr ""
+
+#: ../../content/applications/general/apps_modules.rst:34
+msgid ""
+"Go to :menuselection:`Apps`, and click on the *Install* button of the app "
+"you want to install."
+msgstr ""
+
+#: ../../content/applications/general/apps_modules.rst:37
+msgid ""
+"If the module you are looking for is not listed, you can **update the app "
+"list**."
+msgstr ""
+
+#: ../../content/applications/general/apps_modules.rst:39
+msgid ""
+"To do so, activate the :ref:`developer mode <developer-mode>`, then go to "
+":menuselection:`Apps --> Update Apps List` and click on *Update*."
+msgstr ""
+
+#: ../../content/applications/general/apps_modules.rst:45
+msgid "Upgrade apps and modules"
+msgstr ""
+
+#: ../../content/applications/general/apps_modules.rst:47
+msgid ""
+"On some occasions, new improvements or app features are added to "
+":doc:`supported versions of Odoo "
+"</administration/maintain/supported_versions>`. To be able to use them, you "
+"must **upgrade** your app."
+msgstr ""
+
+#: ../../content/applications/general/apps_modules.rst:50
+msgid ""
+"Go to :menuselection:`Apps`, click on the *dropdown menu* of the app you "
+"want to upgrade, then on *Upgrade*."
+msgstr ""
+
+#: ../../content/applications/general/apps_modules.rst:56
+msgid "Uninstall apps and modules"
+msgstr ""
+
+#: ../../content/applications/general/apps_modules.rst:58
+msgid ""
+"Go to :menuselection:`Apps`, click on the *dropdown menu* of the app you "
+"want to uninstall, then on *Uninstall*."
+msgstr ""
+
+#: ../../content/applications/general/apps_modules.rst:64
+msgid ""
+"Some apps have dependencies, meaning that one app requires another. "
+"Therefore, uninstalling one app may uninstall multiple apps and modules. "
+"Odoo warns you which dependant apps and modules are affected by it."
+msgstr ""
+
+#: ../../content/applications/general/apps_modules.rst:71
+msgid "To complete the uninstallation, click on *Confirm*."
+msgstr ""
+
+#: ../../content/applications/general/apps_modules.rst:74
+msgid ""
+"Uninstalling an app also uninstalls all its dependencies and permanently "
+"erases their data."
+msgstr ""
+
+#: ../../content/applications/general/auth.rst:5
+msgid "Authentication"
+msgstr "Godkendelse"
+
+#: ../../content/applications/general/auth/2fa.rst:3
+msgid "Two-factor Authentication"
+msgstr "To-faktor Autentificering"
+
+#: ../../content/applications/general/auth/2fa.rst:5
+msgid ""
+"Two-factor authentication (\"2FA\") is a good way to improve the security of"
+" an account, to make it less likely that an other person will manage to log "
+"in instead of you."
+msgstr ""
+
+#: ../../content/applications/general/auth/2fa.rst:9
+msgid ""
+"Practically, it means storing a secret inside an *authenticator* (usually "
+"your cell phone) and exchanging a code from the authenticator when you try "
+"to log in."
+msgstr ""
+
+#: ../../content/applications/general/auth/2fa.rst:13
+msgid ""
+"This means an attacker needs *both* to have guessed (or found) your password"
+" and to access (or steal) your authenticator, a more difficult proposition "
+"than either one or the other."
+msgstr ""
+
+#: ../../content/applications/general/auth/2fa.rst:18
+msgid "Requirements"
+msgstr "Krav"
+
+#: ../../content/applications/general/auth/2fa.rst:20
+msgid ""
+"These lists are just examples, they are not endorsements of any specific "
+"software."
+msgstr ""
+
+#: ../../content/applications/general/auth/2fa.rst:23
+msgid ""
+"If you don't already have one, you will need to choose an authenticator."
+msgstr ""
+
+#: ../../content/applications/general/auth/2fa.rst:26
+msgid ""
+"Phone-based authenticators are the easiest and most common so we will assume"
+" you'll pick and install one on your phone, examples include `Authy "
+"<https://authy.com/>`_, `FreeOTP <https://freeotp.github.io/>`_, `Google "
+"Authenticator <https://support.google.com/accounts/answer/1066447?hl=en>`_, "
+"`LastPass Authenticator <https://lastpass.com/auth/>`_, `Microsoft "
+"Authenticator <https://www.microsoft.com/en-"
+"gb/account/authenticator?cmp=h66ftb_42hbak>`_, ...; password managers also "
+"commonly include :abbr:`2FA (two-factor authentication)` support e.g. "
+"`1Password <https://support.1password.com/one-time-passwords/>`_, `Bitwarden"
+" <https://bitwarden.com/help/article/authenticator-keys/>`_, ..."
+msgstr ""
+
+#: ../../content/applications/general/auth/2fa.rst:39
+msgid ""
+"For the sake of demonstration we will be using Google Authenticator (not "
+"because it is any good but because it is quite common)."
+msgstr ""
+
+#: ../../content/applications/general/auth/2fa.rst:43
+msgid "Setting up two-factor authentication"
+msgstr ""
+
+#: ../../content/applications/general/auth/2fa.rst:45
+msgid ""
+"Once you have your authenticator of choice, go to the Odoo instance you want"
+" to setup :abbr:`2FA (two-factor authentication)`, then open "
+":guilabel:`Preferences` (or :guilabel:`My Profile`):"
+msgstr ""
+
+#: ../../content/applications/general/auth/2fa.rst:52
+msgid ""
+"Open the :guilabel:`Account Security` tab, then click the :guilabel:`Enable "
+"two-factor authentication` button:"
+msgstr ""
+
+#: ../../content/applications/general/auth/2fa.rst:58
+msgid ""
+"Because this is a security-sensitive action, you will need to input your "
+"password:"
+msgstr ""
+
+#: ../../content/applications/general/auth/2fa.rst:64
+msgid "After which you will see this screen with a barcode:"
+msgstr ""
+
+#: ../../content/applications/general/auth/2fa.rst:69
+msgid ""
+"In most applications, you can simply *scan the barcode* via the "
+"authenticator of your choice, the authenticator will then take care of all "
+"the setup:"
+msgstr ""
+
+#: ../../content/applications/general/auth/2fa.rst:78
+msgid ""
+"If you can not scan the screen (e.g. because you are doing this set-up on "
+"the same phone as the authenticator application), you can click the provided"
+" link, or copy the secret to manually set-up your authenticator:"
+msgstr ""
+
+#: ../../content/applications/general/auth/2fa.rst:89
+msgid ""
+"Once this is done, the authenticator should display a *verification code* "
+"with some useful identifying information (e.g. the domain and login for "
+"which the code is):"
+msgstr ""
+
+#: ../../content/applications/general/auth/2fa.rst:96
+msgid ""
+"You can now input the code into the :guilabel:`Verification Code` field, "
+"then click the :guilabel:`Enable two-factor authentication` button."
+msgstr ""
+
+#: ../../content/applications/general/auth/2fa.rst:100
+msgid ""
+"Congratulation, your account is now protected by two-factor authentication!"
+msgstr ""
+
+#: ../../content/applications/general/auth/2fa.rst:107
+msgid "Logging in"
+msgstr ""
+
+#: ../../content/applications/general/auth/2fa.rst:109
+msgid "You should now :guilabel:`Log out` to follow along."
+msgstr ""
+
+#: ../../content/applications/general/auth/2fa.rst:111
+msgid ""
+"On the login page, input the username and password of the account for which "
+"you set up :abbr:`2FA (two-factor authentication)`, rather than immediately "
+"enter Odoo you will now get a second log-in screen:"
+msgstr ""
+
+#: ../../content/applications/general/auth/2fa.rst:118
+msgid ""
+"Get your authenticator, input the code it provides for the domain and "
+"account, validate, and you're now in."
+msgstr ""
+
+#: ../../content/applications/general/auth/2fa.rst:121
+msgid ""
+"And that's it. From now on, unless you disable :abbr:`2FA (two-factor "
+"authentication)` you will have a two-step log-in process rather than the old"
+" one-step process."
+msgstr ""
+
+#: ../../content/applications/general/auth/2fa.rst:125
+msgid ""
+"Don't lose your authenticator, if you do, you will need an *Odoo "
+"Administrator* to disable :abbr:`2FA (two-factor authentication)` on the "
+"account."
+msgstr ""
+
+#: ../../content/applications/general/auth/azure.rst:3
+msgid "OAuth"
+msgstr "OAuth"
+
+#: ../../content/applications/general/auth/azure.rst:5
+msgid ""
+"Due to specific requirements in Azure's OAuth implementation, Microsoft "
+"Azure OAuth identification is NOT compatible with Odoo at the moment."
+msgstr ""
+"På grund af specifikke krav i Azure OAuths implementation, er Microsoft "
+"Azure OAuth identifikation i øjeblikket IKKE kompatibel med Odoo."
+
+#: ../../content/applications/general/auth/google.rst:3
+msgid "Google Sign-In Authentication"
+msgstr ""
+
+#: ../../content/applications/general/auth/google.rst:5
+msgid ""
+"The **Google Sign-In Authentication** is a useful function that allows your "
+"users to sign in to Odoo with their Google account."
+msgstr ""
+
+#: ../../content/applications/general/auth/google.rst:8
+msgid ""
+"This is particularly helpful if your organization uses Google Workforce and "
+"you want the employees within your organization to connect to Odoo with "
+"their Google Accounts."
+msgstr ""
+
+#: ../../content/applications/general/auth/google.rst:14
+#: ../../content/applications/general/payment_acquirers.rst:97
+#: ../../content/applications/general/voip/axivox.rst:16
+#: ../../content/applications/general/voip/onsip.rst:13
+msgid "Configuration"
+msgstr "Konfiguration"
+
+#: ../../content/applications/general/auth/google.rst:16
+msgid ""
+"The integration of the Google sign-in function requires configuration both "
+"on Google and on Odoo."
+msgstr ""
+
+#: ../../content/applications/general/auth/google.rst:21
+msgid "Google API Dashboard"
+msgstr ""
+
+#: ../../content/applications/general/auth/google.rst:23
+msgid ""
+"Go to the `Google API Dashboard <https://console.developers.google.com/>`_."
+msgstr ""
+
+#: ../../content/applications/general/auth/google.rst:24
+msgid ""
+"Make sure the right project is opened. If you don't have a project yet, "
+"click on *Create Project*, fill out the project name and other details of "
+"your company, and click on *Create*."
+msgstr ""
+
+#: ../../content/applications/general/auth/google.rst:32
+msgid "Choose the name of your own company from the drop-down menu."
+msgstr ""
+
+#: ../../content/applications/general/auth/google.rst:37
+msgid "OAuth consent screen"
+msgstr ""
+
+#: ../../content/applications/general/auth/google.rst:39
+msgid "On the left side menu, click on :menuselection:`OAuth consent screen`."
+msgstr ""
+
+#: ../../content/applications/general/auth/google.rst:45
+msgid ""
+"Choose one of the options **(Internal / External)** as instructed, and click"
+" on *Create*."
+msgstr ""
+
+#: ../../content/applications/general/auth/google.rst:51
+msgid ""
+"Fill out your details and domain info, then click on *Save and Continue*."
+msgstr ""
+
+#: ../../content/applications/general/auth/google.rst:52
+msgid ""
+"On the **Scopes** page, leave all fields as is, and click on *Save and "
+"Continue*."
+msgstr ""
+
+#: ../../content/applications/general/auth/google.rst:57
+#: ../../content/applications/general/payment_acquirers/authorize.rst:54
+#: ../../content/applications/general/payment_acquirers/paypal.rst:133
+msgid "Credentials"
+msgstr "Kortoplysninger"
+
+#: ../../content/applications/general/auth/google.rst:59
+msgid "On the left side menu, click on :menuselection:`Credentials`."
+msgstr ""
+
+#: ../../content/applications/general/auth/google.rst:65
+msgid "Click on *Create Credentials* and select **OAuth client ID**."
+msgstr ""
+
+#: ../../content/applications/general/auth/google.rst:71
+msgid ""
+"Select **Web Application** as the Application type. Now configure the "
+"allowed pages on which you will be redirected."
+msgstr ""
+
+#: ../../content/applications/general/auth/google.rst:74
+msgid ""
+"In order to achieve this, in the **Authorized redirect URIs** field, enter "
+"your database's domain immediately followed by ``/auth_oauth/signin``. For "
+"example: ``https://mydomain.odoo.com/auth_oauth/signin``, then click on "
+"*Create*."
+msgstr ""
+
+#: ../../content/applications/general/auth/google.rst:85
+msgid "Google Authentication on Odoo"
+msgstr ""
+
+#: ../../content/applications/general/auth/google.rst:90
+msgid "Retrieve the Client ID"
+msgstr ""
+
+#: ../../content/applications/general/auth/google.rst:92
+msgid ""
+"Once you have done the previous steps, two keys are generated on the Google "
+"API Dashboard: *Client ID* and *Client Secret*. Copy the *Client ID*."
+msgstr ""
+
+#: ../../content/applications/general/auth/google.rst:102
+msgid "Odoo activation"
+msgstr ""
+
+#: ../../content/applications/general/auth/google.rst:104
+msgid ""
+"Go to :menuselection:`Odoo General Settings --> Integrations` and activate "
+"**OAuth Authentication**."
+msgstr ""
+
+#: ../../content/applications/general/auth/google.rst:108
+msgid "You may have to log in again after this step."
+msgstr ""
+
+#: ../../content/applications/general/auth/google.rst:110
+msgid ""
+"Go back to :menuselection:`General Settings --> Integrations`, activate "
+"**Google Authentication**, then fill out the *Client ID* with the key from "
+"the Google API Dashboard, and *Save*."
+msgstr ""
+
+#: ../../content/applications/general/auth/google.rst:121
+msgid "Log in to Odoo with Google"
+msgstr ""
+
+#: ../../content/applications/general/auth/google.rst:123
+msgid ""
+"To link your Google account to your Odoo profile, click on *Log in with "
+"Google* when you are asked to choose a new password."
+msgstr ""
+
+#: ../../content/applications/general/auth/google.rst:130
+msgid ""
+"Existing users must :ref:`reset their password <users/reset-password>` to "
+"access the *reset password* page, while new users can directly click on *Log"
+" in with Google* instead of choosing a new password."
+msgstr ""
+
+#: ../../content/applications/general/auth/google.rst:135
+msgid ""
+"`Google Cloud Platform Console Help - Setting up OAuth 2.0 "
+"<https://support.google.com/cloud/answer/6158849>`_"
+msgstr ""
+
+#: ../../content/applications/general/auth/ldap.rst:3
+msgid "Sign in with LDAP"
+msgstr ""
+
+#: ../../content/applications/general/auth/ldap.rst:5
+msgid "Install the LDAP module in General Settings."
+msgstr "Installér LDAP modulet i Generelle Indstillinger."
+
+#: ../../content/applications/general/auth/ldap.rst:7
+msgid "Click on **Create** in Setup your LDAP Server."
+msgstr "Klik på **Opret** i Opsæt din LDAP Server."
+
+#: ../../content/applications/general/auth/ldap.rst:15
+msgid "Choose the company about to use the LDAP."
+msgstr "Vælg virksomheden som skal til at anvende LDAP."
+
+#: ../../content/applications/general/auth/ldap.rst:20
+msgid ""
+"In **Server Information**, enter the IP address of your server and the port "
+"it listens to."
+msgstr ""
+"Under **Server Information** angives IP addressen til din server, og porten "
+"der skal lyttes til."
+
+#: ../../content/applications/general/auth/ldap.rst:22
+msgid "Tick **User TLS** if your server is compatible."
+msgstr "Markér **Bruger TLS** hvis din server er kompatibel."
+
+#: ../../content/applications/general/auth/ldap.rst:27
+msgid ""
+"In **Login Information**, enter ID and password of the account used to query"
+" the server. If left empty, the server will be queried anonymously."
+msgstr ""
+"Under **Login Information**, angiv ID og kodeord på kontoen der anvendes til"
+" at sende forespørgsler til serveren. Hvis disse er tomme, vil serveren "
+"blive forespurgt anonymt."
+
+#: ../../content/applications/general/auth/ldap.rst:32
+msgid ""
+"In **Process Parameter**, enter the domain name of your LDAP server in LDAP "
+"nomenclature (e.g. ``dc=example,dc=com``)."
+msgstr ""
+"Angiv domænenavnet på din LDAP server i LDAP nomenklatur (f.eks. "
+"``dc=example,dc=com``) i **Process Parametre**."
+
+#: ../../content/applications/general/auth/ldap.rst:34
+msgid "In **LDAP filter**, enter ``uid=%s``"
+msgstr "I **LDAP filter**, angiv ``uid=%s``"
+
+#: ../../content/applications/general/auth/ldap.rst:39
+msgid ""
+"In **User Information**, tick *Create User* if you want Odoo to create a "
+"User profile the first time someone log in with LDAP."
+msgstr ""
+"I **Bruger Information**, kryds *Opret Bruger* af hvis du ønsker at Odoo "
+"opretter en Bruger profil første gang nogen logger ind med LDAP."
+
+#: ../../content/applications/general/auth/ldap.rst:41
+msgid ""
+"In **Template User**, indicate a template for the new profiles created. If "
+"left blanked, the admin profile will be used as template."
+msgstr ""
+"I **Skabelon Bruger**, angiv en skabelon for nyoprettede profiler. Hvis "
+"denne efterlades tom, vil administrator profilen blive brugt som skabelon."
+
+#: ../../content/applications/general/calendars.rst:5
+msgid "Calendars"
+msgstr ""
+
+#: ../../content/applications/general/calendars/google/google_calendar_credentials.rst:3
+msgid "Synchronize Google Calendar with Odoo"
+msgstr ""
+
+#: ../../content/applications/general/calendars/google/google_calendar_credentials.rst:5
+msgid ""
+"Odoo is perfectly integrated with Google Calendar so that you can see & "
+"manage your meetings from both platforms (updates go through both "
+"directions)."
+msgstr ""
+
+#: ../../content/applications/general/calendars/google/google_calendar_credentials.rst:10
+msgid "Setup in Google"
+msgstr ""
+
+#: ../../content/applications/general/calendars/google/google_calendar_credentials.rst:11
+msgid ""
+"Go to `Google APIs platform <https://console.developers.google.com>`__ to "
+"generate Google Calendar API credentials. Log in with your Google account."
+msgstr ""
+
+#: ../../content/applications/general/calendars/google/google_calendar_credentials.rst:14
+msgid "Go to the API & Services page."
+msgstr ""
+
+#: ../../content/applications/general/calendars/google/google_calendar_credentials.rst:19
+msgid "Search for *Google Calendar API* and select it."
+msgstr ""
+
+#: ../../content/applications/general/calendars/google/google_calendar_credentials.rst:27
+msgid "Enable the API."
+msgstr "Aktiver API'en."
+
+#: ../../content/applications/general/calendars/google/google_calendar_credentials.rst:32
+msgid ""
+"Select or create an API project to store the credentials if not yet done "
+"before. Give it an explicit name (e.g. Odoo Sync)."
+msgstr ""
+
+#: ../../content/applications/general/calendars/google/google_calendar_credentials.rst:35
+msgid "Create credentials."
+msgstr ""
+
+#: ../../content/applications/general/calendars/google/google_calendar_credentials.rst:40
+msgid ""
+"Select *Web browser (Javascript)* as calling source and *User data* as kind "
+"of data."
+msgstr ""
+"Vælg *Web browser (Javascript)* som kalds kilde, og *Bruger data* som slags "
+"på data."
+
+#: ../../content/applications/general/calendars/google/google_calendar_credentials.rst:46
+msgid ""
+"Then you can create a Client ID. Enter the name of the application (e.g. "
+"Odoo Calendar) and the allowed pages on which you will be redirected. The "
+"*Authorized JavaScript origin* is your Odoo's instance URL. The *Authorized "
+"redirect URI* is your Odoo's instance URL followed by "
+"'/google_account/authentication'."
+msgstr ""
+
+#: ../../content/applications/general/calendars/google/google_calendar_credentials.rst:55
+msgid ""
+"Go through the Consent Screen step by entering a product name (e.g. Odoo "
+"Calendar). Feel free to check the customizations options but this is not "
+"mandatory. The Consent Screen will only show up when you enter the Client ID"
+" in Odoo for the first time."
+msgstr ""
+
+#: ../../content/applications/general/calendars/google/google_calendar_credentials.rst:60
+msgid ""
+"Finally you are provided with your **Client ID**. Go to *Credentials* to get"
+" the **Client Secret** as well. Both of them are required in Odoo."
+msgstr ""
+
+#: ../../content/applications/general/calendars/google/google_calendar_credentials.rst:67
+msgid "Setup in Odoo"
+msgstr ""
+
+#: ../../content/applications/general/calendars/google/google_calendar_credentials.rst:69
+msgid ""
+"Install the **Google Calendar** App from the *Apps* menu or by checking the "
+"option in :menuselection:`Settings --> General Settings`."
+msgstr ""
+
+#: ../../content/applications/general/calendars/google/google_calendar_credentials.rst:75
+msgid ""
+"Go to :menuselection:`Settings --> General Settings` and enter your **Client"
+" ID** and **Client Secret** in Google Calendar option."
+msgstr ""
+
+#: ../../content/applications/general/calendars/google/google_calendar_credentials.rst:81
+msgid ""
+"The setup is now ready. Open your Odoo Calendar and sync with Google. The "
+"first time you do it you are redirected to Google to authorize the "
+"connection. Once back in Odoo, click the sync button again. You can click it"
+" whenever you want to synchronize your calendar."
+msgstr ""
+
+#: ../../content/applications/general/calendars/google/google_calendar_credentials.rst:89
+msgid "As of now you no longer have excuses to miss a meeting!"
+msgstr ""
+
+#: ../../content/applications/general/calendars/outlook/outlook_calendar.rst:3
+msgid "Synchronization with Outlook's Calendar"
+msgstr ""
+
+#: ../../content/applications/general/calendars/outlook/outlook_calendar.rst:5
+msgid ""
+"Synchronizing your **main** Outlook Calendar with Odoo is useful to keep "
+"track of your tasks and appointments, and across all related applications."
+msgstr ""
+
+#: ../../content/applications/general/calendars/outlook/outlook_calendar.rst:9
+msgid "Register your application with the Microsoft identity platform"
+msgstr ""
+
+#: ../../content/applications/general/calendars/outlook/outlook_calendar.rst:13
+msgid ""
+"In order to be able to sync your Outlook Calendar with Odoo's Calendar, a "
+"Microsoft Azure account is needed. The creation of an account is free for "
+"users that have never tried or paid for Azure. For more information, `click "
+"here <https://azure.microsoft.com/en-us/free/?WT.mc_id=A261C142F>`_."
+msgstr ""
+
+#: ../../content/applications/general/calendars/outlook/outlook_calendar.rst:15
+msgid ""
+"Following, `Set up an Azure AD Tenant <https://docs.microsoft.com/en-"
+"us/azure/active-directory/develop/quickstart-create-new-tenant>`_, also "
+"called environment, which is a representation of an organization, to manage "
+"and register apps."
+msgstr ""
+
+#: ../../content/applications/general/calendars/outlook/outlook_calendar.rst:17
+msgid ""
+"Ultimately, `Register an Application <https://docs.microsoft.com/en-"
+"us/azure/active-directory/develop/quickstart-register-app>`_, choosing the "
+"appropriate supported account type."
+msgstr ""
+
+#: ../../content/applications/general/calendars/outlook/outlook_calendar.rst:20
+msgid "When configuring your platform settings, choose *Web*."
+msgstr ""
+
+#: ../../content/applications/general/calendars/outlook/outlook_calendar.rst:0
+msgid ""
+"For the **Redirect URI restrictions**, copy your Odoo database URI followed "
+"by ``/microsoft_account/authentication``. Example:"
+msgstr ""
+
+#: ../../content/applications/general/calendars/outlook/outlook_calendar.rst:0
+msgid ""
+"For more information on the restrictions and limitations of URIs, `check "
+"this page <https://docs.microsoft.com/en-us/azure/active-"
+"directory/develop/reply-url>`_."
+msgstr ""
+
+#: ../../content/applications/general/calendars/outlook/outlook_calendar.rst:37
+msgid ""
+"Regarding credentials, you *must* **Add a client secret**, called *Client "
+"Secret* in Odoo, which allows Odoo to authenticate itself, requiring no "
+"interaction from your side. *Certificates* are optional."
+msgstr ""
+
+#: ../../content/applications/general/calendars/outlook/outlook_calendar.rst:42
+msgid "Configuration in Odoo"
+msgstr ""
+
+#: ../../content/applications/general/calendars/outlook/outlook_calendar.rst:44
+msgid "Go to general *Settings* and activate the *Outlook Calendar* feature."
+msgstr ""
+
+#: ../../content/applications/general/calendars/outlook/outlook_calendar.rst:50
+msgid ""
+"From your Azure portal, under *Overview*, copy your *Application (client) "
+"ID*, and paste it to *Client ID* in Odoo."
+msgstr ""
+
+#: ../../content/applications/general/calendars/outlook/outlook_calendar.rst:57
+msgid ""
+"Going back to your Azure portal, now under *Certificates & secrets*, copy "
+"your *Client Secret Value* and paste it to *Client Secret* in Odoo."
+msgstr ""
+
+#: ../../content/applications/general/calendars/outlook/outlook_calendar.rst:67
+msgid "Sync with Outlook"
+msgstr ""
+
+#: ../../content/applications/general/calendars/outlook/outlook_calendar.rst:0
+msgid ""
+"Odoo Calendar sends a confirmation email at the creation of an event to its "
+"attendees. But, on the **first** sync, Outlook will also send confirmation "
+"emails of all scheduled events (including past ones)."
+msgstr ""
+
+#: ../../content/applications/general/calendars/outlook/outlook_calendar.rst:0
+msgid ""
+"To avoid this situation, we recommend *archiving all past events, and "
+"removing yourself from future ones in Odoo Calendar before the first sync*. "
+"This will prevent events from being created in Outlook, and therefore, no "
+"redundant emails will be sent during the first synchronization. After the "
+"sync, events will only send one confirmation email."
+msgstr ""
+
+#: ../../content/applications/general/calendars/outlook/outlook_calendar.rst:82
+msgid ""
+"Go to the *Calendar* application and *Sync with Outlook*. You are asked to "
+"log in to your account, if you are not already, and grant the required "
+"permissions."
+msgstr ""
+
+#: ../../content/applications/general/calendars/outlook/outlook_calendar.rst:89
+msgid ""
+"The synchronization is a two-way process, meaning that events are reconciled"
+" in both accounts (Outlook and Odoo)."
+msgstr ""
+
+#: ../../content/applications/general/calendars/outlook/outlook_calendar.rst:97
+msgid ""
+"All users that want to use the synchronization simply need to :ref:`sync "
+"their calendar with Outlook <outlook_calendar/sync_with_outlook>`. The "
+"configuration of Microsoft's Azure account is only done once, as Azure AD "
+"tenants' are unique, and represent an organization that helps you to manage "
+"a specific instance of Microsoft cloud services for your internal and "
+"external users."
+msgstr ""
+
+#: ../../content/applications/general/calendars/outlook/outlook_calendar.rst:103
+msgid ":doc:`../../../sales/crm/optimize/outlook_extension`"
+msgstr ""
+
+#: ../../content/applications/general/calendars/outlook/outlook_calendar.rst:104
+msgid ":doc:`../google/google_calendar_credentials`"
+msgstr ""
+
+#: ../../content/applications/general/developer_mode.rst:5
+msgid "Developer Mode (debug mode)"
+msgstr ""
+
+#: ../../content/applications/general/developer_mode.rst:7
+msgid ""
+"The developer mode (or debug mode) gives you access to extra and advanced "
+"tools."
+msgstr ""
+
+#: ../../content/applications/general/developer_mode.rst:10
+msgid "Activate through the Settings"
+msgstr ""
+
+#: ../../content/applications/general/developer_mode.rst:12
+msgid "Go to :menuselection:`Settings --> Activate the developer mode`."
+msgstr "Gå til :menuselection:`Indstillinger --> Aktivér udvikler tilstand`."
+
+#: ../../content/applications/general/developer_mode.rst:19
+msgid ""
+"*Activate the developer mode (with assets)* is used by developers; *Activate"
+" the developer mode (with tests assets)* is used by developers and testers."
+msgstr ""
+"*Aktivér udviklertilstand (med aktiver)* som bruges af udviklere; *Aktivér "
+"udviklertilstand (med test aktiver)* bruges af udviklere og testere."
+
+#: ../../content/applications/general/developer_mode.rst:22
+msgid ""
+"Once activated, the *Deactivate the developer mode* option becomes "
+"available."
+msgstr ""
+"Når den er aktiveret, bliver *Deaktiver udviklertilstand* valgmuligheden "
+"tilgængelig."
+
+#: ../../content/applications/general/developer_mode.rst:25
+msgid "Activate through a browser extension"
+msgstr ""
+
+#: ../../content/applications/general/developer_mode.rst:28
+msgid ""
+"Go to the settings and extensions of your web browser, and search for *Odoo "
+"Debug*. Once the extension is installed, a new icon will be shown on your "
+"toolbar."
+msgstr ""
+"Gå til indstillinger- og udvidelserne for din browser, og søg efter *Odoo "
+"Debug*. Når udvidelsen er installeret, vil et nyt ikon dukke op i din "
+"værktøjslinje."
+
+#: ../../content/applications/general/developer_mode.rst:30
+msgid ""
+"For the *Odoo Debug* extension, a single click enables a normal version of "
+"the mode, while a double click enables it with assets. To deactivate it, use"
+" a single click."
+msgstr ""
+"Med *Odoo Debug* udvidelsen kan du aktivere debugging tilstand med et enkelt"
+" klik, og med to klik aktiverer du debugging tilstand med aktiver. For at "
+"deaktivere igen klikker du blot en enkelt gang mere."
+
+#: ../../content/applications/general/developer_mode.rst:37
+msgid "Activate through the URL"
+msgstr ""
+
+#: ../../content/applications/general/developer_mode.rst:39
+msgid "In the URL add ``?debug=1`` or ``?debug=true`` after *web*."
+msgstr "I URL tilføjes ``?debug=1`` eller ``?debug=true`` efter *web*."
+
+#: ../../content/applications/general/developer_mode.rst:46
+msgid "Developers: type ``?debug=assets`` and activate the mode with assets."
+msgstr "Udviklere: skriv ``?debug=assets`` og aktiver tilstanden med aktiver."
+
+#: ../../content/applications/general/developer_mode.rst:49
+msgid "Locate the mode tools"
+msgstr "Lokalisér tilstands værktøjerne"
+
+#: ../../content/applications/general/developer_mode.rst:51
+msgid ""
+"The Developer mode tools can be accessed from the *Open Developer Tools* "
+"button, located on the header of your pages."
+msgstr ""
+"Udvikler tilstands værktøjerne kan tilgås via *Åben Udvikler Værktøjer* "
+"knappen, som findes i sidehovedet for dine sider."
+
+#: ../../content/applications/general/export_import_data.rst:3
+msgid "Export and import data"
+msgstr ""
+
+#: ../../content/applications/general/export_import_data.rst:8
+msgid "Export data from Odoo"
+msgstr ""
+
+#: ../../content/applications/general/export_import_data.rst:10
+msgid ""
+"When working with a database, it sometimes is necessary to export your data "
+"in a distinct file. Doing so can help to do reporting over your activities "
+"(even if Odoo offers a precise and easy reporting tool with each available "
+"application)."
+msgstr ""
+"Når der arbejdes med en database, er det nogle gange nødvendigt at "
+"eksportere dine data i en særskilt fil. Dette kan hjælpe med rapportering af"
+" dine aktiviteter (selv hvis Odoo tilbyder et præcist og ligetil "
+"rapporteringsværktøj med hver tilgængelig applikation)."
+
+#: ../../content/applications/general/export_import_data.rst:14
+msgid ""
+"With Odoo, you can export the values from any field in any record. To do so,"
+" activate the list view on the items that need to be exported, click on "
+"*Action*, and, then, on *Export*."
+msgstr ""
+"Med Odoo kan du eksportere værdierne fra hvilket som helst felt i et "
+"datasæt. For at gøre dette, skal du aktivere listevisningen for de data der "
+"skal eksporteres, klik på *Handling*, og derefter på *Eksportér*."
+
+#: ../../content/applications/general/export_import_data.rst:22
+msgid ""
+"Pretty simple, this action still comes with some specificities. In fact, "
+"when clicking on *Export*, a pop-up window appears with several options for "
+"the data to export:"
+msgstr ""
+"Ret simpelt, denne handling har stadig nogle spidsfindigheder. Faktisk, når "
+"der klikkes på *Eksportér*, vil et pop-up vindue komme til syne med flere "
+"indstillinger for data til eksport:"
+
+#: ../../content/applications/general/export_import_data.rst:30
+msgid ""
+"With the *I want to update data* option ticked, the system only shows the "
+"fields which can be imported. This is very helpful in case you want to "
+"update existing records. Basically, this works like a filter. Leaving the "
+"box unticked gives way more field options because it shows all the fields, "
+"not just the ones which can be imported."
+msgstr ""
+"Med *Jeg ønsker at opdatere data* muligheden krydset af, vil systemet kun "
+"vise de felter som der kan importeres. Dette er yderst nyttigt hvis du "
+"ønsker at opdatere eksisterende datasæt. I bund og grund fungerer dette som "
+"et filter. Ved ikke at markere muligheden vises langt flere felter, ikke "
+"blot dem der kan blive importeret."
+
+#: ../../content/applications/general/export_import_data.rst:36
+msgid ""
+"When exporting, you can choose between two formats: .csv and .xls. With "
+".csv, items are separated with a comma, while .xls holds information about "
+"all the worksheets in a file, including both content and formatting."
+msgstr ""
+"Når du eksporterer, kan du vælge mellem to formater: .csv og .xls. I .csv er"
+" genstande separerede med et komma, imens .xls indeholder information om "
+"samtlige arbejdsark i en fil, inklusiv både indhold og formattering."
+
+#: ../../content/applications/general/export_import_data.rst:39
+msgid ""
+"Those are the items you may want to export. Use the arrows to display more "
+"sub-field options. Of course, you can use the search bar to find specific "
+"fields more easily. To use the search option more efficiently, display all "
+"the fields by clicking on all the arrows!"
+msgstr ""
+"Det er de genstande du måske ville eksportere. Brug pilene til at vise flere"
+" under-felte indstillinger. Selvfølgelig kan du bruge søgebaren til at finde"
+" specifikke felter nemmere. For at bruge søgeindstillinger mere effektivt, "
+"vis alle felterne ved at klikke på alle pilene!"
+
+#: ../../content/applications/general/export_import_data.rst:44
+msgid "The + button is there to add fields to the \"to export\" list."
+msgstr ""
+
+#: ../../content/applications/general/export_import_data.rst:45
+msgid ""
+"The \"handles\" next to the selected fields allow you to move the fields up "
+"and down to change the order in which they must be displayed in the exported"
+" file."
+msgstr ""
+
+#: ../../content/applications/general/export_import_data.rst:48
+msgid "The trashcan is there if you need to remove fields."
+msgstr "Papirskurven er der hvis du har behov for at fjerne felter."
+
+#: ../../content/applications/general/export_import_data.rst:49
+msgid ""
+"For recurring reports, it might be interesting to save export presets. "
+"Select all the needed ones and click on the template bar. There, click on "
+"*New template* and give a name to yours. The next time you need to export "
+"the same list, simply select the related template."
+msgstr ""
+"For tilbagevendende rapporter kan det det være interessant at gemme eksport "
+"forudindstillinger. Vælg alle dem der er behov for, og klik på skabelon "
+"bjælken. Der klikkes der så på *Ny skabelon*, som navngives. Næste gang man "
+"har behov for at eksportere den samme liste, kan du blot vælge den "
+"relaterede skabelon."
+
+#: ../../content/applications/general/export_import_data.rst:56
+msgid ""
+"It’s good to keep the field’s external identifier in mind. For example, "
+"*Related Company* is equal to *parent_id*. Doing so helps export only what "
+"you would like to import next."
+msgstr ""
+"Det er god praksis at holde feltets eksterne identifikation i mente. For "
+"eksempel, *Relateret Virksomhed* er lig med *parent_id*. Det hjælper med at "
+"eksportere kun det du ønsker at importere senere."
+
+#: ../../content/applications/general/export_import_data.rst:63
+msgid "Import data into Odoo"
+msgstr ""
+
+#: ../../content/applications/general/export_import_data.rst:66
+msgid "How to start"
+msgstr "Hvordan man begynder"
+
+#: ../../content/applications/general/export_import_data.rst:68
+msgid ""
+"You can import data on any Odoo's business object using either Excel (.xlsx)"
+" or CSV (.csv) formats: contacts, products, bank statements, journal entries"
+" and even orders!"
+msgstr ""
+"Du kan importere data til ethvert af Odoos finans objekter via enten Excel "
+"(.xlsx) eller CSV (.csv) formater: kontakter, produkter, kontoudtog, "
+"journalposteringer, og endda ordre!"
+
+#: ../../content/applications/general/export_import_data.rst:72
+msgid ""
+"Open the view of the object you want to populate and click on "
+":menuselection:`Favorites --> Import records`."
+msgstr ""
+
+#: ../../content/applications/general/export_import_data.rst:78
+msgid ""
+"There you are provided with templates you can easily populate with your own "
+"data. Such templates can be imported in one click; The data mapping is "
+"already done."
+msgstr ""
+"Der får du skabeloner som du nemt kan udfylde med dine egne data. Sådanne "
+"skabeloner kan importeres med ét klik; data forbindelsen er allerede "
+"oprettet."
+
+#: ../../content/applications/general/export_import_data.rst:83
+msgid "How to adapt the template"
+msgstr "Hvordan man tilpasser en skabelon"
+
+#: ../../content/applications/general/export_import_data.rst:85
+msgid "Add, remove and sort columns to fit at best your data structure."
+msgstr ""
+"Tilføj, fjern eller sortér kolonner så de passer med din datastruktur."
+
+#: ../../content/applications/general/export_import_data.rst:86
+msgid "We advise to not remove the **ID** one (see why in the next section)."
+msgstr ""
+"Vi anbefaler at man ikke fjerne **ID**'et (se hvorfor i næste sektion)."
+
+#: ../../content/applications/general/export_import_data.rst:87
+#: ../../content/applications/general/export_import_data.rst:376
+msgid ""
+"Set a unique ID to every single record by dragging down the ID sequencing."
+msgstr ""
+"Angiv et unikt ID for hvert enkelt datasæt ved at trække ID sekvensen ned."
+
+#: ../../content/applications/general/export_import_data.rst:92
+msgid ""
+"When you add a new column, Odoo might not be able to map it automatically if"
+" its label doesn't fit any field in Odoo. Don't worry! You can map new "
+"columns manually when you test the import. Search the list for the "
+"corresponding field."
+msgstr ""
+"Når du tilføjer en ny kolonne kan det være at Odoo ikke kan forbinde den med"
+" det samme, hvis dens mærkat ikke passer til noget felt i Odoo. Frygt ej! Du"
+" kan forbinde nye kolonner manuelt når du tester importeringen. Søg i listen"
+" over tilsvarende felter."
+
+#: ../../content/applications/general/export_import_data.rst:100
+msgid ""
+"Then, use this field's label in your file in order to make it work straight "
+"on the very next time."
+msgstr ""
+"Brug derefter dette felts mærkat i din fil for at få den til at virke med "
+"det samme næste gang."
+
+#: ../../content/applications/general/export_import_data.rst:104
+msgid "How to import from another application"
+msgstr "Hvordan man importere fra en anden applikation"
+
+#: ../../content/applications/general/export_import_data.rst:106
+msgid ""
+"In order to re-create relationships between different records, you should "
+"use the unique identifier from the original application and map it to the "
+"**ID** (External ID) column in Odoo. When you import another record that "
+"links to the first one, use **XXX/ID** (XXX/External ID) to the original "
+"unique identifier. You can also find this record using its name but you will"
+" be stuck if at least 2 records have the same name."
+msgstr ""
+"For at genoprette relationer mellem forskellige datasæt, bør du anvende den "
+"unikke identifikation fra den oprindelige applikation og forbind den til "
+"**ID** (Ekstern ID) kolonnen i Odoo. Når du importere et andet datasæt som "
+"forbinder til den første, bruge **XXX/ID** (XXX/Ekstern ID) til den "
+"oprindelige unikke identifikator. Du kan også finde dette datasæt ved at "
+"anvende dets navn, men du vil sidde fast hvis mindst 2 datasæt har samme "
+"navn."
+
+#: ../../content/applications/general/export_import_data.rst:114
+msgid ""
+"The **ID** will also be used to update the original import if you need to "
+"re-import modified data later, it's thus good practice to specify it "
+"whenever possible."
+msgstr ""
+"**ID**'et vil også blive brugt til opdatere den oprindelige import hvis du "
+"har behov for at genimportere modificeret data senere, det er derfor god "
+"kotume at specificere den hvorend muligt."
+
+#: ../../content/applications/general/export_import_data.rst:120
+msgid "I cannot find the field I want to map my column to"
+msgstr "Jeg kan ikke finde feltet jeg ønsker at forbinde min kolonne med"
+
+#: ../../content/applications/general/export_import_data.rst:122
+msgid ""
+"Odoo tries to find with some heuristic, based on the first ten lines of the "
+"files, the type of field for each column inside your file. For example if "
+"you have a column only containing numbers, only the fields that are of type "
+"*Integer* will be displayed for you to choose from. While this behavior "
+"might be good and easy for most cases, it is also possible that it goes "
+"wrong or that you want to map your column to a field that is not proposed by"
+" default."
+msgstr ""
+"Baseret på de første ti linjer i filerne, forsøger Odoo heuristisk at finde "
+"frem til felttyperne for hver kolonne i din fil. For eksempel hvis du har en"
+" kolonne der kun indeholder tal, vil du kun få vist felter tilhørende typen "
+"\"integral\" til at vælge blandt. Selvom denne opførsel er hensynsfuld og "
+"ligetil i de fleste tilfælde, er det også muligt at det tager fejl, eller at"
+" du ønsker at forbinde din kolonne til et felt der ikke er foreslået per "
+"standard."
+
+#: ../../content/applications/general/export_import_data.rst:131
+msgid ""
+"If that happens, you just have to check the ** Show fields of relation "
+"fields (advanced)** option, you will then be able to choose from the "
+"complete list of fields for each column."
+msgstr ""
+"Hvis det sker, skal du markere ** Vis felter tilhørende relaterede felter "
+"(avanceret)** indstillingen, derefter vil du være i stand til at vælge fra "
+"den komplette liste over felter for hver kolonne."
+
+#: ../../content/applications/general/export_import_data.rst:139
+msgid "Where can I change the date import format?"
+msgstr "Hvor kan i ændre dato import formatet?"
+
+#: ../../content/applications/general/export_import_data.rst:141
+msgid ""
+"Odoo can automatically detect if a column is a date, and it will try to "
+"guess the date format from a set of most commonly used date formats. While "
+"this process can work for many date formats, some date formats will not be "
+"recognized. This can cause confusion due to day-month inversions; it is "
+"difficult to guess which part of a date format is the day and which part is "
+"the month in a date such as '01-03-2016'."
+msgstr ""
+"Odoo kan automatisk se om en kolonne er en dato, og vil prøve at gætte "
+"datoformatet fra et sæt af de mest anvendte datoformater. Selv om denne "
+"process virker for mange datoformater, er der visse datoformater der ikke "
+"vil blive genkendt. Dette kan forårsage forvirring pga. omvendt dag-måned "
+"angivelse; det er svært at gætte hvilken del er måned og hvilken del er dag,"
+" i en datoangivelse så som '01-03-2016'."
+
+#: ../../content/applications/general/export_import_data.rst:147
+msgid ""
+"To view which date format Odoo has found from your file you can check the "
+"**Date Format** that is shown when clicking on **Options** under the file "
+"selector. If this format is incorrect you can change it to your liking using"
+" the *ISO 8601* to define the format."
+msgstr ""
+"For at se hvilket datoformat Odoo har fundet i din fil kan du tjekke "
+"**Datoformat** som kan tilgås ved at klikke på **Indstillinger** under fil-"
+"vælgeren. Hvis dette formet ikke er korrekt, kan du ændre det til det format"
+" du ønsker, ved at bruge *ISO 8601* til at definere det."
+
+#: ../../content/applications/general/export_import_data.rst:152
+msgid ""
+"If you are importing an excel (.xls, .xlsx) file, you can use date cells to "
+"store dates as the display of dates in excel is different from the way it is"
+" stored. That way you will be sure that the date format is correct in Odoo "
+"whatever your locale date format is."
+msgstr ""
+"Hvis du importere en Excel fil (.xls, .xlsx), kan du bruge dato celler til "
+"at gemme datoer, eftersom datovisningen i Excel fil er forskellig fra måden "
+"hvorpå den lagres. På den måde kan du være sikker på at datoformatet er "
+"korrekt i Odoo, uanset dit lokale datoformat."
+
+#: ../../content/applications/general/export_import_data.rst:157
+msgid "Can I import numbers with currency sign (e.g.: $32.00)?"
+msgstr "Kan jeg importere tal med valutaangivelse (f.eks.: €15,00)?"
+
+#: ../../content/applications/general/export_import_data.rst:159
+msgid ""
+"Yes, we fully support numbers with parenthesis to represent negative sign as"
+" well as numbers with currency sign attached to them. Odoo also "
+"automatically detect which thousand/decimal separator you use (you can "
+"change those under **options**). If you use a currency symbol that is not "
+"known to Odoo, it might not be recognized as a number though and it will "
+"crash."
+msgstr ""
+"Ja, vi støtter fuldt ud tal med parentes til at repræsentere negativ "
+"tegnangivelse samt tal med valutasymbol forbundet til dem. Odoo registrere "
+"også automatisk hvilken tusinde/decimal separator du anvender (du kan ændre "
+"dem under **indstillinger**). Hvis du bruger et valutasymbol som Odoo ikke "
+"er bekendt med, kan det muligvis ikke genkendes som et tal, og vil afslutte "
+"brat."
+
+#: ../../content/applications/general/export_import_data.rst:164
+msgid ""
+"Examples of supported numbers (using thirty-two thousands as an example):"
+msgstr ""
+"Eksempler på understøttede numre (ved brug af toogtredive tusinde som et "
+"eksempel):"
+
+#: ../../content/applications/general/export_import_data.rst:166
+msgid "32.000,00"
+msgstr "32.000,00"
+
+#: ../../content/applications/general/export_import_data.rst:167
+msgid "32000,00"
+msgstr "32000,00"
+
+#: ../../content/applications/general/export_import_data.rst:168
+msgid "32,000.00"
+msgstr "32,000.00"
+
+#: ../../content/applications/general/export_import_data.rst:169
+msgid "-32000.00"
+msgstr "-32000.00"
+
+#: ../../content/applications/general/export_import_data.rst:170
+msgid "(32000.00)"
+msgstr "(32000.00)"
+
+#: ../../content/applications/general/export_import_data.rst:171
+msgid "$ 32.000,00"
+msgstr "$ 32.000,00"
+
+#: ../../content/applications/general/export_import_data.rst:172
+msgid "(32000.00 €)"
+msgstr "(32000,00 €)"
+
+#: ../../content/applications/general/export_import_data.rst:174
+msgid "Example that will not work:"
+msgstr "Eksempel der ikke vil virke:"
+
+#: ../../content/applications/general/export_import_data.rst:176
+msgid "ABC 32.000,00"
+msgstr "ABC 32.000,00"
+
+#: ../../content/applications/general/export_import_data.rst:177
+msgid "$ (32.000,00)"
+msgstr "$ (32.000,00)"
+
+#: ../../content/applications/general/export_import_data.rst:180
+msgid "What can I do when the Import preview table isn't displayed correctly?"
+msgstr ""
+"Hvad kan jeg gøre når Import forhåndsvisnings tabellen ikke vises korrekt?"
+
+#: ../../content/applications/general/export_import_data.rst:182
+msgid ""
+"By default the Import preview is set on commas as field separators and "
+"quotation marks as text delimiters. If your csv file does not have these "
+"settings, you can modify the File Format Options (displayed under the Browse"
+" CSV file bar after you select your file)."
+msgstr ""
+"Per standard er Import forhåndsvisningen angivet med kommaer som felt "
+"separatorer og citationstegn som tekst afgrænsninger. Hvis din csv fil ikke "
+"har disse indstillinger, kan du redigere Filformat Indstillingerne (vist "
+"under Søg efter CSV fil bjælken efter du har valgt din fil)."
+
+#: ../../content/applications/general/export_import_data.rst:186
+msgid ""
+"Note that if your CSV file has a tabulation as separator, Odoo will not "
+"detect the separations. You will need to change the file format options in "
+"your spreadsheet application. See the following question."
+msgstr ""
+"Bemærk at hvis din CSVfil har tabulering som separator, vil Odoo ikke opdage"
+" separationerne. Du vil blive nødt til at ændre filformats indstillingerne i"
+" din regnearks applikation. Se følgende spørgsmål."
+
+#: ../../content/applications/general/export_import_data.rst:191
+msgid ""
+"How can I change the CSV file format options when saving in my spreadsheet "
+"application?"
+msgstr ""
+"Hvordan kan jeg ændre CSV filformats indstillingerne når jeg gemmer i min "
+"regnearks applikation?"
+
+#: ../../content/applications/general/export_import_data.rst:193
+msgid ""
+"If you edit and save CSV files in spreadsheet applications, your computer's "
+"regional settings will be applied for the separator and delimiter. We "
+"suggest you use OpenOffice or LibreOffice Calc as they will allow you to "
+"modify all three options (in :menuselection:`'Save As' dialog box --> Check "
+"the box 'Edit filter settings' --> Save`)."
+msgstr ""
+"Hvis du redigere og gemmer CSV filer i en regnearks applikation, vil din "
+"computers regionale indstillinger for separator og afgrænser blive anvendt. "
+"Vi foreslår at du bruger OpenOffice eller LibreOffice Calc, eftersom de vil "
+"gøre det muligt for dig at redigere alle tre indstillinger (i "
+":menuselection:`'Gem som' dialog boks --> Marker kassen 'Rediger "
+"filterindstillinger' --> Gem`)."
+
+#: ../../content/applications/general/export_import_data.rst:198
+msgid ""
+"Microsoft Excel will allow you to modify only the encoding when saving (in "
+":menuselection:`'Save As' dialog box --> click 'Tools' dropdown list --> "
+"Encoding tab`)."
+msgstr ""
+"Microsoft Excel vil gøre det muligt for dig kun at redigere indkodningen når"
+" du gemmer (i :menuselection:`Gem som` dialog boksen --> klik på 'Værktøjer'"
+" nedfaldslisten --> Indkodning fanen`)."
+
+#: ../../content/applications/general/export_import_data.rst:202
+msgid "What's the difference between Database ID and External ID?"
+msgstr "Hvad er forskellen mellem Database ID og Ekstern ID?"
+
+#: ../../content/applications/general/export_import_data.rst:204
+msgid ""
+"Some fields define a relationship with another object. For example, the "
+"country of a contact is a link to a record of the 'Country' object. When you"
+" want to import such fields, Odoo will have to recreate links between the "
+"different records. To help you import such fields, Odoo provides three "
+"mechanisms. You must use one and only one mechanism per field you want to "
+"import."
+msgstr ""
+"Visse felter definere et forhold med et andet objekt. Landet for en kontakt "
+"er, for eksempel, en forbindelse til et datasæt tilhørende 'Land' objektet. "
+"Når du vil importere sådanne felter, skal Odoo genoprette forbindelser "
+"mellem forskellige datasæt. For at hjælpe dig med at importere sådanne "
+"felter, tilbyder Odoo tre mekanismer. Du skal en og kun én mekanisme per "
+"felt du ønsker at importere."
+
+#: ../../content/applications/general/export_import_data.rst:209
+msgid ""
+"For example, to reference the country of a contact, Odoo proposes you 3 "
+"different fields to import:"
+msgstr ""
+"For eksempel, for at henvise til en kontakts land, foreslår Odoo at du "
+"importerer 3 forskellige felter:"
+
+#: ../../content/applications/general/export_import_data.rst:211
+msgid "Country: the name or code of the country"
+msgstr "Land: navner eller koden for landet"
+
+#: ../../content/applications/general/export_import_data.rst:212
+msgid ""
+"Country/Database ID: the unique Odoo ID for a record, defined by the ID "
+"postgresql column"
+msgstr ""
+"Land/Database ID: Den unikke Odoo ID for et datasæt, defineret ud fra "
+"postgresql ID kolonnen."
+
+#: ../../content/applications/general/export_import_data.rst:213
+msgid ""
+"Country/External ID: the ID of this record referenced in another application"
+" (or the .XML file that imported it)"
+msgstr ""
+"Lande/Ekstern ID: De henvises til ID'et for dette datasæt i en anden "
+"applikation (eller i .XML filen der importerede den)"
+
+#: ../../content/applications/general/export_import_data.rst:216
+msgid "For the country Belgium, you can use one of these 3 ways to import:"
+msgstr ""
+"For landet Beglien kan du anvende en af disse 3 måder at importere på:"
+
+#: ../../content/applications/general/export_import_data.rst:218
+msgid "Country: Belgium"
+msgstr "Land: Belgien"
+
+#: ../../content/applications/general/export_import_data.rst:219
+msgid "Country/Database ID: 21"
+msgstr "Land/Database ID: 21"
+
+#: ../../content/applications/general/export_import_data.rst:220
+msgid "Country/External ID: base.be"
+msgstr "Land/Ekstern ID: base.be"
+
+#: ../../content/applications/general/export_import_data.rst:222
+msgid ""
+"According to your need, you should use one of these 3 ways to reference "
+"records in relations. Here is when you should use one or the other, "
+"according to your need:"
+msgstr ""
+"Alt efter dine behov, bør du bruge en af disse 3 måder til at henvise til "
+"datasæt i relationer. Her er hvornår du bør bruge en eller en anden, alt "
+"efter behov:"
+
+#: ../../content/applications/general/export_import_data.rst:225
+msgid ""
+"Use Country: This is the easiest way when your data come from CSV files that"
+" have been created manually."
+msgstr ""
+"Brug Land: Dette er den nemmeste måde når dine data kommer fra CSV filer der"
+" er blevet oprettet manuelt."
+
+#: ../../content/applications/general/export_import_data.rst:227
+msgid ""
+"Use Country/Database ID: You should rarely use this notation. It's mostly "
+"used by developers as it's main advantage is to never have conflicts (you "
+"may have several records with the same name, but they always have a unique "
+"Database ID)"
+msgstr ""
+"Brug Land/Database ID: Du burde sjældent anvende denne notation. Den bruges "
+"mest af udviklere, eftersom dens primære fordel, er den ikke forårsager "
+"konflikter (du kan have flere datasæt med samme navn, men de har altid et "
+"unikt Database ID)"
+
+#: ../../content/applications/general/export_import_data.rst:230
+msgid ""
+"Use Country/External ID: Use External ID when you import data from a third "
+"party application."
+msgstr ""
+"Brug Lande/Ekstern ID: Brug Ekstern ID når du importere data fra en "
+"tredjeparts applikation."
+
+#: ../../content/applications/general/export_import_data.rst:232
+msgid ""
+"When you use External IDs, you can import CSV files with the \"External ID\""
+" column to define the External ID of each record you import. Then, you will "
+"be able to make a reference to that record with columns like "
+"\"Field/External ID\". The following two CSV files give you an example for "
+"Products and their Categories."
+msgstr ""
+"Når du bruger Eksterne ID'er kan du importere CSV filer med \"Ekstern ID\" "
+"kolonnen for at definere de Eksterne ID for hvert datasæt du importere. "
+"Derefter vil du være i stand til at henvise til det datasæt med kolonner så "
+"som \"Felt/Ekstern ID\". De følgende to CSV filer giver et eksempel for "
+"Produkter og deres Kategorier."
+
+#: ../../content/applications/general/export_import_data.rst:237
+msgid ""
+":download:`CSV file for categories "
+"<export_import_data/External_id_3rd_party_application_product_categories.csv>`."
+msgstr ""
+
+#: ../../content/applications/general/export_import_data.rst:240
+msgid ""
+":download:`CSV file for Products "
+"<export_import_data/External_id_3rd_party_application_products.csv>`."
+msgstr ""
+
+#: ../../content/applications/general/export_import_data.rst:244
+msgid "What can I do if I have multiple matches for a field?"
+msgstr "Hvad kan jeg gøre hvis jeg har flere match for et felt?"
+
+#: ../../content/applications/general/export_import_data.rst:246
+msgid ""
+"If for example you have two product categories with the child name "
+"\"Sellable\" (ie. \"Misc. Products/Sellable\" & \"Other "
+"Products/Sellable\"), your validation is halted but you may still import "
+"your data. However, we recommend you do not import the data because they "
+"will all be linked to the first 'Sellable' category found in the Product "
+"Category list (\"Misc. Products/Sellable\"). We recommend you modify one of "
+"the duplicates' values or your product category hierarchy."
+msgstr ""
+"Hvis, for eksempel, du har to produktkategorier med nedarver navnet "
+"\"Salgbar\" (f.eks. \"Div. Produkter/Salgbar\" & \"Andre "
+"Produkter/Salgbar\"), vil din validering blive bremset, men du vil stadig "
+"kunne importere dine data. Dog anbefaler vi, at du ikke importere data, "
+"fordi de vil alle blive forbundet til den første \"Salgbar\" kategori fundet"
+" i Produkt Kategori listen (\"Div. Produkter/Salgbar\"). Vi anbefaler at du "
+"redigere en af kopiernes værdier, eller dit produkt kategori hierarki."
+
+#: ../../content/applications/general/export_import_data.rst:252
+msgid ""
+"However if you do not wish to change your configuration of product "
+"categories, we recommend you use make use of the external ID for this field "
+"'Category'."
+msgstr ""
+"Hvis du derimod ikke ønsker at ændre din konfiguration af produkt "
+"kategorier, foreslår vi at du gør brug af det eksterne ID for feltet "
+"'Kategori'."
+
+#: ../../content/applications/general/export_import_data.rst:256
+msgid ""
+"How can I import a many2many relationship field (e.g. a customer that has "
+"multiple tags)?"
+msgstr ""
+"Hvordan kan jeg importere et felt med many2many forhold (f.eks. en kunde der"
+" flere mærkater)?"
+
+#: ../../content/applications/general/export_import_data.rst:258
+msgid ""
+"The tags should be separated by a comma without any spacing. For example, if"
+" you want your customer to be linked to both tags 'Manufacturer' and "
+"'Retailer' then you will encode \"Manufacturer,Retailer\" in the same column"
+" of your CSV file."
+msgstr ""
+"Mærkaterne skal være separeret af et komma uden noget mellemrum. For "
+"eksempel, hvis du ønsker at din kunde skal forbindes til både 'Producent' og"
+" 'Forhandler' mærkaterne, skal du indkode \"Producent,Forhandler\" i den "
+"samme kolonne i din CSV fil."
+
+#: ../../content/applications/general/export_import_data.rst:262
+msgid ""
+":download:`CSV file for Manufacturer, Retailer "
+"<export_import_data/m2m_customers_tags.csv>`"
+msgstr ""
+
+#: ../../content/applications/general/export_import_data.rst:266
+msgid ""
+"How can I import a one2many relationship (e.g. several Order Lines of a "
+"Sales Order)?"
+msgstr ""
+"Hvordan kan jeg importere et one2many forhold (f.eks. flere Ordrelinjer "
+"tilhørende en Salgsordre)?"
+
+#: ../../content/applications/general/export_import_data.rst:268
+msgid ""
+"If you want to import sales order having several order lines; for each order"
+" line, you need to reserve a specific row in the CSV file. The first order "
+"line will be imported on the same row as the information relative to order. "
+"Any additional lines will need an additional row that does not have any "
+"information in the fields relative to the order. As an example, here is "
+"``purchase.order_functional_error_line_cant_adpat.CSV`` file of some "
+"quotations you can import, based on demo data."
+msgstr ""
+"Hvis du vil importere salgsordre med flere ordrelinjer; for hver ordrelinje "
+"skal du reservere en specifik række i CSV filen. Den første ordrelinje vil "
+"blive importeret på samme række som informationene relativ til ordren. Alle "
+"linjer derudover ville skulle bruge en række yderligere, som ikke har nogen "
+"information i felterne relativt til ordren. Som et eksempel er her "
+"``purchase.order_functional_error_line_cant_adapt.CSV`` fil med nogle tilbud"
+" du kan importere, baseret på demonstrationsdata."
+
+#: ../../content/applications/general/export_import_data.rst:275
+msgid ""
+":download:`File for some Quotations "
+"<export_import_data/purchase.order_functional_error_line_cant_adpat.csv>`."
+msgstr ""
+
+#: ../../content/applications/general/export_import_data.rst:277
+msgid ""
+"The following CSV file shows how to import purchase orders with their "
+"respective purchase order lines:"
+msgstr ""
+"Den følgende CSV fil viser hvordan man importere indkøbsordre med deres "
+"respektive indkøbsordrelinjer:"
+
+#: ../../content/applications/general/export_import_data.rst:280
+msgid ""
+":download:`Purchase orders with their respective purchase order lines "
+"<export_import_data/o2m_purchase_order_lines.csv>`."
+msgstr ""
+
+#: ../../content/applications/general/export_import_data.rst:282
+msgid ""
+"The following CSV file shows how to import customers and their respective "
+"contacts:"
+msgstr ""
+"Den følgende CSV fil viser hvordan man importere kunder og deres respektive "
+"kontakter:"
+
+#: ../../content/applications/general/export_import_data.rst:284
+msgid ""
+":download:`Customers and their respective contacts "
+"<export_import_data/o2m_customers_contacts.csv>`."
+msgstr ""
+
+#: ../../content/applications/general/export_import_data.rst:287
+msgid "Can I import several times the same record?"
+msgstr "Kan jeg importere det samme datasæt flere gange?"
+
+#: ../../content/applications/general/export_import_data.rst:289
+msgid ""
+"If you import a file that contains one of the column \"External ID\" or "
+"\"Database ID\", records that have already been imported will be modified "
+"instead of being created. This is very useful as it allows you to import "
+"several times the same CSV file while having made some changes in between "
+"two imports. Odoo will take care of creating or modifying each record "
+"depending if it's new or not."
+msgstr ""
+
+#: ../../content/applications/general/export_import_data.rst:294
+msgid ""
+"This feature allows you to use the Import/Export tool of Odoo to modify a "
+"batch of records in your favorite spreadsheet application."
+msgstr ""
+"Denne funktion gør det muligt for dig at bruge Import/Eksport værktøjet i "
+"Odoo til at modificere en samling af datasæt i dit yndlings regnearks "
+"applikation."
+
+#: ../../content/applications/general/export_import_data.rst:298
+msgid "What happens if I do not provide a value for a specific field?"
+msgstr "Hvad sker der hvis jeg ikke angiver en værdi for et specifikt felt?"
+
+#: ../../content/applications/general/export_import_data.rst:300
+msgid ""
+"If you do not set all fields in your CSV file, Odoo will assign the default "
+"value for every non defined fields. But if you set fields with empty values "
+"in your CSV file, Odoo will set the EMPTY value in the field, instead of "
+"assigning the default value."
+msgstr ""
+"Hvis du ikke definerer samtlige felter i din CSV fil, vil Odoo tilskrive "
+"standard værdien for alle udefinerede felter. Hvis du definerer et felt med "
+"en tom værdi i din CSV fil, vil Odoo tilskrive EMPTY værdien i feltet, i "
+"stedet for at tilskrive den en standard værdi."
+
+#: ../../content/applications/general/export_import_data.rst:305
+msgid "How to export/import different tables from an SQL application to Odoo?"
+msgstr ""
+"Hvordan eksportere/importere man forskellige tabeller fra en SQL applikation"
+" til Odoo?"
+
+#: ../../content/applications/general/export_import_data.rst:307
+msgid ""
+"If you need to import data from different tables, you will have to recreate "
+"relations between records belonging to different tables. (e.g. if you import"
+" companies and persons, you will have to recreate the link between each "
+"person and the company they work for)."
+msgstr ""
+"Hvis du har behov for at importere data fra forskellige tabeller, skal du "
+"genoprette relationerne mellem datasæt der tilhører forskellige tabeller. "
+"(f.eks. hvis du importere selskaber og personer, du bliver nødt til at "
+"genoprette forbindelsen mellem hver enkelt person og det selskab de arbejder"
+" for)."
+
+#: ../../content/applications/general/export_import_data.rst:311
+msgid ""
+"To manage relations between tables, you can use the \"External ID\" "
+"facilities of Odoo. The \"External ID\" of a record is the unique identifier"
+" of this record in another application. This \"External ID\" must be unique "
+"across all the records of all objects, so it's a good practice to prefix "
+"this \"External ID\" with the name of the application or table. (like "
+"'company_1', 'person_1' instead of '1')"
+msgstr ""
+"For at administrere relationerne mellem tabeller kan du bruge \"Ekstern ID\""
+" funktionaliteten i Odoo. Et datasæts \"Eksterne ID\" er en unik "
+"identifikation for det pågældende datasæt i en anden applikation. Dette "
+"\"Eksterne ID\" skal være unikt på tværs af alle datasæt for alle objekter, "
+"så det er god kotume at sætte navnet på applikationen eller tabellen foran "
+"det \"Eksterne ID\". (Så som 'company_1', 'person_1', i stedet for '1')"
+
+#: ../../content/applications/general/export_import_data.rst:317
+msgid ""
+"As an example, suppose you have a SQL database with two tables you want to "
+"import: companies and persons. Each person belong to one company, so you "
+"will have to recreate the link between a person and the company he work for."
+" (If you want to test this example, here is a :download:`dump of such a "
+"PostgreSQL database <export_import_data/database_import_test.sql>`)"
+msgstr ""
+
+#: ../../content/applications/general/export_import_data.rst:322
+msgid ""
+"We will first export all companies and their \"External ID\". In PSQL, write"
+" the following command:"
+msgstr ""
+"Først vil vi eksportere alle virksomheder og deres \"Eksterne ID\". I PSQL "
+"skriver du følgende kommando:"
+
+#: ../../content/applications/general/export_import_data.rst:328
+msgid "This SQL command will create the following CSV file:"
+msgstr "Denne SQL kommando vil oprette den følgende CSV fil:"
+
+#: ../../content/applications/general/export_import_data.rst:337
+msgid ""
+"To create the CSV file for persons, linked to companies, we will use the "
+"following SQL command in PSQL:"
+msgstr ""
+"For at oprette CSV filen for personer, forbundet til virksomheder, bruger vi"
+" følgende SQL kommando i PSQL:"
+
+#: ../../content/applications/general/export_import_data.rst:343
+msgid "It will produce the following CSV file:"
+msgstr "Det vil producere den følgende CSV fil:"
+
+#: ../../content/applications/general/export_import_data.rst:353
+msgid ""
+"As you can see in this file, Fabien and Laurence are working for the Bigees "
+"company (company_1) and Eric is working for the Organi company. The relation"
+" between persons and companies is done using the External ID of the "
+"companies. We had to prefix the \"External ID\" by the name of the table to "
+"avoid a conflict of ID between persons and companies (person_1 and company_1"
+" who shared the same ID 1 in the original database)."
+msgstr ""
+"Som du kan se i denne fil, arbejder Fabien og Laurence for virksomheden "
+"Bigees (virksomhed_1) og Eric arbejder for Organi virksomheden. Relationen "
+"mellem personer og virksomheder udføres via den Eksterne ID tilhørende "
+"virksomhederne. Vi blev nødt til at påføre \"Ekstern ID\" ud fra navnet på "
+"tabellen for at undgå ID konflikter mellem personer og virksomheder "
+"(person_1 og virksomhed_1 delte samme ID (1) i den oprindelige database)."
+
+#: ../../content/applications/general/export_import_data.rst:359
+msgid ""
+"The two files produced are ready to be imported in Odoo without any "
+"modifications. After having imported these two CSV files, you will have 4 "
+"contacts and 3 companies. (the firsts two contacts are linked to the first "
+"company). You must first import the companies and then the persons."
+msgstr ""
+"De to resulterende filer er klar til at  blive importeret i Odoo uden nogen "
+"redigering. Efter de to CSV file er blevet importeret, vil der være 4 "
+"kontakter og 3 virksomheder (de første to kontakter er forbundet til den "
+"første virksomhed).  Du skal først importere virksomhederne go derefter "
+"personerne."
+
+#: ../../content/applications/general/export_import_data.rst:364
+msgid "How to adapt an import template"
+msgstr "Hvordan man tilpasser en import skabelon"
+
+#: ../../content/applications/general/export_import_data.rst:366
+msgid ""
+"Import templates are provided in the import tool of the most common data to "
+"import (contacts, products, bank statements, etc.). You can open them with "
+"any spreadsheets software (Microsoft Office, OpenOffice, Google Drive, "
+"etc.)."
+msgstr ""
+"Import skabeloner udbydes i import værktøjet for de mest almindelig import "
+"data (kontakter, produkter, kontoudtog, osv.). Du kan åbne dem med ethvert "
+"regnearks software (Microsoft Office, OpenOffice, Google Drive, osv.)."
+
+#: ../../content/applications/general/export_import_data.rst:372
+msgid "How to customize the file"
+msgstr "Hvordan tilpasses filen"
+
+#: ../../content/applications/general/export_import_data.rst:374
+msgid ""
+"Remove columns you don't need. We advise to not remove the *ID* one (see why"
+" here below)."
+msgstr ""
+"Fjern kolonner du ikke har behov for. Vi råder dig til ikke at fjerne *ID* "
+"kolonnen (se hvorfor nedenfor)."
+
+#: ../../content/applications/general/export_import_data.rst:381
+msgid ""
+"When you add a new column, Odoo might not be able to map it automatically if"
+" its label doesn't fit any field of the system. If so, find the "
+"corresponding field using the search."
+msgstr ""
+"Når du tilføjer en ny kolonne, kan det være at Odoo ikke er i stand til at "
+"forbinde den automatisk, hvis dens mærkat ikke passer til et felt i "
+"systemet. I så fald skal du finde det tilsvarende felt via søgningen."
+
+#: ../../content/applications/general/export_import_data.rst:388
+msgid ""
+"Then, use the label you found in your import template in order to make it "
+"work straight away the very next time you try to import."
+msgstr ""
+"Anvend derefter mærkatet du fandt i din import skabelon, til at få det til "
+"at virke med det samme, næste gang du forsøger at importere."
+
+#: ../../content/applications/general/export_import_data.rst:392
+msgid "Why an “ID” column"
+msgstr "Hvorfor en \"ID\" kolonne"
+
+#: ../../content/applications/general/export_import_data.rst:394
+msgid ""
+"The **ID** (External ID) is an unique identifier for the line item. Feel "
+"free to use the one of your previous software to ease the transition to "
+"Odoo."
+msgstr ""
+"**ID**'et (Ekstern ID) er en unik identifikation for linjen. Du er velkommen"
+" til at bruge noget af din tidligere software til at gøre overgangen til "
+"Odoo nemmere."
+
+#: ../../content/applications/general/export_import_data.rst:397
+msgid ""
+"Setting an ID is not mandatory when importing but it helps in many cases:"
+msgstr ""
+"Det er ikke obligatorisk at angive et ID ved importering, men det kan i "
+"mange tilfælde være behjælpeligt:"
+
+#: ../../content/applications/general/export_import_data.rst:399
+msgid ""
+"Update imports: you can import the same file several times without creating "
+"duplicates;"
+msgstr ""
+"Opdater importeringer: Du kan importere den samme fil flere gange uden at "
+"oprette kopier;"
+
+#: ../../content/applications/general/export_import_data.rst:400
+msgid "Import relation fields (see here below)."
+msgstr "Importér relationsfelter (se nedenfor)."
+
+#: ../../content/applications/general/export_import_data.rst:403
+msgid "How to import relation fields"
+msgstr "Hvordan man importere relationsfelter"
+
+#: ../../content/applications/general/export_import_data.rst:405
+msgid ""
+"An Odoo object is always related to many other objects (e.g. a product is "
+"linked to product categories, attributes, vendors, etc.). To import those "
+"relations you need to import the records of the related object first from "
+"their own list menu."
+msgstr ""
+"Et Odoo objekt er altid relateret til mange andre objekter (f.eks. et "
+"produkt forbundet til produktkategorier, egenskaber, leverandører, osv.). "
+"For at importere de relationer skal du importere de datasæt tilhørende de "
+"relaterede objekter først, fra deres egen liste menu."
+
+#: ../../content/applications/general/export_import_data.rst:409
+msgid ""
+"You can do it using either the name of the related record or its ID. The ID "
+"is expected when two records have the same name. In such a case add \" / "
+"ID\" at the end of the column title (e.g. for product attributes: Product "
+"Attributes / Attribute / ID)."
+msgstr ""
+"Du kan gøre det via enten navnet på den relaterede datasæt, eller dets ID. "
+"ID'et forventes når der er to datasæt med samme navn. Tilføj i så fald \" / "
+"ID\" til kolonnens titel (f.eks. for produkt egenskaber: Produkt Egenskaber "
+"/ Egenskaber / ID)."
+
+#: ../../content/applications/general/in_app_purchase.rst:3
+msgid "In-App Purchase (IAP)"
+msgstr ""
+
+#: ../../content/applications/general/in_app_purchase.rst:5
+msgid ""
+"In-App Purchases (IAP) gives access to additional services through Odoo. For"
+" instance, it allows you to send SMS Text Messages or to send Invoices by "
+"post directly from my database."
+msgstr ""
+
+#: ../../content/applications/general/in_app_purchase.rst:9
+msgid "Buying Credits"
+msgstr "Køb af Kredit"
+
+#: ../../content/applications/general/in_app_purchase.rst:11
+msgid ""
+"Each IAP Service relies on prepaid credits to work and has its own pricing. "
+"To consult my current balance or to recharge my account, go to "
+":menuselection:`Settings --> Odoo IAP --> View my Services`."
+msgstr ""
+"Hver IAP Tjeneste er afhængig af forudbetalt kredit for at virke, og har "
+"dens egen prisfastsættelse. For at tjekke din nuværende saldo eller tilføje "
+"kredit til din konto, skal du gå til :menuselection:`Indstillinger --> Odoo "
+"IAP --> Vis mine Tjenester`."
+
+#: ../../content/applications/general/in_app_purchase.rst:19
+msgid ""
+"If I am on Odoo Online (SAAS) and have the Enterprise version, I benefit "
+"from free credits to test our IAP features."
+msgstr ""
+"Hvis jeg er på Odoo Online (SAAS) og har Enterprise udgaven, drager jeg "
+"fordel af gratis kredit til at teste vores IAP funktioner."
+
+#: ../../content/applications/general/in_app_purchase.rst:23
+msgid "IAP accounts"
+msgstr "IAP konti"
+
+#: ../../content/applications/general/in_app_purchase.rst:25
+msgid ""
+"Credits to use IAP services are stored on IAP accounts, which are specific "
+"to each service and database. By default, IAP accounts are common to all "
+"companies, but can be restricted to specific ones. Activate the "
+":ref:`developer mode <developer-mode>`, then go to :menuselection:`Technical"
+" Settings --> IAP Account`."
+msgstr ""
+
+#: ../../content/applications/general/in_app_purchase.rst:34
+msgid "IAP Portal"
+msgstr "IAP Portal"
+
+#: ../../content/applications/general/in_app_purchase.rst:36
+msgid ""
+"The IAP Portal is a platform regrouping my IAP Services. It is accessible "
+"from :menuselection:`Settings app --> Odoo IAP --> View my Services`. From "
+"there, I can view my current balance, recharge my credits, review my "
+"consumption and set a reminder to when credits are low."
+msgstr ""
+"IAP Portalen er en platform der omgrupperer mine IAP Ydelser. Den er "
+"tilgængelig fra :menuselection:`Indstillinger --> Odoo IAP --> Vis mine "
+"Ydelser`. Der fra kan du se min nuværende saldo, genoplade mit kredit, "
+"gennemgå mit forbrug, og sætte en påmindelse når kredit er lav."
+
+#: ../../content/applications/general/in_app_purchase.rst:44
+msgid "Get notified when credits are low"
+msgstr "Bliv underrettet når kredit er lav"
+
+#: ../../content/applications/general/in_app_purchase.rst:46
+msgid ""
+"To be notified when it’s time to recharge my credits, I’ll go to my IAP "
+"Portal through :menuselection:`Settings app --> Odoo IAP --> View my "
+"Services`, unfold a service and mark the Receive threshold warning option. "
+"Then, I’ll provide a minimum amount of credits and email addresses. Now, "
+"every time that the limit is reached, an automatic reminder will be sent to "
+"by email!"
+msgstr ""
+"For at blive underrettet når det er tid til at genoplade min kredit, vil jeg"
+" gå til min IAP Portal via :menuselection:`Indstillings applikationen --> "
+"Odoo IAP --> Vis mine Ydelser`, fold en ydelse ud, og marker Modtag "
+"grænseværdi advarsel indstillingen. Derefter vil jeg udbyde et minimalt "
+"antal kredit og email adresser. Derefter vil en automatisk påmindelse blive "
+"afsendt, hver gang grænsen er nået!"
+
+#: ../../content/applications/general/in_app_purchase.rst:56
+msgid "IAP services available"
+msgstr "tilgængelige IPA ydelser"
+
+#: ../../content/applications/general/in_app_purchase.rst:58
+msgid ""
+"Different services are available depending on the hosting type of your "
+"Database:"
+msgstr ""
+"Forskellige tjenester er tilgængelig afhængig af hosting typen for din "
+"Database:"
+
+#: ../../content/applications/general/in_app_purchase.rst:60
+msgid ""
+"*Odoo Online (SAAS)*: only the IAP services provided by Odoo can be used "
+"(i.e. the SMS, Snailmail, Reveal and Partner Autocomplete features);"
+msgstr ""
+"*Odoo Online (SAAS)*: Kun IAP tjenesterne udbudt af Odoo kan anvendes "
+"(f.eks. SMS, Post, Afslør og Partner Auto-fuldførsel  funktinoer);"
+
+#: ../../content/applications/general/in_app_purchase.rst:62
+msgid ""
+"*Odoo.sh and Odoo Enterprise (on-premise)*: both the services provided by "
+"Odoo and by third-party apps can be used."
+msgstr ""
+"*Odoo.sh og Odoo Enterprise (på lokation)*: Begge tjenester udbydes af Odoo,"
+" og tredjeparts applikationer kan anvendes."
+
+#: ../../content/applications/general/in_app_purchase.rst:66
+msgid "Offering my own services"
+msgstr "Tilbyder mine egne ydelser"
+
+#: ../../content/applications/general/in_app_purchase.rst:68
+msgid ""
+"I am more than welcome to offer my own IAP services through Odoo Apps! It is"
+" the perfect opportunity to get recurring revenue for an ongoing service use"
+" rather than — and possibly instead of — a sole initial purchase. Please, "
+"find more information at: :doc:`In-App Purchase </developer/misc/api/iap>`."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:5
+msgid "Payment Acquirers (Credit Cards, Online Payment)"
+msgstr "Betalingsmodtagerer (Kreditkort, Online betaling)"
+
+#: ../../content/applications/general/payment_acquirers.rst:15
+msgid ""
+"Odoo embeds several **payment acquirers** that allow your customers to pay "
+"on their *Customer Portals* or your *eCommerce website*. They can pay Sales "
+"Orders, invoices, or subscriptions with recurring payments with their "
+"favorite payment methods such as **Credit Cards**."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:19
+msgid ""
+"Offering several payment methods increases the chances of getting paid in "
+"time, or even immediately, as you make it more convenient for your customers"
+" to pay with the payment method they prefer and trust."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:28
+msgid ""
+"Odoo apps delegate the handling of sensitive information to the certified "
+"payment acquirer so that you don't ever have to worry about PCI compliance."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:31
+msgid ""
+"This means that no sensitive information (such as credit card numbers or "
+"credentials) is stored on Odoo servers or Odoo databases hosted elsewhere. "
+"Instead, Odoo apps use a unique reference number to the data stored safely "
+"in the payment acquirers' systems."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:38
+msgid "Payment Acquirers"
+msgstr "Betalingsindløser"
+
+#: ../../content/applications/general/payment_acquirers.rst:40
+msgid ""
+"From an accounting perspective, we can distinguish two types of payment "
+"acquirers: the payments that go directly on the bank account and follow the "
+"usual reconciliation workflow, and the payment acquirers that are third-"
+"party services and require you to follow another accounting workflow."
+msgstr ""
+"Fra et regnskabs perspektiv kan vi kende forskel på to slags "
+"betalingsmodtagere: Betalingerne der går direkte ind på bankkontoen og "
+"følger den typiske afstemnings process, og betalingsmodtagere der er "
+"tredjepartsydelser, og kræver at du følger en anden regnskabsprocess."
+
+#: ../../content/applications/general/payment_acquirers.rst:47
+msgid "Bank Payments"
+msgstr "Bank Betalinger"
+
+#: ../../content/applications/general/payment_acquirers.rst:0
+msgid ":doc:`Wire Transfer <payment_acquirers/wire_transfer>`"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:0
+msgid ""
+"When selected, Odoo displays your payment information with a payment "
+"reference. You have to approve the payment manually once you have received "
+"it on your bank account."
+msgstr ""
+"Når denne er valgt viser Odoo dig betalingsinformation med en "
+"betalingsreference. Du skal godkende betalingen mnuelt når du har modtaget "
+"den på din bankkonto."
+
+#: ../../content/applications/general/payment_acquirers.rst:0
+msgid "SEPA Direct Debit"
+msgstr "SEPA direkte debit"
+
+#: ../../content/applications/general/payment_acquirers.rst:0
+msgid ""
+"Your customers can sign a SEPA Direct Debit mandate online and get their "
+"bank account charged directly. :doc:`Click here "
+"<../finance/accounting/receivables/customer_payments/batch_sdd>` for more "
+"information about this payment method."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:60
+msgid "Online Payment Providers"
+msgstr "Online Betalingsudbydere"
+
+#: ../../content/applications/general/payment_acquirers.rst:63
+msgid "Redirection to the acquirer website"
+msgstr "Omdirigere til modtagerens hjemmeside"
+
+#: ../../content/applications/general/payment_acquirers.rst:63
+msgid "Payment from Odoo"
+msgstr "Betaling fra Odoo"
+
+#: ../../content/applications/general/payment_acquirers.rst:63
+msgid "Save Cards"
+msgstr "Gem kort"
+
+#: ../../content/applications/general/payment_acquirers.rst:63
+msgid "Capture Amount Manually"
+msgstr "Indfang mængde manuelt"
+
+#: ../../content/applications/general/payment_acquirers.rst:66
+msgid "Adyen"
+msgstr "Adyen"
+
+#: ../../content/applications/general/payment_acquirers.rst:66
+#: ../../content/applications/general/payment_acquirers.rst:68
+#: ../../content/applications/general/payment_acquirers.rst:70
+#: ../../content/applications/general/payment_acquirers.rst:70
+#: ../../content/applications/general/payment_acquirers.rst:70
+#: ../../content/applications/general/payment_acquirers.rst:70
+#: ../../content/applications/general/payment_acquirers.rst:73
+#: ../../content/applications/general/payment_acquirers.rst:75
+#: ../../content/applications/general/payment_acquirers.rst:75
+#: ../../content/applications/general/payment_acquirers.rst:75
+#: ../../content/applications/general/payment_acquirers.rst:77
+#: ../../content/applications/general/payment_acquirers.rst:80
+#: ../../content/applications/general/payment_acquirers.rst:82
+#: ../../content/applications/general/payment_acquirers.rst:84
+#: ../../content/applications/general/payment_acquirers.rst:84
+#: ../../content/applications/general/payment_acquirers.rst:84
+msgid "✔"
+msgstr "✔"
+
+#: ../../content/applications/general/payment_acquirers.rst:68
+msgid "Alipay"
+msgstr "Alipay"
+
+#: ../../content/applications/general/payment_acquirers.rst:70
+msgid ":doc:`Authorize.Net <payment_acquirers/authorize>`"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:73
+msgid "Buckaroo"
+msgstr "Buckaroo"
+
+#: ../../content/applications/general/payment_acquirers.rst:75
+msgid "Ingenico"
+msgstr "Ingenico"
+
+#: ../../content/applications/general/payment_acquirers.rst:77
+msgid ":doc:`PayPal <payment_acquirers/paypal>`"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:80
+msgid "PayUMoney"
+msgstr "PayUMoney"
+
+#: ../../content/applications/general/payment_acquirers.rst:82
+msgid "SIPS"
+msgstr "SIPS"
+
+#: ../../content/applications/general/payment_acquirers.rst:84
+#: ../../content/applications/general/payment_acquirers/stripe.rst:3
+msgid "Stripe"
+msgstr "Stribe"
+
+#: ../../content/applications/general/payment_acquirers.rst:88
+msgid ""
+"Some of these Online Payment Providers can also be added as :doc:`Bank "
+"Accounts <../finance/accounting/bank/setup/bank_accounts>`, but this is "
+"**not** the same process as adding them as Payment Acquirers. Payment "
+"Acquirers allow customers to pay online, and Bank Accounts are added and "
+"configured on your Accounting app to do a bank reconciliation, which is an "
+"accounting control process."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:99
+msgid ""
+"Some of the features described in this section are available only with some "
+"Payment Acquirers. Refer to :ref:`the table above "
+"<payment_acquirers/online_providers>` for more details."
+msgstr ""
+"Visse af funktionaliteterne beskrevet i denne sektion er kun tilgængelig med"
+" visse Betalingsmodtagere. Referer til :ref:`tabellen ovenfor "
+"<payment_acquirers/online_providers>` for yderligere information."
+
+#: ../../content/applications/general/payment_acquirers.rst:105
+msgid "Add a new Payment Acquirer"
+msgstr "Tilføj en ny Betalingsmodtager"
+
+#: ../../content/applications/general/payment_acquirers.rst:107
+msgid ""
+"To add a new Payment acquirer and make it available to your customers, go to"
+" :menuselection:`Accounting --> Configuration --> Payment Acquirers`, look "
+"for your payment acquirer, install the related module, and activate it. To "
+"do so, open the payment acquirer and change its state from *Disabled* to "
+"*Enabled*."
+msgstr ""
+"For at tilføje en ny Betalingsmodtager og gør det tilgængelig for dine "
+"kunder, gå til :menuselection:`Regnskab --> Konfiguration --> "
+"Betalingsmodtagerer`, se efter din betalingsmodtager, installér det "
+"relaterede modul, og aktivér den. For at gøre dette, skal du åbne "
+"betalingsmodtageren, og ændre dens status fra *Deaktiveret* til *Aktiveret*."
+
+#: ../../content/applications/general/payment_acquirers.rst:117
+msgid ""
+"We recommend using the *Test Mode* on a duplicated database or a test "
+"database. The Test Mode is meant to be used with your test/sandbox "
+"credentials, but Odoo generates Sales Orders and Invoices as usual. It isn't"
+" always possible to cancel an invoice, and this could create some issues "
+"with your invoices numbering if you were to test your payment acquirers on "
+"your main database."
+msgstr ""
+"Vi anbefaler brug af *Test Tilstand* på en duplikeret database eller en test"
+" database. Test Tilstanden er beregnet til at blive anvendt sammen med dine "
+"test/sandkasse legitimationsoplysninger, men Odoo genererer Salgsordre og "
+"Faktura som normalt. Det er ikke altid muligt at annullere en faktura, og "
+"dette  ville kunne forårsage nogle problemer med din faktura nummerering, "
+"hvis du skulle teste dine betalingsmodtagere på din primære database."
+
+#: ../../content/applications/general/payment_acquirers.rst:125
+msgid "Credentials tab"
+msgstr "Legitimationsoplysnings fane"
+
+#: ../../content/applications/general/payment_acquirers.rst:127
+msgid ""
+"If not done yet, go to the **Online Payment Provider**'s website, create an "
+"account, and make sure to have the credentials required for third-party use."
+" Odoo requires these credentials to communicate with the Payment Acquirer "
+"and get the confirmation of the *payment authentication*."
+msgstr ""
+"Hvis den endnu ikke er færdig, skal du gå til **Online Betalingsudbyderens**"
+" hjemmeside, oprette en konto, og forsikre dig at du har login "
+"informationerne påkrævet for tredjeparts-brug. Disse er nødvendige for at "
+"Odoo kan kommunikere med Betalingsudbyderen og modtage bekræftelse af "
+"*betalings valideringen*."
+
+#: ../../content/applications/general/payment_acquirers.rst:131
+msgid ""
+"The form in this section is specific to the Payment Acquirer you are "
+"configuring. Please refer to the related documentation for more information."
+msgstr ""
+"Formularen i denne sektion er specifik til Betalingsmodtageren du "
+"konfigurere. Referere venligst til den relaterede dokumentation for "
+"yderligere information."
+
+#: ../../content/applications/general/payment_acquirers.rst:137
+msgid "Configuration tab"
+msgstr "Konfiguration fane"
+
+#: ../../content/applications/general/payment_acquirers.rst:139
+msgid ""
+"You can change the Payment Acquirer front-end appearance by modifying its "
+"name under the **Displayed as** field and which credit card icons to display"
+" under the **Supported Payment Icons** field."
+msgstr ""
+"Du kan ændre Betalingsmodtagerens udseende udadtil ved at redigere dens navn"
+" i **Vist som** feltet, og hvilket kreditkort ikon at vise i **Understøttede"
+" Betalings Ikoner** feltet."
+
+#: ../../content/applications/general/payment_acquirers.rst:145
+msgid "Save and reuse Credit Cards"
+msgstr "Gem og genbrug Kreditkort"
+
+#: ../../content/applications/general/payment_acquirers.rst:147
+msgid ""
+"With the **Save Cards** feature, Odoo can store **Payment Tokens** in your "
+"database, which can be used for subsequent payments, without having to "
+"reenter the payment details. This is particularly useful for subscriptions' "
+"recurring payments."
+msgstr ""
+"Med **Gem Kort** funktionen kan Odoo gemme **Betalingstokens** i din "
+"database, som kan bruges ved senere betalinger, uden at skulle genindtaste "
+"betalingsoplysningerne. Dette er særlig nyttigt for abonnementers gentagende"
+" betalinger."
+
+#: ../../content/applications/general/payment_acquirers.rst:154
+msgid "Place a hold on a card"
+msgstr "Lav en forudreservation på et kort"
+
+#: ../../content/applications/general/payment_acquirers.rst:156
+msgid ""
+"If the **Capture Amount Manually** field is enabled, the funds are reserved "
+"for a few days on the customer's card, but not charged yet. You must then go"
+" to the related Sales Order and manually *capture* the funds before its "
+"automatic cancellation, or *void the transaction* to unlock the funds from "
+"the customer's card."
+msgstr ""
+"Hvis **Indfang Beløb Manuelt** felt er aktivt, vil midlerne blive reserveret"
+" på kundens kort i et par dage, men ikke trækkes. Du skal derefter gå til "
+"den relaterede Salgsordre, og manuelt *indfange* midlerne før den "
+"automatiske annullering, eller *annuller transaktionen* for at frigive "
+"midlerne fra kundens kort."
+
+#: ../../content/applications/general/payment_acquirers.rst:164
+#: ../../content/applications/general/payment_acquirers/authorize.rst:69
+msgid "Payment Flow"
+msgstr "Betalingsflow"
+
+#: ../../content/applications/general/payment_acquirers.rst:166
+msgid ""
+"Choose in the **Payment Flow** field if to redirect the user to the payment "
+"acquirer's portal to authenticate the payment, or if to stay on the current "
+"page and authenticate the payment from Odoo."
+msgstr ""
+"I **Betalings Process** feltet vælges der om brugeren skal omdirigeres til "
+"betalingsmodtagerens portal for at autentificere betalingen, eller om de "
+"skal blive på den nuværende side, og autentificere betalingen fra Odoo."
+
+#: ../../content/applications/general/payment_acquirers.rst:170
+msgid ""
+"Some features are available only if you select *Redirection to the acquirer "
+"website*."
+msgstr ""
+"Visse funktionaliteter er kun tilgængelige hvis du vælger *Omdirigering til "
+"modtagerens hjemmeside*."
+
+#: ../../content/applications/general/payment_acquirers.rst:175
+msgid "Countries"
+msgstr "Lande"
+
+#: ../../content/applications/general/payment_acquirers.rst:177
+msgid ""
+"Restrict the use of the Payment Acquirer to a selection of countries. Leave "
+"this field blank to make the Payment Acquirer available to all countries."
+msgstr ""
+"Begræns brugen af Betalingsmodtageren til et udvalg af lande. Lad feltet "
+"være blankt for at gøre Betalingsmodtageren tilgængelig for alle lande."
+
+#: ../../content/applications/general/payment_acquirers.rst:183
+msgid "Payment Journal"
+msgstr "Betalingsjournal"
+
+#: ../../content/applications/general/payment_acquirers.rst:185
+msgid ""
+"The **Payment Journal** selected for your Payment Acquirer must be a *Bank* "
+"journal."
+msgstr ""
+"**Betalingsjournalen** valgt for din betalingsmodtager skal være en *Bank* "
+"journal."
+
+#: ../../content/applications/general/payment_acquirers.rst:188
+msgid ""
+"In many cases, Odoo automatically creates a new **Journal** and a new "
+"**Account** when you activate a new Payment Acquirer. Both of them are "
+"preset to work out-of-the-box, but we strongly recommend you to make sure "
+"these fields are correctly set according to your accounting needs, and adapt"
+" them if necessary."
+msgstr ""
+"I mange tilfælde opretter Odoo automatisk en ny **Journal** og en ny "
+"**Konto** når du aktivere en ny Betalingsmodtager. De er begge "
+"forudindstillet til at fungere fra start, men vi anbefaler på det kraftigste"
+" at du forsikre dig, at disse felter er angivet korrekt, ud fra dine "
+"finansbehov, og tilpasser dem om nødvendigt."
+
+#: ../../content/applications/general/payment_acquirers.rst:196
+msgid "Messages tab"
+msgstr "Beskeder fane"
+
+#: ../../content/applications/general/payment_acquirers.rst:198
+msgid ""
+"Change here the messages displayed by Odoo after a payment's confirmation or"
+" failure."
+msgstr ""
+"Her skifter du beskederne der vises af Odoo efter en betalings bekræftelse "
+"eller afvisning."
+
+#: ../../content/applications/general/payment_acquirers.rst:203
+msgid "Accounting perspective"
+msgstr "Regnskab perspektiv"
+
+#: ../../content/applications/general/payment_acquirers.rst:205
+msgid ""
+"The **Bank Payments** that go directly to one of your bank accounts follow "
+"their usual reconciliation workflows. However, payments recorded with "
+"**Online Payment Providers** require you to consider how you want to record "
+"your payments' journal entries. We recommend you to ask your accountant for "
+"advice."
+msgstr ""
+"De **Bankbetalinger** der går direkte til en af dine bankkonti følger de "
+"sædvanlige arbejdsprocessor. Dog kræver betalinger registreret med **Online "
+"Betalingsudbydere** at du overvejer hvordan du vil registrere dine "
+"betalingers journalposteringer. Vi råder dig til at du spørger din revisor "
+"til råds."
+
+#: ../../content/applications/general/payment_acquirers.rst:210
+msgid ""
+"Odoo default method is to record the payments on a *Current Assets Account*,"
+" on a dedicated *Bank Journal*, once the *Payment Authentication* is "
+"confirmed. At some point, you transfer the funds from the *Payment Acquirer*"
+" to your *Bank Account*."
+msgstr ""
+"Odoo standard metodik er at oprette datasæt for betalinger på en *Nuværende "
+"Aktiver Konto', på en dedikeret *Bankjournal*, når "
+"*Betalingsautentificering* er bekræftet. På et tidspunkt overfører du "
+"midlerne fra *Betalingsmodtager* til din *Bankkonto*."
+
+#: ../../content/applications/general/payment_acquirers.rst:214
+msgid "Here are the requirements for this to work:"
+msgstr "Her er betingelserne for at dette kan virke:"
+
+#: ../../content/applications/general/payment_acquirers.rst:216
+msgid "Bank Journal"
+msgstr "Bankjournal"
+
+#: ../../content/applications/general/payment_acquirers.rst:218
+msgid "The Journal's **type** must be *Bank Journal*."
+msgstr "Journalens **type** skal være *Bankjournal*."
+
+#: ../../content/applications/general/payment_acquirers.rst:219
+msgid ""
+"Select the right **Default Debit Account** and **Default Credit Account**."
+msgstr ""
+"Vælg den korrekte **Standard Debetkonto** og **Standard Kreditkonto**."
+
+#: ../../content/applications/general/payment_acquirers.rst:0
+msgid ""
+"Under the *Advanced Settings* tab, make sure that **Posting** is set as "
+"*Post At Payment Validation*."
+msgstr ""
+"Under fanen *Avancerede Indstillinger*, skal du sikre dig, at *Postering* er"
+" sat til *Poster ved Betalingsbekræftelse*."
+
+#: ../../content/applications/general/payment_acquirers.rst:0
+msgid ""
+"This implies that the Journal Entry is recorded directly when your Odoo "
+"database receives the confirmation of the *Payment Authentication* from the "
+"Online Payment Provider."
+msgstr ""
+"Dette indebære at Journal posteringen registreres direkte når din Odoo "
+"database modtager bekræftelse vedrørende *Betalingsautentificeringen* fra "
+"Online Betalings Udbyderen."
+
+#: ../../content/applications/general/payment_acquirers.rst:225
+msgid "Current Asset Account"
+msgstr "Nuværende Aktivkonto"
+
+#: ../../content/applications/general/payment_acquirers.rst:227
+msgid "The Account's **type** is *Current Assets*"
+msgstr "Kontoens **type** er *Nuværende Aktiver*"
+
+#: ../../content/applications/general/payment_acquirers.rst:228
+msgid "The Account must **Allow Reconciliation**"
+msgstr "Kontoen skal **Tillade Afstemning**"
+
+#: ../../content/applications/general/payment_acquirers.rst:231
+msgid ""
+"In many cases, Odoo automatically creates a new **Journal** and a new "
+"**Current Asset Account** when you activate a new Payment Acquirer. You can "
+"modify them if necessary."
+msgstr ""
+"I mange tilfælde opretter Odoo automatisk en ny **Journal** og en ny "
+"**Nuværende Aktiver Konto** når du aktivere en ny Betalingsmodtager. Du kan "
+"redigere dem om nødvendigt."
+
+#: ../../content/applications/general/payment_acquirers.rst:236
+msgid ":doc:`../finance/accounting/receivables/customer_payments/recording`"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:237
+msgid ":doc:`payment_acquirers/wire_transfer`"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:238
+msgid ":doc:`payment_acquirers/authorize`"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:239
+msgid ":doc:`payment_acquirers/paypal`"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/authorize.rst:3
+msgid "Authorize.Net"
+msgstr "Authorize.Net"
+
+#: ../../content/applications/general/payment_acquirers/authorize.rst:5
+msgid ""
+"`Authorize.Net <https://www.authorize.net>`__ is a United States-based "
+"online payment solution provider, allowing businesses to accept **credit "
+"cards**."
+msgstr ""
+"`Authorize.Net <https://www.authorize.net>`__ er en online betalingsudbyder "
+"baseret i USA, som gør det muligt for forretninger at modtage "
+"**kreditkort**."
+
+#: ../../content/applications/general/payment_acquirers/authorize.rst:12
+msgid ""
+"This Payment Acquirer offers additional options that are not available for "
+"other :doc:`Payment Acquirers <../payment_acquirers>`, such as the ability "
+"to process your customer's payment after delivery."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/authorize.rst:17
+msgid "Authorize.Net account"
+msgstr "Authorize.Net konto"
+
+#: ../../content/applications/general/payment_acquirers/authorize.rst:19
+msgid ""
+"If not done yet, choose a plan and `Sign Up for an Authorize.Net account "
+"<https://www.authorize.net/sign-up.html>`__."
+msgstr ""
+"Hvis ikke færdig endnu, skal du vælge en plan og `Oprette en Authorize.Net "
+"konto <https://www.authorize.net/sign-up.html>`__."
+
+#: ../../content/applications/general/payment_acquirers/authorize.rst:22
+msgid ""
+"Odoo needs your **API Credentials & Keys** to connect with your "
+"Authorize.Net account, which comprise:"
+msgstr ""
+"Odoo skal bruge dine **API Legitimationsoplysninger & Nøgler** for at "
+"forbinde med din Authorize.Net konto, hvilket omfatter:"
+
+#: ../../content/applications/general/payment_acquirers/authorize.rst:25
+msgid "API Login ID"
+msgstr "API Login ID"
+
+#: ../../content/applications/general/payment_acquirers/authorize.rst:26
+msgid "Transaction Key"
+msgstr "Transaktionsnøgle"
+
+#: ../../content/applications/general/payment_acquirers/authorize.rst:27
+msgid "Signature Key"
+msgstr "Signatur Nøgle"
+
+#: ../../content/applications/general/payment_acquirers/authorize.rst:29
+msgid ""
+"To retrieve them, log into your Authorize.Net account, go to "
+":menuselection:`Account --> Security Settings --> General Security Settings "
+"--> API Credentials & Keys`, and generate your **Transaction Key** and "
+"**Signature Key**."
+msgstr ""
+"For at indhente dem, skal du logge ind på din Authorize.Net konto, gå til "
+":menuselection:`Konto --> Sikkerhedsindstillinger --> Generelle "
+"Sikkerhedsindstillinger --> API Logininformationer og Nøgler`, og generer "
+"din **Transaktionsnøgle** og **Signatur Nøgle**."
+
+#: ../../content/applications/general/payment_acquirers/authorize.rst:39
+#: ../../content/applications/general/payment_acquirers/authorize.rst:114
+msgid ""
+"`Authorize.Net: Getting Started Guide "
+"<https://support.authorize.net/s/article/Authorize-Net-Getting-Started-"
+"Guide>`__"
+msgstr ""
+"`Authorize.Net: Startguide "
+"<https://support.authorize.net/s/article/Authorize-Net-Getting-Started-"
+"Guide>`__"
+
+#: ../../content/applications/general/payment_acquirers/authorize.rst:43
+msgid "Payment Acquirer Configuration"
+msgstr "Betalingsmodtager Konfiguration"
+
+#: ../../content/applications/general/payment_acquirers/authorize.rst:45
+msgid ""
+"To configure Authorize.Net as Payment Acquirer in Odoo, go to "
+":menuselection:`Accounting --> Configuration --> Payment Acquirers`, open "
+"**Authorize.Net**, and change the **State** to *Enabled*. Don't forget to "
+"click on *Save* once you've set everything up."
+msgstr ""
+"For at konfigurere Authorize.Net som Betalingsmodtagere i Odoo, skal du gå "
+"til :menuselection:`Regnskab --> Konfiguration --> Betalingsmodtagere`, åben"
+" **Authorize.Net**, og ændre **Tilstand** til *Aktiveret*. Glem ikke at "
+"klikke på *Gem* når du har sæt alt op."
+
+#: ../../content/applications/general/payment_acquirers/authorize.rst:50
+msgid ""
+"Please refer to the :doc:`Payment Acquirers documentation "
+"<../payment_acquirers>` to read how to configure this payment acquirer."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/authorize.rst:56
+msgid ""
+"Copy your credentials from your Authorize.Net account (API Login Id, API "
+"Transaction Key, and API Signature Key), paste them in the related fields "
+"under the **Credentials** tab, then click on **Generate Client Key**."
+msgstr ""
+"Kopier dine legitimationsoplysninger fra din Authorize.Net konto (API Login "
+"Id, API Transaktionsnøgle, og API Signaturnøgle), indsæt dem i de relaterede"
+" felter inde under **Legeitimationsoplysninger** fanen, og klik på "
+"**Generere  Klientnøgle**."
+
+#: ../../content/applications/general/payment_acquirers/authorize.rst:61
+msgid ""
+"The **API Client Key** is necessary only if you select *Payment from Odoo* "
+"option as :ref:`Payment Flow <payment_acquirers/payment_flow>`."
+msgstr ""
+"**API Klientnøglen** er kun nødvendig hvis du vælger *Betaling fra Odoo* "
+"indstillingen som :ref:`Betalingsprocess <payment_acquirers/payment_flow>`."
+
+#: ../../content/applications/general/payment_acquirers/authorize.rst:65
+msgid ""
+"If you are trying Authorize.Net as a test, with a *sandbox account*, change "
+"the **State** to *Test Mode*. We recommend doing this on a test Odoo "
+"database, rather than on your main database."
+msgstr ""
+"Hvis du afprøver Authorize.Net som en test, med en *sandkasse konto*, skal "
+"du ændre **Tilstand** til *Test Tilstand*. Vi anbefaler at gøre dette på en "
+"Odoo test database, i stedet for din primære database."
+
+#: ../../content/applications/general/payment_acquirers/authorize.rst:71
+msgid ""
+"The **Payment Flow** lets you decide if to redirect the user to the payment "
+"acquirer's portal to authenticate the payment, or if to stay on the current "
+"page and authenticate the payment from Odoo. This field is under the "
+"**Configuration** tab."
+msgstr ""
+"**Betalingsprocessen** lader dig afgøre om brugeren skal omdirigeres til "
+"betalingsmodtagerens portal for at autentificere betalingen, eller om de "
+"skal blive på den nuværende side og autentificere betalingen fra Odoo. Dette"
+" felt er under **Konfiguration** fanen."
+
+#: ../../content/applications/general/payment_acquirers/authorize.rst:75
+msgid ""
+"If you select *Redirection to the acquirer website*, make sure you add a "
+"**Default Receipt URL** and a **Default Relay Response URL** to your "
+"Authorize.net account."
+msgstr ""
+"Hvis du vælger *Omdirigering til modtagers hjemmeside*, skal du sikre dig at"
+" du tilføjer **Standard Kvittering URL** og en **Standard Relæ Respons URL**"
+" til din Authorize.net konto."
+
+#: ../../content/applications/general/payment_acquirers/authorize.rst:78
+msgid ""
+"To do so, log into your Authorize.Net account, go to :menuselection:`Account"
+" --> Transaction Format Settings --> Transaction Response Settings --> "
+"Response/Receipt URLs`, and set the default links:"
+msgstr ""
+"For at gøre dette, skal du logge ind på din Authorize.Net konto, gå til "
+":menuselection:`Konto --> Transaktion Format Indstillinger --> Transaktion "
+"Respons Indstillinger --> Respons/Kvittering URL`, og angiv standard links:"
+
+#: ../../content/applications/general/payment_acquirers/authorize.rst:0
+msgid "Default Receipt URL:"
+msgstr "Standard Kvitterings URL:"
+
+#: ../../content/applications/general/payment_acquirers/authorize.rst:0
+msgid "*https://[yourcompany.odoo.com]*/**payment/authorize/return**"
+msgstr "*https://[dinvirksomhed.odoo.com]*/**payment/authorize/return**"
+
+#: ../../content/applications/general/payment_acquirers/authorize.rst:0
+msgid "Default Relay Response URL:"
+msgstr "Standard Relæ Respons URL:"
+
+#: ../../content/applications/general/payment_acquirers/authorize.rst:0
+msgid "*https://[yourcompany.odoo.com]*/**shop/confirmation**"
+msgstr "*https://[dinvirksomhed.odoo.com]*/**shop/confirmation**"
+
+#: ../../content/applications/general/payment_acquirers/authorize.rst:0
+msgid "Failing to complete this step results in the following error:"
+msgstr "Mangel på udførsel af dette trin resulterer i følgende fejl:"
+
+#: ../../content/applications/general/payment_acquirers/authorize.rst:0
+msgid "*The referrer, relay response or receipt link URL is invalid.*"
+msgstr "*Henvisningen, relæ svaret, eller kvitteringslink URL er ugyldig.*"
+
+#: ../../content/applications/general/payment_acquirers/authorize.rst:91
+msgid "Capture the payment after the delivery"
+msgstr "Indhent betalingen efter leveringen."
+
+#: ../../content/applications/general/payment_acquirers/authorize.rst:93
+msgid ""
+"The **Capture Amount Manually** field is under the **Configuration** tab. If"
+" enabled, the funds are reserved for 30 days on the customer's card, but not"
+" charged yet."
+msgstr ""
+"**Indhent Beløb Manuelt** feltet er under fanen **Konfiguration**. Hvis den "
+"er aktiveret, reserveres midlerne på kundens kort i 30 dage, men trækkes "
+"ikke endnu."
+
+#: ../../content/applications/general/payment_acquirers/authorize.rst:100
+msgid ""
+"To capture the payment, go to the related Sales Order and click on *Capture "
+"Transaction*. If the order is canceled, you can click on *Void Transaction* "
+"to unlock the funds from the customer's card."
+msgstr ""
+"For at indhente betalingen, skal du gå til den relaterede Salgsordre og "
+"klikke på *Indhent Transaktion*. Hvis ordren er annulleret, kan du klikke på"
+" *Annuller Transaktion* for at låse op for midlerne på kundens kort."
+
+#: ../../content/applications/general/payment_acquirers/authorize.rst:108
+msgid ""
+"After **30 days**, the transaction is **voided automatically** by "
+"Authorize.net."
+msgstr ""
+"Efter **30 dage** bliver transaktionen **annulleret automatisk** af "
+"Authorize.net."
+
+#: ../../content/applications/general/payment_acquirers/authorize.rst:111
+msgid ""
+"With other payment acquirers, you can manage the capture in their own "
+"interfaces, not from Odoo."
+msgstr ""
+"Med andre betalingsudbydere kan du administrere indfangsten i deres egne "
+"brugerflader, ikke fra Odoo."
+
+#: ../../content/applications/general/payment_acquirers/authorize.rst:116
+#: ../../content/applications/general/payment_acquirers/paypal.rst:206
+msgid ":doc:`../payment_acquirers`"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/authorize.rst:117
+#: ../../content/applications/general/payment_acquirers/paypal.rst:207
+msgid ":doc:`../../websites/ecommerce/shopper_experience/payment_acquirer`"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:3
+msgid "Configure your Paypal account"
+msgstr "Konfigurer din Paypal konto"
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:5
+msgid ""
+"Paypal is available and popular worldwide. It doesn’t charge any "
+"subscription fee and creating an account is very easy. That’s why we "
+"definitely recommend it for starters in Odoo. It works as a seamless flow "
+"where the customer is routed to Paypal website to register the payment."
+msgstr ""
+"Payal er tilgængelig samt populær verden over. Den opkræver ingen "
+"abonnements gebyrer, og det er nemt at oprette en konto. Det er derfor vi "
+"anbefaler den til at begynde med i Odoo. Den fungere som en gnidningsfri "
+"process hvor kunden dirigeres til Paypal hjemmesiden for at registrere "
+"betalingen."
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:12
+msgid "Paypal account"
+msgstr "Paypal konto"
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:14
+msgid ""
+"A business account is needed to get paid with Paypal. Create a `Paypal "
+"Business Account <https://www.paypal.com/us/merchantsignup/ "
+"applicationChecklist?signupType=CREATE_NEW_ACCOUNT&productIntentId=wp_standard>`_"
+" or upgrade your Personal account to a Business account. Go to the Paypal "
+"settings and click on *Upgrade to a Business account*. Then follow the few "
+"configuration steps."
+msgstr ""
+"En finanskonto er påkrævet for at kunne blive betalt via Paypal. Opret en "
+"`Paypal Finanskonto "
+"<https://www.paypal.com/us/merchantsignup/applicationChecklist?signupType=CREATE_NEW_ACCOUNT&productIntentID=wp_standard>`_"
+" eller opgrader din Personlige konto med en Finanskonto. Gå til Paypal "
+"indstillingerne og klik på *Opgrade til en Finanskonto*. Følg derefter de få"
+" konfigurationstrin."
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:23
+msgid "Settings in Paypal"
+msgstr "Indstillinger i Paypal"
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:26
+msgid ""
+"First, let’s see how to set up your Paypal account in order to build a "
+"seamless customer experience with Odoo."
+msgstr ""
+"Først, lad os se på hvordan du opsætter din Paypal konto for at lave en "
+"strømlinet kundeoplevelse med Odoo."
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:28
+msgid ""
+"Log in and open the settings. Go to :menuselection:`Products & Services --> "
+"Website payments` and click **Update** on **Website preferences**."
+msgstr ""
+"Log ind og åben indstillingerne. Gå til :menuselection:`Produkter & Ydelser "
+"--> Hjemmeside betalinger` og klik **Opdater** i **Hjemmeside præferencer**."
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:34
+msgid "Auto Return"
+msgstr "Auto Returnér"
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:36
+msgid ""
+"*Auto Return* automatically redirects your customers to Odoo once the "
+"payment is processed. Check *Auto Return* and enter your domain name with "
+"the suffix ``/shop/confirmation`` as *Return URL* (e.g. "
+"``https://yourcompany.odoo.com/shop/confirmation``)."
+msgstr ""
+"*Automatisk Retur* omdirigerer automatisk dine kunder til Odoo når "
+"betalingen er gennemført. Marker *Automatisk Retur* og angiv dit domæne navn"
+" med suffikset ``/shop/confirmation`` som *Retur URL* (f.eks. "
+"``https://dinvirksomhed.odoo.com/shop/confirmation``)."
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:41
+msgid ""
+"This URL is requested in Paypal but not used in practice as Odoo transmits "
+"it at each transaction. Don’t worry if you manage several sales channels or "
+"Odoo databases."
+msgstr ""
+"Denne URL er anmodet i Paypal men ikke anvendt i praksis eftersom Odoo "
+"sender den ved hver transaktion. Vær ikke bekymret hvis du administrere "
+"flere salgskanaler eller Odoo databaser."
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:49
+msgid "Payment Data Transfer (PDT)"
+msgstr "Betalings Data Overførsel (BDO)"
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:51
+msgid ""
+"*Payment Data Transfer* delivers the payment confirmation to Odoo as soon as"
+" it is processed. Without it, Odoo cannot end the sales flow. This setting "
+"must be activated as well. When saving, an *Identity Token* is generated. "
+"You will be later requested to enter it in Odoo."
+msgstr ""
+"*Betalingsdata Overførsel* levere betalingsbekræftelsen til Odoo så snart "
+"den er behandlet. Uden den kan Odoo ikke afslutte salgs-processen. Denne "
+"indstilling skal også være aktiveret. Når der gemmes genereres der en "
+"*Identitets Token*. Du vil senere blive anmodet om at angive den i Odoo."
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:59
+msgid "Paypal Account Optional"
+msgstr "Paypal Konto Valgfri"
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:61
+msgid ""
+"We advise you to not prompt customers to log in with a Paypal account when "
+"they get to pay. Let them pay with debit/credit cards as well, or you might "
+"lose some deals. Make sure this setting is turned on."
+msgstr ""
+"Vi tilråder dig til ikke at prompte kunder til at logge ind med en Paypal "
+"konto når de skal betale. Lad dem også betale med kreditkort, ellers kan du "
+"tabe indtjening. Sørg for at denne indstilling er slået til."
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:68
+msgid "Instant Payment Notification (IPN)"
+msgstr "Øjeblikkelig Betalings Notifikation (ØBN)"
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:70
+msgid ""
+"PDT sends order confirmations once and only once. As a result, your site "
+"must be running when it happens; otherwise, it will never receive the "
+"message. That’s why we advise to activate the *Instant Payment Notification*"
+" (IPN) on top. With IPN, delivery of order confirmations is virtually "
+"guaranteed since IPN resends a confirmation until your site acknowledges "
+"receipt."
+msgstr ""
+"PDT sender ordrebekræftelser én og kun én gang. Derfor skal din side være "
+"kørende når det sker; ellers vil den aldrig modtage beskeden. Det er på "
+"grund af dette at vi tilråder dig til at aktivere *Øjeblikkelig Betalings "
+"Notifikation* (ØBN) ovenpå. Med ØBN er levering af ordrebekræftelser stort "
+"set garanteret, siden ØBN gensender en bekræftelse indtil din side anerkende"
+" modtagelse deraf."
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:77
+msgid ""
+"To activate IPN, get back to *Website payments* menu and click *Update* in "
+"*Instant Payment Notification*."
+msgstr ""
+"Gå tilbage til *Hjemmeside betalinger* menuen og klik på *Opdater* i "
+"*Øjeblikkelig Betalingsnotifikation* for at aktivere IPN."
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:79
+msgid ""
+"The *Notification URL* to set is your domain name + “payment/paypal/ipn” "
+"(e.g. ``https://yourcompany.odoo.com/payment/paypal/ipn``)."
+msgstr ""
+"*Notifaktions URL* der skal angives er dit domæne navn + "
+"“payment/paypal/ipn” (f.eks. "
+"``https://yourcompany.odoo.com/payment/paypal/ipn``)."
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:85
+msgid "Payment Messages Format"
+msgstr "Betaling Beskeder Format"
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:87
+msgid ""
+"If you use accented characters (or anything else than basic Latin "
+"characters) for your customer names, addresses... you MUST configure the "
+"encoding format of the payment request sent by Odoo to Paypal."
+msgstr ""
+"Hvis du anvende skrifttegn med accent (eller noget andet end standard "
+"Latinske bogstaver) for dine kundenavne, adresser... SKAL du konfigurere "
+"indkodnings formatet for betalingsanmodningerne sent af Odoo til Paypal."
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:93
+msgid ""
+"If you don't configure this setting, some transactions fail without notice."
+msgstr ""
+"Hvis du ikke konfigurere denne indstilling, vil visse transaktioner fejle "
+"uden underrettelse."
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:95
+msgid "To do so, open:"
+msgstr "For at gøre dette, åben:"
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:97
+msgid ""
+"`this page for a test account <https://sandbox.paypal.com/cgi-"
+"bin/customerprofileweb?cmd=_profile-language-encoding>`__"
+msgstr ""
+"`denne side for en test-konto <https://sandbox.paypal.com/cgi-"
+"bin/customerprofileweb?cmd=_profile-language-encoding>`__"
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:99
+msgid ""
+"`this page for a production account <https://www.paypal.com/cgi-"
+"bin/customerprofileweb?cmd=_profile-language-encoding>`__"
+msgstr ""
+"`denne side er for en produktionskonto <https://www.paypal.com/cgi-"
+"bin/customerprofileweb?cmd=_profile-language-encoding>`__"
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:101
+msgid ""
+"Then, click *More Options* and set the two default encoding formats as "
+"**UTF-8**."
+msgstr ""
+"Klik derefter på *Flere Indstillinger* og angiv de to standard "
+"indkodningsformater til at være **UTF-8**."
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:109
+msgid "Your Paypal account is ready!"
+msgstr "Din Paypal konto er klar!"
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:112
+msgid ""
+"If you want your customers to pay without creating a Paypal account, *Paypal"
+" Account Optional* needs to be turned on."
+msgstr ""
+"Hvis du ønsker at dine kunder betaler uden at oprette en Paypal konto, skal "
+"*Paypal Konto Valgfri* være slået til."
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:118
+msgid ""
+"For Encrypted Website Payments & EWP_SETTINGS error, please check the "
+"`Paypal documentation <https://developer.paypal.com/docs/ classic/paypal-"
+"payments-standard/integration-guide/encryptedwebpayments/ #encrypted-"
+"website-payments-ewp>`_."
+msgstr ""
+"For Krypteret Hjemmeside Betalinger & EWP_SETTINGS fejl, tjek venligst "
+"`Paypal dokumentationen <https://developer.paypal.com/docs/ classic/paypal-"
+"payments-standard/integration-guide/encryptedwebpayments/ #encrypted-"
+"website-payments-ewp>`_."
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:124
+msgid "Settings in Odoo"
+msgstr "Indstillinger i Odoo"
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:127
+msgid "Activation"
+msgstr "Aktivering"
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:129
+msgid ""
+"Activate *Paypal* from the config bar of Sales, Invoicing and eCommerce "
+"apps, or from the configuration menu of *Payment Acquirers*."
+msgstr ""
+"Aktivér *Paypal* fra konfigurationsbjælken i Salg, Fakturering, og eHandel "
+"applikationerne, eller fra konfigurationsmenuen i *Betalingsmodtagere*."
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:135
+msgid "Odoo requires three Paypal credentials:"
+msgstr "Odoo påkræver tre Paypal legitimationsoplysninger:"
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:137
+msgid "*Email ID* is your login email address in Paypal."
+msgstr "*Email ID* er din login email adresse i Paypal."
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:138
+msgid ""
+"*Merchant ID* can be found in the settings of your Paypal account, in "
+":menuselection:`Account Settings --> Business information`."
+msgstr ""
+"*Forhandler ID* kan findes i indstillingerne for din Paypal konto, under "
+":menuselection:`Kontoindstillinger --> Finans informationer`."
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:140
+msgid ""
+"*Paypal PDT Token* is given in *Website payments* configuration as explained"
+" here above."
+msgstr ""
+"*Paypal PDT Token* gives i *Hjemmeside betalinger* konfigurationen som "
+"forklaret ovenfor."
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:146
+msgid "Transaction fees"
+msgstr "Transaktionsgebyr"
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:148
+msgid ""
+"You can charge extra fees to your customers for paying with Paypal; This to "
+"cover the transaction fees Paypal charges you. Once redirected to Paypal, "
+"your customer sees an extra applied to the order amount."
+msgstr ""
+"Du kan opkræve ekstra gebyrer af dine kunder for at betale via Paypal; dette"
+" dækker omkostningsgebyrene Paypal pålægger dig. Når de er omdirigeret til "
+"Paypal, vil dine kunder se en ekstra gebyr påført deres ordrebeløb."
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:151
+msgid ""
+"To activate this, go to the Configuration tab of Paypal configuration in "
+"Odoo and check *Add Extra Fees*."
+msgstr ""
+"For at aktivere dette, skal du gå til Konfigurations fanen i Paypal "
+"konfigurationen i Odoo og markere *Tilføj Ekstra Gebyrer*."
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:157
+msgid ""
+"You can refer to `Paypal Fees <https://www.paypal.com/webapps/mpp/paypal-"
+"fees>`__ to set up fees."
+msgstr ""
+"Du kan henvise til `Paypal Afgifter "
+"<https://www.paypal.com/webapps/mpp/paypal-fees>`__ for at oprette afgifter."
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:161
+msgid ""
+"`Traders in the EU "
+"<https://europa.eu/youreurope/citizens/consumers/shopping/pricing-payments/ "
+"index_en.htm>`_ are not allowed to charge extra fees for paying with credit "
+"cards."
+msgstr ""
+"`Forhandlere i EU "
+"<https://europa.eu/youreurope/citizens/consumers/shopping/pricing-"
+"payments/index_en.htm>`_ må ikke opkræve gebyrer for at betale med "
+"kreditkort."
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:165
+msgid "Go live!"
+msgstr "Gå live!"
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:167
+msgid ""
+"Your configuration is ready to roll. Make sure *Production* mode is on. Then"
+" publish the payment method by clicking the *Published* button right next to"
+" it."
+msgstr ""
+"Din konfiguration er klar til kamp. Tjek at *Produktion* tilstand er slåe "
+"til. Udgiv derefter betalingsmetoden ved at klikke på *Udgivet* knappen lige"
+" ved siden af den."
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:176
+msgid ""
+"Paypal is now available in your payment form available in eCommerce, Sales "
+"and Invoicing apps. Customers are redirected to Paypal website when hitting "
+"*Pay Now*. They get back to a confirmation page in Odoo once the payment is "
+"processed."
+msgstr ""
+"Paypal er nu tilgængelig i den betalingsformular, tilgængelig i eHandel, "
+"Salg, og Regnskabs applikationer. Kunder omdirigeres til Paypals hjemmeside "
+"når de trykker på *Betal Nu*. De vil komme tilbage til bekræftelses siden i "
+"Odoo når betalingen er gennemført."
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:185
+msgid "Test environment"
+msgstr "Test miljø"
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:187
+msgid ""
+"You can test the entire payment flow in Odoo thanks to Paypal Sandbox "
+"accounts."
+msgstr ""
+"Du kan teste hele betalingsforløbet i Odoo takket være Paypal Sandkasse "
+"konto."
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:189
+msgid ""
+"Log in to `Paypal Developer Site <https://developer.paypal.com/>`__ with "
+"your Paypal credentials."
+msgstr ""
+"Log ind på `Paypal Udvikler Siden <https://developer.paypal.com/>`__ med "
+"dine Paypal legitimationsoplysninger."
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:191
+msgid "This will create two sandbox accounts:"
+msgstr "Dette vil oprette to sandkasse-konti:"
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:193
+msgid ""
+"A business account (to use as merchant, e.g. "
+"`pp.merch01-facilitator@example.com "
+"<mailto:pp.merch01-facilitator@example.com>`__)."
+msgstr ""
+"En finanskonto (til brug som forhandler, f.eks. "
+"`pp.merch01-facilitator@example.com "
+"<mailto:pp.merch01-facilitator@example.com>`__)."
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:195
+msgid ""
+"A default personal account (to use as shopper, e.g. "
+"`pp.merch01-buyer@example.com <mailto:pp.merch01-buyer@example.com>`__)."
+msgstr ""
+"En standard personlig konto (til at bruge som handlende, f.eks. "
+"`pp.merch01-buyer@example.com <mailto:pp.merch01-buyer@example.com>`__)."
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:197
+msgid ""
+"Log in to Paypal Sandbox with the merchant account and follow the same "
+"configuration instructions. Enter your sandbox credentials in Odoo and make "
+"sure Paypal is still set on *Test Environment*. Also, make sure the "
+"automatic invoicing is not activated in your eCommerce settings, to not "
+"generate invoices when a fictitious transaction is completed."
+msgstr ""
+"Log in i Paypal Sandbox med en forhandlerkonto og følg de samme "
+"konfigurationsinstruktioner. Tilgå din sandbox login informationer i Odoo og"
+" tjek at Paypal stadig er sat til *Test Miljø*. Tjek derudover at den "
+"automatiske fakturering ikke er aktiveret i dine eHandels indstillinger, så "
+"der ikke genereres faktura når en fiktionel transaktion gennemføres."
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:203
+msgid "Run a test transaction from Odoo using the sandbox personal account."
+msgstr ""
+"Kør en test transaktion fra Odoo ved hjælp af sandkassens personlige konto."
+
+#: ../../content/applications/general/payment_acquirers/stripe.rst:5
+msgid ""
+"`Stripe <https://stripe.com/>`_ is a United States-based online payment "
+"solution provider, allowing businesses to accept **credit cards** and other "
+"payment methods."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/stripe.rst:9
+msgid "Enable Local Payment Methods"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/stripe.rst:11
+msgid ""
+"Local payment methods are payment methods that are only available for "
+"certain merchants and customers countries and currencies."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/stripe.rst:14
+msgid ""
+"The Stripe connector in Odoo supports the following local payment methods:"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/stripe.rst:16
+msgid "Bancontact"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/stripe.rst:17
+msgid "EPS"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/stripe.rst:18
+msgid "Giropay"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/stripe.rst:19
+msgid "iDeal:"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/stripe.rst:20
+msgid "Przelewy24 (P24)"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/stripe.rst:22
+msgid ""
+"To enable specific Local Payment Methods with Stripe, list them as supported"
+" payment icons. To do so, go to :menuselection:`Payment Acquirers --> Stripe"
+" --> Configuration` and add the desired payment methods in the **Supported "
+"Payment Icons** field. If the desired payment method is already listed, you "
+"don't have anything to do."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/stripe.rst:31
+msgid ""
+"If a payment method icon doesn't exist at all in the database, the "
+"corresponding local payment method is always offered to customers."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/wire_transfer.rst:3
+msgid "How to get paid with wire transfers"
+msgstr "Hvordan man bliver betalt med bank overførsler"
+
+#: ../../content/applications/general/payment_acquirers/wire_transfer.rst:5
+msgid ""
+"**Wire Transfer** is the default payment method available. The aim is "
+"providing your customers with your bank details so they can pay on their "
+"own. This is very easy to start with but slow and inefficient process-wise. "
+"Opt for payment acquirers as soon as you can!"
+msgstr ""
+"**Bankoverførsel** er den betalingsmetode der er tilgængelig per standard. "
+"Målet er at give dine kunder dine bankinformationer, så de kan betale på "
+"egen hånd. Dette er meget nemt i starten, men er en langsommelig og "
+"ueffektiv process. Vælg betalingsmodtagere så snart du kan!"
+
+#: ../../content/applications/general/payment_acquirers/wire_transfer.rst:13
+msgid "How to provide customers with payment instructions"
+msgstr "Hvordan man udbyder betalingsinstruktioner til kunder"
+
+#: ../../content/applications/general/payment_acquirers/wire_transfer.rst:14
+msgid ""
+"Put your payment instructions in the **Thanks Message** of your payment "
+"method."
+msgstr ""
+"Læg dine betalings instruktioner i **Takke Beskeden** for din "
+"betalingsmetode."
+
+#: ../../content/applications/general/payment_acquirers/wire_transfer.rst:19
+msgid "They will appear to the customers when they place an order."
+msgstr "De vil vises til kunden når de placerer en ordre."
+
+#: ../../content/applications/general/payment_acquirers/wire_transfer.rst:26
+msgid "How to manage an order once you get paid"
+msgstr "Hvordan man håndtere en ordre når du er blevet betalt"
+
+#: ../../content/applications/general/payment_acquirers/wire_transfer.rst:28
+msgid ""
+"Whenever a customer pays by wire transfer, the order stays in an "
+"intermediary stage **Quotation Sent** (i.e. unpaid order). When you get "
+"paid, you confirm the order manually to launch the delivery."
+msgstr ""
+"Hver gang en kunde betaler via en overførsel, vil ordren forblive i "
+"mellemstadiet **Tilbud Afsendt** (dvs. ubetalt ordre). Når du modtager "
+"betaling, bekræfter du ordren manuelt for at igangsætte leveringen."
+
+#: ../../content/applications/general/payment_acquirers/wire_transfer.rst:35
+msgid "How to create other manual payment methods"
+msgstr "Hvordan man opretter andre manuelle betalingsmetoder"
+
+#: ../../content/applications/general/payment_acquirers/wire_transfer.rst:37
+msgid ""
+"If you manage a B2B business, you can create other manually-processed "
+"payment methods like paying by check. To do so, just rename *Wire Transfer* "
+"or duplicate it."
+msgstr ""
+"Hvis du administrere en B2B virksomhed, kan du oprette andre manuelt "
+"behandlede betalingsmetoder så som betaling via check. For at gøre dette, "
+"skal du blot omdøbe eller kopiere *Bankoverførsel*."
+
+#: ../../content/applications/general/users.rst:7
+msgid "Users & Companies"
+msgstr "Brugere & virksomheder"
+
+#: ../../content/applications/general/users.rst:9
+msgid ""
+"Odoo defines a *user* as someone who has access to a database to perform "
+"daily tasks. You can add as many users as you need and, in order to restrict"
+" the type of information each user can access, rules can be applied. Users "
+"and access rights can be added and changed at any point."
+msgstr ""
+"Odoo definere en *bruger* som værende en der har adgang til en database med "
+"henblik på at udføre daglige opgaver. Du kan tilføje så mange brugere som du"
+" har behov for, og for at begrænse hvilke informationer hver bruger kan "
+"tilgå, kan der anvendes regler. Brugere og adgangsrettigheder kan tilføjet "
+"eller ændres når som helst."
+
+#: ../../content/applications/general/users/access_rights.rst:3
+msgid "Access Rights"
+msgstr "Adgangsrettigheder"
+
+#: ../../content/applications/general/users/access_rights.rst:5
+msgid ""
+"Activate the :ref:`developer mode <developer-mode>`, then go to "
+":menuselection:`Settings --> Users & Companies --> Groups`."
+msgstr ""
+
+#: ../../content/applications/general/users/access_rights.rst:9
+msgid "Groups"
+msgstr "Grupper"
+
+#: ../../content/applications/general/users/access_rights.rst:14
+msgid ""
+"When choosing the groups the user can have access under :ref:`Access Rights "
+"<users/add-individual>`, details of the rules and inheritances of that group"
+" are not shown, so this is when the menu *Groups* comes along. *Groups* are "
+"created to define rules to models within an application."
+msgstr ""
+
+#: ../../content/applications/general/users/access_rights.rst:16
+msgid ""
+"Under *Users*, have a list of the current ones. The ones with administrative"
+" rights are shown in black."
+msgstr ""
+"Under *Brugere* findes en liste over nuværende brugere. Dem med "
+"administrative rettigheder vises i sort."
+
+#: ../../content/applications/general/users/access_rights.rst:22
+msgid ""
+"*Inherited* means that users added to this application group are "
+"automatically added to the following ones. In the example below, users who "
+"have access to the group *Administrator* of *Sales* also have access to "
+"*Website/Restricted Editor* and *Sales/User: All Documents*."
+msgstr ""
+"*Nedarvet* betyder, at brugere tilføjet til den pågældende "
+"applikationsgruppe, automatisk tilføjes de efterfølgende. I eksemplet "
+"nedenfor vil brugere, der har adgang til gruppen *Administrator* og *Salg* "
+"også automatisk få tildelt adgang til *Hjemmeside/Begrænset Redaktør* og "
+"*Salg/Bruger: Alle Dokumenter*."
+
+#: ../../content/applications/general/users/access_rights.rst:32
+msgid ""
+"Remember to always test the settings being changed in order to ensure that "
+"they are being applied to the needed and right users."
+msgstr ""
+"Husk altid at teste indstillingerne der ændres, for at forsikre at de træder"
+" i kræft på de rigtige brugere."
+
+#: ../../content/applications/general/users/access_rights.rst:35
+msgid ""
+"The *Menus* tab is where you define which menus (models) the user can have "
+"access to."
+msgstr ""
+"*Menu* fanen er der hvor du definerer hvilke menuer (modeller) brugeren har "
+"adgang til."
+
+#: ../../content/applications/general/users/access_rights.rst:42
+msgid ""
+"*Access Rights* rules are the first level of rights. The field is composed "
+"of the object name, which is the technical name given to a model. For each "
+"model, enable the following options as appropriate:"
+msgstr ""
+"*Adgangsrettigheder* er første niveau af rettigheder. Feltet er sammensat af"
+" objekt navnet, hvilket er et teknisk navn givet til en model. For hver "
+"model aktiveres følgende valgmuligheder som nødvendigt:"
+
+#: ../../content/applications/general/users/access_rights.rst:45
+msgid "*Read*: the values of that object can be only seen by the user."
+msgstr "*Læs*: Værdierne for det objekt kan kun ses af brugeren."
+
+#: ../../content/applications/general/users/access_rights.rst:46
+msgid "*Write*: the values of that object can be edited by the user."
+msgstr "*Skriv*: Værdierne tilhørende det objekt kan redigeres af brugeren."
+
+#: ../../content/applications/general/users/access_rights.rst:47
+msgid "*Create*: values for that object can be created by the user."
+msgstr "*Opret*: Værdier for det objekt kan oprettes af brugeren."
+
+#: ../../content/applications/general/users/access_rights.rst:48
+msgid "*Delete*: the values of that object can be deleted by the user."
+msgstr "*Slet*: værdierne af det objekt kan slettes af brugeren."
+
+#: ../../content/applications/general/users/access_rights.rst:55
+msgid ""
+"As a second layer of editing and visibility rules, *Record Rules* can be "
+"formed. They overwrite, or refine, the *Access Rights*."
+msgstr ""
+"Som et sekundært lag af redigerings- og synligheds-regler kan der oprettes "
+"*Datasæt Regler*. De overskriver eller forfiner *Adgangsrettigheder*."
+
+#: ../../content/applications/general/users/access_rights.rst:58
+msgid ""
+"A record rule is written using a *Domain*. Domains are conditions used to "
+"filter or searching data. Therefore, a domain expression is a list of "
+"conditions. For each rule, choose among the following options: *Read*, "
+"*Write*, *Create* and *Delete* values."
+msgstr ""
+"En datasæts regel skrives ved hjælp af et *Domæne*. Domæner er betingelser "
+"brugt til at filtrere eller søg efter data. Derfor er et domæne udtryk en "
+"liste af betingelser. For hver regel kan der vælges blandt følgende: *Læs*, "
+"*Skriv*, *Opret*, og *Slet* værdier."
+
+#: ../../content/applications/general/users/access_rights.rst:65
+msgid ""
+"Making changes in access rights can have a big impact on the database. For "
+"this reason, we recommend you to contact your Odoo Business Analyst or our "
+"Support Team, unless you have knowledge about Domains in Odoo."
+msgstr ""
+"Ændringer i adgangsrettigheder kan have en stor indflydelse på databasen. "
+"Det er derfor vi anbefaler, at du kontakter din Odoo Finans Analytiker eller"
+" Support Hold, medmindre du har viden angående Domæner i Odoo."
+
+#: ../../content/applications/general/users/companies.rst:3
+msgid "Companies"
+msgstr "Virksomheder"
+
+#: ../../content/applications/general/users/companies.rst:5
+msgid ""
+"A centralized management environment allows you to select multiple companies"
+" simultaneously and set their specific warehouses, customers, equipment, and"
+" contacts. It provides you the ability to generate reports of aggregated "
+"figures without switching interfaces, which facilitates daily tasks and the "
+"overall management process."
+msgstr ""
+"Et centraliseret administrationsmiljø gør det muligt for at vælge flere "
+"virksomheder på samme tid, og angive deres individuelle varehuse, kunder, "
+"udstyr, og kontakter. Den giver dig muligheden for at generere rapporter af "
+"samlede tal uden at skifte brugerflade, hvilket understøtter daglige opgaver"
+" og generel administrations processer."
+
+#: ../../content/applications/general/users/companies.rst:11
+msgid "Manage companies and records"
+msgstr "Håndtér selskaber og datasæt"
+
+#: ../../content/applications/general/users/companies.rst:13
+msgid ""
+"Go to :menuselection:`Settings --> Manage Companies` and fill in the form "
+"with your company’s information. If a *Parent Company* is selected, records "
+"are shared between the two companies (as long as both environments are "
+"active)."
+msgstr ""
+"Gå til :menuselection:`Indstillinger --> Administrer Virksomheder` og udfyld"
+" formularen med din virksomheds informationer. Hvis en *Forældre virksomhed*"
+" er valgt, deles datasæt mellem de to virksomheder (så længe at begge miljø "
+"er aktive)."
+
+#: ../../content/applications/general/users/companies.rst:22
+msgid ""
+"Activate the :ref:`developer mode <developer-mode>` to choose a *Favicon* "
+"for each of your companies, and easily identify them by the browser tabs. "
+"Set your favicons’ files size to 16x16 or 32x32 pixels. JPG, PNG, GIF, and "
+"ICO are extensions accepted."
+msgstr ""
+
+#: ../../content/applications/general/users/companies.rst:31
+msgid ""
+"Switch between or select multiple companies by enabling their selection "
+"boxes to activate them. The grayed company is the one which environment is "
+"in use. To switch environments, click on the company’s name. In the example "
+"below, the user has access to three companies, two are activated, and the "
+"environment in use is of *JS Store US*."
+msgstr ""
+"Skift mellem eller vælg flere virksomheder ved at aktivere deres valg-bokse,"
+" for at aktivere dem. Den grå virksomhed er den hvis miljø er i brug. For at"
+" skifte miljøer, skal man klikke på virksomhedens navn. I eksemplet nedenfor"
+" har brugeren adgang til tre virksomheder. To er aktiveret, og miljøet der "
+"anvendes er for *JS Store US*."
+
+#: ../../content/applications/general/users/companies.rst:40
+msgid ""
+"Data such as Products, Contacts, and Equipment can be shared or set to be "
+"shown for a specific company only. To do so, on their forms, choose between:"
+msgstr ""
+"Data så som Produkter, Kontakter, og Udstyr kan deles, eller sat til kun at "
+"blive vist for én specifik virksomhed. For at gøre dette, skal du på deres "
+"formular vælge mellem:"
+
+#: ../../content/applications/general/users/companies.rst:43
+msgid "*A blank field*: the record is shared within all companies."
+msgstr "*Et blankt felt*: Datasættet er delt med alle virksomheder."
+
+#: ../../content/applications/general/users/companies.rst:44
+msgid ""
+"*Adding a company*: the record is visible to users logged in to that "
+"specific company."
+msgstr ""
+
+#: ../../content/applications/general/users/companies.rst:51
+msgid "Employees' access"
+msgstr "Medarbejders adgang"
+
+#: ../../content/applications/general/users/companies.rst:53
+msgid ""
+"Once companies are created, manage your employees' :doc:`Access Rights "
+"<access_rights>` for *Multi Companies*."
+msgstr ""
+
+#: ../../content/applications/general/users/companies.rst:62
+msgid ""
+"If a user has multiple companies *activated* on his database, and he is "
+"**editing** a record, the editing happens on the record's related company."
+msgstr ""
+"Hvis bruger har flere selskaber *aktiveret* i deres database, og de "
+"**redigerer** et datasæt, sker ændringen på datasættets relaterede selskab."
+
+#: ../../content/applications/general/users/companies.rst:65
+msgid ""
+"Example: if editing a sale order issued under JS Store US while working on "
+"the JS Store Belgium environment, the changes are applied under JS Store US "
+"(the company from which the sale order was issued)."
+msgstr ""
+"For Eksempel: Hvis der redigeres i en salgsordre udstedt under JS Store US "
+"imens der arbejdes i JS Store Belgien miljøet, vil ændringer træde i kraft "
+"under JS Store US (virksomheden fra hvor salgsordren blev udstedt)."
+
+#: ../../content/applications/general/users/companies.rst:66
+msgid "When **creating** a record, the company taken into account is:"
+msgstr "Ved **oprettelse** af et datasæt, tages der højde for selskabet:"
+
+#: ../../content/applications/general/users/companies.rst:68
+msgid "The current company (the one active) or,"
+msgstr "Den nuværende virksomhed (den aktive) eller,"
+
+#: ../../content/applications/general/users/companies.rst:69
+msgid "No company is set (on products and contacts’ forms for example) or,"
+msgstr ""
+"Ingen virksomhed er angivet (på produkter og kontakters formulare, for "
+"eksempel) eller,"
+
+#: ../../content/applications/general/users/companies.rst:70
+msgid ""
+"The company set is the one linked to the document (the same as if a record "
+"is being edited)."
+msgstr ""
+"Selskabet er sat som den der er forbundet til dokumentet (den samme som hvis"
+" et datasæt bliver redigeret)."
+
+#: ../../content/applications/general/users/companies.rst:73
+msgid "Documents’ format"
+msgstr "Dokumenters format"
+
+#: ../../content/applications/general/users/companies.rst:75
+msgid ""
+"To set documents' formats according to each company, *activate* and *select*"
+" the respective one and, under *Settings*, click on *Configure Document "
+"Layout*."
+msgstr ""
+"For at angive dokumenters format for hvert enkelt selskab, skal du "
+"*aktivere* og *vælge* dem hver især, og klikke på *Konfigurer Dokument "
+"Sideopsætning* under Indstillinger."
+
+#: ../../content/applications/general/users/companies.rst:83
+msgid "Inter-Company Transactions"
+msgstr "Interne virksomheds transaktioner"
+
+#: ../../content/applications/general/users/companies.rst:85
+msgid ""
+"First, make sure each one of your companies is properly set in relation to:"
+msgstr ""
+"Først skal du sikre dig, at hver af dine virksomheder er angivet korrekt i "
+"forhold til:"
+
+#: ../../content/applications/general/users/companies.rst:87
+msgid ""
+":doc:`Chart of Accounts "
+"<../../finance/accounting/getting_started/initial_configuration/chart_of_accounts>`"
+msgstr ""
+
+#: ../../content/applications/general/users/companies.rst:89
+msgid ":doc:`Taxes <../../finance/accounting/taxation/taxes/default_taxes>`"
+msgstr ""
+
+#: ../../content/applications/general/users/companies.rst:90
+msgid ""
+":doc:`Fiscal Positions "
+"<../../finance/accounting/taxation/taxes/fiscal_positions>`"
+msgstr ""
+
+#: ../../content/applications/general/users/companies.rst:91
+msgid ":doc:`Journals <../../finance/accounting/bank/setup/bank_accounts>`"
+msgstr ""
+
+#: ../../content/applications/general/users/companies.rst:92
+msgid ""
+":doc:`Fiscal Localizations "
+"<../../finance/accounting/fiscal_localizations/overview/fiscal_localization_packages>`"
+msgstr ""
+
+#: ../../content/applications/general/users/companies.rst:94
+msgid ":doc:`Pricelists <../../sales/sales/products_prices/prices/pricing>`"
+msgstr ""
+
+#: ../../content/applications/general/users/companies.rst:96
+msgid ""
+"Now, activate the *Inter-Company Transactions* option under *Settings*. With"
+" the respective company *activated* and *selected*, choose if you would like"
+" operations between companies to be synchronized at an invoice/bills level "
+"or at a sales/purchase orders level."
+msgstr ""
+"Aktivér derefter *Inter-Company Transaktioner* indstillingen under "
+"*Indstillinger*. Med den respektive virksomhed *aktiveret* og *valgt*, "
+"vælges der hvorvidt det ønskes at processer mellem virksomhederne skal "
+"synkroniserers på et fakturerings/regnings niveau, eller på et "
+"salgs/indkøbsordre niveau."
+
+#: ../../content/applications/general/users/companies.rst:104
+msgid ""
+"**Synchronize invoice/bills**: generates a bill/invoice when a company "
+"confirms a bill/invoice for the selected company."
+msgstr ""
+"**Synkroniser faktura/regninger**: Opretter en regning/faktura når en "
+"virksomhed bekræfter en regning/faktura for den valgte virksomhed."
+
+#: ../../content/applications/general/users/companies.rst:107
+msgid ""
+"*Example:* an invoice posted on JS Store Belgium, for JS Store US, "
+"automatically creates a vendor bill on the JS Store US, from the JS Store "
+"Belgium."
+msgstr ""
+"*Eksempel:* En faktura posteret i JS Store Belgium, for JS Store US, "
+"opretter automatisk en leverandørfaktura i JS Store US for JS Store Belgium."
+
+#: ../../content/applications/general/users/companies.rst:114
+msgid ""
+"**Synchronize sales/purchase order**: generates a drafted purchase/sales "
+"order using the selected company warehouse when a sales/purchase order is "
+"confirmed for the selected company. If instead of a drafted purchase/sales "
+"order you rather have it validated, enable *Automatic Validation*."
+msgstr ""
+"**Synkroniser salgs-/købsordre**: Generere en kladde købs-/salgsordre ud fra"
+" den valgte virksomheds varehus, når en salgs-/købsordre bekræftes for den "
+"valgte virksomhed. Hvis du i stedet for en kladde købs-/salgsordre hellere "
+"vil have den valideret, skal du aktivere *Automatisk Validering*."
+
+#: ../../content/applications/general/users/companies.rst:118
+msgid ""
+"*Example:* when a sale order for JS Store US is confirmed on JS Store "
+"Belgium, a purchase order on JS Store Belgium is automatically created (and "
+"confirmed if the *Automatic Validation* feature was enabled)."
+msgstr ""
+"*Eksemple:* når en salgsordre for JS Store US bekræftes i JS Store Belgien, "
+"vil en købsordre automatisk blive oprettet i JS Store Belgien (og bekræftes "
+"hvis *Automatisk Validering* funktionen er aktiveret)"
+
+#: ../../content/applications/general/users/companies.rst:127
+msgid ""
+"Products have to be configured as *Can be sold* and must be shared between "
+"the companies."
+msgstr ""
+
+#: ../../content/applications/general/users/companies.rst:130
+msgid ""
+"Remember to test all workflows as an user other than the administrator."
+msgstr ""
+"Husk at teste samtlige arbejdsprocesser som en anden bruger end "
+"administratoren."
+
+#: ../../content/applications/general/users/companies.rst:133
+msgid ":doc:`Multi-company Guidelines </developer/howtos/company>`"
+msgstr ""
+
+#: ../../content/applications/general/users/companies.rst:134
+msgid ":doc:`../../finance/accounting/others/multicurrencies/how_it_works`"
+msgstr ""
+
+#: ../../content/applications/general/users/language.rst:3
+msgid "Change language"
+msgstr ""
+
+#: ../../content/applications/general/users/language.rst:5
+msgid ""
+"Odoo provides you with the option to manage Odoo in different languages, and"
+" each user can use Odoo in his own language ."
+msgstr ""
+"Odoo giver dig mulighed for at administrere Odoo i forskellige sprog, og "
+"hver bruger kan anvende Odoo på deres eget sprog."
+
+#: ../../content/applications/general/users/language.rst:9
+msgid "Load your desired language"
+msgstr "Indlæs dine foretrukne sprog"
+
+#: ../../content/applications/general/users/language.rst:11
+msgid ""
+"The first thing to do is to load your desired language on your Odoo "
+"instance."
+msgstr ""
+"Det aller første der skal gøres, er at indlæse dit ønskede sprog på din Odoo"
+" instans."
+
+#: ../../content/applications/general/users/language.rst:14
+msgid ""
+"From the general dashboard click on the **Settings** app; on the top left of"
+" the page select :menuselection:`Translations --> Load a Translation`, "
+"select a language to install and click on **LOAD.**"
+msgstr ""
+"Fra det overordnede instrumentbræt klikkes der på **Indstillinger* "
+"applikationen; øverst til venstre på siden vælges "
+":menuselection:`Oversættelser --> Indlæs en Oversættelse`, vælg det sprog "
+"der skal installeres, og klik på **INDLÆS.**"
+
+#: ../../content/applications/general/users/language.rst:23
+msgid ""
+"If you check the \"Websites to translate\" checkbox you will have the option"
+" to change the navigation language on your website."
+msgstr ""
+"Hvis du markere \"Hjemmesider at oversætte\" afkrydsningsfeltet vil du få "
+"muligheden for at ændre navigationssproget på din hjemmeside."
+
+#: ../../content/applications/general/users/language.rst:27
+msgid "Change your language"
+msgstr "Skift dit sprog"
+
+#: ../../content/applications/general/users/language.rst:29
+msgid ""
+"You can change the language to the installed language by going to the drop-"
+"down menu at the top right side of the screen, choose **Preferences**."
+msgstr ""
+"Du kan ændre sproget til det installerede sprog ved at gå til nedfalds "
+"menuen oppe til højre i skærmen, og vælge **Præferencer**."
+
+#: ../../content/applications/general/users/language.rst:36
+msgid ""
+"Then change the Language setting to your installed language and click "
+"**SAVE.**"
+msgstr ""
+"Ændre derefter Sprog indstillingen til dit installerede sprog, og klik "
+"**GEM.**"
+
+#: ../../content/applications/general/users/language.rst:42
+msgid "Open a new menu to view the changes."
+msgstr "Åben en ny menu for at se ændringerne."
+
+#: ../../content/applications/general/users/language.rst:45
+msgid "Change another user's language"
+msgstr "Skift en anden brugers sprog"
+
+#: ../../content/applications/general/users/language.rst:47
+msgid ""
+"Odoo also gives you the possibility for each user to choose his preferred "
+"language."
+msgstr "Odoo giver dig også mulighed for at vælge brugeres foretrukne sprog."
+
+#: ../../content/applications/general/users/language.rst:50
+msgid ""
+"To change the language for a different user, choose :menuselection:`Users "
+"--> Users` from the Settings app. Here you have a list of all users and you "
+"can choose the user who you'd like to change the language for. Select the "
+"user and click on **Edit** in the top left corner. Under Preferences you can"
+" change the Language to any previously installed language and click "
+"**SAVE.**"
+msgstr ""
+"For at ændre sproget for en anden bruger, skal du gå til "
+":menuselection:`Brugere --> Brugere` fra Indstillinger applikationen. Her "
+"har du en liste over alle brugere, og du kan vælge brugeren som du gerne vil"
+" ændre sproget for. Vælg brugeren og klik på **Rediger** oppe i venstre "
+"hjørne. Under Præferencer kan du ændre Sprog til ethvert tidligere "
+"installeret sprog, og klik på **GEM.**"
+
+#: ../../content/applications/general/users/language.rst:61
+msgid ":doc:`../../websites/website/publish/translate`"
+msgstr ""
+
+#: ../../content/applications/general/users/manage_users.rst:3
+msgid "Manage users"
+msgstr ""
+
+#: ../../content/applications/general/users/manage_users.rst:5
+msgid ""
+"Odoo defines a **user** as someone who has access to a database to perform "
+"daily tasks. You can add as many users as you need and, in order to restrict"
+" the type of information each user can access, rules can be applied. Users "
+"and access rights can be added and changed at any point."
+msgstr ""
+
+#: ../../content/applications/general/users/manage_users.rst:10
+msgid ":doc:`language`"
+msgstr ""
+
+#: ../../content/applications/general/users/manage_users.rst:11
+msgid ":doc:`access_rights`"
+msgstr ""
+
+#: ../../content/applications/general/users/manage_users.rst:16
+msgid "Add individual users"
+msgstr "Tilføj individuelle brugere"
+
+#: ../../content/applications/general/users/manage_users.rst:18
+msgid ""
+"Go to :menuselection:`Settings --> Manage Users` and click on *Create*."
+msgstr ""
+"Gå til :menuselection:`Indstillinger --> Administrer Brugerer` og klik på "
+"*Opret*."
+
+#: ../../content/applications/general/users/manage_users.rst:27
+msgid ""
+"Fill in the form with the needed information. Under the tab :doc:`Access "
+"Rights <access_rights>` choose the group within each application the user "
+"can have access to."
+msgstr ""
+
+#: ../../content/applications/general/users/manage_users.rst:28
+msgid ""
+"The list of applications shown is based on the applications installed on the"
+" database."
+msgstr ""
+"Den viste liste af applikationer er baseret på applikationen installeret på "
+"databasen."
+
+#: ../../content/applications/general/users/manage_users.rst:34
+msgid ""
+"When you are done editing the page and have *Saved* it, an invitation email "
+"is automatically sent to the user. The user must click on it to accept the "
+"invitation and create a login."
+msgstr ""
+"Når du er færdig med at redigere siden og har *Gemt* den, vil en "
+"invitationsmail automatisk blive sendt ud til brugeren. Brugeren skal "
+"derefter klikke på den for at accepterer invitationen og oprette et login."
+
+#: ../../content/applications/general/users/manage_users.rst:42
+msgid ""
+"Remember that subscription prices follow the number of users. Refer to our "
+"`pricing page <https://www.odoo.com/pricing>`_ for more information."
+msgstr ""
+"Husk at abonnementspriser følger antallet af brugere. Referer til vores "
+"`prissætnings side <https://www.odoo.com/pricing>`_ for yderligere "
+"information."
+
+#: ../../content/applications/general/users/manage_users.rst:46
+msgid ""
+"With the :ref:`developer mode <developer-mode>` activated, *User Types* can "
+"be selected."
+msgstr ""
+
+#: ../../content/applications/general/users/manage_users.rst:53
+msgid ""
+"The *Portal* and *Public* options do not allow you to choose access rights. "
+"Members have specific ones (such as record rules and restricted menus) and "
+"usually do not belong to the usual Odoo groups."
+msgstr ""
+"*Portal* og *Offentlig* indstillingerne gør det ikke muligt for dig at vælge"
+" adgangsrettigheder. Medlemmer har specifikke adgangsrettigheder (så som "
+"datasæt tilladelser og begrænsede menuer) og tilhører normalvis ikke de "
+"almindelige Odoo grupper."
+
+#: ../../content/applications/general/users/manage_users.rst:60
+msgid "Deactivate users"
+msgstr ""
+
+#: ../../content/applications/general/users/manage_users.rst:62
+msgid ""
+"Go to :menuselection:`Settings --> Users & Companies --> Users`, open the "
+"user you want to deactivate, click on *Action*, and then on *Archive*."
+msgstr ""
+
+#: ../../content/applications/general/users/manage_users.rst:66
+msgid "**Never** deactivate the main user (*admin*)."
+msgstr ""
+
+#: ../../content/applications/general/users/manage_users.rst:71
+msgid "Passwords management"
+msgstr ""
+
+#: ../../content/applications/general/users/manage_users.rst:76
+msgid "Reset passwords"
+msgstr ""
+
+#: ../../content/applications/general/users/manage_users.rst:81
+msgid "Enable password resets from login page"
+msgstr ""
+
+#: ../../content/applications/general/users/manage_users.rst:83
+msgid "It is possible to enable password resets directly from the login page."
+msgstr ""
+
+#: ../../content/applications/general/users/manage_users.rst:85
+msgid ""
+"To do so, go to :menuselection:`Settings --> Permissions`, activate "
+"**Password Reset** and *Save*."
+msgstr ""
+
+#: ../../content/applications/general/users/manage_users.rst:94
+msgid "Send reset instructions to users"
+msgstr ""
+
+#: ../../content/applications/general/users/manage_users.rst:96
+msgid ""
+"Go to :menuselection:`Settings --> Users & Companies --> Users`, select the "
+"user out of the list and click on *Send Password Reset Instructions* on its "
+"user form. An email is automatically sent to them."
+msgstr ""
+
+#: ../../content/applications/general/users/manage_users.rst:101
+msgid ""
+"The *Send Password Reset Instructions* button only appears if the Odoo "
+"invitation email has already been confirmed by the user."
+msgstr ""
+
+#: ../../content/applications/general/users/manage_users.rst:104
+msgid ""
+"This email contains all the instructions needed to reset the password, along"
+" with a link redirecting the user to an Odoo login page."
+msgstr ""
+
+#: ../../content/applications/general/users/manage_users.rst:114
+msgid "Change users’ passwords"
+msgstr ""
+
+#: ../../content/applications/general/users/manage_users.rst:116
+msgid ""
+"Go to :menuselection:`Settings --> Users  & Companies --> Users` and select "
+"a user to access its form. Click on the *Action* button and select *Change "
+"Password*."
+msgstr ""
+
+#: ../../content/applications/general/users/manage_users.rst:123
+msgid "Enter a new password and confirm by clicking on *Change Password*."
+msgstr ""
+
+#: ../../content/applications/general/users/manage_users.rst:126
+msgid ""
+"This operation only modifies the password of the users locally and does not "
+"affect their odoo.com account. If you want to change the odoo.com password, "
+"you can :ref:`send the password reset instructions <users/reset-password-"
+"email>`."
+msgstr ""
+
+#: ../../content/applications/general/users/manage_users.rst:130
+msgid ""
+"Click on *Change Password* one more time. You are then redirected to an Odoo"
+" login page where you can reaccess your database using your new password."
+msgstr ""
+
+#: ../../content/applications/general/users/manage_users.rst:136
+msgid "Multi Companies"
+msgstr "Flere selskaber"
+
+#: ../../content/applications/general/users/manage_users.rst:138
+msgid ""
+"The *Multi Companies* field allows you to set to which of the multiple "
+"companies database you hold the user can have access."
+msgstr ""
+"*Multi-selskaber* feltet gør det muligt for dig at angive hvilke af de "
+"diverse multi-selskabers databaser du har, brugeren kan tilgå."
+
+#: ../../content/applications/general/users/manage_users.rst:142
+msgid ""
+"Note that if not handled correctly, it may be the source of a lot of "
+"inconsistent multi-company behaviors. Therefore, a good knowledge of Odoo is"
+" required. For technical explanations refer to :doc:`this "
+"</developer/howtos/company>` documentation."
+msgstr ""
+
+#: ../../content/applications/general/users/manage_users.rst:152
+msgid ":doc:`companies`"
+msgstr ""
+
+#: ../../content/applications/general/voip.rst:5
+msgid "VoIP (Voice over Internet Protocol)"
+msgstr ""
+
+#: ../../content/applications/general/voip/asterisk.rst:3
+msgid "Configure your VoIP Asterisk server for Odoo"
+msgstr ""
+
+#: ../../content/applications/general/voip/asterisk.rst:6
+msgid "Installing Asterisk server"
+msgstr ""
+
+#: ../../content/applications/general/voip/asterisk.rst:9
+msgid "Dependencies"
+msgstr "Afhængigheder"
+
+#: ../../content/applications/general/voip/asterisk.rst:11
+msgid ""
+"Before installing Asterisk you need to install the following dependencies:"
+msgstr ""
+
+#: ../../content/applications/general/voip/asterisk.rst:13
+msgid "wget"
+msgstr ""
+
+#: ../../content/applications/general/voip/asterisk.rst:14
+msgid "gcc"
+msgstr ""
+
+#: ../../content/applications/general/voip/asterisk.rst:15
+msgid "g++"
+msgstr ""
+
+#: ../../content/applications/general/voip/asterisk.rst:16
+msgid "ncurses-devel"
+msgstr ""
+
+#: ../../content/applications/general/voip/asterisk.rst:17
+msgid "libxml2-devel"
+msgstr ""
+
+#: ../../content/applications/general/voip/asterisk.rst:18
+msgid "sqlite-devel"
+msgstr ""
+
+#: ../../content/applications/general/voip/asterisk.rst:19
+msgid "libsrtp-devel"
+msgstr ""
+
+#: ../../content/applications/general/voip/asterisk.rst:20
+msgid "libuuid-devel"
+msgstr ""
+
+#: ../../content/applications/general/voip/asterisk.rst:21
+msgid "openssl-devel"
+msgstr ""
+
+#: ../../content/applications/general/voip/asterisk.rst:22
+msgid "pkg-config"
+msgstr ""
+
+#: ../../content/applications/general/voip/asterisk.rst:24
+msgid "In order to install libsrtp, follow the instructions below:"
+msgstr ""
+
+#: ../../content/applications/general/voip/asterisk.rst:35
+msgid ""
+"You also need to install PJSIP, you can download the source `here "
+"<http://www.pjsip.org/download.htm>`_. Once the source directory is "
+"extracted:"
+msgstr ""
+
+#: ../../content/applications/general/voip/asterisk.rst:37
+msgid "**Change to the pjproject source directory:**"
+msgstr ""
+
+#: ../../content/applications/general/voip/asterisk.rst:43
+msgid "**run:**"
+msgstr ""
+
+#: ../../content/applications/general/voip/asterisk.rst:49
+msgid "**Build and install pjproject:**"
+msgstr ""
+
+#: ../../content/applications/general/voip/asterisk.rst:57
+msgid "**Update shared library links:**"
+msgstr ""
+
+#: ../../content/applications/general/voip/asterisk.rst:63
+msgid "**Verify that pjproject is installed:**"
+msgstr ""
+
+#: ../../content/applications/general/voip/asterisk.rst:69
+msgid "**The result should be:**"
+msgstr ""
+
+#: ../../content/applications/general/voip/asterisk.rst:86
+msgid "Asterisk"
+msgstr ""
+
+#: ../../content/applications/general/voip/asterisk.rst:88
+msgid ""
+"In order to install Asterisk 13.7.0, you can download the source directly "
+"`there <http://downloads.asterisk.org/pub/telephony/asterisk/old-"
+"releases/asterisk-13.7.0.tar.gz>`_."
+msgstr ""
+
+#: ../../content/applications/general/voip/asterisk.rst:90
+msgid "Extract Asterisk:"
+msgstr ""
+
+#: ../../content/applications/general/voip/asterisk.rst:96
+msgid "Enter the Asterisk directory:"
+msgstr ""
+
+#: ../../content/applications/general/voip/asterisk.rst:102
+msgid "Run the Asterisk configure script:"
+msgstr ""
+
+#: ../../content/applications/general/voip/asterisk.rst:108
+msgid "Run the Asterisk menuselect tool:"
+msgstr ""
+
+#: ../../content/applications/general/voip/asterisk.rst:114
+msgid ""
+"In the menuselect, go to the resources option and ensure that res_srtp is "
+"enabled. If there are 3 x’s next to res_srtp, there is a problem with the "
+"srtp library and you must reinstall it. Save the configuration (press x). "
+"You should also see stars in front of the res_pjsip lines."
+msgstr ""
+
+#: ../../content/applications/general/voip/asterisk.rst:116
+msgid "Compile and install Asterisk:"
+msgstr ""
+
+#: ../../content/applications/general/voip/asterisk.rst:122
+msgid ""
+"If you need the sample configs you can run 'make samples' to install the "
+"sample configs. If you need to install the Asterisk startup script you can "
+"run 'make config'."
+msgstr ""
+
+#: ../../content/applications/general/voip/asterisk.rst:125
+msgid "DTLS Certificates"
+msgstr ""
+
+#: ../../content/applications/general/voip/asterisk.rst:127
+msgid "After you need to setup the DTLS certificates."
+msgstr ""
+
+#: ../../content/applications/general/voip/asterisk.rst:133
+msgid "Enter the Asterisk scripts directory:"
+msgstr ""
+
+#: ../../content/applications/general/voip/asterisk.rst:139
+msgid ""
+"Create the DTLS certificates (replace pbx.mycompany.com with your ip address"
+" or dns name, replace My Super Company with your company name):"
+msgstr ""
+
+#: ../../content/applications/general/voip/asterisk.rst:146
+msgid "Configure Asterisk server"
+msgstr ""
+
+#: ../../content/applications/general/voip/asterisk.rst:148
+msgid ""
+"For WebRTC, a lot of the settings that are needed MUST be in the peer "
+"settings. The global settings do not flow down into the peer settings very "
+"well. By default, Asterisk config files are located in /etc/asterisk/. Start"
+" by editing http.conf and make sure that the following lines are "
+"uncommented:"
+msgstr ""
+
+#: ../../content/applications/general/voip/asterisk.rst:158
+msgid ""
+"Next, edit sip.conf. The WebRTC peer requires encryption, avpf, and "
+"icesupport to be enabled. In most cases, directmedia should be disabled. "
+"Also under the WebRTC client, the transport needs to be listed as ‘ws’ to "
+"allow websocket connections. All of these config lines should be under the "
+"peer itself; setting these config lines globally might not work:"
+msgstr ""
+
+#: ../../content/applications/general/voip/asterisk.rst:186
+msgid ""
+"In the sip.conf and rtp.conf files you also need to add or uncomment the "
+"lines:"
+msgstr ""
+
+#: ../../content/applications/general/voip/asterisk.rst:193
+msgid "Lastly, set up extensions.conf:"
+msgstr ""
+
+#: ../../content/applications/general/voip/asterisk.rst:202
+msgid "Configure Odoo VOIP"
+msgstr ""
+
+#: ../../content/applications/general/voip/asterisk.rst:204
+msgid "In Odoo, the configuration should be done in the user's preferences."
+msgstr ""
+
+#: ../../content/applications/general/voip/asterisk.rst:210
+msgid ""
+"The SIP Login/Browser's Extension is the number you configured previously in"
+" the sip.conf file (in our example: 1060)."
+msgstr ""
+
+#: ../../content/applications/general/voip/asterisk.rst:212
+msgid "The SIP Password is the secret you chose in the sip.conf file."
+msgstr ""
+
+#: ../../content/applications/general/voip/asterisk.rst:214
+msgid ""
+"The extension of your office's phone is not a required field but it is used "
+"if you want to transfer your call from Odoo to an external phone also "
+"configured in the sip.conf file."
+msgstr ""
+
+#: ../../content/applications/general/voip/asterisk.rst:217
+msgid ""
+"The configuration should also be done in the General Settings under the "
+"\"Integrations\" section."
+msgstr ""
+
+#: ../../content/applications/general/voip/asterisk.rst:222
+msgid ""
+"The PBX Server IP should be the same as the IP you define in the http.conf "
+"file."
+msgstr ""
+
+#: ../../content/applications/general/voip/asterisk.rst:224
+msgid ""
+"The WebSocket should be: ws://localhost:XXXX/ws where \"localhost\" needs to"
+" be the same as the IP defined previously and \"XXXX\" needs to be the port "
+"defined in the http.conf file."
+msgstr ""
+
+#: ../../content/applications/general/voip/axivox.rst:3
+msgid "Use VoIP services in Odoo with Axivox"
+msgstr ""
+
+#: ../../content/applications/general/voip/axivox.rst:6
+#: ../../content/applications/general/voip/onsip.rst:6
+msgid "Introduction"
+msgstr "Introduktion"
+
+#: ../../content/applications/general/voip/axivox.rst:8
+msgid ""
+"Odoo VoIP can be set up to work together with `Axivox "
+"<https://www.axivox.com/>`_. In that case, an :doc:`Asterisk server "
+"<asterisk>` is not necessary as the infrastructure is hosted and managed by "
+"Axivox."
+msgstr ""
+
+#: ../../content/applications/general/voip/axivox.rst:12
+msgid ""
+"To use this service, `contact Axivox <https://www.axivox.com/contact/>`_ to "
+"open an account. Before doing so, verify that Axivox covers your area and "
+"the areas you wish to call."
+msgstr ""
+
+#: ../../content/applications/general/voip/axivox.rst:18
+msgid "Go to :menuselection:`Apps` and install the **VoIP Module**."
+msgstr ""
+
+#: ../../content/applications/general/voip/axivox.rst:24
+msgid ""
+"Go to :menuselection:`Settings --> General Settings --> Integrations`, and "
+"fill out the **Asterisk (VoIP)** field:"
+msgstr ""
+
+#: ../../content/applications/general/voip/axivox.rst:27
+msgid ""
+"**PBX Server IP**: set the domain created by Axivox for your account (e.g., "
+"*yourcompany.axivox.com*)"
+msgstr ""
+
+#: ../../content/applications/general/voip/axivox.rst:29
+msgid "**WebSocket**: type in ``wss://pabx.axivox.com:3443``"
+msgstr ""
+
+#: ../../content/applications/general/voip/axivox.rst:30
+msgid "**VoIP Environment**: set as *Production*"
+msgstr ""
+
+#: ../../content/applications/general/voip/axivox.rst:37
+msgid "Configure the VOIP user in the Odoo's user"
+msgstr ""
+
+#: ../../content/applications/general/voip/axivox.rst:39
+msgid ""
+"Go to :menuselection:`Settings --> Users & Companies --> Users`, then open "
+"the user's form you want to configure. Under the **Preferences** tab, fill "
+"out the section **PBX Configuration**:"
+msgstr ""
+
+#: ../../content/applications/general/voip/axivox.rst:42
+msgid "**SIP Login / Browser's Extension**: the Axivox *username*"
+msgstr ""
+
+#: ../../content/applications/general/voip/axivox.rst:43
+msgid "**SIP Password**: the Axivox *SIP Password*"
+msgstr ""
+
+#: ../../content/applications/general/voip/axivox.rst:50
+msgid ""
+"You can find all this information by logging in at "
+"https://manage.axivox.com/, selecting the user you want to configure, and "
+"referring to the fields as pictured below."
+msgstr ""
+
+#: ../../content/applications/general/voip/axivox.rst:58
+msgid "Phone Calls"
+msgstr ""
+
+#: ../../content/applications/general/voip/axivox.rst:60
+msgid ""
+"You can make phone calls by clicking on the phone icon in the navigation "
+"bar."
+msgstr ""
+
+#: ../../content/applications/general/voip/axivox.rst:62
+msgid ""
+"You can also receive phone calls. Odoo rings and displays a notification."
+msgstr ""
+
+#: ../../content/applications/general/voip/axivox.rst:65
+msgid "Your number is the one provided by Axivox."
+msgstr ""
+
+#: ../../content/applications/general/voip/axivox.rst:72
+msgid ""
+"If you see a *Missing Parameter* message in the **Odoo softphone**, refresh "
+"your Odoo window and try again."
+msgstr ""
+
+#: ../../content/applications/general/voip/axivox.rst:80
+msgid ""
+"If you see an *Incorrect Number* message in the Odoo softphone, make sure to"
+" use the international format, leading with the plus (+) sign followed by "
+"the international country code. E.g., +16506913277 (where +1 is the "
+"international prefix for the United States)."
+msgstr ""
+
+#: ../../content/applications/general/voip/onsip.rst:3
+msgid "Use VoIP services in Odoo with OnSIP"
+msgstr ""
+
+#: ../../content/applications/general/voip/onsip.rst:8
+msgid ""
+"Odoo VoIP can be set up to work together with OnSIP (www.onsip.com). In that"
+" case, the installation and setup of an Asterisk server is not necessary as "
+"the whole infrastructure is hosted and managed by OnSIP."
+msgstr ""
+
+#: ../../content/applications/general/voip/onsip.rst:10
+msgid ""
+"You will need to open an account with OnSIP to use this service. Before "
+"doing so, make sure that your area and the areas you wish to call are "
+"covered by the service. After opening an OnSIP account, follow the "
+"configuration procedure below."
+msgstr ""
+
+#: ../../content/applications/general/voip/onsip.rst:15
+msgid "Go to Apps and install the module **VoIP OnSIP**."
+msgstr ""
+
+#: ../../content/applications/general/voip/onsip.rst:20
+msgid ""
+"Go to Settings/General Settings. In the section Integrations/Asterisk "
+"(VoIP), fill in the 3 fields:"
+msgstr ""
+
+#: ../../content/applications/general/voip/onsip.rst:22
+msgid ""
+"**OnSIP Domain** is the domain you chose when creating an account on "
+"www.onsip.com. If you don't know it, log in to https://admin.onsip.com/ and "
+"you will see it in the top right corner of the screen."
+msgstr ""
+
+#: ../../content/applications/general/voip/onsip.rst:23
+msgid "**WebSocket** should contain wss://edge.sip.onsip.com"
+msgstr ""
+
+#: ../../content/applications/general/voip/onsip.rst:24
+msgid "**Mode** should be Production"
+msgstr ""
+
+#: ../../content/applications/general/voip/onsip.rst:29
+msgid ""
+"Go to **Settings/Users**. In the form view of each VoIP user, in the "
+"Preferences tab, fill in the section **PBX Configuration**:"
+msgstr ""
+
+#: ../../content/applications/general/voip/onsip.rst:31
+msgid "**SIP Login / Browser's Extension**: the OnSIP 'Username'"
+msgstr ""
+
+#: ../../content/applications/general/voip/onsip.rst:32
+msgid "**OnSIP authorization User**: the OnSIP 'Auth Username'"
+msgstr ""
+
+#: ../../content/applications/general/voip/onsip.rst:33
+msgid "**SIP Password**: the OnSIP 'SIP Password'"
+msgstr ""
+
+#: ../../content/applications/general/voip/onsip.rst:34
+msgid "**Handset Extension**: the OnSIP 'Extension'"
+msgstr ""
+
+#: ../../content/applications/general/voip/onsip.rst:36
+msgid ""
+"You can find all this information by logging in at "
+"https://admin.onsip.com/users, then select the user you want to configure "
+"and refer to the fields as pictured below."
+msgstr ""
+
+#: ../../content/applications/general/voip/onsip.rst:41
+msgid ""
+"You can now make phone calls by clicking the phone icon in the top right "
+"corner of Odoo (make sure you are logged in as a user properly configured in"
+" Odoo and in OnSIP)."
+msgstr ""
+
+#: ../../content/applications/general/voip/onsip.rst:45
+msgid ""
+"If you see a *Missing Parameters* message in the Odoo softphone, make sure "
+"to refresh your Odoo window and try again."
+msgstr ""
+
+#: ../../content/applications/general/voip/onsip.rst:52
+msgid ""
+"If you see an *Incorrect Number* message in the Odoo softphone, make sure to"
+" use the international format, leading with the plus (+) sign followed by "
+"the international country code. E.g.: +16506913277 (where +1 is the "
+"international prefix for the United States)."
+msgstr ""
+
+#: ../../content/applications/general/voip/onsip.rst:57
+msgid ""
+"You can now also receive phone calls. Your number is the one provided by "
+"OnSIP. Odoo will ring and display a notification."
+msgstr ""
+
+#: ../../content/applications/general/voip/onsip.rst:63
+msgid "OnSIP on Your Cell Phone"
+msgstr ""
+
+#: ../../content/applications/general/voip/onsip.rst:65
+msgid ""
+"In order to make and receive phone calls when you are not in front of your "
+"computer, you can use a softphone app on your cell phone in parallel of Odoo"
+" VoIP. This is useful for on-the-go calls, but also to make sure to hear "
+"incoming calls, or simply for convenience. Any SIP softphone will work."
+msgstr ""
+
+#: ../../content/applications/general/voip/onsip.rst:67
+msgid ""
+"On Android and iOS, OnSIP has been successfully tested with `Grandstream "
+"Wave <https://play.google.com/store/apps/details?id=com.grandstream.wave>`_."
+" When creating an account, select OnSIP in the list of carriers. You will "
+"then have to configure it as follows:"
+msgstr ""
+
+#: ../../content/applications/general/voip/onsip.rst:69
+msgid "**Account name**: OnSIP"
+msgstr ""
+
+#: ../../content/applications/general/voip/onsip.rst:70
+msgid "**SIP Server**: the OnSIP 'Domain'"
+msgstr ""
+
+#: ../../content/applications/general/voip/onsip.rst:71
+msgid "**SIP User ID**: the OnSIP 'Username'"
+msgstr ""
+
+#: ../../content/applications/general/voip/onsip.rst:72
+msgid "**SIP Authentication ID**: the OnSIP 'Auth Username'"
+msgstr ""
+
+#: ../../content/applications/general/voip/onsip.rst:73
+msgid "**Password**: the OnSIP 'SIP Password'"
+msgstr ""
+
+#: ../../content/applications/general/voip/onsip.rst:75
+msgid ""
+"Aside from initiating calls from Grandstream Wave on your phone, you can "
+"also initiate calls by clicking phone numbers in your browser on your PC. "
+"This will make Grandstream Wave ring and route the call via your phone to "
+"the other party. This approach is useful to avoid wasting time dialing phone"
+" numbers. In order to do so, you will need the Chrome extension `OnSIP Call "
+"Assistant <https://chrome.google.com/webstore/detail/onsip-call-"
+"assistant/pceelmncccldedfkcgjkpemakjbapnpg?hl=en>`_."
+msgstr ""
+
+#: ../../content/applications/general/voip/onsip.rst:79
+msgid ""
+"The downside of using a softphone on your cell phone is that your calls will"
+" not be logged in Odoo as the softphone acts as an independent separate app."
+msgstr ""
