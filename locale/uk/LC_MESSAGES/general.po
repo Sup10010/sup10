@@ -1,0 +1,4402 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Odoo S.A.
+# This file is distributed under the same license as the Odoo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Martin Trigaux, 2021
+# Alina Lisnenko <alinasemeniuk1@gmail.com>, 2021
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-11-02 08:37+0000\n"
+"PO-Revision-Date: 2021-11-02 08:47+0000\n"
+"Last-Translator: Alina Lisnenko <alinasemeniuk1@gmail.com>, 2021\n"
+"Language-Team: Ukrainian (https://www.transifex.com/odoo/teams/41243/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+#: ../../content/applications/general.rst:3
+msgid "Miscellaneous"
+msgstr "Різне"
+
+#: ../../content/applications/general/apps_modules.rst:3
+msgid "Apps and modules"
+msgstr ""
+
+#: ../../content/applications/general/apps_modules.rst:5
+msgid ""
+"You can :ref:`install <general/install>`, :ref:`upgrade <general/upgrade>` "
+"and :ref:`uninstall <general/uninstall>` all apps and modules from the "
+":menuselection:`Apps` dashboard."
+msgstr ""
+
+#: ../../content/applications/general/apps_modules.rst:8
+msgid ""
+"By default, an *Apps* filter is applied. If you want to search for modules, "
+"click on *Filters* and select *Extra*."
+msgstr ""
+
+#: ../../content/applications/general/apps_modules.rst:16
+msgid ""
+"Odoo is *not a smartphone*, and its apps shouldn't be installed or "
+"uninstalled carelessly. Apply caution when adding or removing apps and "
+"modules on your database since this may impact your subscription costs."
+msgstr ""
+
+#: ../../content/applications/general/apps_modules.rst:0
+msgid "**Installing or uninstalling apps and managing users is up to you.**"
+msgstr ""
+
+#: ../../content/applications/general/apps_modules.rst:0
+msgid ""
+"As the administrator of your database, you are responsible for its usage, as"
+" you know best how your organization works."
+msgstr ""
+
+#: ../../content/applications/general/apps_modules.rst:0
+msgid "**Odoo apps have dependencies.**"
+msgstr ""
+
+#: ../../content/applications/general/apps_modules.rst:0
+msgid ""
+"Installing some apps and features with dependencies may also install "
+"additional apps and modules that are technically required, even if you won't"
+" actively use them."
+msgstr ""
+
+#: ../../content/applications/general/apps_modules.rst:0
+msgid "**Test app installation/removal on a duplicate of your database.**"
+msgstr ""
+
+#: ../../content/applications/general/apps_modules.rst:0
+msgid ""
+"This way, you can know what app dependencies may be required or what data "
+"may be erased."
+msgstr ""
+
+#: ../../content/applications/general/apps_modules.rst:32
+msgid "Install apps and modules"
+msgstr ""
+
+#: ../../content/applications/general/apps_modules.rst:34
+msgid ""
+"Go to :menuselection:`Apps`, and click on the *Install* button of the app "
+"you want to install."
+msgstr ""
+
+#: ../../content/applications/general/apps_modules.rst:37
+msgid ""
+"If the module you are looking for is not listed, you can **update the app "
+"list**."
+msgstr ""
+
+#: ../../content/applications/general/apps_modules.rst:39
+msgid ""
+"To do so, activate the :ref:`developer mode <developer-mode>`, then go to "
+":menuselection:`Apps --> Update Apps List` and click on *Update*."
+msgstr ""
+
+#: ../../content/applications/general/apps_modules.rst:45
+msgid "Upgrade apps and modules"
+msgstr ""
+
+#: ../../content/applications/general/apps_modules.rst:47
+msgid ""
+"On some occasions, new improvements or app features are added to "
+":doc:`supported versions of Odoo "
+"</administration/maintain/supported_versions>`. To be able to use them, you "
+"must **upgrade** your app."
+msgstr ""
+
+#: ../../content/applications/general/apps_modules.rst:50
+msgid ""
+"Go to :menuselection:`Apps`, click on the *dropdown menu* of the app you "
+"want to upgrade, then on *Upgrade*."
+msgstr ""
+
+#: ../../content/applications/general/apps_modules.rst:56
+msgid "Uninstall apps and modules"
+msgstr ""
+
+#: ../../content/applications/general/apps_modules.rst:58
+msgid ""
+"Go to :menuselection:`Apps`, click on the *dropdown menu* of the app you "
+"want to uninstall, then on *Uninstall*."
+msgstr ""
+
+#: ../../content/applications/general/apps_modules.rst:64
+msgid ""
+"Some apps have dependencies, meaning that one app requires another. "
+"Therefore, uninstalling one app may uninstall multiple apps and modules. "
+"Odoo warns you which dependant apps and modules are affected by it."
+msgstr ""
+
+#: ../../content/applications/general/apps_modules.rst:71
+msgid "To complete the uninstallation, click on *Confirm*."
+msgstr ""
+
+#: ../../content/applications/general/apps_modules.rst:74
+msgid ""
+"Uninstalling an app also uninstalls all its dependencies and permanently "
+"erases their data."
+msgstr ""
+
+#: ../../content/applications/general/auth.rst:5
+msgid "Authentication"
+msgstr "Аутентифікація"
+
+#: ../../content/applications/general/auth/2fa.rst:3
+msgid "Two-factor Authentication"
+msgstr "Двофакторна аутентифікація"
+
+#: ../../content/applications/general/auth/2fa.rst:5
+msgid ""
+"Two-factor authentication (\"2FA\") is a good way to improve the security of"
+" an account, to make it less likely that an other person will manage to log "
+"in instead of you."
+msgstr ""
+
+#: ../../content/applications/general/auth/2fa.rst:9
+msgid ""
+"Practically, it means storing a secret inside an *authenticator* (usually "
+"your cell phone) and exchanging a code from the authenticator when you try "
+"to log in."
+msgstr ""
+
+#: ../../content/applications/general/auth/2fa.rst:13
+msgid ""
+"This means an attacker needs *both* to have guessed (or found) your password"
+" and to access (or steal) your authenticator, a more difficult proposition "
+"than either one or the other."
+msgstr ""
+
+#: ../../content/applications/general/auth/2fa.rst:18
+msgid "Requirements"
+msgstr "Вимоги"
+
+#: ../../content/applications/general/auth/2fa.rst:20
+msgid ""
+"These lists are just examples, they are not endorsements of any specific "
+"software."
+msgstr ""
+
+#: ../../content/applications/general/auth/2fa.rst:23
+msgid ""
+"If you don't already have one, you will need to choose an authenticator."
+msgstr ""
+
+#: ../../content/applications/general/auth/2fa.rst:26
+msgid ""
+"Phone-based authenticators are the easiest and most common so we will assume"
+" you'll pick and install one on your phone, examples include `Authy "
+"<https://authy.com/>`_, `FreeOTP <https://freeotp.github.io/>`_, `Google "
+"Authenticator <https://support.google.com/accounts/answer/1066447?hl=en>`_, "
+"`LastPass Authenticator <https://lastpass.com/auth/>`_, `Microsoft "
+"Authenticator <https://www.microsoft.com/en-"
+"gb/account/authenticator?cmp=h66ftb_42hbak>`_, ...; password managers also "
+"commonly include :abbr:`2FA (two-factor authentication)` support e.g. "
+"`1Password <https://support.1password.com/one-time-passwords/>`_, `Bitwarden"
+" <https://bitwarden.com/help/article/authenticator-keys/>`_, ..."
+msgstr ""
+
+#: ../../content/applications/general/auth/2fa.rst:39
+msgid ""
+"For the sake of demonstration we will be using Google Authenticator (not "
+"because it is any good but because it is quite common)."
+msgstr ""
+
+#: ../../content/applications/general/auth/2fa.rst:43
+msgid "Setting up two-factor authentication"
+msgstr ""
+
+#: ../../content/applications/general/auth/2fa.rst:45
+msgid ""
+"Once you have your authenticator of choice, go to the Odoo instance you want"
+" to setup :abbr:`2FA (two-factor authentication)`, then open "
+":guilabel:`Preferences` (or :guilabel:`My Profile`):"
+msgstr ""
+
+#: ../../content/applications/general/auth/2fa.rst:52
+msgid ""
+"Open the :guilabel:`Account Security` tab, then click the :guilabel:`Enable "
+"two-factor authentication` button:"
+msgstr ""
+
+#: ../../content/applications/general/auth/2fa.rst:58
+msgid ""
+"Because this is a security-sensitive action, you will need to input your "
+"password:"
+msgstr ""
+
+#: ../../content/applications/general/auth/2fa.rst:64
+msgid "After which you will see this screen with a barcode:"
+msgstr ""
+
+#: ../../content/applications/general/auth/2fa.rst:69
+msgid ""
+"In most applications, you can simply *scan the barcode* via the "
+"authenticator of your choice, the authenticator will then take care of all "
+"the setup:"
+msgstr ""
+
+#: ../../content/applications/general/auth/2fa.rst:78
+msgid ""
+"If you can not scan the screen (e.g. because you are doing this set-up on "
+"the same phone as the authenticator application), you can click the provided"
+" link, or copy the secret to manually set-up your authenticator:"
+msgstr ""
+
+#: ../../content/applications/general/auth/2fa.rst:89
+msgid ""
+"Once this is done, the authenticator should display a *verification code* "
+"with some useful identifying information (e.g. the domain and login for "
+"which the code is):"
+msgstr ""
+
+#: ../../content/applications/general/auth/2fa.rst:96
+msgid ""
+"You can now input the code into the :guilabel:`Verification Code` field, "
+"then click the :guilabel:`Enable two-factor authentication` button."
+msgstr ""
+
+#: ../../content/applications/general/auth/2fa.rst:100
+msgid ""
+"Congratulation, your account is now protected by two-factor authentication!"
+msgstr ""
+
+#: ../../content/applications/general/auth/2fa.rst:107
+msgid "Logging in"
+msgstr ""
+
+#: ../../content/applications/general/auth/2fa.rst:109
+msgid "You should now :guilabel:`Log out` to follow along."
+msgstr ""
+
+#: ../../content/applications/general/auth/2fa.rst:111
+msgid ""
+"On the login page, input the username and password of the account for which "
+"you set up :abbr:`2FA (two-factor authentication)`, rather than immediately "
+"enter Odoo you will now get a second log-in screen:"
+msgstr ""
+
+#: ../../content/applications/general/auth/2fa.rst:118
+msgid ""
+"Get your authenticator, input the code it provides for the domain and "
+"account, validate, and you're now in."
+msgstr ""
+
+#: ../../content/applications/general/auth/2fa.rst:121
+msgid ""
+"And that's it. From now on, unless you disable :abbr:`2FA (two-factor "
+"authentication)` you will have a two-step log-in process rather than the old"
+" one-step process."
+msgstr ""
+
+#: ../../content/applications/general/auth/2fa.rst:125
+msgid ""
+"Don't lose your authenticator, if you do, you will need an *Odoo "
+"Administrator* to disable :abbr:`2FA (two-factor authentication)` on the "
+"account."
+msgstr ""
+
+#: ../../content/applications/general/auth/azure.rst:3
+msgid "OAuth"
+msgstr "OAuth"
+
+#: ../../content/applications/general/auth/azure.rst:5
+msgid ""
+"Due to specific requirements in Azure's OAuth implementation, Microsoft "
+"Azure OAuth identification is NOT compatible with Odoo at the moment."
+msgstr ""
+"Відповідно до спеціальних вимог у впровадженні Azure OAuth, ідентифікація "
+"Microsoft Azure OAuth на даний момент НЕ сумісна з Odoo."
+
+#: ../../content/applications/general/auth/google.rst:3
+msgid "Google Sign-In Authentication"
+msgstr ""
+
+#: ../../content/applications/general/auth/google.rst:5
+msgid ""
+"The **Google Sign-In Authentication** is a useful function that allows your "
+"users to sign in to Odoo with their Google account."
+msgstr ""
+
+#: ../../content/applications/general/auth/google.rst:8
+msgid ""
+"This is particularly helpful if your organization uses Google Workforce and "
+"you want the employees within your organization to connect to Odoo with "
+"their Google Accounts."
+msgstr ""
+
+#: ../../content/applications/general/auth/google.rst:14
+#: ../../content/applications/general/payment_acquirers.rst:118
+#: ../../content/applications/general/payment_acquirers/adyen.rst:9
+#: ../../content/applications/general/payment_acquirers/alipay.rst:9
+#: ../../content/applications/general/payment_acquirers/authorize.rst:9
+#: ../../content/applications/general/payment_acquirers/buckaroo.rst:9
+#: ../../content/applications/general/payment_acquirers/mollie.rst:8
+#: ../../content/applications/general/payment_acquirers/ogone.rst:9
+#: ../../content/applications/general/payment_acquirers/sips.rst:9
+#: ../../content/applications/general/payment_acquirers/stripe.rst:9
+#: ../../content/applications/general/voip/axivox.rst:16
+#: ../../content/applications/general/voip/onsip.rst:13
+msgid "Configuration"
+msgstr "Налаштування"
+
+#: ../../content/applications/general/auth/google.rst:16
+msgid ""
+"The integration of the Google sign-in function requires configuration both "
+"on Google and on Odoo."
+msgstr ""
+
+#: ../../content/applications/general/auth/google.rst:21
+msgid "Google API Dashboard"
+msgstr ""
+
+#: ../../content/applications/general/auth/google.rst:23
+msgid ""
+"Go to the `Google API Dashboard <https://console.developers.google.com/>`_."
+msgstr ""
+
+#: ../../content/applications/general/auth/google.rst:24
+msgid ""
+"Make sure the right project is opened. If you don't have a project yet, "
+"click on *Create Project*, fill out the project name and other details of "
+"your company, and click on *Create*."
+msgstr ""
+
+#: ../../content/applications/general/auth/google.rst:32
+msgid "Choose the name of your own company from the drop-down menu."
+msgstr ""
+
+#: ../../content/applications/general/auth/google.rst:37
+msgid "OAuth consent screen"
+msgstr ""
+
+#: ../../content/applications/general/auth/google.rst:39
+msgid "On the left side menu, click on :menuselection:`OAuth consent screen`."
+msgstr ""
+
+#: ../../content/applications/general/auth/google.rst:45
+msgid ""
+"Choose one of the options **(Internal / External)** as instructed, and click"
+" on *Create*."
+msgstr ""
+
+#: ../../content/applications/general/auth/google.rst:51
+msgid ""
+"Fill out your details and domain info, then click on *Save and Continue*."
+msgstr ""
+
+#: ../../content/applications/general/auth/google.rst:52
+msgid ""
+"On the **Scopes** page, leave all fields as is, and click on *Save and "
+"Continue*."
+msgstr ""
+
+#: ../../content/applications/general/auth/google.rst:57
+msgid "Credentials"
+msgstr "Повноваження"
+
+#: ../../content/applications/general/auth/google.rst:59
+msgid "On the left side menu, click on :menuselection:`Credentials`."
+msgstr ""
+
+#: ../../content/applications/general/auth/google.rst:65
+msgid "Click on *Create Credentials* and select **OAuth client ID**."
+msgstr ""
+
+#: ../../content/applications/general/auth/google.rst:71
+msgid ""
+"Select **Web Application** as the Application type. Now configure the "
+"allowed pages on which you will be redirected."
+msgstr ""
+
+#: ../../content/applications/general/auth/google.rst:74
+msgid ""
+"In order to achieve this, in the **Authorized redirect URIs** field, enter "
+"your database's domain immediately followed by ``/auth_oauth/signin``. For "
+"example: ``https://mydomain.odoo.com/auth_oauth/signin``, then click on "
+"*Create*."
+msgstr ""
+
+#: ../../content/applications/general/auth/google.rst:85
+msgid "Google Authentication on Odoo"
+msgstr ""
+
+#: ../../content/applications/general/auth/google.rst:90
+msgid "Retrieve the Client ID"
+msgstr ""
+
+#: ../../content/applications/general/auth/google.rst:92
+msgid ""
+"Once you have done the previous steps, two keys are generated on the Google "
+"API Dashboard: *Client ID* and *Client Secret*. Copy the *Client ID*."
+msgstr ""
+
+#: ../../content/applications/general/auth/google.rst:102
+msgid "Odoo activation"
+msgstr ""
+
+#: ../../content/applications/general/auth/google.rst:104
+msgid ""
+"Go to :menuselection:`Odoo General Settings --> Integrations` and activate "
+"**OAuth Authentication**."
+msgstr ""
+
+#: ../../content/applications/general/auth/google.rst:108
+msgid "You may have to log in again after this step."
+msgstr ""
+
+#: ../../content/applications/general/auth/google.rst:110
+msgid ""
+"Go back to :menuselection:`General Settings --> Integrations`, activate "
+"**Google Authentication**, then fill out the *Client ID* with the key from "
+"the Google API Dashboard, and *Save*."
+msgstr ""
+
+#: ../../content/applications/general/auth/google.rst:121
+msgid "Log in to Odoo with Google"
+msgstr ""
+
+#: ../../content/applications/general/auth/google.rst:123
+msgid ""
+"To link your Google account to your Odoo profile, click on *Log in with "
+"Google* when you are asked to choose a new password."
+msgstr ""
+
+#: ../../content/applications/general/auth/google.rst:130
+msgid ""
+"Existing users must :ref:`reset their password <users/reset-password>` to "
+"access the *reset password* page, while new users can directly click on *Log"
+" in with Google* instead of choosing a new password."
+msgstr ""
+
+#: ../../content/applications/general/auth/google.rst:135
+msgid ""
+"`Google Cloud Platform Console Help - Setting up OAuth 2.0 "
+"<https://support.google.com/cloud/answer/6158849>`_"
+msgstr ""
+
+#: ../../content/applications/general/auth/ldap.rst:3
+msgid "Sign in with LDAP"
+msgstr ""
+
+#: ../../content/applications/general/auth/ldap.rst:5
+msgid "Install the LDAP module in General Settings."
+msgstr "Встановіть модуль LDAP у Загальних налаштуваннях."
+
+#: ../../content/applications/general/auth/ldap.rst:7
+msgid "Click on **Create** in Setup your LDAP Server."
+msgstr "Натисніть **Створити** у налаштуваннях вашого сервера LDAP."
+
+#: ../../content/applications/general/auth/ldap.rst:15
+msgid "Choose the company about to use the LDAP."
+msgstr "Оберіть про компанію для використання LDAP."
+
+#: ../../content/applications/general/auth/ldap.rst:20
+msgid ""
+"In **Server Information**, enter the IP address of your server and the port "
+"it listens to."
+msgstr ""
+"В **Інформації сервера**, введіть IP-адресу вашого сервера та його порт."
+
+#: ../../content/applications/general/auth/ldap.rst:22
+msgid "Tick **User TLS** if your server is compatible."
+msgstr "Позначте **TLS користувача**, якщо ваш сервер сумісний."
+
+#: ../../content/applications/general/auth/ldap.rst:27
+msgid ""
+"In **Login Information**, enter ID and password of the account used to query"
+" the server. If left empty, the server will be queried anonymously."
+msgstr ""
+"В **інформації входу**, введіть ID та пароль облікового запису, який "
+"використовується для запиту сервера. Якщо залишите порожнім, сервер буде "
+"запитуватися анонімно."
+
+#: ../../content/applications/general/auth/ldap.rst:32
+msgid ""
+"In **Process Parameter**, enter the domain name of your LDAP server in LDAP "
+"nomenclature (e.g. ``dc=example,dc=com``)."
+msgstr ""
+"В **Параметрах оброки**, введіть доменне ім'я вашого сервера LDAP в "
+"номенклатурі LDAP (напр. ``dc=example,dc=com``)."
+
+#: ../../content/applications/general/auth/ldap.rst:34
+msgid "In **LDAP filter**, enter ``uid=%s``"
+msgstr "У **фільтрі LDAP**, введіть ``uid=%s``"
+
+#: ../../content/applications/general/auth/ldap.rst:39
+msgid ""
+"In **User Information**, tick *Create User* if you want Odoo to create a "
+"User profile the first time someone log in with LDAP."
+msgstr ""
+"В **Інформації користувача** позначте *Створити користувача*, якщо ви "
+"хочете, щоби Odoo створила профіль користувача, коли хтось вперше увійде "
+"через LDAP."
+
+#: ../../content/applications/general/auth/ldap.rst:41
+msgid ""
+"In **Template User**, indicate a template for the new profiles created. If "
+"left blanked, the admin profile will be used as template."
+msgstr ""
+"У **Шаблоні користувача**, вкажіть шаблон для новостворених профілів. Якщо "
+"залишити заблокованим, профіль адміна, буде використовуватися як шаблон."
+
+#: ../../content/applications/general/calendars.rst:5
+msgid "Calendars"
+msgstr ""
+
+#: ../../content/applications/general/calendars/google/google_calendar_credentials.rst:3
+msgid "Synchronize Google Calendar with Odoo"
+msgstr "Синхронізація Google Календаря з Odoo"
+
+#: ../../content/applications/general/calendars/google/google_calendar_credentials.rst:5
+msgid ""
+"Odoo is perfectly integrated with Google Calendar so that you can see & "
+"manage your meetings from both platforms (updates go through both "
+"directions)."
+msgstr ""
+"Odoo ідеально інтегрований з Google Calendar, щоб ви могли бачити і керувати"
+" своїми зустрічами з обох платформ (оновлення відбуваються в обох "
+"напрямках)."
+
+#: ../../content/applications/general/calendars/google/google_calendar_credentials.rst:10
+msgid "Setup in Google"
+msgstr "Встановлення в Google"
+
+#: ../../content/applications/general/calendars/google/google_calendar_credentials.rst:11
+msgid ""
+"Go to `Google APIs platform <https://console.developers.google.com>`__ to "
+"generate Google Calendar API credentials. Log in with your Google account."
+msgstr ""
+"Перейдіть до `Платформи Google API "
+"<https://console.developers.google.com>`__, щоб створити повноваження Google"
+" Календар API. Зайдіть через ваш акаунт Google."
+
+#: ../../content/applications/general/calendars/google/google_calendar_credentials.rst:14
+msgid "Go to the API & Services page."
+msgstr "Перейдіть до сторінки API та Послуги."
+
+#: ../../content/applications/general/calendars/google/google_calendar_credentials.rst:19
+msgid "Search for *Google Calendar API* and select it."
+msgstr "Знайдіть*Google Calendar API* і виберіть його."
+
+#: ../../content/applications/general/calendars/google/google_calendar_credentials.rst:27
+msgid "Enable the API."
+msgstr "Увімкніть API."
+
+#: ../../content/applications/general/calendars/google/google_calendar_credentials.rst:32
+msgid ""
+"Select or create an API project to store the credentials if not yet done "
+"before. Give it an explicit name (e.g. Odoo Sync)."
+msgstr ""
+"Виберіть або створіть проект API для зберігання облікових даних, якщо це ще "
+"не було зроблено раніше. Дайте їй конкретне ім'я (наприклад, Odoo Sync)."
+
+#: ../../content/applications/general/calendars/google/google_calendar_credentials.rst:35
+msgid "Create credentials."
+msgstr "Створіть облікові дані."
+
+#: ../../content/applications/general/calendars/google/google_calendar_credentials.rst:40
+msgid ""
+"Select *Web browser (Javascript)* as calling source and *User data* as kind "
+"of data."
+msgstr ""
+"Виберіть *веб-браузер (Javascript)* як джерело дзвінків та *дані "
+"користувача* як види даних."
+
+#: ../../content/applications/general/calendars/google/google_calendar_credentials.rst:46
+msgid ""
+"Then you can create a Client ID. Enter the name of the application (e.g. "
+"Odoo Calendar) and the allowed pages on which you will be redirected. The "
+"*Authorized JavaScript origin* is your Odoo's instance URL. The *Authorized "
+"redirect URI* is your Odoo's instance URL followed by "
+"'/google_account/authentication'."
+msgstr ""
+"Тоді ви можете створити ідентифікатор клієнта. Введіть назву модуля "
+"(наприклад, Odoo Calendar) і дозволені сторінки, на які буде відбуватися "
+"перенаправлення. *Авторизоване джерело JavaScript* - це ваш приклад URL-"
+"адреси Odoo. *Авторизована URI перенаправлення* - це ваш приклад URL-адреси "
+"Odoo, а потім -'/google_account/authentication'."
+
+#: ../../content/applications/general/calendars/google/google_calendar_credentials.rst:55
+msgid ""
+"Go through the Consent Screen step by entering a product name (e.g. Odoo "
+"Calendar). Feel free to check the customizations options but this is not "
+"mandatory. The Consent Screen will only show up when you enter the Client ID"
+" in Odoo for the first time."
+msgstr ""
+"Перейдіть до етапу Зразок згоди, введіть назву товару (наприклад, Odoo "
+"Calendar). Не соромтеся перевіряти параметри налаштування, але це не "
+"обов'язково. Екран згоди відображатиметься лише тоді, коли ви вперше введете"
+" ідентифікатор клієнта в Odoo."
+
+#: ../../content/applications/general/calendars/google/google_calendar_credentials.rst:60
+msgid ""
+"Finally you are provided with your **Client ID**. Go to *Credentials* to get"
+" the **Client Secret** as well. Both of them are required in Odoo."
+msgstr ""
+"Нарешті, вам надається **ідентифікатор клієнта**. Перейдіть на *Облікові "
+"дані*, щоб отримати **Секретний ключ клієнта**. Обидва вони потрібні в Odoo."
+
+#: ../../content/applications/general/calendars/google/google_calendar_credentials.rst:67
+msgid "Setup in Odoo"
+msgstr "Налаштування в Odoo"
+
+#: ../../content/applications/general/calendars/google/google_calendar_credentials.rst:69
+msgid ""
+"Install the **Google Calendar** App from the *Apps* menu or by checking the "
+"option in :menuselection:`Settings --> General Settings`."
+msgstr ""
+"Встановіть додаток **Google Каленар** з меню *Додатки* або позначте опцію в "
+":menuselection:`Налаштування --> Загальні налаштування`."
+
+#: ../../content/applications/general/calendars/google/google_calendar_credentials.rst:75
+msgid ""
+"Go to :menuselection:`Settings --> General Settings` and enter your **Client"
+" ID** and **Client Secret** in Google Calendar option."
+msgstr ""
+"Перейдіть до :menuselection:`Налаштування --> Загальні налаштування` та "
+"введіть ваш **ID клієнта** та **Секретний ключ клієнта** в налаштуванні "
+"Google Календаря."
+
+#: ../../content/applications/general/calendars/google/google_calendar_credentials.rst:81
+msgid ""
+"The setup is now ready. Open your Odoo Calendar and sync with Google. The "
+"first time you do it you are redirected to Google to authorize the "
+"connection. Once back in Odoo, click the sync button again. You can click it"
+" whenever you want to synchronize your calendar."
+msgstr ""
+"Налаштування готово. Відкрийте Календар Odoo та синхронізуйте його з Google."
+" Якщо ви робите це вперше, ви переадресовуєтеся на Google, щоб авторизувати "
+"з'єднання. Повернувшись в Odoo, знову натисніть кнопку синхронізації. Ви "
+"можете натискати її, коли хочете синхронізувати свій календар."
+
+#: ../../content/applications/general/calendars/google/google_calendar_credentials.rst:89
+msgid "As of now you no longer have excuses to miss a meeting!"
+msgstr "Тепер ви більше не маєте виправдання, щоби пропустити зустріч!"
+
+#: ../../content/applications/general/calendars/outlook/outlook_calendar.rst:3
+msgid "Synchronization with Outlook's Calendar"
+msgstr ""
+
+#: ../../content/applications/general/calendars/outlook/outlook_calendar.rst:5
+msgid ""
+"Synchronizing your **main** Outlook Calendar with Odoo is useful to keep "
+"track of your tasks and appointments, and across all related applications."
+msgstr ""
+
+#: ../../content/applications/general/calendars/outlook/outlook_calendar.rst:9
+msgid "Register your application with the Microsoft identity platform"
+msgstr ""
+
+#: ../../content/applications/general/calendars/outlook/outlook_calendar.rst:13
+msgid ""
+"In order to be able to sync your Outlook Calendar with Odoo's Calendar, a "
+"Microsoft Azure account is needed. The creation of an account is free for "
+"users that have never tried or paid for Azure. For more information, `click "
+"here <https://azure.microsoft.com/en-us/free/?WT.mc_id=A261C142F>`_."
+msgstr ""
+
+#: ../../content/applications/general/calendars/outlook/outlook_calendar.rst:15
+msgid ""
+"Following, `Set up an Azure AD Tenant <https://docs.microsoft.com/en-"
+"us/azure/active-directory/develop/quickstart-create-new-tenant>`_, also "
+"called environment, which is a representation of an organization, to manage "
+"and register apps."
+msgstr ""
+
+#: ../../content/applications/general/calendars/outlook/outlook_calendar.rst:17
+msgid ""
+"Ultimately, `Register an Application <https://docs.microsoft.com/en-"
+"us/azure/active-directory/develop/quickstart-register-app>`_, choosing the "
+"appropriate supported account type."
+msgstr ""
+
+#: ../../content/applications/general/calendars/outlook/outlook_calendar.rst:20
+msgid "When configuring your platform settings, choose *Web*."
+msgstr ""
+
+#: ../../content/applications/general/calendars/outlook/outlook_calendar.rst:0
+msgid ""
+"For the **Redirect URI restrictions**, copy your Odoo database URI followed "
+"by ``/microsoft_account/authentication``. Example:"
+msgstr ""
+
+#: ../../content/applications/general/calendars/outlook/outlook_calendar.rst:0
+msgid ""
+"For more information on the restrictions and limitations of URIs, `check "
+"this page <https://docs.microsoft.com/en-us/azure/active-"
+"directory/develop/reply-url>`_."
+msgstr ""
+
+#: ../../content/applications/general/calendars/outlook/outlook_calendar.rst:37
+msgid ""
+"Regarding credentials, you *must* **Add a client secret**, called *Client "
+"Secret* in Odoo, which allows Odoo to authenticate itself, requiring no "
+"interaction from your side. *Certificates* are optional."
+msgstr ""
+
+#: ../../content/applications/general/calendars/outlook/outlook_calendar.rst:42
+msgid "Configuration in Odoo"
+msgstr ""
+
+#: ../../content/applications/general/calendars/outlook/outlook_calendar.rst:44
+msgid "Go to general *Settings* and activate the *Outlook Calendar* feature."
+msgstr ""
+
+#: ../../content/applications/general/calendars/outlook/outlook_calendar.rst:50
+msgid ""
+"From your Azure portal, under *Overview*, copy your *Application (client) "
+"ID*, and paste it to *Client ID* in Odoo."
+msgstr ""
+
+#: ../../content/applications/general/calendars/outlook/outlook_calendar.rst:57
+msgid ""
+"Going back to your Azure portal, now under *Certificates & secrets*, copy "
+"your *Client Secret Value* and paste it to *Client Secret* in Odoo."
+msgstr ""
+
+#: ../../content/applications/general/calendars/outlook/outlook_calendar.rst:67
+msgid "Sync with Outlook"
+msgstr ""
+
+#: ../../content/applications/general/calendars/outlook/outlook_calendar.rst:0
+msgid ""
+"Odoo Calendar sends a confirmation email at the creation of an event to its "
+"attendees. But, on the **first** sync, Outlook will also send confirmation "
+"emails of all scheduled events (including past ones)."
+msgstr ""
+
+#: ../../content/applications/general/calendars/outlook/outlook_calendar.rst:0
+msgid ""
+"To avoid this situation, we recommend *archiving all past events, and "
+"removing yourself from future ones in Odoo Calendar before the first sync*. "
+"This will prevent events from being created in Outlook, and therefore, no "
+"redundant emails will be sent during the first synchronization. After the "
+"sync, events will only send one confirmation email."
+msgstr ""
+
+#: ../../content/applications/general/calendars/outlook/outlook_calendar.rst:82
+msgid ""
+"Go to the *Calendar* application and *Sync with Outlook*. You are asked to "
+"log in to your account, if you are not already, and grant the required "
+"permissions."
+msgstr ""
+
+#: ../../content/applications/general/calendars/outlook/outlook_calendar.rst:89
+msgid ""
+"The synchronization is a two-way process, meaning that events are reconciled"
+" in both accounts (Outlook and Odoo)."
+msgstr ""
+
+#: ../../content/applications/general/calendars/outlook/outlook_calendar.rst:97
+msgid ""
+"All users that want to use the synchronization simply need to :ref:`sync "
+"their calendar with Outlook <outlook_calendar/sync_with_outlook>`. The "
+"configuration of Microsoft's Azure account is only done once, as Azure AD "
+"tenants' are unique, and represent an organization that helps you to manage "
+"a specific instance of Microsoft cloud services for your internal and "
+"external users."
+msgstr ""
+
+#: ../../content/applications/general/calendars/outlook/outlook_calendar.rst:103
+msgid ":doc:`../../../productivity/mail_plugins/outlook`"
+msgstr ""
+
+#: ../../content/applications/general/calendars/outlook/outlook_calendar.rst:104
+msgid ":doc:`../google/google_calendar_credentials`"
+msgstr ""
+
+#: ../../content/applications/general/developer_mode.rst:5
+msgid "Developer Mode (debug mode)"
+msgstr ""
+
+#: ../../content/applications/general/developer_mode.rst:7
+msgid ""
+"The developer mode (or debug mode) gives you access to extra and advanced "
+"tools."
+msgstr ""
+
+#: ../../content/applications/general/developer_mode.rst:10
+msgid "Activate through the Settings"
+msgstr ""
+
+#: ../../content/applications/general/developer_mode.rst:12
+msgid "Go to :menuselection:`Settings --> Activate the developer mode`."
+msgstr ""
+
+#: ../../content/applications/general/developer_mode.rst:19
+msgid ""
+"*Activate the developer mode (with assets)* is used by developers; *Activate"
+" the developer mode (with tests assets)* is used by developers and testers."
+msgstr ""
+
+#: ../../content/applications/general/developer_mode.rst:22
+msgid ""
+"Once activated, the *Deactivate the developer mode* option becomes "
+"available."
+msgstr ""
+
+#: ../../content/applications/general/developer_mode.rst:25
+msgid "Activate through a browser extension"
+msgstr ""
+
+#: ../../content/applications/general/developer_mode.rst:28
+msgid ""
+"Go to the settings and extensions of your web browser, and search for *Odoo "
+"Debug*. Once the extension is installed, a new icon will be shown on your "
+"toolbar."
+msgstr ""
+
+#: ../../content/applications/general/developer_mode.rst:30
+msgid ""
+"For the *Odoo Debug* extension, a single click enables a normal version of "
+"the mode, while a double click enables it with assets. To deactivate it, use"
+" a single click."
+msgstr ""
+
+#: ../../content/applications/general/developer_mode.rst:37
+msgid "Activate through the URL"
+msgstr ""
+
+#: ../../content/applications/general/developer_mode.rst:39
+msgid "In the URL add ``?debug=1`` or ``?debug=true`` after *web*."
+msgstr ""
+
+#: ../../content/applications/general/developer_mode.rst:46
+msgid "Developers: type ``?debug=assets`` and activate the mode with assets."
+msgstr ""
+
+#: ../../content/applications/general/developer_mode.rst:49
+msgid "Locate the mode tools"
+msgstr ""
+
+#: ../../content/applications/general/developer_mode.rst:51
+msgid ""
+"The Developer mode tools can be accessed from the *Open Developer Tools* "
+"button, located on the header of your pages."
+msgstr ""
+
+#: ../../content/applications/general/export_import_data.rst:3
+msgid "Export and import data"
+msgstr ""
+
+#: ../../content/applications/general/export_import_data.rst:8
+msgid "Export data from Odoo"
+msgstr ""
+
+#: ../../content/applications/general/export_import_data.rst:10
+msgid ""
+"When working with a database, it sometimes is necessary to export your data "
+"in a distinct file. Doing so can help to do reporting over your activities "
+"(even if Odoo offers a precise and easy reporting tool with each available "
+"application)."
+msgstr ""
+
+#: ../../content/applications/general/export_import_data.rst:14
+msgid ""
+"With Odoo, you can export the values from any field in any record. To do so,"
+" activate the list view on the items that need to be exported, click on "
+"*Action*, and, then, on *Export*."
+msgstr ""
+
+#: ../../content/applications/general/export_import_data.rst:22
+msgid ""
+"Pretty simple, this action still comes with some specificities. In fact, "
+"when clicking on *Export*, a pop-up window appears with several options for "
+"the data to export:"
+msgstr ""
+
+#: ../../content/applications/general/export_import_data.rst:30
+msgid ""
+"With the *I want to update data* option ticked, the system only shows the "
+"fields which can be imported. This is very helpful in case you want to "
+"update existing records. Basically, this works like a filter. Leaving the "
+"box unticked gives way more field options because it shows all the fields, "
+"not just the ones which can be imported."
+msgstr ""
+
+#: ../../content/applications/general/export_import_data.rst:36
+msgid ""
+"When exporting, you can choose between two formats: .csv and .xls. With "
+".csv, items are separated with a comma, while .xls holds information about "
+"all the worksheets in a file, including both content and formatting."
+msgstr ""
+
+#: ../../content/applications/general/export_import_data.rst:39
+msgid ""
+"Those are the items you may want to export. Use the arrows to display more "
+"sub-field options. Of course, you can use the search bar to find specific "
+"fields more easily. To use the search option more efficiently, display all "
+"the fields by clicking on all the arrows!"
+msgstr ""
+
+#: ../../content/applications/general/export_import_data.rst:44
+msgid "The + button is there to add fields to the \"to export\" list."
+msgstr ""
+
+#: ../../content/applications/general/export_import_data.rst:45
+msgid ""
+"The \"handles\" next to the selected fields allow you to move the fields up "
+"and down to change the order in which they must be displayed in the exported"
+" file."
+msgstr ""
+
+#: ../../content/applications/general/export_import_data.rst:48
+msgid "The trashcan is there if you need to remove fields."
+msgstr ""
+
+#: ../../content/applications/general/export_import_data.rst:49
+msgid ""
+"For recurring reports, it might be interesting to save export presets. "
+"Select all the needed ones and click on the template bar. There, click on "
+"*New template* and give a name to yours. The next time you need to export "
+"the same list, simply select the related template."
+msgstr ""
+
+#: ../../content/applications/general/export_import_data.rst:56
+msgid ""
+"It’s good to keep the field’s external identifier in mind. For example, "
+"*Related Company* is equal to *parent_id*. Doing so helps export only what "
+"you would like to import next."
+msgstr ""
+
+#: ../../content/applications/general/export_import_data.rst:63
+msgid "Import data into Odoo"
+msgstr ""
+
+#: ../../content/applications/general/export_import_data.rst:66
+msgid "How to start"
+msgstr "З чого почати?"
+
+#: ../../content/applications/general/export_import_data.rst:68
+msgid ""
+"You can import data on any Odoo's business object using either Excel (.xlsx)"
+" or CSV (.csv) formats: contacts, products, bank statements, journal entries"
+" and even orders!"
+msgstr ""
+"Ви можете імпортувати дані в систему Odoo, використовуючи формат Excel "
+"(.xlsx) або CSV (.csv): контакти, товари, банківські виписки, записи в "
+"журналі та навіть замовлення!"
+
+#: ../../content/applications/general/export_import_data.rst:72
+msgid ""
+"Open the view of the object you want to populate and click on "
+":menuselection:`Favorites --> Import records`."
+msgstr ""
+
+#: ../../content/applications/general/export_import_data.rst:78
+msgid ""
+"There you are provided with templates you can easily populate with your own "
+"data. Such templates can be imported in one click; The data mapping is "
+"already done."
+msgstr ""
+"Вам надаються шаблони, які можна легко заповнити власними даними. Такі "
+"шаблони можна імпортувати одним кліком; Відображення даних вже виконано."
+
+#: ../../content/applications/general/export_import_data.rst:83
+msgid "How to adapt the template"
+msgstr "Як адаптувати шаблон?"
+
+#: ../../content/applications/general/export_import_data.rst:85
+msgid "Add, remove and sort columns to fit at best your data structure."
+msgstr ""
+"Додайте, видаліть та відсортуйте стовпці, щоби найкраще відповідати "
+"структурі даних."
+
+#: ../../content/applications/general/export_import_data.rst:86
+msgid "We advise to not remove the **ID** one (see why in the next section)."
+msgstr "Ми радимо не видаляти **ID** (Чому? Дивіться в наступному розділі)."
+
+#: ../../content/applications/general/export_import_data.rst:87
+#: ../../content/applications/general/export_import_data.rst:376
+msgid ""
+"Set a unique ID to every single record by dragging down the ID sequencing."
+msgstr ""
+"Встановіть унікальний ID для кожного окремого запису, перетягнувши "
+"послідовність ID."
+
+#: ../../content/applications/general/export_import_data.rst:92
+msgid ""
+"When you add a new column, Odoo might not be able to map it automatically if"
+" its label doesn't fit any field in Odoo. Don't worry! You can map new "
+"columns manually when you test the import. Search the list for the "
+"corresponding field."
+msgstr ""
+"Коли ви додасте новий стовпець, Odoo, можливо, не зможе його автоматично "
+"помітити, якщо його мітка не підходить для будь-якого поля в Odoo. Не "
+"хвилюйтеся! Ви можете вставляти нові стовпці вручну під час перевірки "
+"імпорту. Знайдіть список відповідного поля."
+
+#: ../../content/applications/general/export_import_data.rst:100
+msgid ""
+"Then, use this field's label in your file in order to make it work straight "
+"on the very next time."
+msgstr ""
+"Потім використовуйте мітку цього поля у вашому файлі, щоби він працював "
+"наступного разу."
+
+#: ../../content/applications/general/export_import_data.rst:104
+msgid "How to import from another application"
+msgstr "Як імпортувати з іншої програми?"
+
+#: ../../content/applications/general/export_import_data.rst:106
+msgid ""
+"In order to re-create relationships between different records, you should "
+"use the unique identifier from the original application and map it to the "
+"**ID** (External ID) column in Odoo. When you import another record that "
+"links to the first one, use **XXX/ID** (XXX/External ID) to the original "
+"unique identifier. You can also find this record using its name but you will"
+" be stuck if at least 2 records have the same name."
+msgstr ""
+"Щоб відновити взаємозв'язок між різними записами, ви повинні використовувати"
+" унікальний ідентифікатор з оригінальної програми та позначити його на "
+"**ID** стовпця (зовнішній ідентифікатор) в Odoo. Коли ви імпортуєте інший "
+"запис, який посилається на перший, використовуйте **XXX/ID** (XXX/Зовнішній "
+"ідентифікатор) до оригінального унікального ідентифікатора. Ви також можете "
+"знайти цей запис, використовуючи його назву, але ви зупинитесь, якщо "
+"принаймні 2 записи мають однакову назву."
+
+#: ../../content/applications/general/export_import_data.rst:114
+msgid ""
+"The **ID** will also be used to update the original import if you need to "
+"re-import modified data later, it's thus good practice to specify it "
+"whenever possible."
+msgstr ""
+"**ID** також буде використаний для оновлення оригінального імпорту, якщо вам"
+" доведеться повторно імпортувати змінені дані пізніше, тому, якщо можливо, "
+"ви зможете його вказати."
+
+#: ../../content/applications/general/export_import_data.rst:120
+msgid "I cannot find the field I want to map my column to"
+msgstr "Я не можу знайти поле, в якому я хочу позначити стовпець"
+
+#: ../../content/applications/general/export_import_data.rst:122
+msgid ""
+"Odoo tries to find with some heuristic, based on the first ten lines of the "
+"files, the type of field for each column inside your file. For example if "
+"you have a column only containing numbers, only the fields that are of type "
+"*Integer* will be displayed for you to choose from. While this behavior "
+"might be good and easy for most cases, it is also possible that it goes "
+"wrong or that you want to map your column to a field that is not proposed by"
+" default."
+msgstr ""
+"Odoo намагається знайти тип поля для кожного стовпця всередині вашого файлу "
+"на основі перших десяти рядків файлів. Наприклад, якщо у вас є стовпчик, "
+"який містить лише цифри, для вас буде вибрано лише ті поля, які мають тип "
+"*Ціле число*. Незважаючи на те, що в більшості випадків ця поведінка може "
+"бути хорошою і легкою, можливо, що це трапиться не так, або ви хочете "
+"вказати стовпчик на поле, яке не пропонується за замовчуванням."
+
+#: ../../content/applications/general/export_import_data.rst:131
+msgid ""
+"If that happens, you just have to check the ** Show fields of relation "
+"fields (advanced)** option, you will then be able to choose from the "
+"complete list of fields for each column."
+msgstr ""
+"Якщо це станеться, вам просто потрібно перевірити параметри **Показати поля "
+"пов'язаної моделі (розширено)**, після чого ви зможете вибрати з повного "
+"списку полів для кожного стовпця."
+
+#: ../../content/applications/general/export_import_data.rst:139
+msgid "Where can I change the date import format?"
+msgstr "Де я можу змінити формат імпортування дати?"
+
+#: ../../content/applications/general/export_import_data.rst:141
+msgid ""
+"Odoo can automatically detect if a column is a date, and it will try to "
+"guess the date format from a set of most commonly used date formats. While "
+"this process can work for many date formats, some date formats will not be "
+"recognized. This can cause confusion due to day-month inversions; it is "
+"difficult to guess which part of a date format is the day and which part is "
+"the month in a date such as '01-03-2016'."
+msgstr ""
+"Odoo може автоматично визначити, чи колонка є датою, та спробує вгадати "
+"формат дати з набору найчастіше використовуваних форматів дати. Хоча цей "
+"процес може працювати для багатьох форматів дат, деякі формати дати не "
+"будуть розпізнані. Це може спричинити плутанину через перетворення дня в "
+"місяць; важко здогадатися, яка частина формату дати - це день, а яка - "
+"місяць у такій даті, як '01-03-2016 '."
+
+#: ../../content/applications/general/export_import_data.rst:147
+msgid ""
+"To view which date format Odoo has found from your file you can check the "
+"**Date Format** that is shown when clicking on **Options** under the file "
+"selector. If this format is incorrect you can change it to your liking using"
+" the *ISO 8601* to define the format."
+msgstr ""
+"Щоби переглянути, який формат дати Odoo знайшов у вашому файлі, ви можете "
+"перевірити **Формат дати**, який відображається, коли ви натискаєте "
+"**Параметри** під списком файлів. Якщо цей формат неправильний, ви можете "
+"змінити його, використовуючи *ISO 8601*, щоби визначити формат."
+
+#: ../../content/applications/general/export_import_data.rst:152
+msgid ""
+"If you are importing an excel (.xls, .xlsx) file, you can use date cells to "
+"store dates as the display of dates in excel is different from the way it is"
+" stored. That way you will be sure that the date format is correct in Odoo "
+"whatever your locale date format is."
+msgstr ""
+"Якщо ви імпортуєте файл Excel (.xls, .xlsx), ви можете використовувати "
+"цифрові дати для зберігання дат, оскільки відображення дати у форматі excel "
+"відрізняється від способу його зберігання. Таким чином, ви будете впевнені, "
+"що формат дати в Odoo правильний, незалежно від формату вашої локальної "
+"дати."
+
+#: ../../content/applications/general/export_import_data.rst:157
+msgid "Can I import numbers with currency sign (e.g.: $32.00)?"
+msgstr "Чи можу я імпортувати номери з позначкою валюти (наприклад, $ 32.00)?"
+
+#: ../../content/applications/general/export_import_data.rst:159
+msgid ""
+"Yes, we fully support numbers with parenthesis to represent negative sign as"
+" well as numbers with currency sign attached to them. Odoo also "
+"automatically detect which thousand/decimal separator you use (you can "
+"change those under **options**). If you use a currency symbol that is not "
+"known to Odoo, it might not be recognized as a number though and it will "
+"crash."
+msgstr ""
+"Так, ми повністю підтримуємо числа в круглих дужках, щоби відобразити "
+"негативний знак, а також цифри з прикріпленим до них знаком валюти. Odoo "
+"також автоматично визначає, який тисячний/десятковий роздільник ви "
+"використовуєте (ви можете змінити ці параметри під **параметрами**). Якщо ви"
+" використовуєте символ валюти, який не відомий Odoo, він, можливо, не буде "
+"визнаний як номер, хоча й буде збігатися."
+
+#: ../../content/applications/general/export_import_data.rst:164
+msgid ""
+"Examples of supported numbers (using thirty-two thousands as an example):"
+msgstr ""
+"Приклади підтримуваних чисел (наприклад, з використанням тридцяти двох "
+"тисяч):"
+
+#: ../../content/applications/general/export_import_data.rst:166
+msgid "32.000,00"
+msgstr "32.000,00"
+
+#: ../../content/applications/general/export_import_data.rst:167
+msgid "32000,00"
+msgstr "32000,00"
+
+#: ../../content/applications/general/export_import_data.rst:168
+msgid "32,000.00"
+msgstr "32,000.00"
+
+#: ../../content/applications/general/export_import_data.rst:169
+msgid "-32000.00"
+msgstr "-32000.00"
+
+#: ../../content/applications/general/export_import_data.rst:170
+msgid "(32000.00)"
+msgstr "(32000.00)"
+
+#: ../../content/applications/general/export_import_data.rst:171
+msgid "$ 32.000,00"
+msgstr "$ 32.000,00"
+
+#: ../../content/applications/general/export_import_data.rst:172
+msgid "(32000.00 €)"
+msgstr "(32000.00 €)"
+
+#: ../../content/applications/general/export_import_data.rst:174
+msgid "Example that will not work:"
+msgstr "Приклад, який не буде працювати:"
+
+#: ../../content/applications/general/export_import_data.rst:176
+msgid "ABC 32.000,00"
+msgstr "ABC 32.000,00"
+
+#: ../../content/applications/general/export_import_data.rst:177
+msgid "$ (32.000,00)"
+msgstr "$ (32.000,00)"
+
+#: ../../content/applications/general/export_import_data.rst:180
+msgid "What can I do when the Import preview table isn't displayed correctly?"
+msgstr ""
+"Що робити, коли таблиці попереднього перегляду імпорту відображаються "
+"неправильно?"
+
+#: ../../content/applications/general/export_import_data.rst:182
+msgid ""
+"By default the Import preview is set on commas as field separators and "
+"quotation marks as text delimiters. If your csv file does not have these "
+"settings, you can modify the File Format Options (displayed under the Browse"
+" CSV file bar after you select your file)."
+msgstr ""
+"За замовчуванням попередній перегляд імпорту встановлюється комами як "
+"роздільники розділів і лапки як роздільники тексту. Якщо ваш файл CSV не має"
+" цих налаштувань, ви можете змінити параметри формату файлу (відображається "
+"під панеллю перегляду файлів CSV після вибору файлу)."
+
+#: ../../content/applications/general/export_import_data.rst:186
+msgid ""
+"Note that if your CSV file has a tabulation as separator, Odoo will not "
+"detect the separations. You will need to change the file format options in "
+"your spreadsheet application. See the following question."
+msgstr ""
+"Зверніть увагу, якщо файл CSV має табуляцію як розділювач, Odoo не буде "
+"виявляти розділення. Вам потрібно буде змінити параметри формату файлу у "
+"вашій програмі для роботи з електронними таблицями. Дивіться наступне "
+"питання."
+
+#: ../../content/applications/general/export_import_data.rst:191
+msgid ""
+"How can I change the CSV file format options when saving in my spreadsheet "
+"application?"
+msgstr ""
+"Як змінити параметри формату файлу CSV при збереженні електронної таблиці в "
+"моїй програмі?"
+
+#: ../../content/applications/general/export_import_data.rst:193
+msgid ""
+"If you edit and save CSV files in spreadsheet applications, your computer's "
+"regional settings will be applied for the separator and delimiter. We "
+"suggest you use OpenOffice or LibreOffice Calc as they will allow you to "
+"modify all three options (in :menuselection:`'Save As' dialog box --> Check "
+"the box 'Edit filter settings' --> Save`)."
+msgstr ""
+
+#: ../../content/applications/general/export_import_data.rst:198
+msgid ""
+"Microsoft Excel will allow you to modify only the encoding when saving (in "
+":menuselection:`'Save As' dialog box --> click 'Tools' dropdown list --> "
+"Encoding tab`)."
+msgstr ""
+
+#: ../../content/applications/general/export_import_data.rst:202
+msgid "What's the difference between Database ID and External ID?"
+msgstr "Яка різниця між ID бази даних та зовнішнім ID?"
+
+#: ../../content/applications/general/export_import_data.rst:204
+msgid ""
+"Some fields define a relationship with another object. For example, the "
+"country of a contact is a link to a record of the 'Country' object. When you"
+" want to import such fields, Odoo will have to recreate links between the "
+"different records. To help you import such fields, Odoo provides three "
+"mechanisms. You must use one and only one mechanism per field you want to "
+"import."
+msgstr ""
+
+#: ../../content/applications/general/export_import_data.rst:209
+msgid ""
+"For example, to reference the country of a contact, Odoo proposes you 3 "
+"different fields to import:"
+msgstr ""
+"Наприклад, щоби вказати країну контакту, Odoo пропонує вам 3 різних поля для"
+" імпорту:"
+
+#: ../../content/applications/general/export_import_data.rst:211
+msgid "Country: the name or code of the country"
+msgstr "Країна: назва або код країни"
+
+#: ../../content/applications/general/export_import_data.rst:212
+msgid ""
+"Country/Database ID: the unique Odoo ID for a record, defined by the ID "
+"postgresql column"
+msgstr ""
+"Країна/ID бази даних: унікальний ID Odoo для запису, визначеного стовпцем ID"
+" postgresql"
+
+#: ../../content/applications/general/export_import_data.rst:213
+msgid ""
+"Country/External ID: the ID of this record referenced in another application"
+" (or the .XML file that imported it)"
+msgstr ""
+"Країна/Зовнішній ID: ID запису, зазначеного в іншій програмі (або .XML-"
+"файлі, який імпортував його)"
+
+#: ../../content/applications/general/export_import_data.rst:216
+msgid "For the country Belgium, you can use one of these 3 ways to import:"
+msgstr ""
+"Для країни Бельгії можна використовувати один із цих 3 способів імпорту:"
+
+#: ../../content/applications/general/export_import_data.rst:218
+msgid "Country: Belgium"
+msgstr "Країна: Бельгія"
+
+#: ../../content/applications/general/export_import_data.rst:219
+msgid "Country/Database ID: 21"
+msgstr "Країна/ID бази даних: 21"
+
+#: ../../content/applications/general/export_import_data.rst:220
+msgid "Country/External ID: base.be"
+msgstr "Країна/Зовнішній ID: base.be"
+
+#: ../../content/applications/general/export_import_data.rst:222
+msgid ""
+"According to your need, you should use one of these 3 ways to reference "
+"records in relations. Here is when you should use one or the other, "
+"according to your need:"
+msgstr ""
+"Згідно з вашими потребами, ви повинні використовувати один із цих трьох "
+"способів відстежувати пов'язані записи. Ось коли ви повинні використовувати "
+"той чи інший спосіб, відповідно до вашої потреби:"
+
+#: ../../content/applications/general/export_import_data.rst:225
+msgid ""
+"Use Country: This is the easiest way when your data come from CSV files that"
+" have been created manually."
+msgstr ""
+"Використовуйте країну: це найпростіший спосіб, коли ваші дані надходять з "
+"файлів CSV, які були створені вручну."
+
+#: ../../content/applications/general/export_import_data.rst:227
+msgid ""
+"Use Country/Database ID: You should rarely use this notation. It's mostly "
+"used by developers as it's main advantage is to never have conflicts (you "
+"may have several records with the same name, but they always have a unique "
+"Database ID)"
+msgstr ""
+"Використовуйте країну/ID бази даних: рідко використовуйте цю позначку. В "
+"основному це використовують розробники, оскільки головна перевага полягає в "
+"тому, щоби ніколи не було конфліктів (у вас може бути кілька записів з "
+"однаковою назвою, але вони завжди мають унікальний ID бази даних)."
+
+#: ../../content/applications/general/export_import_data.rst:230
+msgid ""
+"Use Country/External ID: Use External ID when you import data from a third "
+"party application."
+msgstr ""
+"Використовуйте назву країни/зовнішній ID: використовуйте зовнішній ID, коли "
+"ви імпортуєте дані зі сторонньої програми."
+
+#: ../../content/applications/general/export_import_data.rst:232
+msgid ""
+"When you use External IDs, you can import CSV files with the \"External ID\""
+" column to define the External ID of each record you import. Then, you will "
+"be able to make a reference to that record with columns like "
+"\"Field/External ID\". The following two CSV files give you an example for "
+"Products and their Categories."
+msgstr ""
+"Коли ви використовуєте зовнішні ID, ви можете імпортувати файли CSV за "
+"допомогою стовпця \"Зовнішній ID\", щоби визначити зовнішній ID кожного "
+"імпортованого запису. Потім ви зможете зробити посилання на цей запис зі "
+"стовпчиками типу \"Поле/Зовнішній ID\". Наступні два файли CSV наводять "
+"приклад для товарів і їх категорій."
+
+#: ../../content/applications/general/export_import_data.rst:237
+msgid ""
+":download:`CSV file for categories "
+"<export_import_data/External_id_3rd_party_application_product_categories.csv>`."
+msgstr ""
+
+#: ../../content/applications/general/export_import_data.rst:240
+msgid ""
+":download:`CSV file for Products "
+"<export_import_data/External_id_3rd_party_application_products.csv>`."
+msgstr ""
+
+#: ../../content/applications/general/export_import_data.rst:244
+msgid "What can I do if I have multiple matches for a field?"
+msgstr "Що робити, якщо у мене є кілька співпадінь для поля?"
+
+#: ../../content/applications/general/export_import_data.rst:246
+msgid ""
+"If for example you have two product categories with the child name "
+"\"Sellable\" (ie. \"Misc. Products/Sellable\" & \"Other "
+"Products/Sellable\"), your validation is halted but you may still import "
+"your data. However, we recommend you do not import the data because they "
+"will all be linked to the first 'Sellable' category found in the Product "
+"Category list (\"Misc. Products/Sellable\"). We recommend you modify one of "
+"the duplicates' values or your product category hierarchy."
+msgstr ""
+"Якщо, наприклад, у вас є дві категорії товарів з дочірнім ім'ям \"Sellable\""
+" (тобто. \"Різні Товари/ Продаються\" та \"Інші товари/Продаються\"), ваша "
+"перевірка призупиняється, але ви все одно можете імпортувати свої дані. "
+"Однак ми рекомендуємо не імпортувати дані, оскільки всі вони будуть "
+"пов'язані з першою категорією \"Продаються\", яка знаходиться в списку "
+"\"Категорії товарів\" (\"Різні Товари/Продаються\"). Ми рекомендуємо змінити"
+" один зі значень дублікатів або ієрархію категорії товарів."
+
+#: ../../content/applications/general/export_import_data.rst:252
+msgid ""
+"However if you do not wish to change your configuration of product "
+"categories, we recommend you use make use of the external ID for this field "
+"'Category'."
+msgstr ""
+"Якщо ви не бажаєте змінювати своє налаштування категорій товарів, ми "
+"рекомендуємо використовувати зовнішній ідентифікатор для цього поля "
+"\"Категорія\"."
+
+#: ../../content/applications/general/export_import_data.rst:256
+msgid ""
+"How can I import a many2many relationship field (e.g. a customer that has "
+"multiple tags)?"
+msgstr ""
+"Як я можу імпортувати поле зв'язку many2many (наприклад, клієнта з кількома "
+"тегами)?"
+
+#: ../../content/applications/general/export_import_data.rst:258
+msgid ""
+"The tags should be separated by a comma without any spacing. For example, if"
+" you want your customer to be linked to both tags 'Manufacturer' and "
+"'Retailer' then you will encode \"Manufacturer,Retailer\" in the same column"
+" of your CSV file."
+msgstr ""
+"Теги слід розділити комою без будь-якого інтервалу. Наприклад, якщо ви "
+"хочете, щоби ваш клієнт був пов'язаний з обома тегами \"Виробник\" та "
+"\"Роздрібний продавець\", ви кодуєте \"Виробник, роздрібний продавець\" у "
+"тому ж рядку файлу CSV."
+
+#: ../../content/applications/general/export_import_data.rst:262
+msgid ""
+":download:`CSV file for Manufacturer, Retailer "
+"<export_import_data/m2m_customers_tags.csv>`"
+msgstr ""
+
+#: ../../content/applications/general/export_import_data.rst:266
+msgid ""
+"How can I import a one2many relationship (e.g. several Order Lines of a "
+"Sales Order)?"
+msgstr ""
+"Як імпортувати зв'язок one2many (наприклад, кілька рядків замовлення від "
+"замовлення на продаж)?"
+
+#: ../../content/applications/general/export_import_data.rst:268
+msgid ""
+"If you want to import sales order having several order lines; for each order"
+" line, you need to reserve a specific row in the CSV file. The first order "
+"line will be imported on the same row as the information relative to order. "
+"Any additional lines will need an additional row that does not have any "
+"information in the fields relative to the order. As an example, here is "
+"``purchase.order_functional_error_line_cant_adpat.CSV`` file of some "
+"quotations you can import, based on demo data."
+msgstr ""
+
+#: ../../content/applications/general/export_import_data.rst:275
+msgid ""
+":download:`File for some Quotations "
+"<export_import_data/purchase.order_functional_error_line_cant_adpat.csv>`."
+msgstr ""
+
+#: ../../content/applications/general/export_import_data.rst:277
+msgid ""
+"The following CSV file shows how to import purchase orders with their "
+"respective purchase order lines:"
+msgstr ""
+"У наведеному нижче файлі CSV показано, як імпортувати замовлення на купівлю "
+"за допомогою відповідних рядків замовлення."
+
+#: ../../content/applications/general/export_import_data.rst:280
+msgid ""
+":download:`Purchase orders with their respective purchase order lines "
+"<export_import_data/o2m_purchase_order_lines.csv>`."
+msgstr ""
+
+#: ../../content/applications/general/export_import_data.rst:282
+msgid ""
+"The following CSV file shows how to import customers and their respective "
+"contacts:"
+msgstr ""
+"У наведеному нижче файлі CSV показано, як імпортувати клієнтів та їх "
+"відповідні контакти:"
+
+#: ../../content/applications/general/export_import_data.rst:284
+msgid ""
+":download:`Customers and their respective contacts "
+"<export_import_data/o2m_customers_contacts.csv>`."
+msgstr ""
+
+#: ../../content/applications/general/export_import_data.rst:287
+msgid "Can I import several times the same record?"
+msgstr "Чи можу я кілька разів імпортувати той самий запис?"
+
+#: ../../content/applications/general/export_import_data.rst:289
+msgid ""
+"If you import a file that contains one of the column \"External ID\" or "
+"\"Database ID\", records that have already been imported will be modified "
+"instead of being created. This is very useful as it allows you to import "
+"several times the same CSV file while having made some changes in between "
+"two imports. Odoo will take care of creating or modifying each record "
+"depending if it's new or not."
+msgstr ""
+
+#: ../../content/applications/general/export_import_data.rst:294
+msgid ""
+"This feature allows you to use the Import/Export tool of Odoo to modify a "
+"batch of records in your favorite spreadsheet application."
+msgstr ""
+"Ця функція дозволяє вам використовувати інструмент імпорту/експорту Odoo для"
+" зміни записів цілим пакетом у вашій програмі електронної таблиці."
+
+#: ../../content/applications/general/export_import_data.rst:298
+msgid "What happens if I do not provide a value for a specific field?"
+msgstr "Що станеться, якщо я не надам значення для конкретного поля?"
+
+#: ../../content/applications/general/export_import_data.rst:300
+msgid ""
+"If you do not set all fields in your CSV file, Odoo will assign the default "
+"value for every non defined fields. But if you set fields with empty values "
+"in your CSV file, Odoo will set the EMPTY value in the field, instead of "
+"assigning the default value."
+msgstr ""
+"Якщо ви не встановлюєте всі поля у файлі CSV, Odoo призначить значення за "
+"замовчуванням для всіх невизначених полів. Але якщо ви встановлюєте поля з "
+"порожніми значеннями у своєму файлі CSV, Odoo встановить значення EMPTY у "
+"полі, замість того, аби призначити значення за замовчуванням."
+
+#: ../../content/applications/general/export_import_data.rst:305
+msgid "How to export/import different tables from an SQL application to Odoo?"
+msgstr "Як експортувати/імпортувати різні таблиці з додатка SQL до Odoo?"
+
+#: ../../content/applications/general/export_import_data.rst:307
+msgid ""
+"If you need to import data from different tables, you will have to recreate "
+"relations between records belonging to different tables. (e.g. if you import"
+" companies and persons, you will have to recreate the link between each "
+"person and the company they work for)."
+msgstr ""
+"Якщо вам потрібно імпортувати дані з різних таблиць, вам доведеться "
+"відтворити зв'язки між записами, що належать до різних таблиць. (наприклад, "
+"якщо ви імпортуєте компанії та людей, вам доведеться відтворити зв'язок між "
+"кожною особою та компанією, в якій вони працюють)."
+
+#: ../../content/applications/general/export_import_data.rst:311
+msgid ""
+"To manage relations between tables, you can use the \"External ID\" "
+"facilities of Odoo. The \"External ID\" of a record is the unique identifier"
+" of this record in another application. This \"External ID\" must be unique "
+"across all the records of all objects, so it's a good practice to prefix "
+"this \"External ID\" with the name of the application or table. (like "
+"'company_1', 'person_1' instead of '1')"
+msgstr ""
+
+#: ../../content/applications/general/export_import_data.rst:317
+msgid ""
+"As an example, suppose you have a SQL database with two tables you want to "
+"import: companies and persons. Each person belong to one company, so you "
+"will have to recreate the link between a person and the company he work for."
+" (If you want to test this example, here is a :download:`dump of such a "
+"PostgreSQL database <export_import_data/database_import_test.sql>`)"
+msgstr ""
+
+#: ../../content/applications/general/export_import_data.rst:322
+msgid ""
+"We will first export all companies and their \"External ID\". In PSQL, write"
+" the following command:"
+msgstr ""
+"Спочатку ми експортуємо всі компанії та їх \"Зовнішній ID\". У PSQL, "
+"напишіть таку команду:"
+
+#: ../../content/applications/general/export_import_data.rst:328
+msgid "This SQL command will create the following CSV file:"
+msgstr ""
+
+#: ../../content/applications/general/export_import_data.rst:337
+msgid ""
+"To create the CSV file for persons, linked to companies, we will use the "
+"following SQL command in PSQL:"
+msgstr ""
+"Щоби створити файл CSV для осіб, пов'язаних з компаніями, ми використаємо "
+"наступну команду SQL у PSQL:"
+
+#: ../../content/applications/general/export_import_data.rst:343
+msgid "It will produce the following CSV file:"
+msgstr ""
+
+#: ../../content/applications/general/export_import_data.rst:353
+msgid ""
+"As you can see in this file, Fabien and Laurence are working for the Bigees "
+"company (company_1) and Eric is working for the Organi company. The relation"
+" between persons and companies is done using the External ID of the "
+"companies. We had to prefix the \"External ID\" by the name of the table to "
+"avoid a conflict of ID between persons and companies (person_1 and company_1"
+" who shared the same ID 1 in the original database)."
+msgstr ""
+
+#: ../../content/applications/general/export_import_data.rst:359
+msgid ""
+"The two files produced are ready to be imported in Odoo without any "
+"modifications. After having imported these two CSV files, you will have 4 "
+"contacts and 3 companies. (the firsts two contacts are linked to the first "
+"company). You must first import the companies and then the persons."
+msgstr ""
+"Обидва файли готові до імпорту в Odoo без будь-яких змін. Після імпорту цих "
+"двох файлів CSV у вас буде 4 контакти та 3 компанії. (перші два контакти "
+"пов'язані з першою компанією). Спочатку потрібно імпортувати компанії, а "
+"потім особи."
+
+#: ../../content/applications/general/export_import_data.rst:364
+msgid "How to adapt an import template"
+msgstr "Як імпортувати шаблон імпорту"
+
+#: ../../content/applications/general/export_import_data.rst:366
+msgid ""
+"Import templates are provided in the import tool of the most common data to "
+"import (contacts, products, bank statements, etc.). You can open them with "
+"any spreadsheets software (Microsoft Office, OpenOffice, Google Drive, "
+"etc.)."
+msgstr ""
+"Шаблони імпорту надаються в інструменті імпорту найпоширеніших даних для "
+"імпорту (контакти, товари, банківські виписки тощо). Ви можете відкрити їх "
+"будь-яким програмним забезпеченням електронних таблиць (Microsoft Office, "
+"OpenOffice, Google Диск тощо)."
+
+#: ../../content/applications/general/export_import_data.rst:372
+msgid "How to customize the file"
+msgstr "Як налаштувати файл"
+
+#: ../../content/applications/general/export_import_data.rst:374
+msgid ""
+"Remove columns you don't need. We advise to not remove the *ID* one (see why"
+" here below)."
+msgstr "Видаліть стовпці, які вам не потрібні. Ми радимо не видаляти ID."
+
+#: ../../content/applications/general/export_import_data.rst:381
+msgid ""
+"When you add a new column, Odoo might not be able to map it automatically if"
+" its label doesn't fit any field of the system. If so, find the "
+"corresponding field using the search."
+msgstr ""
+"Коли ви додаєте новий стовпець, Odoo, можливо, не зможе його автоматично "
+"помітити, якщо його мітка не підходить для будь-якого поля системи. Якщо "
+"так, знайдіть відповідне поле за допомогою пошуку."
+
+#: ../../content/applications/general/export_import_data.rst:388
+msgid ""
+"Then, use the label you found in your import template in order to make it "
+"work straight away the very next time you try to import."
+msgstr ""
+"Потім використовуйте мітку, яку ви знайшли у своєму шаблоні імпорту, щоби "
+"він працював одразу ж під час наступної спроби імпорту."
+
+#: ../../content/applications/general/export_import_data.rst:392
+msgid "Why an “ID” column"
+msgstr "Чому колонка \"ID\"?"
+
+#: ../../content/applications/general/export_import_data.rst:394
+msgid ""
+"The **ID** (External ID) is an unique identifier for the line item. Feel "
+"free to use the one of your previous software to ease the transition to "
+"Odoo."
+msgstr ""
+"**ID** (зовнішній ідентифікатор) - це унікальний ідентифікатор елементу. Не "
+"соромтеся використовувати попереднє програмне забезпечення для полегшення "
+"переходу на Odoo."
+
+#: ../../content/applications/general/export_import_data.rst:397
+msgid ""
+"Setting an ID is not mandatory when importing but it helps in many cases:"
+msgstr ""
+"Встановлення ID не є обов'язковим при імпорті, але це допомагає у багатьох "
+"випадках:"
+
+#: ../../content/applications/general/export_import_data.rst:399
+msgid ""
+"Update imports: you can import the same file several times without creating "
+"duplicates;"
+msgstr ""
+"Оновіть імпорт: ви можете імпортувати один і той же файл кілька разів без "
+"створення дублікатів;"
+
+#: ../../content/applications/general/export_import_data.rst:400
+msgid "Import relation fields (see here below)."
+msgstr "Пов'язані поля імпорту (див. Нижче)."
+
+#: ../../content/applications/general/export_import_data.rst:403
+msgid "How to import relation fields"
+msgstr "Як імпортувати пов'язані поля"
+
+#: ../../content/applications/general/export_import_data.rst:405
+msgid ""
+"An Odoo object is always related to many other objects (e.g. a product is "
+"linked to product categories, attributes, vendors, etc.). To import those "
+"relations you need to import the records of the related object first from "
+"their own list menu."
+msgstr ""
+"Об'єкт Odoo завжди пов'язаний з багатьма іншими об'єктами (наприклад, товар "
+"пов'язаний із категоріями товарів, атрибутами, постачальниками тощо). Щоб "
+"імпортувати ці відносини, вам потрібно спочатку імпортувати записи "
+"відповідного об'єкта з власного меню списку."
+
+#: ../../content/applications/general/export_import_data.rst:409
+msgid ""
+"You can do it using either the name of the related record or its ID. The ID "
+"is expected when two records have the same name. In such a case add \" / "
+"ID\" at the end of the column title (e.g. for product attributes: Product "
+"Attributes / Attribute / ID)."
+msgstr ""
+"Ви можете зробити це, використовуючи ім'я відповідного запису або його ID. "
+"ID очікується тоді, коли два записи мають однакове ім'я. У такому випадку "
+"додайте \"/ ID\" в кінці заголовку колонки (наприклад, для атрибутів товару:"
+" атрибути товару / атрибут / ID товару)."
+
+#: ../../content/applications/general/in_app_purchase.rst:3
+msgid "In-App Purchase (IAP)"
+msgstr ""
+
+#: ../../content/applications/general/in_app_purchase.rst:5
+msgid ""
+"In-App Purchases (IAP) gives access to additional services through Odoo. For"
+" instance, it allows you to send SMS Text Messages or to send Invoices by "
+"post directly from my database."
+msgstr ""
+
+#: ../../content/applications/general/in_app_purchase.rst:9
+msgid "Buying Credits"
+msgstr "Купівля кредитів"
+
+#: ../../content/applications/general/in_app_purchase.rst:11
+msgid ""
+"Each IAP Service relies on prepaid credits to work and has its own pricing. "
+"To consult my current balance or to recharge my account, go to "
+":menuselection:`Settings --> Odoo IAP --> View my Services`."
+msgstr ""
+
+#: ../../content/applications/general/in_app_purchase.rst:19
+msgid ""
+"If I am on Odoo Online (SAAS) and have the Enterprise version, I benefit "
+"from free credits to test our IAP features."
+msgstr ""
+"Якщо я на Odoo Online (SAAS) і в мене версія Enterprise, я користуюся "
+"безкоштовними кредитами для тестування функцій IAP."
+
+#: ../../content/applications/general/in_app_purchase.rst:23
+msgid "IAP accounts"
+msgstr "Рахунки IAP"
+
+#: ../../content/applications/general/in_app_purchase.rst:25
+msgid ""
+"Credits to use IAP services are stored on IAP accounts, which are specific "
+"to each service and database. By default, IAP accounts are common to all "
+"companies, but can be restricted to specific ones. Activate the "
+":ref:`developer mode <developer-mode>`, then go to :menuselection:`Technical"
+" Settings --> IAP Account`."
+msgstr ""
+
+#: ../../content/applications/general/in_app_purchase.rst:34
+msgid "IAP Portal"
+msgstr "Портал IAP"
+
+#: ../../content/applications/general/in_app_purchase.rst:36
+msgid ""
+"The IAP Portal is a platform regrouping my IAP Services. It is accessible "
+"from :menuselection:`Settings app --> Odoo IAP --> View my Services`. From "
+"there, I can view my current balance, recharge my credits, review my "
+"consumption and set a reminder to when credits are low."
+msgstr ""
+
+#: ../../content/applications/general/in_app_purchase.rst:44
+msgid "Get notified when credits are low"
+msgstr "Отримуйте сповіщення, коли недостатньо кредитів"
+
+#: ../../content/applications/general/in_app_purchase.rst:46
+msgid ""
+"To be notified when it’s time to recharge my credits, I’ll go to my IAP "
+"Portal through :menuselection:`Settings app --> Odoo IAP --> View my "
+"Services`, unfold a service and mark the Receive threshold warning option. "
+"Then, I’ll provide a minimum amount of credits and email addresses. Now, "
+"every time that the limit is reached, an automatic reminder will be sent to "
+"by email!"
+msgstr ""
+
+#: ../../content/applications/general/in_app_purchase.rst:56
+msgid "IAP services available"
+msgstr "Доступні послуги IAP"
+
+#: ../../content/applications/general/in_app_purchase.rst:58
+msgid ""
+"Different services are available depending on the hosting type of your "
+"Database:"
+msgstr "Різні послуги доступні в залежності типу хостингу вашої бази даних:"
+
+#: ../../content/applications/general/in_app_purchase.rst:60
+msgid ""
+"*Odoo Online (SAAS)*: only the IAP services provided by Odoo can be used "
+"(i.e. the SMS, Snailmail, Reveal and Partner Autocomplete features);"
+msgstr ""
+"*Odoo Online (SAAS)*: можна використовувати лише послуги IAP, які надаються "
+"Odoo (напр. такі функції, як SMS, Snailmail, Відкриття та Автоматичне "
+"заповнення партнера);"
+
+#: ../../content/applications/general/in_app_purchase.rst:62
+msgid ""
+"*Odoo.sh and Odoo Enterprise (on-premise)*: both the services provided by "
+"Odoo and by third-party apps can be used."
+msgstr ""
+"*Odoo.sh та Odoo Enterprise (на власному сервері)*: можна використовувати "
+"обидві послуги, які надаються Odoo, та сторонні модулі."
+
+#: ../../content/applications/general/in_app_purchase.rst:66
+msgid "Offering my own services"
+msgstr "Запропонувати власні послуги"
+
+#: ../../content/applications/general/in_app_purchase.rst:68
+msgid ""
+"I am more than welcome to offer my own IAP services through Odoo Apps! It is"
+" the perfect opportunity to get recurring revenue for an ongoing service use"
+" rather than — and possibly instead of — a sole initial purchase. Please, "
+"find more information at: :doc:`In-App Purchase </developer/misc/api/iap>`."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:5
+msgid "Payment acquirers (credit cards, online payments)"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:21
+msgid ""
+"Odoo embeds several **payment acquirers** that allow your customers to pay "
+"on their *Customer Portals* or your *eCommerce website*. They can pay sales "
+"orders, invoices, or subscriptions with recurring payments with their "
+"favorite payment methods such as **Credit Cards**."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:25
+msgid ""
+"Offering several payment methods increases the chances of getting paid in "
+"time, or even immediately, as you make it more convenient for your customers"
+" to pay with the payment method they prefer and trust."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:34
+msgid ""
+"Odoo apps delegate the handling of sensitive information to the certified "
+"payment acquirer so that you don't ever have to worry about PCI compliance."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:37
+msgid ""
+"This means that no sensitive information (such as credit card numbers) is "
+"stored on Odoo servers or Odoo databases hosted elsewhere. Instead, Odoo "
+"apps use a unique reference number to the data stored safely in the payment "
+"acquirers' systems."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:44
+msgid "Payment acquirers"
+msgstr "Платіжні еквайєри"
+
+#: ../../content/applications/general/payment_acquirers.rst:46
+msgid ""
+"From an accounting perspective, we can distinguish two types of payment "
+"acquirers: the payments that go directly on the bank account and follow the "
+"usual reconciliation workflow, and the payment acquirers that are third-"
+"party services and require you to follow another accounting workflow."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:53
+msgid "Bank payments"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:0
+msgid ":doc:`Wire Transfer <payment_acquirers/wire_transfer>`"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:0
+msgid ""
+"When selected, Odoo displays your payment information with a payment "
+"reference. You have to approve the payment manually once you have received "
+"it on your bank account."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:0
+msgid "SEPA Direct Debit"
+msgstr "Прямий дебет SEPA "
+
+#: ../../content/applications/general/payment_acquirers.rst:0
+msgid ""
+"Your customers can sign a SEPA Direct Debit mandate online and get their "
+"bank account charged directly. :doc:`Click here "
+"<../finance/accounting/receivables/customer_payments/batch_sdd>` for more "
+"information about this payment method."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:66
+msgid "Online payment providers"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:69
+msgid "Payment flow"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:69
+msgid "Save cards"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:69
+msgid "Capture amount manually"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:69
+msgid "Refund from Odoo"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:72
+msgid ":doc:`Adyen <payment_acquirers/adyen>`"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:72
+#: ../../content/applications/general/payment_acquirers.rst:78
+msgid "Payment from Odoo"
+msgstr "Платіж з Odoo"
+
+#: ../../content/applications/general/payment_acquirers.rst:72
+#: ../../content/applications/general/payment_acquirers.rst:72
+#: ../../content/applications/general/payment_acquirers.rst:78
+#: ../../content/applications/general/payment_acquirers.rst:78
+#: ../../content/applications/general/payment_acquirers.rst:87
+#: ../../content/applications/general/payment_acquirers.rst:102
+msgid "|V|"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:75
+msgid ":doc:`Alipay <payment_acquirers/alipay>`"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:75
+#: ../../content/applications/general/payment_acquirers.rst:81
+#: ../../content/applications/general/payment_acquirers.rst:84
+#: ../../content/applications/general/payment_acquirers.rst:87
+#: ../../content/applications/general/payment_acquirers.rst:90
+#: ../../content/applications/general/payment_acquirers.rst:93
+#: ../../content/applications/general/payment_acquirers.rst:96
+#: ../../content/applications/general/payment_acquirers.rst:99
+#: ../../content/applications/general/payment_acquirers.rst:102
+msgid "Redirection to the acquirer website"
+msgstr "Перенаправлення на веб-сайт покупця"
+
+#: ../../content/applications/general/payment_acquirers.rst:78
+msgid ":doc:`Authorize.Net <payment_acquirers/authorize>`"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:81
+msgid ":doc:`Buckaroo <payment_acquirers/buckaroo>`"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:84
+msgid ":doc:`Mollie <payment_acquirers/mollie>`"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:87
+msgid ":doc:`Ogone <payment_acquirers/ogone>`"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:90
+msgid ":doc:`PayPal <payment_acquirers/paypal>`"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:93
+msgid "PayU Latam"
+msgstr "PayU Latam"
+
+#: ../../content/applications/general/payment_acquirers.rst:96
+msgid "PayUMoney"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:99
+msgid ":doc:`SIPS <payment_acquirers/sips>`"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:102
+msgid ":doc:`Stripe <payment_acquirers/stripe>`"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:109
+msgid ""
+"Some of these online payment providers can also be added as :doc:`bank "
+"accounts <../finance/accounting/bank/setup/bank_accounts>`, but this is "
+"**not** the same process as adding them as payment acquirers. Payment "
+"acquirers allow customers to pay online, and bank accounts are added and "
+"configured on your Accounting app to do a bank reconciliation, which is an "
+"accounting control process."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:120
+msgid ""
+"Some of the features described in this section are available only with some "
+"payment acquirers. Refer to :ref:`the table above "
+"<payment_acquirers/online_providers>` for more details."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:126
+msgid "Add a new payment acquirer"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:128
+msgid ""
+"To add a new payment acquirer and make it available to your customers, go to"
+" :menuselection:`Accounting --> Configuration --> Payment Acquirers`, look "
+"for your payment acquirer, install the related module, and activate it. To "
+"do so, open the payment acquirer and change its state from *Disabled* to "
+"*Enabled*."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:138
+msgid ""
+"We recommend using the *Test Mode* on a duplicated database or a test "
+"database. The Test Mode is meant to be used with your test/sandbox "
+"credentials, but Odoo generates Sales Orders and Invoices as usual. It isn't"
+" always possible to cancel an invoice, and this could create some issues "
+"with your invoices numbering if you were to test your payment acquirers on "
+"your main database."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:146
+#: ../../content/applications/general/payment_acquirers/adyen.rst:15
+#: ../../content/applications/general/payment_acquirers/alipay.rst:15
+#: ../../content/applications/general/payment_acquirers/authorize.rst:15
+#: ../../content/applications/general/payment_acquirers/buckaroo.rst:15
+#: ../../content/applications/general/payment_acquirers/mollie.rst:14
+#: ../../content/applications/general/payment_acquirers/ogone.rst:15
+#: ../../content/applications/general/payment_acquirers/paypal.rst:17
+#: ../../content/applications/general/payment_acquirers/sips.rst:15
+#: ../../content/applications/general/payment_acquirers/stripe.rst:15
+msgid "Credentials tab"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:148
+msgid ""
+"If not done yet, go to the online payment provider website, create an "
+"account, and make sure to have the credentials required for third-party use."
+" Odoo requires these credentials to communicate with the payment acquirer."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:152
+msgid ""
+"The form in this section is specific to the payment acquirer you are "
+"configuring. Please refer to the related documentation for more information."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:158
+#: ../../content/applications/general/payment_acquirers/authorize.rst:35
+#: ../../content/applications/general/payment_acquirers/paypal.rst:37
+msgid "Configuration tab"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:160
+msgid ""
+"You can change the payment acquirer's front-end appearance by modifying its "
+"name under the **Displayed as** field and which credit card icons to display"
+" under the **Supported Payment Icons** field."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:167
+msgid "Save and reuse credit cards"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:169
+msgid ""
+"With the **Save Cards** feature, Odoo can store **Payment Tokens** in your "
+"database, which can be used for subsequent payments, without having to "
+"reenter the payment details. This is particularly useful for the eCommerce "
+"conversion rate and subscriptions' recurring payments."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:176
+#: ../../content/applications/general/payment_acquirers/authorize.rst:38
+msgid "Place a hold on a card"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:178
+msgid ""
+"If you wish to manually capture an amount instead of having an immediate "
+"capture, you can enable the manual capture. Capturing payments manually has "
+"many advantages:"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:181
+msgid ""
+"Receive the payment confirmation and wait until the order is shipped to "
+"capture the payment."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:182
+msgid ""
+"Review and verify that orders are legitimate before the payment is completed"
+" and the fulfillment process starts."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:184
+msgid ""
+"Avoid potentially high credit card fees in the event of overselling or "
+"cancelled orders."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:186
+msgid ""
+"The **Capture Amount Manually** field is under the **Configuration** tab. If"
+" enabled, the funds are reserved for a few days on the customer's card, but "
+"not charged yet. Please refer to your acquirer's documentation for the exact"
+" reservation duration."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:194
+msgid ""
+"To capture the payment, you must then go to the related sales order or "
+"invoice and manually *capture* the funds before its automatic cancellation, "
+"or *void the transaction* to unlock the funds from the customer's card."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:203
+msgid ""
+"Odoo may not yet support the manual capture for all acquirers, but some "
+"acquirers allow managing the capture from their interfaces."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:209
+msgid "Countries"
+msgstr "Країни"
+
+#: ../../content/applications/general/payment_acquirers.rst:211
+msgid ""
+"Restrict the use of the payment acquirer to a selection of countries. Leave "
+"this field blank to make the payment acquirer available to all countries."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:217
+msgid "Payment journal"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:219
+msgid ""
+"The **Payment journal** selected for your payment acquirer must be a *Bank* "
+"journal."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:224
+msgid "Accounting perspective"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:226
+msgid ""
+"The **Bank Payments** that go directly to one of your bank accounts follow "
+"their usual reconciliation workflows. However, payments recorded with "
+"**Online Payment Providers** require you to consider how you want to record "
+"your payments' journal entries. We recommend you to ask your accountant for "
+"advice."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:231
+msgid ""
+"You need to select a *Payment Journal* on your acquirer configuration to "
+"record the payments, on a **Outstanding Account**. The Journal's **type** "
+"must be *Bank Journal*."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:234
+msgid ""
+"You can use a single journal for many payment methods. And for each payment "
+"method, you can either:"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:236
+msgid ""
+"Define an **Accounting Account** to separate these payments from another "
+"payment method."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:237
+msgid ""
+"Leave blank to fallback on the default account, which you can see or change "
+"in the settings."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:243
+msgid ""
+"You can have the same bank account for the whole company, or for some "
+"journals only, or a single payment method... What best suit your needs."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:247
+msgid ":doc:`payment_acquirers/wire_transfer`"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:248
+msgid ":doc:`payment_acquirers/adyen`"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:249
+msgid ":doc:`payment_acquirers/alipay`"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:250
+msgid ":doc:`payment_acquirers/authorize`"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:251
+msgid ":doc:`payment_acquirers/buckaroo`"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:252
+msgid ":doc:`payment_acquirers/mollie`"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:253
+msgid ":doc:`payment_acquirers/ogone`"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:254
+msgid ":doc:`payment_acquirers/paypal`"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:255
+msgid ":doc:`payment_acquirers/sips`"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:256
+msgid ":doc:`payment_acquirers/stripe`"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers.rst:257
+msgid ":doc:`../websites/ecommerce/shopper_experience/payment_acquirer`"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/adyen.rst:3
+msgid "Adyen"
+msgstr "Adyen"
+
+#: ../../content/applications/general/payment_acquirers/adyen.rst:5
+msgid ""
+"`Adyen <https://www.adyen.com/>`_ is a Dutch-based company that offers "
+"several online payment possibilities."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/adyen.rst:12
+#: ../../content/applications/general/payment_acquirers/alipay.rst:12
+#: ../../content/applications/general/payment_acquirers/authorize.rst:12
+#: ../../content/applications/general/payment_acquirers/buckaroo.rst:12
+#: ../../content/applications/general/payment_acquirers/mollie.rst:11
+#: ../../content/applications/general/payment_acquirers/ogone.rst:12
+#: ../../content/applications/general/payment_acquirers/paypal.rst:14
+#: ../../content/applications/general/payment_acquirers/sips.rst:12
+#: ../../content/applications/general/payment_acquirers/stripe.rst:12
+msgid ":ref:`payment_acquirers/add_new`"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/adyen.rst:17
+msgid ""
+"Odoo needs your **API Credentials** to connect with your Adyen account, "
+"which comprise:"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/adyen.rst:19
+msgid ""
+"**Merchant Account**: The code of the merchant account to use with Adyen."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/adyen.rst:20
+msgid ""
+":ref:`API Key <adyen/api_and_client_keys>`: The API key of the webservice "
+"user."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/adyen.rst:21
+msgid ""
+":ref:`Client Key <adyen/api_and_client_keys>`: The client key of the "
+"webservice user."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/adyen.rst:22
+msgid ":ref:`HMAC Key <adyen/hmac_key>`: The HMAC key of the webhook."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/adyen.rst:23
+msgid ""
+":ref:`Checkout API URL <adyen/urls>`: The base URL for the Checkout API "
+"endpoints."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/adyen.rst:24
+msgid ""
+":ref:`Recurring API URL <adyen/urls>`: The base URL for the Recurring API "
+"endpoints."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/adyen.rst:26
+msgid ""
+"You can copy your credentials from your Adyen account, and paste them in the"
+" related fields under the **Credentials** tab."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/adyen.rst:30
+msgid ""
+"If you are trying Adyen as a test, with a *test account*, change the "
+"**State** to *Test Mode*. We recommend doing this on a test Odoo database, "
+"rather than on your main database."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/adyen.rst:36
+msgid "API Key and Client Key"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/adyen.rst:38
+msgid ""
+"In order to retrieve the API Key and the Client Key, log into your Adyen "
+"account, go to :menuselection:`Developers --> API Credentials`. - If you "
+"already have an API user, open it. - If you don't have an API user yet, "
+"click on **Create new credential**. Go to :menuselection:`Authentication` "
+"and get or generate your **API Key** and **Client Key**. Be careful to copy "
+"your API key as you'll not be allowed to get it later without generating a "
+"new one."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/adyen.rst:45
+msgid ""
+"This is also the place where you'll :ref:`allow payments to be made from "
+"your website <adyen/allowed_origins>`."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/adyen.rst:51
+msgid "HMAC key"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/adyen.rst:53
+msgid ""
+"In order to retrieve the HMAC Key, you'll need to configure a `Standard "
+"Notification` webhook. For this, log into your Adyen account then go to "
+":menuselection:`Developers --> Webhooks --> Add webhook --> Add Standard "
+"notification`."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/adyen.rst:61
+msgid ""
+"There, in :menuselection:`Transport --> URL`, enter your server address "
+"followed by `/payment/adyen/notification`."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/adyen.rst:68
+msgid ""
+"Then continue in :menuselection:`Additional Settings --> HMAC Key --> "
+"Generate new HMAC key`. Be careful to copy it as you'll not be allowed to "
+"get it later without generating a new one."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/adyen.rst:71
+msgid "You have to save the webhook to finalize its creation."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/adyen.rst:76
+msgid "URLs"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/adyen.rst:78
+msgid ""
+"To retrieve the URLs, log into your Adyen account, go to "
+":menuselection:`Developers --> API URLs`. Pick one of the URLs listed next "
+"to **Recurring** as your **Recurring API URL** and one of the URLs listed "
+"next to **Checkout API** as your **Checkout API URL**."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/adyen.rst:87
+msgid "Adyen Account"
+msgstr "Обліковий запис Adyen"
+
+#: ../../content/applications/general/payment_acquirers/adyen.rst:92
+msgid "Allow payments from a specific origin"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/adyen.rst:94
+msgid ""
+"To allow payment originated from your website, follow the steps in "
+":ref:`adyen/api_and_client_keys` to navigate to your API user and go to "
+":menuselection:`Allowed Origins`, then add the URLs from where payments will"
+" be made (the URLs of the servers hosting your Odoo instances)."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/adyen.rst:103
+#: ../../content/applications/general/payment_acquirers/alipay.rst:36
+#: ../../content/applications/general/payment_acquirers/authorize.rst:47
+#: ../../content/applications/general/payment_acquirers/buckaroo.rst:47
+#: ../../content/applications/general/payment_acquirers/mollie.rst:31
+#: ../../content/applications/general/payment_acquirers/ogone.rst:69
+#: ../../content/applications/general/payment_acquirers/paypal.rst:142
+#: ../../content/applications/general/payment_acquirers/sips.rst:32
+#: ../../content/applications/general/payment_acquirers/stripe.rst:49
+#: ../../content/applications/general/payment_acquirers/wire_transfer.rst:39
+msgid ":doc:`../payment_acquirers`"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/alipay.rst:3
+msgid "Alipay"
+msgstr "Alipay"
+
+#: ../../content/applications/general/payment_acquirers/alipay.rst:5
+msgid ""
+"`Alipay <https://www.alipay.com/>`_ is an online payments platform "
+"established in China by Alibaba Group."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/alipay.rst:17
+msgid ""
+"Odoo needs your **API Credentials** to connect with your Alipay account, "
+"which comprise:"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/alipay.rst:19
+msgid ""
+"**Account**: Depending on where you are situated - `Express Checkout` if "
+"your are a Chinese Merchant. - `Cross-border` if you are not."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/alipay.rst:22
+msgid ""
+"**Alipay Seller Email**: Your public Alipay partner email (for express "
+"checkout only)."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/alipay.rst:23
+msgid ""
+"**Merchant Partner ID**: The public partner ID solely used to identify the "
+"account with Alipay."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/alipay.rst:24
+msgid "**MD5 Signature Key**: The signature key."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/alipay.rst:26
+msgid ""
+"You can copy your credentials from your Alipay account, and paste them in "
+"the related fields under the **Credentials** tab."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/alipay.rst:29
+msgid ""
+"To retrieve them, log into your Alipay account, they are on the front page."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/alipay.rst:32
+msgid ""
+"If you are trying Alipay as a test, in the *sandbox*, change the **State** "
+"to *Test Mode*. We recommend doing this on a test Odoo database, rather than"
+" on your main database."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/authorize.rst:3
+msgid "Authorize.Net"
+msgstr "Authorize.Net"
+
+#: ../../content/applications/general/payment_acquirers/authorize.rst:5
+msgid ""
+"`Authorize.Net <https://www.authorize.net>`_ is a United States-based online"
+" payment solution provider, allowing businesses to accept **credit cards**."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/authorize.rst:17
+msgid ""
+"Odoo needs your **API Credentials & Keys** to connect with your "
+"Authorize.Net account, which comprise:"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/authorize.rst:20
+msgid ""
+"**API Login ID**: The ID solely used to identify the account with "
+"Authorize.Net."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/authorize.rst:21
+msgid "**API Transaction Key**"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/authorize.rst:22
+msgid "**API Signature Key**"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/authorize.rst:23
+msgid "**API Client Key**"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/authorize.rst:25
+msgid ""
+"To retrieve them, log into your Authorize.Net account, go to "
+":menuselection:`Account --> Settings --> Security Settings --> API "
+"Credentials & Keys`, generate your **Transaction Key** and **Signature "
+"Key**, and paste them on the related fields in Odoo. Then, click on "
+"**Generate Client Key**."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/authorize.rst:31
+msgid ""
+"If you are trying Authorize.Net as a test, with a *sandbox account*, change "
+"the **State** to *Test Mode*. We recommend doing this on a test Odoo "
+"database, rather than on your main database."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/authorize.rst:40
+msgid ""
+"With Authorize.net, you can enable the :ref:`manual capture "
+"<payment_acquirers/capture_amount>`. If enabled, the funds are reserved for "
+"30 days on the customer's card, but not charged yet."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/authorize.rst:44
+msgid ""
+"After **30 days**, the transaction is **voided automatically** by "
+"Authorize.net."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/buckaroo.rst:3
+msgid "Buckaroo"
+msgstr "Buckaroo"
+
+#: ../../content/applications/general/payment_acquirers/buckaroo.rst:5
+msgid ""
+"`Buckaroo <https://www.buckaroo.eu/>`_ is a Dutch-based company that offers "
+"several online payment possibilities."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/buckaroo.rst:17
+msgid ""
+"Odoo needs your **API Credentials** to connect with your Buckaroo account, "
+"which comprise:"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/buckaroo.rst:19
+msgid ""
+":ref:`Website Key <buckaroo/website_key>`: The key solely used to identify "
+"the website with Buckaroo."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/buckaroo.rst:21
+msgid ""
+":ref:`Secret Key <buckaroo/secret_key>`: The secret key you entered on "
+"Buckaroo."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/buckaroo.rst:23
+msgid ""
+"You can copy your credentials from your Buckaroo account, and paste them in "
+"the related fields under the **Credentials** tab."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/buckaroo.rst:29
+msgid "Website Key"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/buckaroo.rst:31
+msgid ""
+"In order to retrieve the Website Key, log into your Buckaroo account, go to "
+":menuselection:`Configuration --> Templates --> Your Website`."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/buckaroo.rst:37
+msgid "Secret Key"
+msgstr "Секретний ключ"
+
+#: ../../content/applications/general/payment_acquirers/buckaroo.rst:39
+msgid ""
+"In order to retrieve the Website Key, log into your Buckaroo account, go to "
+":menuselection:`Configuration --> Security --> Secret Key`."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/buckaroo.rst:43
+msgid ""
+"If you are trying Buckaroo in a test account, change the **State** to *Test "
+"Mode*. We recommend doing this on a test Odoo database, rather than on your "
+"main database."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/mollie.rst:3
+msgid "Mollie"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/mollie.rst:5
+msgid ""
+"`Mollie <https://www.mollie.com/>`_ is an online payments platform "
+"established in the Netherlands."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/mollie.rst:16
+msgid ""
+"Odoo needs your **API Credentials** to connect with your Mollie account, "
+"which comprise:"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/mollie.rst:18
+msgid ""
+"**API Key**: The test or live API Key depending on the configuration of the "
+"acquirer."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/mollie.rst:20
+msgid ""
+"You can copy your credentials from your Mollie account, and paste them in "
+"the related fields under the **Credentials** tab."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/mollie.rst:23
+msgid ""
+"To retrieve your API key, log into your Mollie account, go to "
+":menuselection:`Developers --> API keys`, and copy your Test or Live **API "
+"Key**."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/mollie.rst:27
+msgid ""
+"If you are trying Mollie as a test, with the Test API key, change the "
+"**State** to *Test Mode*. We recommend doing this on a test Odoo database, "
+"rather than on your main database."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/ogone.rst:3
+msgid "Ogone"
+msgstr "Ogone"
+
+#: ../../content/applications/general/payment_acquirers/ogone.rst:5
+msgid ""
+"`Ogone <https://www.ingenico.com/>`_, also known as **Ingenico Payment "
+"Services** is a France-based company that provides the technology involved "
+"in secure electronic transactions."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/ogone.rst:17
+msgid ""
+"Odoo needs your **API Credentials** to connect with your Ogone account, "
+"which comprise:"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/ogone.rst:19
+msgid ""
+"**PSPID**: The ID solely used to identify the account with Ogone. You chose "
+"it when you opened your account."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/ogone.rst:21
+msgid ""
+":ref:`API User ID <ogone/api_user>`: The ID solely used to identify the user"
+" with Ogone."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/ogone.rst:22
+msgid ""
+":ref:`API User Password <ogone/api_user>`: Value used to identify the user "
+"with Ogone."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/ogone.rst:23
+msgid ""
+":ref:`SHA Key IN <ogone/sha_key_in>`: Key used in the signature Odoo send to"
+" Ogone."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/ogone.rst:24
+msgid ""
+":ref:`SHA Key OUT <ogone/sha_key_out>`: Key used in the signature Ogone send"
+" to Odoo."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/ogone.rst:26
+msgid ""
+"You can copy your credentials from your Ogone account, and paste them in the"
+" related fields under the **Credentials** tab."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/ogone.rst:32
+msgid "API User ID and Password"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/ogone.rst:34
+msgid ""
+"If you already created a user and have both its ID and password, just copy "
+"them. You can also generate a new password from "
+":menuselection:`Configuration --> Users --> Your chosen user --> change "
+"password`."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/ogone.rst:38
+msgid ""
+"If you don't have a user, create one by going to "
+":menuselection:`Configuration --> Users --> New User`. Set your **User ID** "
+"to get your **password** when you save your new user."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/ogone.rst:48
+msgid "SHA Key IN"
+msgstr "SHA Key IN"
+
+#: ../../content/applications/general/payment_acquirers/ogone.rst:50
+msgid ""
+"In order to retrieve the SHA Key IN, log into your ogone account, go to "
+":menuselection:`Configuration --> Technical Information --> Data and origin "
+"verification --> Checks for e-Commerce & Alias Gateway`, and retrieve **SHA "
+"Key IN**."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/ogone.rst:57
+msgid "SHA Key OUT"
+msgstr "SHA Key OUT"
+
+#: ../../content/applications/general/payment_acquirers/ogone.rst:59
+msgid ""
+"In order to retrieve the API Key and the Client Key, log into your ogone "
+"account, go to :menuselection:`Configuration --> Technical Information --> "
+"Transaction feedback --> All transaction submission modes`, and get or "
+"generate your **API Key** and **Client Key**. Be careful to copy your API "
+"key as you'll not be allowed to get it later without generating a new one."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/ogone.rst:65
+msgid ""
+"If you are trying Ogone as a test, with the Test Account, change the "
+"**State** to *Test Mode*. We recommend doing this on a test Odoo database, "
+"rather than on your main database."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:3
+msgid "Paypal"
+msgstr "Paypal"
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:5
+msgid ""
+"`Paypal <https://www.paypal.com/>`_ is available and popular worldwide. It "
+"doesn't charge any subscription fee and creating an account is very easy. "
+"That's why we definitely recommend it for starters in Odoo. It works as a "
+"seamless flow where the customer is routed to Paypal website to register the"
+" payment."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:11
+msgid "Settings in Odoo"
+msgstr "Налаштування в Odoo"
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:19
+msgid ""
+"Odoo needs your **API Credentials** to connect with your PayPal account, "
+"which comprise:"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:21
+msgid "**Email ID**: your login email address in Paypal."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:22
+msgid ""
+"**Merchant ID**: the code of the merchant account used to identify your "
+"Paypal account."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:23
+msgid ""
+"**Use IPN**: either you want to use Instant Payment Notification. Already "
+"checked, you don't have to change it."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:26
+msgid ""
+"You can copy your credentials from your Paypal account, and paste them in "
+"the related fields under the **Credentials** tab."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:29
+msgid ""
+"To retrieve them, log into your Paypal account, and go to "
+":menuselection:`Your account menu --> Account settings --> Business Profile "
+"--> Business Information`"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:33
+msgid ""
+"If you are trying Paypal as a test, with a *sandbox account*, change the "
+"**State** to *Test Mode*. We recommend doing this on a test Odoo database, "
+"rather than on your main database."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:39
+msgid ""
+"You can charge extra fees to your customers for paying with Paypal; This to "
+"cover the transaction fees Paypal charges you. Once redirected to Paypal, "
+"your customer sees an extra applied to the order amount."
+msgstr ""
+"Ви можете стягувати додаткову комісію з клієнтів за оплату через Paypal; Це "
+"покриває стягнення з вас комісії за транзакцію Paypal. Після направлення на "
+"Paypal, ваш клієнт бачить додаткову суму до суми замовлення."
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:43
+msgid ""
+"To activate this, go to the Configuration tab of Paypal configuration in "
+"Odoo and check *Add Extra Fees*."
+msgstr ""
+"Щоб активувати це, перейдіть на вкладку Налаштування Paypal а Odoo та "
+"позначте *Додати додаткові комісії*."
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:46
+msgid ""
+"You can refer to `Paypal Fees <https://www.paypal.com/webapps/mpp/paypal-"
+"fees>`_ to set up fees."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:49
+msgid ""
+"`Traders in the EU "
+"<https://europa.eu/youreurope/citizens/consumers/shopping/pricing-payments/ "
+"index_en.htm>`_ are not allowed to charge extra fees for paying with credit "
+"cards."
+msgstr ""
+"`Продавцям у ЄС "
+"<https://europa.eu/youreurope/citizens/consumers/shopping/pricing-payments/ "
+"index_en.htm>`_ заборонено стягувати додаткові збори за оплату кредитними "
+"картками."
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:53
+msgid "Settings in Paypal"
+msgstr "Налаштування в Paypal"
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:55
+msgid ""
+"First, let’s see how to set up your Paypal account in order to build a "
+"seamless customer experience with Odoo."
+msgstr ""
+"Спершу, давайте поглянемо, як налаштувати ваш обліковий запис Paypal, щоби "
+"створити безперебійний досвід роботи клієнта з Odoo."
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:58
+msgid ""
+"Log in and open the settings. Go to :menuselection:`Your account menu --> "
+"Account settings --> Product & Services --> Website payments` and click "
+"**Update** on **Website preferences**."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:62
+msgid "Auto Return"
+msgstr "Автоматичне повернення"
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:64
+msgid ""
+"*Auto Return* automatically redirects your customers to Odoo once the "
+"payment is processed. Check *Auto Return* and enter your domain name with "
+"the suffix ``/shop/confirmation`` as *Return URL* (e.g. "
+"`https://yourcompany.odoo.com/shop/confirmation`)."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:68
+msgid ""
+"This URL is requested in Paypal but not used in practice as Odoo transmits "
+"it at each transaction. Don’t worry if you manage several sales channels or "
+"Odoo databases."
+msgstr ""
+"Ця URL-адреса дає запит на Paypal, але не використовується на практиці, "
+"оскільки Odoo передає її на кожній транзакції. Не хвилюйтеся, якщо ви "
+"керуєте кількома каналами продажів або базами даних Odoo."
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:72
+msgid "Payment Data Transfer (PDT)"
+msgstr "Переказ даних про оплату (PDT)"
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:74
+msgid ""
+"*Payment Data Transfer* delivers the payment confirmation to Odoo as soon as"
+" it is processed. Without it, Odoo cannot end the sales flow. This setting "
+"must be activated as well. When saving, an *Identity Token* is generated. "
+"You will be later requested to enter it in Odoo."
+msgstr ""
+"*Переказ даних про оплату* передає підтвердження платежу в Odoo, як тільки "
+"він оброблений. Без цього Odoo не зможе завершити процес продажу. Ці "
+"налаштування повинні бути активованими як слід. Під час збереження "
+"створюється *Токен ідентифікації*. Пізніше ви отримаєте запит на вхід в "
+"Odoo."
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:79
+msgid "Paypal Account Optional"
+msgstr "Опціональний рахунок Paypal"
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:81
+msgid ""
+"We advise you to not prompt customers to log in with a Paypal account when "
+"they get to pay. Let them pay with debit/credit cards as well, or you might "
+"lose some deals. Make sure this setting is turned on."
+msgstr ""
+"Ми радимо не спонукати клієнтів входити за допомогою облікового запису "
+"Paypal, коли вони отримують оплату. Нехай вони також платять "
+"дебетовими/кредитними картками, інакше ви можете втратити деякі угоди. "
+"Переконайтесь, що цей параметр увімкнено."
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:86
+msgid "Instant Payment Notification (IPN)"
+msgstr "Миттєві сповіщення оплати (IPN)"
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:88
+msgid ""
+"PDT sends order confirmations once and only once. As a result, your site "
+"must be running when it happens; otherwise, it will never receive the "
+"message. That’s why we advise to activate the *Instant Payment Notification*"
+" (IPN) on top. With IPN, delivery of order confirmations is virtually "
+"guaranteed since IPN resends a confirmation until your site acknowledges "
+"receipt."
+msgstr ""
+"PDT надсилає підтвердження замовлень лише один раз. В результаті ваш сайт "
+"повинен запускатися, коли це трапляється; в іншому випадку він ніколи не "
+"отримає повідомлення. Тому ми радимо активувати *Миттєві сповіщення оплати* "
+"(IPN) в горі. З IPN, доставка підтвердження замовлень практично гарантоване "
+"з того часу, як IPN повторно надсилає підтвердження поки ваш сайт не "
+"підтвердить отримання."
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:94
+msgid ""
+"To activate IPN, get back to *Website payments* menu and click *Update* in "
+"*Instant Payment Notification*."
+msgstr ""
+"Щоб активувати IPN, поверніться в меню *Платежі веб-сайту* та натисніть "
+"*Оновити* у *Миттєвих сповіщеннях оплати*."
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:96
+msgid ""
+"The *Notification URL* to set is your domain name + “payment/paypal/ipn” "
+"(e.g. `https://yourcompany.odoo.com/payment/paypal/ipn`)."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:99
+msgid "Payment Messages Format"
+msgstr "Формат повідомлень оплати"
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:101
+msgid ""
+"If you use accented characters (or anything else than basic Latin "
+"characters) for your customer names, addresses... you MUST configure the "
+"encoding format of the payment request sent by Odoo to Paypal."
+msgstr ""
+"Якщо ви використовуєте символи з наголосом (або що-небудь ще, крім основних "
+"латинських символів) для імен ваших клієнтів, адрес... вам НЕОБХІДНО "
+"налаштувати формат кодування запиту на платіж, що надсилається Odoo в "
+"Paypal."
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:106
+msgid ""
+"If you don't configure this setting, some transactions fail without notice."
+msgstr ""
+"Якщо ви не налаштуєте це, деякі транзакції не вдаватимуться без приміток."
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:108
+msgid "To do so, open:"
+msgstr "Щоб зробити це, відкрийте:"
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:110
+msgid ""
+"`this page for a test account <https://sandbox.paypal.com/cgi-"
+"bin/customerprofileweb?cmd=_profile-language-encoding>`_"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:111
+msgid ""
+"`this page for a production account <https://www.paypal.com/cgi-"
+"bin/customerprofileweb?cmd=_profile-language-encoding>`_"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:113
+msgid ""
+"Then, click *More Options* and set the two default encoding formats as "
+"**UTF-8**."
+msgstr ""
+"Потім натисніть *Додаткові параметри* та встановіть два стандартні кодування"
+" у форматі **UTF-8**."
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:115
+msgid "Your Paypal account is ready!"
+msgstr "Ваш обліковий запис Paypal готовий!"
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:118
+msgid ""
+"For Encrypted Website Payments & EWP_SETTINGS error, please check the "
+"`Paypal documentation <https://developer.paypal.com/docs/classic/paypal-"
+"payments-standard/integration-guide/ encryptedwebpayments#encrypted-website-"
+"payments-ewp>`_."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:123
+msgid "Test environment"
+msgstr "Тестове середовище"
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:125
+msgid ""
+"You can test the entire payment flow in Odoo thanks to Paypal Sandbox "
+"accounts."
+msgstr ""
+"Ви можете протестувати процес оплати в Odoo завдяки рахункам Paypal Sandbox."
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:127
+msgid ""
+"Log in to `Paypal Developer Site <https://developer.paypal.com/>`__ with "
+"your Paypal credentials."
+msgstr ""
+"Увійдіть на `Сайт розробника Paypal <https://developer.paypal.com/>`__ з "
+"вашими обліковими даними Paypal."
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:129
+msgid "This will create two sandbox accounts:"
+msgstr "Це створить два рахунки sandbox:"
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:131
+msgid ""
+"A business account (to use as merchant, e.g. "
+"`pp.merch01-facilitator@example.com "
+"<mailto:pp.merch01-facilitator@example.com>`__)."
+msgstr ""
+"Бізнес-рахунок (для використання як покупці, напр. "
+"`pp.merch01-facilitator@example.com "
+"<mailto:pp.merch01-facilitator@example.com>`__)."
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:133
+msgid ""
+"A default personal account (to use as shopper, e.g. "
+"`pp.merch01-buyer@example.com <mailto:pp.merch01-buyer@example.com>`__)."
+msgstr ""
+"Персональний рахунок за замовчуванням (для використання як покупець, e.g. "
+"`pp.merch01-buyer@example.com <mailto:pp.merch01-buyer@example.com>`__)."
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:135
+msgid ""
+"Log in to Paypal Sandbox with the merchant account and follow the same "
+"configuration instructions. Enter your sandbox credentials in Odoo and make "
+"sure Paypal is still set on *Test Mode*. We recommend doing this on a test "
+"Odoo database, rather than on your main database."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/paypal.rst:139
+msgid "Run a test transaction from Odoo using the sandbox personal account."
+msgstr ""
+"Запустіть тестову транзакцію в Odoo, використовуючи особистий обліковий "
+"запис Sandbox."
+
+#: ../../content/applications/general/payment_acquirers/sips.rst:3
+msgid "SIPS"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/sips.rst:5
+msgid ""
+"`SIPS <https://sips.worldline.com/>`_ is an online payments solution from "
+"the multinational Worldline."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/sips.rst:17
+msgid ""
+"Odoo needs your **API Credentials** to connect with your SIPS account, which"
+" comprise:"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/sips.rst:19
+msgid ""
+"**Merchant ID**: The ID solely used to identify the merchant account with "
+"SIPS."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/sips.rst:20
+msgid "**Secret Key**: The key to sign the merchant account with SIPS."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/sips.rst:21
+msgid "**Secret Key Version**: The version of the key, pre-filled."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/sips.rst:22
+msgid "**Interface Version**: Pre-filled, don't change it."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/sips.rst:24
+msgid ""
+"You can copy your credentials from your SIPS environment info documentation,"
+" in the section **PROD**, and paste them in the related fields under the "
+"**Credentials** tab."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/sips.rst:28
+msgid ""
+"If you are trying SIPS as a test, with the *TEST* credentials, change the "
+"**State** to *Test Mode*. We recommend doing this on a test Odoo database, "
+"rather than on your main database."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/stripe.rst:3
+msgid "Stripe"
+msgstr "Stripe"
+
+#: ../../content/applications/general/payment_acquirers/stripe.rst:5
+msgid ""
+"`Stripe <https://stripe.com/>`_ is a United States-based online payment "
+"solution provider, allowing businesses to accept **credit cards** and other "
+"payment methods."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/stripe.rst:17
+msgid ""
+"Odoo needs your **API Credentials** to connect with your Stripe account, "
+"which comprise:"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/stripe.rst:19
+msgid ""
+"Publishable Key: The key solely used to identify the account with Stripe."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/stripe.rst:20
+msgid "Secret Key: The key to sign the merchant account with Stripe."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/stripe.rst:21
+msgid ""
+"Webhook Signing Secret: If a webhook is enabled on your Stripe account "
+"(:menuselection:`Developers --> webhooks`), this signing secret must be set "
+"to authenticate the messages sent from Stripe to Odoo."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/stripe.rst:25
+msgid ""
+"To retrieve the publishable and secret keys, log into your Stripe dashboard "
+"and go to :menuselection:`Developers --> API Keys --> Standard Keys`"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/stripe.rst:29
+msgid ""
+"If you are trying Stripe as a test, in the **test mode**, change the "
+"**State** to *Test Mode*. We recommend doing this on a test Odoo database, "
+"rather than on your main database."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/stripe.rst:33
+msgid "Enable local payment methods"
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/stripe.rst:35
+msgid ""
+"Local payment methods are payment methods that are only available for "
+"certain merchants and customers countries and currencies."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/stripe.rst:38
+msgid ""
+"To enable specific local payment methods with Stripe, list them as supported"
+" payment icons. To do so, go to :menuselection:`Payment Acquirers --> Stripe"
+" --> Configuration` and add the desired payment methods in the **Supported "
+"Payment Icons** field. If the desired payment method is already listed, you "
+"don't have anything to do. If a payment icon record doesn't exist in the "
+"database, its related payment method is considered enabled with Stripe."
+msgstr ""
+
+#: ../../content/applications/general/payment_acquirers/wire_transfer.rst:3
+msgid "How to get paid with wire transfers"
+msgstr "Як отримати платіж через банківський переказ"
+
+#: ../../content/applications/general/payment_acquirers/wire_transfer.rst:5
+msgid ""
+"**Wire Transfer** is the default payment method available. The aim is "
+"providing your customers with your bank details so they can pay on their "
+"own. This is very easy to start with but slow and inefficient process-wise. "
+"Opt for payment acquirers as soon as you can!"
+msgstr ""
+"**Банківський переказ** - це доступний спосіб оплати за замовчуванням. Мета "
+"- надати своїм клієнтам свої банківські реквізити, щоб вони могли платити "
+"самостійно. Це дуже легко розпочати, але повільно і неефективно. Виберіть "
+"покупців, як тільки зможете!"
+
+#: ../../content/applications/general/payment_acquirers/wire_transfer.rst:10
+msgid "How to provide customers with payment instructions"
+msgstr "Як надати клієнтам платіжні інструкції"
+
+#: ../../content/applications/general/payment_acquirers/wire_transfer.rst:12
+msgid ""
+"Put your payment instructions in the **Thanks Message** of your payment "
+"method."
+msgstr ""
+"Вставте свої платіжні інструкції у **Повідомлення подяки** за допомогою "
+"вашого способу оплати."
+
+#: ../../content/applications/general/payment_acquirers/wire_transfer.rst:17
+msgid "They will appear to the customers when they place an order."
+msgstr "Вони з'являтимуться у клієнтів, коли вони розміщують замовлення."
+
+#: ../../content/applications/general/payment_acquirers/wire_transfer.rst:23
+msgid "How to manage an order once you get paid"
+msgstr "Як керувати замовленням, коли ви отримуєте оплату"
+
+#: ../../content/applications/general/payment_acquirers/wire_transfer.rst:25
+msgid ""
+"Whenever a customer pays by wire transfer, the order stays in an "
+"intermediary stage **Quotation Sent** (i.e. unpaid order). When you get "
+"paid, you confirm the order manually to launch the delivery."
+msgstr ""
+"Кожного разу, коли клієнт оплачує банківським переказом, замовлення "
+"залишається на проміжному етапі **надісланої комерційної пропозиції** "
+"(наприклад, неоплачене замовлення). Коли ви отримуєте оплату, ви "
+"підтверджуєте замовлення вручну, щоб запустити доставку."
+
+#: ../../content/applications/general/payment_acquirers/wire_transfer.rst:30
+msgid "How to create other manual payment methods"
+msgstr "Як створити інші ручні методи оплати"
+
+#: ../../content/applications/general/payment_acquirers/wire_transfer.rst:32
+msgid ""
+"If you manage a B2B business, you can create other manually-processed "
+"payment methods like paying by check. To do so, just rename *Wire Transfer* "
+"or duplicate it."
+msgstr ""
+"Якщо ви керуєте B2B-бізнесом, ви можете створювати інші способи оплати, що "
+"обробляються вручну, наприклад, оплата чеком. Для цього просто перейменуйте "
+"*Банківський переказ* або дублюйте його."
+
+#: ../../content/applications/general/users.rst:7
+msgid "Users & Companies"
+msgstr "Користувачі та компанії"
+
+#: ../../content/applications/general/users.rst:9
+msgid ""
+"Odoo defines a *user* as someone who has access to a database to perform "
+"daily tasks. You can add as many users as you need and, in order to restrict"
+" the type of information each user can access, rules can be applied. Users "
+"and access rights can be added and changed at any point."
+msgstr ""
+
+#: ../../content/applications/general/users/access_rights.rst:3
+msgid "Access Rights"
+msgstr "Права доступу"
+
+#: ../../content/applications/general/users/access_rights.rst:5
+msgid ""
+"Activate the :ref:`developer mode <developer-mode>`, then go to "
+":menuselection:`Settings --> Users & Companies --> Groups`."
+msgstr ""
+
+#: ../../content/applications/general/users/access_rights.rst:9
+msgid "Groups"
+msgstr "Групи"
+
+#: ../../content/applications/general/users/access_rights.rst:14
+msgid ""
+"When choosing the groups the user can have access under :ref:`Access Rights "
+"<users/add-individual>`, details of the rules and inheritances of that group"
+" are not shown, so this is when the menu *Groups* comes along. *Groups* are "
+"created to define rules to models within an application."
+msgstr ""
+
+#: ../../content/applications/general/users/access_rights.rst:16
+msgid ""
+"Under *Users*, have a list of the current ones. The ones with administrative"
+" rights are shown in black."
+msgstr ""
+
+#: ../../content/applications/general/users/access_rights.rst:22
+msgid ""
+"*Inherited* means that users added to this application group are "
+"automatically added to the following ones. In the example below, users who "
+"have access to the group *Administrator* of *Sales* also have access to "
+"*Website/Restricted Editor* and *Sales/User: All Documents*."
+msgstr ""
+
+#: ../../content/applications/general/users/access_rights.rst:32
+msgid ""
+"Remember to always test the settings being changed in order to ensure that "
+"they are being applied to the needed and right users."
+msgstr ""
+
+#: ../../content/applications/general/users/access_rights.rst:35
+msgid ""
+"The *Menus* tab is where you define which menus (models) the user can have "
+"access to."
+msgstr ""
+
+#: ../../content/applications/general/users/access_rights.rst:42
+msgid ""
+"*Access Rights* rules are the first level of rights. The field is composed "
+"of the object name, which is the technical name given to a model. For each "
+"model, enable the following options as appropriate:"
+msgstr ""
+
+#: ../../content/applications/general/users/access_rights.rst:45
+msgid "*Read*: the values of that object can be only seen by the user."
+msgstr ""
+
+#: ../../content/applications/general/users/access_rights.rst:46
+msgid "*Write*: the values of that object can be edited by the user."
+msgstr ""
+
+#: ../../content/applications/general/users/access_rights.rst:47
+msgid "*Create*: values for that object can be created by the user."
+msgstr ""
+
+#: ../../content/applications/general/users/access_rights.rst:48
+msgid "*Delete*: the values of that object can be deleted by the user."
+msgstr ""
+
+#: ../../content/applications/general/users/access_rights.rst:55
+msgid ""
+"As a second layer of editing and visibility rules, *Record Rules* can be "
+"formed. They overwrite, or refine, the *Access Rights*."
+msgstr ""
+
+#: ../../content/applications/general/users/access_rights.rst:58
+msgid ""
+"A record rule is written using a *Domain*. Domains are conditions used to "
+"filter or searching data. Therefore, a domain expression is a list of "
+"conditions. For each rule, choose among the following options: *Read*, "
+"*Write*, *Create* and *Delete* values."
+msgstr ""
+
+#: ../../content/applications/general/users/access_rights.rst:65
+msgid ""
+"Making changes in access rights can have a big impact on the database. For "
+"this reason, we recommend you to contact your Odoo Business Analyst or our "
+"Support Team, unless you have knowledge about Domains in Odoo."
+msgstr ""
+
+#: ../../content/applications/general/users/companies.rst:3
+msgid "Companies"
+msgstr "Компанії"
+
+#: ../../content/applications/general/users/companies.rst:5
+msgid ""
+"A centralized management environment allows you to select multiple companies"
+" simultaneously and set their specific warehouses, customers, equipment, and"
+" contacts. It provides you the ability to generate reports of aggregated "
+"figures without switching interfaces, which facilitates daily tasks and the "
+"overall management process."
+msgstr ""
+
+#: ../../content/applications/general/users/companies.rst:11
+msgid "Manage companies and records"
+msgstr ""
+
+#: ../../content/applications/general/users/companies.rst:13
+msgid ""
+"Go to :menuselection:`Settings --> Manage Companies` and fill in the form "
+"with your company’s information. If a *Parent Company* is selected, records "
+"are shared between the two companies (as long as both environments are "
+"active)."
+msgstr ""
+
+#: ../../content/applications/general/users/companies.rst:22
+msgid ""
+"Activate the :ref:`developer mode <developer-mode>` to choose a *Favicon* "
+"for each of your companies, and easily identify them by the browser tabs. "
+"Set your favicons’ files size to 16x16 or 32x32 pixels. JPG, PNG, GIF, and "
+"ICO are extensions accepted."
+msgstr ""
+
+#: ../../content/applications/general/users/companies.rst:31
+msgid ""
+"Switch between or select multiple companies by enabling their selection "
+"boxes to activate them. The grayed company is the one which environment is "
+"in use. To switch environments, click on the company’s name. In the example "
+"below, the user has access to three companies, two are activated, and the "
+"environment in use is of *JS Store US*."
+msgstr ""
+
+#: ../../content/applications/general/users/companies.rst:40
+msgid ""
+"Data such as Products, Contacts, and Equipment can be shared or set to be "
+"shown for a specific company only. To do so, on their forms, choose between:"
+msgstr ""
+
+#: ../../content/applications/general/users/companies.rst:43
+msgid "*A blank field*: the record is shared within all companies."
+msgstr ""
+
+#: ../../content/applications/general/users/companies.rst:44
+msgid ""
+"*Adding a company*: the record is visible to users logged in to that "
+"specific company."
+msgstr ""
+
+#: ../../content/applications/general/users/companies.rst:51
+msgid "Employees' access"
+msgstr ""
+
+#: ../../content/applications/general/users/companies.rst:53
+msgid ""
+"Once companies are created, manage your employees' :doc:`Access Rights "
+"<access_rights>` for *Multi Companies*."
+msgstr ""
+
+#: ../../content/applications/general/users/companies.rst:62
+msgid ""
+"If a user has multiple companies *activated* on his database, and he is "
+"**editing** a record, the editing happens on the record's related company."
+msgstr ""
+
+#: ../../content/applications/general/users/companies.rst:65
+msgid ""
+"Example: if editing a sale order issued under JS Store US while working on "
+"the JS Store Belgium environment, the changes are applied under JS Store US "
+"(the company from which the sale order was issued)."
+msgstr ""
+
+#: ../../content/applications/general/users/companies.rst:66
+msgid "When **creating** a record, the company taken into account is:"
+msgstr ""
+
+#: ../../content/applications/general/users/companies.rst:68
+msgid "The current company (the one active) or,"
+msgstr ""
+
+#: ../../content/applications/general/users/companies.rst:69
+msgid "No company is set (on products and contacts’ forms for example) or,"
+msgstr ""
+
+#: ../../content/applications/general/users/companies.rst:70
+msgid ""
+"The company set is the one linked to the document (the same as if a record "
+"is being edited)."
+msgstr ""
+
+#: ../../content/applications/general/users/companies.rst:73
+msgid "Documents’ format"
+msgstr ""
+
+#: ../../content/applications/general/users/companies.rst:75
+msgid ""
+"To set documents' formats according to each company, *activate* and *select*"
+" the respective one and, under *Settings*, click on *Configure Document "
+"Layout*."
+msgstr ""
+
+#: ../../content/applications/general/users/companies.rst:83
+msgid "Inter-Company Transactions"
+msgstr "Операції між компаніями"
+
+#: ../../content/applications/general/users/companies.rst:85
+msgid ""
+"First, make sure each one of your companies is properly set in relation to:"
+msgstr ""
+
+#: ../../content/applications/general/users/companies.rst:87
+msgid ""
+":doc:`Chart of Accounts "
+"<../../finance/accounting/getting_started/initial_configuration/chart_of_accounts>`"
+msgstr ""
+
+#: ../../content/applications/general/users/companies.rst:89
+msgid ":doc:`Taxes <../../finance/accounting/taxation/taxes/default_taxes>`"
+msgstr ""
+
+#: ../../content/applications/general/users/companies.rst:90
+msgid ""
+":doc:`Fiscal Positions "
+"<../../finance/accounting/taxation/taxes/fiscal_positions>`"
+msgstr ""
+
+#: ../../content/applications/general/users/companies.rst:91
+msgid ":doc:`Journals <../../finance/accounting/bank/setup/bank_accounts>`"
+msgstr ""
+
+#: ../../content/applications/general/users/companies.rst:92
+msgid ""
+":doc:`Fiscal Localizations "
+"<../../finance/accounting/fiscal_localizations/overview/fiscal_localization_packages>`"
+msgstr ""
+
+#: ../../content/applications/general/users/companies.rst:94
+msgid ":doc:`Pricelists <../../sales/sales/products_prices/prices/pricing>`"
+msgstr ""
+
+#: ../../content/applications/general/users/companies.rst:96
+msgid ""
+"Now, activate the *Inter-Company Transactions* option under *Settings*. With"
+" the respective company *activated* and *selected*, choose if you would like"
+" operations between companies to be synchronized at an invoice/bills level "
+"or at a sales/purchase orders level."
+msgstr ""
+
+#: ../../content/applications/general/users/companies.rst:104
+msgid ""
+"**Synchronize invoice/bills**: generates a bill/invoice when a company "
+"confirms a bill/invoice for the selected company."
+msgstr ""
+
+#: ../../content/applications/general/users/companies.rst:107
+msgid ""
+"*Example:* an invoice posted on JS Store Belgium, for JS Store US, "
+"automatically creates a vendor bill on the JS Store US, from the JS Store "
+"Belgium."
+msgstr ""
+
+#: ../../content/applications/general/users/companies.rst:114
+msgid ""
+"**Synchronize sales/purchase order**: generates a drafted purchase/sales "
+"order using the selected company warehouse when a sales/purchase order is "
+"confirmed for the selected company. If instead of a drafted purchase/sales "
+"order you rather have it validated, enable *Automatic Validation*."
+msgstr ""
+
+#: ../../content/applications/general/users/companies.rst:118
+msgid ""
+"*Example:* when a sale order for JS Store US is confirmed on JS Store "
+"Belgium, a purchase order on JS Store Belgium is automatically created (and "
+"confirmed if the *Automatic Validation* feature was enabled)."
+msgstr ""
+
+#: ../../content/applications/general/users/companies.rst:127
+msgid ""
+"Products have to be configured as *Can be sold* and must be shared between "
+"the companies."
+msgstr ""
+
+#: ../../content/applications/general/users/companies.rst:130
+msgid ""
+"Remember to test all workflows as an user other than the administrator."
+msgstr ""
+
+#: ../../content/applications/general/users/companies.rst:133
+msgid ":doc:`Multi-company Guidelines </developer/howtos/company>`"
+msgstr ""
+
+#: ../../content/applications/general/users/companies.rst:134
+msgid ":doc:`../../finance/accounting/others/multicurrencies/how_it_works`"
+msgstr ""
+
+#: ../../content/applications/general/users/language.rst:3
+msgid "Change language"
+msgstr ""
+
+#: ../../content/applications/general/users/language.rst:5
+msgid ""
+"Odoo provides you with the option to manage Odoo in different languages, and"
+" each user can use Odoo in his own language ."
+msgstr ""
+"Odoo надає вам можливість керувати Odoo різними мовами, і кожен користувач "
+"може використовувати Odoo своєю мовою."
+
+#: ../../content/applications/general/users/language.rst:9
+msgid "Load your desired language"
+msgstr "Завантажте потрібну мову"
+
+#: ../../content/applications/general/users/language.rst:11
+msgid ""
+"The first thing to do is to load your desired language on your Odoo "
+"instance."
+msgstr "Перше, що потрібно зробити, це завантажити бажану мову у версію Odoo."
+
+#: ../../content/applications/general/users/language.rst:14
+msgid ""
+"From the general dashboard click on the **Settings** app; on the top left of"
+" the page select :menuselection:`Translations --> Load a Translation`, "
+"select a language to install and click on **LOAD.**"
+msgstr ""
+"На загальній інформаційній панелі натисніть на додаток **Налаштування**; у "
+"верхньому лівому куті сторінки виберіть :menuselection:`Переклад --> "
+"Завантажити переклад`, виберіть мову для встановлення та натисніть на "
+"**ЗАВАНТАЖИТИ**."
+
+#: ../../content/applications/general/users/language.rst:23
+msgid ""
+"If you check the \"Websites to translate\" checkbox you will have the option"
+" to change the navigation language on your website."
+msgstr ""
+"Якщо ви перевірите позначення \"Веб-сайти для перекладу\", ви зможете "
+"змінити мову навігації на своєму веб-сайті."
+
+#: ../../content/applications/general/users/language.rst:27
+msgid "Change your language"
+msgstr "Змініть мову"
+
+#: ../../content/applications/general/users/language.rst:29
+msgid ""
+"You can change the language to the installed language by going to the drop-"
+"down menu at the top right side of the screen, choose **Preferences**."
+msgstr ""
+"Ви можете змінити мову на встановлену, перейшовши до спадного меню у верхній"
+" правій частині екрана та вибравши **Параметри**."
+
+#: ../../content/applications/general/users/language.rst:36
+msgid ""
+"Then change the Language setting to your installed language and click "
+"**SAVE.**"
+msgstr ""
+"Потім змініть налаштування мови на встановлену та натисніть **Зберегти**."
+
+#: ../../content/applications/general/users/language.rst:42
+msgid "Open a new menu to view the changes."
+msgstr "Відкрийте нове меню, щоби переглянути зміни."
+
+#: ../../content/applications/general/users/language.rst:45
+msgid "Change another user's language"
+msgstr "Змініть мову іншого користувача"
+
+#: ../../content/applications/general/users/language.rst:47
+msgid ""
+"Odoo also gives you the possibility for each user to choose his preferred "
+"language."
+msgstr ""
+"Odoo також дає вам можливість для кожного користувача вибрати його бажану "
+"мову."
+
+#: ../../content/applications/general/users/language.rst:50
+msgid ""
+"To change the language for a different user, choose :menuselection:`Users "
+"--> Users` from the Settings app. Here you have a list of all users and you "
+"can choose the user who you'd like to change the language for. Select the "
+"user and click on **Edit** in the top left corner. Under Preferences you can"
+" change the Language to any previously installed language and click "
+"**SAVE.**"
+msgstr ""
+"Щоби змінити мову іншого користувача, виберіть :menuselection:`Користувачі "
+"--> Користувачі` в додатку Налаштування. Тут ви маєте список всіх "
+"користувачів, і ви можете вибрати користувача, для якого ви хочете змінити "
+"мову. Виберіть користувача та натисніть **Редагувати** у верхньому лівому "
+"куті. У розділі Параметри ви можете змінити мову на будь-яку раніше "
+"встановлену та натисніть **ЗБЕРЕГТИ**."
+
+#: ../../content/applications/general/users/language.rst:61
+msgid ":doc:`../../websites/website/publish/translate`"
+msgstr ""
+
+#: ../../content/applications/general/users/manage_users.rst:3
+msgid "Manage users"
+msgstr ""
+
+#: ../../content/applications/general/users/manage_users.rst:5
+msgid ""
+"Odoo defines a **user** as someone who has access to a database to perform "
+"daily tasks. You can add as many users as you need and, in order to restrict"
+" the type of information each user can access, rules can be applied. Users "
+"and access rights can be added and changed at any point."
+msgstr ""
+
+#: ../../content/applications/general/users/manage_users.rst:10
+msgid ":doc:`language`"
+msgstr ""
+
+#: ../../content/applications/general/users/manage_users.rst:11
+msgid ":doc:`access_rights`"
+msgstr ""
+
+#: ../../content/applications/general/users/manage_users.rst:16
+msgid "Add individual users"
+msgstr "Додайте окремих користувачів"
+
+#: ../../content/applications/general/users/manage_users.rst:18
+msgid ""
+"Go to :menuselection:`Settings --> Manage Users` and click on *Create*."
+msgstr ""
+
+#: ../../content/applications/general/users/manage_users.rst:27
+msgid ""
+"Fill in the form with the needed information. Under the tab :doc:`Access "
+"Rights <access_rights>` choose the group within each application the user "
+"can have access to."
+msgstr ""
+
+#: ../../content/applications/general/users/manage_users.rst:28
+msgid ""
+"The list of applications shown is based on the applications installed on the"
+" database."
+msgstr ""
+
+#: ../../content/applications/general/users/manage_users.rst:34
+msgid ""
+"When you are done editing the page and have *Saved* it, an invitation email "
+"is automatically sent to the user. The user must click on it to accept the "
+"invitation and create a login."
+msgstr ""
+
+#: ../../content/applications/general/users/manage_users.rst:42
+msgid ""
+"Remember that subscription prices follow the number of users. Refer to our "
+"`pricing page <https://www.odoo.com/pricing>`_ for more information."
+msgstr ""
+
+#: ../../content/applications/general/users/manage_users.rst:46
+msgid ""
+"With the :ref:`developer mode <developer-mode>` activated, *User Types* can "
+"be selected."
+msgstr ""
+
+#: ../../content/applications/general/users/manage_users.rst:53
+msgid ""
+"The *Portal* and *Public* options do not allow you to choose access rights. "
+"Members have specific ones (such as record rules and restricted menus) and "
+"usually do not belong to the usual Odoo groups."
+msgstr ""
+
+#: ../../content/applications/general/users/manage_users.rst:60
+msgid "Deactivate users"
+msgstr ""
+
+#: ../../content/applications/general/users/manage_users.rst:62
+msgid ""
+"Go to :menuselection:`Settings --> Users & Companies --> Users`, open the "
+"user you want to deactivate, click on *Action*, and then on *Archive*."
+msgstr ""
+
+#: ../../content/applications/general/users/manage_users.rst:66
+msgid "**Never** deactivate the main user (*admin*)."
+msgstr ""
+
+#: ../../content/applications/general/users/manage_users.rst:71
+msgid "Passwords management"
+msgstr ""
+
+#: ../../content/applications/general/users/manage_users.rst:76
+msgid "Reset passwords"
+msgstr ""
+
+#: ../../content/applications/general/users/manage_users.rst:81
+msgid "Enable password resets from login page"
+msgstr ""
+
+#: ../../content/applications/general/users/manage_users.rst:83
+msgid "It is possible to enable password resets directly from the login page."
+msgstr ""
+
+#: ../../content/applications/general/users/manage_users.rst:85
+msgid ""
+"To do so, go to :menuselection:`Settings --> Permissions`, activate "
+"**Password Reset** and *Save*."
+msgstr ""
+
+#: ../../content/applications/general/users/manage_users.rst:94
+msgid "Send reset instructions to users"
+msgstr ""
+
+#: ../../content/applications/general/users/manage_users.rst:96
+msgid ""
+"Go to :menuselection:`Settings --> Users & Companies --> Users`, select the "
+"user out of the list and click on *Send Password Reset Instructions* on its "
+"user form. An email is automatically sent to them."
+msgstr ""
+
+#: ../../content/applications/general/users/manage_users.rst:101
+msgid ""
+"The *Send Password Reset Instructions* button only appears if the Odoo "
+"invitation email has already been confirmed by the user."
+msgstr ""
+
+#: ../../content/applications/general/users/manage_users.rst:104
+msgid ""
+"This email contains all the instructions needed to reset the password, along"
+" with a link redirecting the user to an Odoo login page."
+msgstr ""
+
+#: ../../content/applications/general/users/manage_users.rst:114
+msgid "Change users’ passwords"
+msgstr ""
+
+#: ../../content/applications/general/users/manage_users.rst:116
+msgid ""
+"Go to :menuselection:`Settings --> Users  & Companies --> Users` and select "
+"a user to access its form. Click on the *Action* button and select *Change "
+"Password*."
+msgstr ""
+
+#: ../../content/applications/general/users/manage_users.rst:123
+msgid "Enter a new password and confirm by clicking on *Change Password*."
+msgstr ""
+
+#: ../../content/applications/general/users/manage_users.rst:126
+msgid ""
+"This operation only modifies the password of the users locally and does not "
+"affect their odoo.com account. If you want to change the odoo.com password, "
+"you can :ref:`send the password reset instructions <users/reset-password-"
+"email>`."
+msgstr ""
+
+#: ../../content/applications/general/users/manage_users.rst:130
+msgid ""
+"Click on *Change Password* one more time. You are then redirected to an Odoo"
+" login page where you can reaccess your database using your new password."
+msgstr ""
+
+#: ../../content/applications/general/users/manage_users.rst:136
+msgid "Multi Companies"
+msgstr "Мультикомпанії"
+
+#: ../../content/applications/general/users/manage_users.rst:138
+msgid ""
+"The *Multi Companies* field allows you to set to which of the multiple "
+"companies database you hold the user can have access."
+msgstr ""
+
+#: ../../content/applications/general/users/manage_users.rst:142
+msgid ""
+"Note that if not handled correctly, it may be the source of a lot of "
+"inconsistent multi-company behaviors. Therefore, a good knowledge of Odoo is"
+" required. For technical explanations refer to :doc:`this "
+"</developer/howtos/company>` documentation."
+msgstr ""
+
+#: ../../content/applications/general/users/manage_users.rst:152
+msgid ":doc:`companies`"
+msgstr ""
+
+#: ../../content/applications/general/voip.rst:5
+msgid "VoIP (Voice over Internet Protocol)"
+msgstr ""
+
+#: ../../content/applications/general/voip/asterisk.rst:3
+msgid "Configure your VoIP Asterisk server for Odoo"
+msgstr ""
+
+#: ../../content/applications/general/voip/asterisk.rst:6
+msgid "Installing Asterisk server"
+msgstr "Встановлення сервера Asterisk"
+
+#: ../../content/applications/general/voip/asterisk.rst:9
+msgid "Dependencies"
+msgstr "Залежності"
+
+#: ../../content/applications/general/voip/asterisk.rst:11
+msgid ""
+"Before installing Asterisk you need to install the following dependencies:"
+msgstr ""
+"Перед встановленням Asterisk вам потрібно встановити наступні залежності:"
+
+#: ../../content/applications/general/voip/asterisk.rst:13
+msgid "wget"
+msgstr "wget"
+
+#: ../../content/applications/general/voip/asterisk.rst:14
+msgid "gcc"
+msgstr "gcc"
+
+#: ../../content/applications/general/voip/asterisk.rst:15
+msgid "g++"
+msgstr "g++"
+
+#: ../../content/applications/general/voip/asterisk.rst:16
+msgid "ncurses-devel"
+msgstr "ncurses-devel"
+
+#: ../../content/applications/general/voip/asterisk.rst:17
+msgid "libxml2-devel"
+msgstr "libxml2-devel"
+
+#: ../../content/applications/general/voip/asterisk.rst:18
+msgid "sqlite-devel"
+msgstr "sqlite-devel"
+
+#: ../../content/applications/general/voip/asterisk.rst:19
+msgid "libsrtp-devel"
+msgstr "libsrtp-devel"
+
+#: ../../content/applications/general/voip/asterisk.rst:20
+msgid "libuuid-devel"
+msgstr "libuuid-devel"
+
+#: ../../content/applications/general/voip/asterisk.rst:21
+msgid "openssl-devel"
+msgstr "openssl-devel"
+
+#: ../../content/applications/general/voip/asterisk.rst:22
+msgid "pkg-config"
+msgstr "pkg-config"
+
+#: ../../content/applications/general/voip/asterisk.rst:24
+msgid "In order to install libsrtp, follow the instructions below:"
+msgstr "Для встановлення libsrtp виконайте наведені нижче інструкції:"
+
+#: ../../content/applications/general/voip/asterisk.rst:35
+msgid ""
+"You also need to install PJSIP, you can download the source `here "
+"<http://www.pjsip.org/download.htm>`_. Once the source directory is "
+"extracted:"
+msgstr ""
+"Вам також потрібно встановити PJSIP, ви можете завантажити джерело `тут "
+"<http://www.pjsip.org/download.htm>` _. Після вилучення вихідного каталогу:"
+
+#: ../../content/applications/general/voip/asterisk.rst:37
+msgid "**Change to the pjproject source directory:**"
+msgstr "**Перейдіть у вихідний каталог pjproject:**"
+
+#: ../../content/applications/general/voip/asterisk.rst:43
+msgid "**run:**"
+msgstr "**запустіть:**"
+
+#: ../../content/applications/general/voip/asterisk.rst:49
+msgid "**Build and install pjproject:**"
+msgstr "**Побудуйте та встановіть pjproject:**"
+
+#: ../../content/applications/general/voip/asterisk.rst:57
+msgid "**Update shared library links:**"
+msgstr "**Оновіть посилання на спільну бібліотеку:**"
+
+#: ../../content/applications/general/voip/asterisk.rst:63
+msgid "**Verify that pjproject is installed:**"
+msgstr "**Перевірте, чи встановлено pjproject:**"
+
+#: ../../content/applications/general/voip/asterisk.rst:69
+msgid "**The result should be:**"
+msgstr "**Результат повинен бути:**"
+
+#: ../../content/applications/general/voip/asterisk.rst:86
+msgid "Asterisk"
+msgstr "Asterisk"
+
+#: ../../content/applications/general/voip/asterisk.rst:88
+msgid ""
+"In order to install Asterisk 13.7.0, you can download the source directly "
+"`there <http://downloads.asterisk.org/pub/telephony/asterisk/old-"
+"releases/asterisk-13.7.0.tar.gz>`_."
+msgstr ""
+"Щоб встановити Asterisk 13.7.0, ви можете завантажити джерело безпосередньо "
+"`там <http://downloads.asterisk.org/pub/telephony/asterisk/old-"
+"releases/asterisk-13.7.0.tar.gz>`_."
+
+#: ../../content/applications/general/voip/asterisk.rst:90
+msgid "Extract Asterisk:"
+msgstr "Вилучіть Asterisk:"
+
+#: ../../content/applications/general/voip/asterisk.rst:96
+msgid "Enter the Asterisk directory:"
+msgstr "Введіть каталог Asterisk:"
+
+#: ../../content/applications/general/voip/asterisk.rst:102
+msgid "Run the Asterisk configure script:"
+msgstr "Запустіть налаштування скрипта Asterisk:"
+
+#: ../../content/applications/general/voip/asterisk.rst:108
+msgid "Run the Asterisk menuselect tool:"
+msgstr "Запустіть інструмент вибору меню Asterisk:"
+
+#: ../../content/applications/general/voip/asterisk.rst:114
+msgid ""
+"In the menuselect, go to the resources option and ensure that res_srtp is "
+"enabled. If there are 3 x’s next to res_srtp, there is a problem with the "
+"srtp library and you must reinstall it. Save the configuration (press x). "
+"You should also see stars in front of the res_pjsip lines."
+msgstr ""
+"У меню вибору перейдіть до опції ресурсів і переконайтесь, що res_srtp "
+"увімкнено. Якщо біля res_srtp є 3 х, виникають проблеми з бібліотекою srtp, "
+"і ви повинні перевстановити його. Збережіть налаштування (натисніть x). Ви "
+"також повинні побачити зірки перед рядками res_pjsip."
+
+#: ../../content/applications/general/voip/asterisk.rst:116
+msgid "Compile and install Asterisk:"
+msgstr "Скомпілюйте та встановіть Asterisk:"
+
+#: ../../content/applications/general/voip/asterisk.rst:122
+msgid ""
+"If you need the sample configs you can run 'make samples' to install the "
+"sample configs. If you need to install the Asterisk startup script you can "
+"run 'make config'."
+msgstr ""
+"Якщо вам потрібні зразки налаштування, ви можете запустити 'зробити зразки' "
+"для встановлення зразків налаштування. Якщо вам потрібно встановити сценарій"
+" запуску Asterisk, ви можете запустити 'зробити налашт'."
+
+#: ../../content/applications/general/voip/asterisk.rst:125
+msgid "DTLS Certificates"
+msgstr "Сертифікати DTLS"
+
+#: ../../content/applications/general/voip/asterisk.rst:127
+msgid "After you need to setup the DTLS certificates."
+msgstr "Після цього вам потрібно встановити сертифікати DTLS."
+
+#: ../../content/applications/general/voip/asterisk.rst:133
+msgid "Enter the Asterisk scripts directory:"
+msgstr "Введіть каталог скриптів Asterisk:"
+
+#: ../../content/applications/general/voip/asterisk.rst:139
+msgid ""
+"Create the DTLS certificates (replace pbx.mycompany.com with your ip address"
+" or dns name, replace My Super Company with your company name):"
+msgstr ""
+"Створіть сертифікати DTLS (замініть pbx.mycompany.com на свою IP-адресу чи "
+"ім'я dns, замініть My Super Company на назву вашої компанії):"
+
+#: ../../content/applications/general/voip/asterisk.rst:146
+msgid "Configure Asterisk server"
+msgstr "Налаштуйте сервер Asterisk"
+
+#: ../../content/applications/general/voip/asterisk.rst:148
+msgid ""
+"For WebRTC, a lot of the settings that are needed MUST be in the peer "
+"settings. The global settings do not flow down into the peer settings very "
+"well. By default, Asterisk config files are located in /etc/asterisk/. Start"
+" by editing http.conf and make sure that the following lines are "
+"uncommented:"
+msgstr ""
+"Для WebRTC велика кількість необхідних параметрів ПОВИННА бути в показаних "
+"налаштуваннях. Глобальні параметри не дуже добре потраплять в налаштування "
+"показаних рівнів. За замовчуванням конфігураційні файли Asterisk розташовані"
+" в /etc/asterisk/. Почніть з редагування http.conf і переконайтеся, що "
+"наступні рядки не коментуються:"
+
+#: ../../content/applications/general/voip/asterisk.rst:158
+msgid ""
+"Next, edit sip.conf. The WebRTC peer requires encryption, avpf, and "
+"icesupport to be enabled. In most cases, directmedia should be disabled. "
+"Also under the WebRTC client, the transport needs to be listed as ‘ws’ to "
+"allow websocket connections. All of these config lines should be under the "
+"peer itself; setting these config lines globally might not work:"
+msgstr ""
+"Далі змініть файл sip.conf. WebRTC потребує розшифрування, avpf та "
+"iicesupport. У більшості випадків, Directmedia повинен бути відключений. "
+"Також під клієнтом WebRTC транспорт потрібно вказати як \"ws\", щоб "
+"дозволити з'єднання веб-вузлів. Всі ці конфігураційні лінії мають бути під "
+"одним рівнем; установка цих конфігураційних рядки глобально можуть не "
+"працювати:"
+
+#: ../../content/applications/general/voip/asterisk.rst:186
+msgid ""
+"In the sip.conf and rtp.conf files you also need to add or uncomment the "
+"lines:"
+msgstr ""
+"У sip.conf та rtp.conf файлах вам також потрібно додати чи відключити рядки:"
+
+#: ../../content/applications/general/voip/asterisk.rst:193
+msgid "Lastly, set up extensions.conf:"
+msgstr "Нарешті, встановіть extensions.conf:"
+
+#: ../../content/applications/general/voip/asterisk.rst:202
+msgid "Configure Odoo VOIP"
+msgstr "Налаштуйте ІР-телефонію Odoo"
+
+#: ../../content/applications/general/voip/asterisk.rst:204
+msgid "In Odoo, the configuration should be done in the user's preferences."
+msgstr "В Odoo налаштування повинне виконуватися в налаштуваннях користувача."
+
+#: ../../content/applications/general/voip/asterisk.rst:210
+msgid ""
+"The SIP Login/Browser's Extension is the number you configured previously in"
+" the sip.conf file (in our example: 1060)."
+msgstr ""
+"SIP Login/Розширення браузера - це номер, яки ви налаштували раніше у файлі "
+"sip.conf (у нашому прикладі: 1060)."
+
+#: ../../content/applications/general/voip/asterisk.rst:212
+msgid "The SIP Password is the secret you chose in the sip.conf file."
+msgstr "Пароль SIP - секретний ключ, який ви обрали у файлі sip.conf."
+
+#: ../../content/applications/general/voip/asterisk.rst:214
+msgid ""
+"The extension of your office's phone is not a required field but it is used "
+"if you want to transfer your call from Odoo to an external phone also "
+"configured in the sip.conf file."
+msgstr ""
+"Розширення вашого офісного телефону - це необов'язкове поле але воно "
+"використовується, якщо ви хочете перемістити ваш дзвінок з Odoo на зовнішній"
+" телефон, що також налаштовується у файлі sip.conf."
+
+#: ../../content/applications/general/voip/asterisk.rst:217
+msgid ""
+"The configuration should also be done in the General Settings under the "
+"\"Integrations\" section."
+msgstr ""
+"Налаштування також слід виконати у Загальних налаштуваннях під розділом "
+"\"Інтеграції\"."
+
+#: ../../content/applications/general/voip/asterisk.rst:222
+msgid ""
+"The PBX Server IP should be the same as the IP you define in the http.conf "
+"file."
+msgstr ""
+"IP сервера PBX має бути таким же, як і IP, який ви визначаєте у файлі "
+"http.conf."
+
+#: ../../content/applications/general/voip/asterisk.rst:224
+msgid ""
+"The WebSocket should be: ws://localhost:XXXX/ws where \"localhost\" needs to"
+" be the same as the IP defined previously and \"XXXX\" needs to be the port "
+"defined in the http.conf file."
+msgstr ""
+"WebSocket має бути: ws://localhost:XXXX/ws, де \"localhost\" має бути таким "
+"же, як і IP, визначений попередньо, та \"XXXX\" повинен бути портом, "
+"визначеним у файлі http.conf."
+
+#: ../../content/applications/general/voip/axivox.rst:3
+msgid "Use VoIP services in Odoo with Axivox"
+msgstr ""
+
+#: ../../content/applications/general/voip/axivox.rst:6
+#: ../../content/applications/general/voip/onsip.rst:6
+msgid "Introduction"
+msgstr "Вступ"
+
+#: ../../content/applications/general/voip/axivox.rst:8
+msgid ""
+"Odoo VoIP can be set up to work together with `Axivox "
+"<https://www.axivox.com/>`_. In that case, an :doc:`Asterisk server "
+"<asterisk>` is not necessary as the infrastructure is hosted and managed by "
+"Axivox."
+msgstr ""
+
+#: ../../content/applications/general/voip/axivox.rst:12
+msgid ""
+"To use this service, `contact Axivox <https://www.axivox.com/contact/>`_ to "
+"open an account. Before doing so, verify that Axivox covers your area and "
+"the areas you wish to call."
+msgstr ""
+
+#: ../../content/applications/general/voip/axivox.rst:18
+msgid "Go to :menuselection:`Apps` and install the **VoIP Module**."
+msgstr ""
+
+#: ../../content/applications/general/voip/axivox.rst:24
+msgid ""
+"Go to :menuselection:`Settings --> General Settings --> Integrations`, and "
+"fill out the **Asterisk (VoIP)** field:"
+msgstr ""
+
+#: ../../content/applications/general/voip/axivox.rst:27
+msgid ""
+"**PBX Server IP**: set the domain created by Axivox for your account (e.g., "
+"*yourcompany.axivox.com*)"
+msgstr ""
+
+#: ../../content/applications/general/voip/axivox.rst:29
+msgid "**WebSocket**: type in ``wss://pabx.axivox.com:3443``"
+msgstr ""
+
+#: ../../content/applications/general/voip/axivox.rst:30
+msgid "**VoIP Environment**: set as *Production*"
+msgstr ""
+
+#: ../../content/applications/general/voip/axivox.rst:37
+msgid "Configure the VOIP user in the Odoo's user"
+msgstr ""
+
+#: ../../content/applications/general/voip/axivox.rst:39
+msgid ""
+"Go to :menuselection:`Settings --> Users & Companies --> Users`, then open "
+"the user's form you want to configure. Under the **Preferences** tab, fill "
+"out the section **PBX Configuration**:"
+msgstr ""
+
+#: ../../content/applications/general/voip/axivox.rst:42
+msgid "**SIP Login / Browser's Extension**: the Axivox *username*"
+msgstr ""
+
+#: ../../content/applications/general/voip/axivox.rst:43
+msgid "**SIP Password**: the Axivox *SIP Password*"
+msgstr ""
+
+#: ../../content/applications/general/voip/axivox.rst:50
+msgid ""
+"You can find all this information by logging in at "
+"https://manage.axivox.com/, selecting the user you want to configure, and "
+"referring to the fields as pictured below."
+msgstr ""
+
+#: ../../content/applications/general/voip/axivox.rst:58
+msgid "Phone Calls"
+msgstr "Телефонні дзвінки"
+
+#: ../../content/applications/general/voip/axivox.rst:60
+msgid ""
+"You can make phone calls by clicking on the phone icon in the navigation "
+"bar."
+msgstr ""
+
+#: ../../content/applications/general/voip/axivox.rst:62
+msgid ""
+"You can also receive phone calls. Odoo rings and displays a notification."
+msgstr ""
+
+#: ../../content/applications/general/voip/axivox.rst:65
+msgid "Your number is the one provided by Axivox."
+msgstr ""
+
+#: ../../content/applications/general/voip/axivox.rst:72
+msgid ""
+"If you see a *Missing Parameter* message in the **Odoo softphone**, refresh "
+"your Odoo window and try again."
+msgstr ""
+
+#: ../../content/applications/general/voip/axivox.rst:80
+msgid ""
+"If you see an *Incorrect Number* message in the Odoo softphone, make sure to"
+" use the international format, leading with the plus (+) sign followed by "
+"the international country code. E.g., +16506913277 (where +1 is the "
+"international prefix for the United States)."
+msgstr ""
+
+#: ../../content/applications/general/voip/onsip.rst:3
+msgid "Use VoIP services in Odoo with OnSIP"
+msgstr ""
+
+#: ../../content/applications/general/voip/onsip.rst:8
+msgid ""
+"Odoo VoIP can be set up to work together with OnSIP (www.onsip.com). In that"
+" case, the installation and setup of an Asterisk server is not necessary as "
+"the whole infrastructure is hosted and managed by OnSIP."
+msgstr ""
+"ІР-телефонія Odoo може бути налаштована для роботи разом з OnSIP "
+"(www.onsip.com). У цьому випадку встановлення та налаштування сервера "
+"Asterisk не потрібні, оскільки вся інфраструктура розміщена та керована "
+"OnSIP."
+
+#: ../../content/applications/general/voip/onsip.rst:10
+msgid ""
+"You will need to open an account with OnSIP to use this service. Before "
+"doing so, make sure that your area and the areas you wish to call are "
+"covered by the service. After opening an OnSIP account, follow the "
+"configuration procedure below."
+msgstr ""
+"Для використання цієї послуги вам потрібно буде відкрити обліковий запис на "
+"OnSIP. Перш ніж це зробити, переконайтеся, що ця послуга охоплює вашу "
+"територію та області, в які ви хочете зателефонувати. Після відкриття обліку"
+" OnSIP виконайте процедуру налаштування нижче."
+
+#: ../../content/applications/general/voip/onsip.rst:15
+msgid "Go to Apps and install the module **VoIP OnSIP**."
+msgstr "Перейдіть до додатків та встановіть модуль **VoIP OnSIP**."
+
+#: ../../content/applications/general/voip/onsip.rst:20
+msgid ""
+"Go to Settings/General Settings. In the section Integrations/Asterisk "
+"(VoIP), fill in the 3 fields:"
+msgstr ""
+"Перейдіть до Налаштування/Загальні налаштування. У розділі "
+"Інтеграція/Asterisk (VoIP) заповніть 3 поля:"
+
+#: ../../content/applications/general/voip/onsip.rst:22
+msgid ""
+"**OnSIP Domain** is the domain you chose when creating an account on "
+"www.onsip.com. If you don't know it, log in to https://admin.onsip.com/ and "
+"you will see it in the top right corner of the screen."
+msgstr ""
+"**Домен OnSIP** - це домен, який ви обрали під час створення облікового "
+"запису на www.onsip.com. Якщо ви не знаєте цього, увійдіть до "
+"https://admin.onsip.com/, і ви побачите його у верхньому правому куті "
+"екрана."
+
+#: ../../content/applications/general/voip/onsip.rst:23
+msgid "**WebSocket** should contain wss://edge.sip.onsip.com"
+msgstr "**WebSocket** повинен містити wss: //edge.sip.onsip.com"
+
+#: ../../content/applications/general/voip/onsip.rst:24
+msgid "**Mode** should be Production"
+msgstr "**Режим** повинен бути Розробник"
+
+#: ../../content/applications/general/voip/onsip.rst:29
+msgid ""
+"Go to **Settings/Users**. In the form view of each VoIP user, in the "
+"Preferences tab, fill in the section **PBX Configuration**:"
+msgstr ""
+"Перейдіть до **Налаштування/Користувачі**. У формі перегляду кожного "
+"користувача IP-телефонії на вкладці Налаштування введіть розділ "
+"**Налаштування PBX**:"
+
+#: ../../content/applications/general/voip/onsip.rst:31
+msgid "**SIP Login / Browser's Extension**: the OnSIP 'Username'"
+msgstr "**Логін SIP/Розширення браузера**: OnSIP 'Ім'я користувача'"
+
+#: ../../content/applications/general/voip/onsip.rst:32
+msgid "**OnSIP authorization User**: the OnSIP 'Auth Username'"
+msgstr "**Авторизація користувача OnSIP**: OnSIP 'Ім'я користувача авт'"
+
+#: ../../content/applications/general/voip/onsip.rst:33
+msgid "**SIP Password**: the OnSIP 'SIP Password'"
+msgstr "**Пароль SIP**: OnSIP 'Пароль SIP'"
+
+#: ../../content/applications/general/voip/onsip.rst:34
+msgid "**Handset Extension**: the OnSIP 'Extension'"
+msgstr "**Розширення для телефонів**: 'Розширення' OnSIP"
+
+#: ../../content/applications/general/voip/onsip.rst:36
+msgid ""
+"You can find all this information by logging in at "
+"https://admin.onsip.com/users, then select the user you want to configure "
+"and refer to the fields as pictured below."
+msgstr ""
+"Ви можете знайти всю цю інформацію, увійшовши за адресою "
+"https://admin.onsip.com/users, а потім виберіть користувача, якого ви хочете"
+" налаштувати, і посилайтеся на поля, як це показано нижче."
+
+#: ../../content/applications/general/voip/onsip.rst:41
+msgid ""
+"You can now make phone calls by clicking the phone icon in the top right "
+"corner of Odoo (make sure you are logged in as a user properly configured in"
+" Odoo and in OnSIP)."
+msgstr ""
+"Тепер ви можете телефонувати, натиснувши значок телефону у верхньому правому"
+" куті Odoo (переконайтеся, що ви ввійшли як користувач, який належним чином "
+"налаштований в Odoo та OnSIP)."
+
+#: ../../content/applications/general/voip/onsip.rst:45
+msgid ""
+"If you see a *Missing Parameters* message in the Odoo softphone, make sure "
+"to refresh your Odoo window and try again."
+msgstr ""
+"Якщо ви бачите повідомлення про *відсутність параметрів* на софтводі Odoo, "
+"обов'язково оновіть вікно Odoo та повторіть спробу."
+
+#: ../../content/applications/general/voip/onsip.rst:52
+msgid ""
+"If you see an *Incorrect Number* message in the Odoo softphone, make sure to"
+" use the international format, leading with the plus (+) sign followed by "
+"the international country code. E.g.: +16506913277 (where +1 is the "
+"international prefix for the United States)."
+msgstr ""
+"Якщо в Odoo softphone з'являється повідомлення *Неправильне число*, "
+"обов'язково використовуйте міжнародний формат, який містить знак плюс (+), а"
+" потім міжнародний код країни. Наприклад: +16506913277 (де +1 - міжнародний "
+"префікс для США)."
+
+#: ../../content/applications/general/voip/onsip.rst:57
+msgid ""
+"You can now also receive phone calls. Your number is the one provided by "
+"OnSIP. Odoo will ring and display a notification."
+msgstr ""
+"Тепер також можна телефонувати. Ваш номер - це той, який надається OnSIP. "
+"Odoo зателефонує і покаже повідомлення."
+
+#: ../../content/applications/general/voip/onsip.rst:63
+msgid "OnSIP on Your Cell Phone"
+msgstr "OnSIP на вашому мобільному телефоні"
+
+#: ../../content/applications/general/voip/onsip.rst:65
+msgid ""
+"In order to make and receive phone calls when you are not in front of your "
+"computer, you can use a softphone app on your cell phone in parallel of Odoo"
+" VoIP. This is useful for on-the-go calls, but also to make sure to hear "
+"incoming calls, or simply for convenience. Any SIP softphone will work."
+msgstr ""
+"Щоб робити та отримувати телефонні дзвінки, коли ви не перебуваєте перед "
+"вашим комп'ютером, ви можете використовувати прикладну програму для "
+"мобільних телефонів паралельно з ІР-телефонією Odoo. Це корисно для викликів"
+" на ходу, але також для того, щоб переконатися, що ви чуєте вхідні дзвінки, "
+"або просто для зручності. Будь-який SIP softphone буде працювати."
+
+#: ../../content/applications/general/voip/onsip.rst:67
+msgid ""
+"On Android and iOS, OnSIP has been successfully tested with `Grandstream "
+"Wave <https://play.google.com/store/apps/details?id=com.grandstream.wave>`_."
+" When creating an account, select OnSIP in the list of carriers. You will "
+"then have to configure it as follows:"
+msgstr ""
+"На Android та iOS, OnSIP успішно протестовано за допомогою `Grandstream Wave"
+" <https://play.google.com/store/apps/details?id=com.grandstream.wave> _ _. "
+"Під час створення облікового запису виберіть OnSIP у списку постачальників. "
+"Вам потрібно буде налаштувати його таким чином:"
+
+#: ../../content/applications/general/voip/onsip.rst:69
+msgid "**Account name**: OnSIP"
+msgstr "**Ім'я облікового запису**: OnSIP"
+
+#: ../../content/applications/general/voip/onsip.rst:70
+msgid "**SIP Server**: the OnSIP 'Domain'"
+msgstr "**SIP сервер**: OnSIP 'Домен'"
+
+#: ../../content/applications/general/voip/onsip.rst:71
+msgid "**SIP User ID**: the OnSIP 'Username'"
+msgstr "**ID користувача SIP**: 'Ім'я користувача' OnSIP"
+
+#: ../../content/applications/general/voip/onsip.rst:72
+msgid "**SIP Authentication ID**: the OnSIP 'Auth Username'"
+msgstr "**ID Аутентифікації SIP**: 'Ім'я користувача аут.' OnSIP"
+
+#: ../../content/applications/general/voip/onsip.rst:73
+msgid "**Password**: the OnSIP 'SIP Password'"
+msgstr "**Пароль**: OnSIP 'Пароль SIP'"
+
+#: ../../content/applications/general/voip/onsip.rst:75
+msgid ""
+"Aside from initiating calls from Grandstream Wave on your phone, you can "
+"also initiate calls by clicking phone numbers in your browser on your PC. "
+"This will make Grandstream Wave ring and route the call via your phone to "
+"the other party. This approach is useful to avoid wasting time dialing phone"
+" numbers. In order to do so, you will need the Chrome extension `OnSIP Call "
+"Assistant <https://chrome.google.com/webstore/detail/onsip-call-"
+"assistant/pceelmncccldedfkcgjkpemakjbapnpg?hl=en>`_."
+msgstr ""
+"Окрім ініціювання дзвінків з Grandstream Wave на свій телефон, ви також "
+"можете ініціювати дзвінки, натиснувши номери телефонів у вашому браузері на "
+"своєму ПК. Це зробить дзвінок Grandstream Wave і маршрут дзвінка через "
+"телефон на іншу сторону. Цей підхід корисний, щоб не витрачати час на набір "
+"телефонних номерів. Для цього вам знадобиться розширення Chrome  `Помічник "
+"дзвінків OnSIP <https://chrome.google.com/webstore/detail/onsip-call-"
+"assistant/pceelmncccldedfkcgjkpemakjbapnpg?hl=en> _ _."
+
+#: ../../content/applications/general/voip/onsip.rst:79
+msgid ""
+"The downside of using a softphone on your cell phone is that your calls will"
+" not be logged in Odoo as the softphone acts as an independent separate app."
+msgstr ""
+"Недоліком використання софтфону на вашому мобільному телефоні є те, що ваші "
+"виклики не будуть входити в систему Odoo, оскільки софтфон виступає в ролі "
+"незалежного окремого додатка."
