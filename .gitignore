@@ -1,0 +1,10 @@
+*.pyc
+.*
+*.mo
+
+# Sphinx build files
+_build/
+extensions/odoo_theme/static/style.css
+
+# Dependencies
+odoo
